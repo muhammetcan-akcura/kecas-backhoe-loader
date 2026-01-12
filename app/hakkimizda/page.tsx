@@ -222,17 +222,17 @@ export default function AboutPage() {
       </section>
 
       {/* CTA */}
-      <section className="section-padding bg-primary text-primary-foreground">
+      <section className="section-padding bg-card text-foreground">
         <div className="container-main text-center">
           <h2 className="mb-4 text-3xl md:text-4xl font-bold">
             Bizimle İletişime Geçin
           </h2>
-          <p className="max-w-2xl mx-auto mb-8 text-lg opacity-95">
+          <p className="max-w-2xl mx-auto mb-8 text-lg text-muted-foreground">
             Elektrik hizmetleri hakkında bilgi almak için bize ulaşabilirsiniz.
           </p>
           <Link
             href="/iletisim"
-            className="inline-flex items-center justify-center px-8 py-3 bg-card text-primary font-semibold rounded-lg hover:bg-card/90 transition shadow-md"
+            className="inline-flex items-center justify-center px-8 py-3 bg-primary text-primary-foreground font-semibold rounded-lg hover:bg-primary/90 transition shadow-md"
           >
             İletişime Geç
           </Link>

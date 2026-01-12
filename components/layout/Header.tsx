@@ -61,7 +61,7 @@ export function Header() {
           {/* DESKTOP CTA */}
           <Link
             href="/iletisim"
-            className="hidden md:inline-flex items-center px-6 py-3 rounded-lg bg-blue-600 text-white font-semibold shadow-sm hover:bg-blue-700 transition"
+            className="hidden md:inline-flex items-center px-6 py-3 rounded-lg bg-primary text-primary-foreground font-semibold shadow-sm hover:bg-primary/90 transition"
             aria-label="İletişim sayfasına git"
           >
             İletişime Geç
@@ -99,7 +99,7 @@ export function Header() {
 
               <Link
                 href="/iletisim"
-                className="mx-4 mt-2 px-6 py-3 rounded-lg bg-blue-600 text-white font-semibold text-center hover:bg-blue-700 transition"
+                className="mx-4 mt-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-semibold text-center hover:bg-primary/90 transition"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 İletişime Geç

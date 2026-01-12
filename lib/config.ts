@@ -25,7 +25,7 @@ export const businessConfig = {
 
   website: "https://akcuraelektrik.com.tr",
   websiteUrl: "https://akcuraelektrik.com.tr",
-  googleMapsUrl: "https://www.google.com/maps", // GMB linki açılınca burayı güncelle
+  googleMapsUrl: "https://maps.app.goo.gl/RdW9GC9TdftLKwqa7", // GMB linki açılınca burayı güncelle
 
   /* -------------------------------------------------------------------------- */
   /* SERVICE AREA (SERVICE-AREA BUSINESS)                                       */
@@ -105,7 +105,7 @@ export const businessConfig = {
     defaultDescription:
       "Akcura Elektrik, Küçükçekmece ve çevresinde yerinde elektrik hizmetleri sunar. 2014 yılından beri güvenilir ve profesyonel elektrikçi.",
     locale: "tr_TR",
-    ogImage: "/assets/hero-electrician.jpg",
+    ogImage: "/assets/elektrik-ustasi.jpg",
     keywords: [
       "elektrikçi",
       "Küçükçekmece elektrikçi",

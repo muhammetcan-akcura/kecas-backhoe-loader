@@ -209,25 +209,25 @@ export default function ElektrikArizaOnarimiPage() {
             </section>
 
             {/* CTA */}
-            <section className="section-padding bg-primary text-primary-foreground">
+            <section className="section-padding bg-card text-foreground">
                 <div className="container-main text-center">
                     <h2 className="mb-4 text-3xl md:text-4xl font-bold">
                         Elektrik Arızası İçin Hemen Arayın
                     </h2>
-                    <p className="max-w-2xl mx-auto mb-8 text-lg opacity-90">
+                    <p className="max-w-2xl mx-auto mb-8 text-lg text-muted-foreground">
                         Küçükçekmece elektrik arıza onarımı için bize ulaşın.
                         Yerinde servis ve güvenilir çözümler sunuyoruz.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link
                             href="/iletisim"
-                            className="inline-flex items-center justify-center px-8 py-3 bg-card text-primary font-medium rounded-lg"
+                            className="inline-flex items-center justify-center px-8 py-3 bg-primary text-primary-foreground font-medium rounded-lg hover:bg-primary/90"
                         >
                             İletişim Formu
                         </Link>
                         <a
                             href={businessConfig.phoneFormatted}
-                            className="inline-flex items-center justify-center px-8 py-3 border-2 border-primary-foreground rounded-lg"
+                            className="inline-flex items-center justify-center px-8 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90"
                         >
                             <Phone size={18} className="mr-2" />
                             {businessConfig.phone}

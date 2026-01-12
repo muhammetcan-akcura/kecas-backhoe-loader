@@ -207,32 +207,32 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA */}
-      <section className="section-padding bg-primary text-primary-foreground">
+      <section className="section-padding bg-card text-foreground">
         <div className="container-main text-center">
           <h2 className="mb-4 text-3xl md:text-4xl font-bold">
             Elektrik İşleriniz İçin Hemen Arayın
           </h2>
-          <p className="max-w-2xl mx-auto mb-8 text-lg text-primary-foreground/90">
+          <p className="max-w-2xl mx-auto mb-8 text-lg text-muted-foreground">
             Küçükçekmece’de tüm elektrik hizmetleri için ücretsiz keşif yapıyoruz.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/iletisim"
-              className="px-8 py-3 bg-card text-primary font-semibold rounded-lg shadow-lg hover:shadow-xl"
+              className="px-8 py-3 bg-primary text-primary-foreground font-semibold rounded-lg shadow-lg hover:bg-primary/90 hover:shadow-xl"
             >
               Ücretsiz Keşif İste
             </Link>
             <a
               href={businessConfig.phoneFormatted}
-              className="px-8 py-3 border-2 border-primary-foreground rounded-lg font-semibold flex items-center justify-center gap-2 hover:bg-primary-foreground hover:text-primary transition"
+              className="px-8 py-3 bg-primary text-primary-foreground rounded-lg font-semibold flex items-center justify-center gap-2 hover:bg-primary/90 transition"
             >
               <Phone size={18} />
               {businessConfig.phone}
             </a>
           </div>
 
-          <p className="mt-6 text-sm text-primary-foreground/80">
+          <p className="mt-6 text-sm text-muted-foreground">
             Google Haritalar’da işletmemizi aratarak yorumlarımızı inceleyebilirsiniz.
           </p>
         </div>

@@ -47,7 +47,7 @@ export function Hero() {
 
             <a
               href={businessConfig.phoneFormatted}
-              className="inline-flex items-center justify-center px-8 py-3.5 bg-card text-primary border-2 border-primary font-semibold rounded-lg hover:bg-primary hover:text-primary-foreground transition-all shadow-md hover:shadow-lg text-base md:text-lg"
+              className="inline-flex items-center justify-center px-8 py-3.5 bg-primary text-primary-foreground font-semibold rounded-lg hover:bg-primary/90 transition-all shadow-md hover:shadow-lg text-base md:text-lg"
             >
               <Phone size={20} className="mr-2" />
               {businessConfig.phone}
