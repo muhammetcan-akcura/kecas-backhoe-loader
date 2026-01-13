@@ -30,16 +30,16 @@ export function TrustSignals() {
         </div>
 
         {/* Stats grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mb-12">
           {stats.map((stat, index) => (
             <div
               key={index}
-              className="text-center p-6 bg-card border border-border rounded-lg shadow-sm hover:shadow-md transition-shadow"
+              className="text-center p-3 md:p-5 bg-card border border-border rounded-lg shadow-sm hover:shadow-md transition-shadow"
             >
-              <div className="font-heading text-3xl md:text-4xl text-primary mb-2 font-bold">
+              <div className="font-heading text-base sm:text-lg md:text-xl lg:text-2xl text-primary mb-2 font-bold whitespace-nowrap overflow-hidden text-ellipsis px-1">
                 {stat.value}
               </div>
-              <div className="text-sm text-muted-foreground font-medium">
+              <div className="text-[10px] sm:text-xs md:text-sm text-muted-foreground font-medium">
                 {stat.label}
               </div>
             </div>
@@ -61,7 +61,7 @@ export function TrustSignals() {
           </div>
           <div className="hidden lg:block relative h-[300px]">
             <Image
-              src="/assets/elektrik-panosu.jpg"
+              src="/assets/elektrik-panosu.jpeg"
               alt="Elektrik panosu montajı"
               fill
               className="rounded-lg object-cover"

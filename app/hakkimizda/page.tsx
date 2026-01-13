@@ -106,7 +106,7 @@ export default function AboutPage() {
 
             <div className="relative h-[400px] lg:h-[500px] rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/assets/elektrik-ustasi.jpg"
+                src="/assets/elektrik-ustasi.jpeg"
                 alt="Akcura Elektrik çalışma sahası"
                 fill
                 className="object-cover"

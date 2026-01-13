@@ -41,8 +41,8 @@
     --radius: 0.5rem;
 
     /* Typography */
-    --font-heading: 'Lora', Georgia, 'Times New Roman', serif;
-    --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-heading: var(--font-lora), Georgia, 'Times New Roman', serif;
+    --font-body: var(--font-inter), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 
     /* Spacing rhythm */
     --section-padding: 4rem;
@@ -89,7 +89,7 @@
     margin: 0;
     padding: 0;
   }
-  
+
   /* Reserve space for sections to prevent CLS */
   section {
     contain: layout;
@@ -110,25 +110,54 @@
   }
 
   h1 {
-    font-size: 2.25rem; /* Explicit font-size for browser compatibility */
+    font-size: 2.25rem;
     font-weight: 700;
   }
-  
+
+  /* Explicit font-size for h1 within semantic elements to prevent browser deprecation warnings */
+  article h1,
+  aside h1,
+  nav h1,
+  section h1 {
+    font-size: 2.25rem !important;
+  }
+
   @media (min-width: 640px) {
     h1 {
       font-size: clamp(1.875rem, 5vw, 3rem);
     }
+
+    article h1,
+    aside h1,
+    nav h1,
+    section h1 {
+      font-size: clamp(1.875rem, 5vw, 3rem) !important;
+    }
   }
-  
+
   @media (min-width: 768px) {
     h1 {
       font-size: 3rem;
     }
+
+    article h1,
+    aside h1,
+    nav h1,
+    section h1 {
+      font-size: 3rem !important;
+    }
   }
-  
+
   @media (min-width: 1024px) {
     h1 {
       font-size: 3.75rem;
+    }
+
+    article h1,
+    aside h1,
+    nav h1,
+    section h1 {
+      font-size: 3.75rem !important;
     }
   }
 
@@ -284,5 +313,17 @@
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .break-words {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .hyphens-auto {
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
   }
 }

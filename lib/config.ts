@@ -105,7 +105,7 @@ export const businessConfig = {
     defaultDescription:
       "Akcura Elektrik, Küçükçekmece ve çevresinde yerinde elektrik hizmetleri sunar. 2014 yılından beri güvenilir ve profesyonel elektrikçi.",
     locale: "tr_TR",
-    ogImage: "/assets/elektrik-ustasi.jpg",
+    ogImage: "/assets/elektrik-ustasi.jpeg",
     keywords: [
       "elektrikçi",
       "Küçükçekmece elektrikçi",
@@ -116,6 +116,7 @@ export const businessConfig = {
       "aydınlatma kurulumu",
       "İstanbul elektrikçi",
     ],
+    googleVerification: "izp4XDjSxK6C2omP1XDjKci6yS4yIgAWFNWkf3jGXh4",
   },
 
   /* -------------------------------------------------------------------------- */
