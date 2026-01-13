@@ -17,6 +17,7 @@ export const businessConfig = {
 
   phone: "0537 993 27 61",
   phoneFormatted: "tel:+905379932761",
+  whatsappUrl: "https://wa.me/905379932761",
   email: "akcuramuhammet658@gmail.com",
 
   /* -------------------------------------------------------------------------- */
@@ -105,7 +106,7 @@ export const businessConfig = {
     defaultDescription:
       "Akcura Elektrik, Küçükçekmece ve çevresinde yerinde elektrik hizmetleri sunar. 2014 yılından beri güvenilir ve profesyonel elektrikçi.",
     locale: "tr_TR",
-    ogImage: "/assets/elektrik-ustasi.jpeg",
+    ogImage: "/assets/elektrik-ustasi.avif",
     keywords: [
       "elektrikçi",
       "Küçükçekmece elektrikçi",

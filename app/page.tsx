@@ -1,11 +1,14 @@
+import dynamic from "next/dynamic";
 import { getHomeMetadata } from "@/lib/metadata";
 import { Hero } from "@/components/home/Hero";
 import { ServiceGrid } from "@/components/home/ServiceGrid";
 import { TrustSignals } from "@/components/home/TrustSignals";
-import { FAQ, defaultFAQItems } from "@/components/home/FAQ";
-import { CTA } from "@/components/home/CTA";
 import { FAQSchema } from "@/components/schemas/FAQSchema";
 import { WorkGallery } from "@/components/home/workGallery";
+
+// Dynamic imports for below-the-fold components (SEO preserved via schema)
+const FAQ = dynamic(() => import("@/components/home/FAQ").then((mod) => ({ default: mod.FAQ })));
+const CTA = dynamic(() => import("@/components/home/CTA").then((mod) => ({ default: mod.CTA })));
 
 export const metadata = getHomeMetadata();
 

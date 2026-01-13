@@ -1,21 +1,31 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Lora, Space_Mono } from "next/font/google";
+import dynamic from "next/dynamic";
 import "./globals.css";
 import { businessConfig } from "@/lib/config";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { LocalBusinessSchema } from "@/components/schemas/LocalBusinessSchema";
 
+// Dynamic import for mobile-only CTA (not SEO-critical, reduces initial bundle)
+const MobileStickyCTA = dynamic(
+  () => import("@/components/common/MobileStickyCTA").then((mod) => mod.MobileStickyCTA)
+);
+
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
   display: "swap",
+  preload: true,
+  fallback: ["system-ui", "arial"],
 });
 
 const lora = Lora({
   subsets: ["latin"],
   variable: "--font-lora",
   display: "swap",
+  preload: true,
+  fallback: ["georgia", "serif"],
 });
 
 const spaceMono = Space_Mono({
@@ -23,6 +33,7 @@ const spaceMono = Space_Mono({
   subsets: ["latin"],
   variable: "--font-space-mono",
   display: "swap",
+  preload: false, // Not critical, load later
 });
 
 export const viewport: Viewport = {
@@ -98,6 +109,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <MobileStickyCTA />
       </body>
     </html>
   );

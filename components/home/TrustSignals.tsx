@@ -61,7 +61,7 @@ export function TrustSignals() {
           </div>
           <div className="hidden lg:block relative h-[300px]">
             <Image
-              src="/assets/elektrik-panosu.jpeg"
+              src="/assets/elektrik-panosu.avif"
               alt="Elektrik panosu montajı"
               fill
               className="rounded-lg object-cover"

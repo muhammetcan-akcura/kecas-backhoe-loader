@@ -30,7 +30,7 @@ export function Header() {
           >
             <div className="relative w-[44px] h-[44px] sm:w-[52px] sm:h-[52px]">
               <Image
-                src="/assets/akcura-elektrik-logo.jpg"
+                src="/assets/akcura-elektrik-logo.avif"
                 alt="Akcura Elektrik Logo"
                 fill
                 priority

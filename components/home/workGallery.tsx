@@ -2,19 +2,19 @@ import Image from "next/image";
 
 const galleryImages = [
   {
-    src: "/assets/kucukcekmece-elektrikci-aydinlatma-montaji.jpeg",
-    alt: "Küçükçekmece’de ofis ve iş yerleri için profesyonel aydınlatma montajı yapan elektrikçi",
+    src: "/assets/kucukcekmece-elektrikci-aydinlatma-montaji.avif",
+    alt: "Küçükçekmece'de ofis ve iş yerleri için profesyonel aydınlatma montajı yapan elektrikçi",
   },
   {
-    src: "/assets/kucukcekmece-elektrik-aydinlatma-kurulumu-usta.jpeg",
-    alt: "Küçükçekmece’de yerinde aydınlatma kurulumu yapan uzman elektrik ustası",
+    src: "/assets/kucukcekmece-elektrik-aydinlatma-kurulumu-usta.avif",
+    alt: "Küçükçekmece'de yerinde aydınlatma kurulumu yapan uzman elektrik ustası",
   },
   {
-    src: "/assets/kucukcekmece-sigorta-panosu-tamiri.jpeg",
+    src: "/assets/kucukcekmece-sigorta-panosu-tamiri.avif",
     alt: "Küçükçekmece’de güvenli ve düzenli sigorta panosu tamiri hizmeti",
   },
   {
-    src: "/assets/kucukcekmece-elektrikci-ekipmanlari.jpeg",
+    src: "/assets/kucukcekmece-elektrikci-ekipmanlari.avif",
     alt: "Küçükçekmece elektrik arıza ve tesisat işleri için profesyonel elektrikçi ekipmanları",
   },
 ];
@@ -47,6 +47,7 @@ export function WorkGallery() {
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                loading="lazy"
               />
             </div>
           ))}
