@@ -1,306 +1,101 @@
-# AKCURA ELEKTRİK - Next.js SEO-Optimized Website
+# Keçaş Kepçe - Next.js Website
 
-Küçükçekmece elektrik hizmetleri için SEO optimize edilmiş Next.js 14 web sitesi.
+Arnavutköy'de JCB 3CX kepçe kiralama, kazı işleri ve hafriyat hizmetleri sunan Keçaş Kepçe'nin resmi web sitesi.
 
-## 🚀 Teknolojiler
+## 🚜 Hakkında
 
-- **Next.js 14** - App Router ile
-- **TypeScript** - Tip güvenliği
-- **Tailwind CSS** - Modern, responsive tasarım
-- **Shadcn/ui** - UI component library
-- **Lucide React** - Modern ikonlar
+22 yıldır Arnavutköy ve çevresinde operatörlü kepçe kiralama hizmeti veren Keçaş Kepçe için geliştirilmiş, SEO ve Google My Business optimize edilmiş Next.js web sitesi.
 
-## 📁 Proje Yapısı
+## 🎯 Özellikler
 
-```
-akcura-elektrik-nextjs/
-├── app/                          # Next.js App Router
-│   ├── layout.tsx               # Root layout + metadata
-│   ├── page.tsx                 # Homepage
-│   ├── hizmetler/               # Services pages
-│   │   ├── page.tsx            # Services list
-│   │   └── [slug]/page.tsx     # Dynamic service pages (5 services)
-│   ├── hakkimizda/page.tsx     # About page
-│   ├── iletisim/page.tsx       # Contact page
-│   ├── not-found.tsx           # 404 page
-│   ├── robots.ts               # Dynamic robots.txt
-│   └── sitemap.ts              # Dynamic XML sitemap
-├── components/
-│   ├── schemas/                # JSON-LD Schema components
-│   │   ├── LocalBusinessSchema.tsx
-│   │   ├── ServiceSchema.tsx
-│   │   ├── FAQSchema.tsx
-│   │   └── BreadcrumbSchema.tsx
-│   ├── layout/                 # Layout components
-│   │   ├── Header.tsx          # Header with NAP
-│   │   └── Footer.tsx          # Footer with NAP
-│   ├── home/                   # Homepage sections
-│   │   ├── Hero.tsx
-│   │   ├── ServiceGrid.tsx
-│   │   ├── TrustSignals.tsx
-│   │   ├── FAQ.tsx
-│   │   └── CTA.tsx
-│   └── ui/                     # Shadcn/ui components
-├── lib/
-│   ├── config.ts               # Business & SEO config (REAL CONTACT DATA)
-│   ├── services.ts             # 5 service definitions
-│   ├── metadata.ts             # Metadata generators
-│   └── utils.ts                # Utilities
-├── public/
-│   ├── assets/                 # Images
-│   ├── favicon.ico
-│   └── robots.txt
-└── package.json
-```
+- ✅ **SEO Optimize**: Local SEO ve GMB için optimize edilmiş yapı
+- ✅ **Schema.org**: LocalBusiness ve Service schema markup
+- ✅ **Responsive**: Mobil uyumlu tasarım
+- ✅ **Performans**: Next.js 14 App Router ile optimize edilmiş
+- ✅ **Accessibility**: WCAG standartlarına uygun
+- ✅ **Analytics**: Google Analytics entegrasyonu
 
-## 🎯 SEO Özellikleri
+## 🛠️ Teknolojiler
 
-### 1. **Next.js Metadata API**
-- Her sayfada benzersiz title ve description
-- Canonical URL'ler
-- OpenGraph ve Twitter Card metadata
-- Otomatik robots.txt ve sitemap.xml
+- **Framework**: Next.js 16.1.1
+- **React**: 19.2.3
+- **TypeScript**: 5.x
+- **Styling**: Tailwind CSS 4
+- **Icons**: Lucide React
+- **UI Components**: Radix UI
 
-### 2. **JSON-LD Structured Data**
-- ✅ LocalBusiness Schema
-- ✅ Electrician additionalType
-- ✅ Service Schema (5 hizmet)
-- ✅ FAQPage Schema
-- ✅ BreadcrumbList Schema
-
-### 3. **NAP Tutarlılığı** (Name, Address, Phone)
-Aşağıdaki yerlerde **birebir aynı**:
-- Header
-- Footer
-- Contact page
-- LocalBusiness Schema
-
-```
-İsim: AKCURA ELEKTRİK
-Telefon: 0537 993 27 61
-Email: akcuramuhammet658@gmail.com
-Bölge: Küçükçekmece, İstanbul
-Çalışma: Pazartesi-Cumartesi 09:00-19:00
-```
-
-### 4. **5 Hizmet Sayfası**
-1. Elektrik Tesisatı (`/hizmetler/elektrik-tesisati`)
-2. Elektrik Arıza Onarımı (`/hizmetler/elektrik-ariza-onarimi`)
-3. Priz ve Anahtar Montajı (`/hizmetler/priz-anahtar-montaji`)
-4. Sigorta Panosu Tamiri (`/hizmetler/sigorta-panosu-tamiri`)
-5. Aydınlatma Kurulumu (`/hizmetler/aydinlatma-kurulumu`)
-
-Her hizmet sayfasında:
-- Unique H1 with service name
-- Service-specific metadata
-- ServiceSchema JSON-LD
-- BreadcrumbSchema
-- FAQSchema
-- CTA sections
-
-### 5. **Performance Optimization**
-- ✅ next/image ile otomatik image optimization
-- ✅ Server Components (default)
-- ✅ Static generation for all pages
-- ✅ Lazy loading images
-- ✅ Responsive images with srcset
-
-### 6. **Local SEO Best Practices**
-- Service Area Business model (no fake address)
-- Natural Turkish content
-- Location mentions: Küçükçekmece, Halkalı, Atakent, Cennet, Sefaköy
-- Click-to-call buttons
-- Google Maps embed on contact page
-
-## 🛠️ Kurulum ve Çalıştırma
-
-### Development
+## 📦 Kurulum
 
 ```bash
-# Dependencies'i yükle
+# Bağımlılıkları yükle
 npm install
 
 # Development server'ı başlat
 npm run dev
-```
 
-http://localhost:3000 adresinde çalışacaktır.
-
-### Production Build
-
-```bash
 # Production build
 npm run build
 
 # Production server'ı başlat
-npm run start
+npm start
 ```
 
-### Linting
+## 🌐 Hizmetler
+
+1. **JCB 3CX Kepçe Kiralama** - Operatörlü kepçe kiralama
+2. **Kazı İşleri** - Profesyonel kazı ve hafriyat
+3. **Temel Kazısı** - Bina ve yapı temel kazısı
+4. **Yıkım İşi** - Kepçe ile yıkım ve beton kırma
+5. **Dolgu ve Tesviye** - Zemin düzleme işleri
+6. **Kanal Açma** - Altyapı ve drenaj kanalı
+
+## 📍 Hizmet Bölgesi
+
+- Arnavutköy (Merkez)
+- Şirindere
+- Hadımköy
+- Taşoluk
+- Boyalık
+- Çevre bölgeler
+
+## 📞 İletişim
+
+- **Telefon**: 0539 477 81 12
+- **E-posta**: yusufkecas@gmail.com
+- **Çalışma Saatleri**: Pazartesi-Cumartesi 08:00-20:00
+- **Acil Hizmet**: 7/24 ulaşılabilir
+
+## 🔧 Geliştirme
 
 ```bash
+# Linting
 npm run lint
+
+# Type check
+npx tsc --noEmit
 ```
 
-## 📝 Yapılandırma
+## 📄 Lisans
 
-### İletişim Bilgilerini Güncelleme
-
-`lib/config.ts` dosyasını düzenleyin:
-
-```typescript
-export const businessConfig = {
-  name: "AKCURA ELEKTRİK",
-  phone: "0537 993 27 61",
-  email: "akcuramuhammet658@gmail.com",
-  serviceArea: {
-    district: "Küçükçekmece",
-    city: "İstanbul"
-  },
-  // ... diğer ayarlar
-}
-```
-
-### Domain Güncelleme
-
-`lib/config.ts` içinde `siteUrl` değerini güncelleyin:
-
-```typescript
-seo: {
-  siteUrl: "https://akcuraelektrik.com.tr",
-  // ...
-}
-```
-
-## 🧪 SEO Test Checklist
-
-### Pre-Launch Checklist
-- [x] All 5 service pages created
-- [x] All schemas validated
-- [x] NAP consistency verified (Header, Footer, Contact, Schema)
-- [x] Images optimized with next/image
-- [x] Unique metadata on every page
-- [x] robots.txt and sitemap.xml working
-- [x] 404 page implemented
-- [x] Mobile responsive
-- [x] Turkish content (no English)
-
-### Post-Launch Checklist
-- [ ] Submit sitemap to Google Search Console
-- [ ] Setup Google Business Profile
-- [ ] Verify NAP matches GBP exactly
-- [ ] Test on Google Rich Results Test
-- [ ] Monitor Core Web Vitals
-- [ ] Setup Google Analytics 4
-
-## 🔍 SEO Testing Tools
-
-1. **Google Rich Results Test**
-   - https://search.google.com/test/rich-results
-   - Test any page for schema errors
-
-2. **Google Search Console**
-   - Submit sitemap: `https://akcuraelektrik.com/sitemap.xml`
-   - Monitor indexing status
-
-3. **PageSpeed Insights**
-   - https://pagespeed.web.dev/
-   - Check Core Web Vitals
-
-4. **Schema Validator**
-   - https://validator.schema.org/
-   - Validate JSON-LD schemas
-
-## 📄 Sayfalar
-
-### Public Pages
-- `/` - Homepage
-- `/hizmetler` - Services list
-- `/hizmetler/[slug]` - Service detail (5 pages)
-- `/hakkimizda` - About
-- `/iletisim` - Contact
-- `/404` - Not found
-
-### Dynamic Routes
-- `/sitemap.xml` - XML sitemap
-- `/robots.txt` - Robots file
-
-## 🎨 Design System
-
-Tailwind CSS custom classes:
-- `.container-main` - Max-width 1200px container
-- `.section-padding` - Consistent section spacing
-- `.btn-primary` - Primary CTA button
-- `.btn-secondary` - Secondary button
-- `.link-underline` - Animated underline link
-
-## 📞 NAP Consistency (CRITICAL)
-
-**Aşağıdaki bilgiler TÜM sayfalarda birebir aynı olmalı:**
-
-```
-AKCURA ELEKTRİK
-Telefon: 0537 993 27 61
-Email: akcuramuhammet658@gmail.com
-Hizmet Bölgesi: Küçükçekmece, İstanbul
-Çalışma Saatleri: Pazartesi-Cumartesi 09:00-19:00, Pazar kapalı
-```
-
-Bu bilgiler şuralarda kullanılıyor:
-- `lib/config.ts` - Master config
-- `components/layout/Header.tsx` - Phone in top bar
-- `components/layout/Footer.tsx` - Full NAP
-- `app/iletisim/page.tsx` - Contact page
-- `components/schemas/LocalBusinessSchema.tsx` - Schema
+© 2004-2026 Keçaş Kepçe. Tüm hakları saklıdır.
 
 ## 🚀 Deployment
 
-### Vercel (Önerilen)
+Bu proje Vercel, Netlify veya herhangi bir Next.js destekleyen platformda deploy edilebilir.
 
-1. GitHub'a push yapın
-2. Vercel'e import edin
-3. Environment variables ekleyin (gerekirse)
-4. Deploy
+### Vercel Deploy
 
-### Diğer Platformlar
+```bash
+vercel
+```
 
-Any platform that supports Next.js:
-- Netlify
-- Railway
-- DigitalOcean App Platform
-- AWS Amplify
+### Environment Variables
 
-## 📈 Performance Targets
+Gerekli environment variables:
+- `NEXT_PUBLIC_GA_ID` - Google Analytics ID (opsiyonel)
 
-- **Lighthouse SEO Score**: 100/100 ✅
-- **Lighthouse Performance**: 95+ 
-- **Core Web Vitals**:
-  - LCP < 2.5s
-  - FID < 100ms
-  - CLS < 0.1
+## 📝 Notlar
 
-## 🔒 Security
-
-- No sensitive data in client code
-- All business info in `lib/config.ts`
-- Environment variables for API keys (if needed)
-
-## 📚 Useful Resources
-
-- [Next.js Documentation](https://nextjs.org/docs)
-- [Google Search Central](https://developers.google.com/search)
-- [Schema.org](https://schema.org/)
-- [Tailwind CSS](https://tailwindcss.com/docs)
-
-## 📝 License
-
-© 2024 AKCURA ELEKTRİK. All rights reserved.
-
-## 👨‍💻 Development Notes
-
-- Tüm içerik Türkçe (TR) dilinde
-- Service Area Business modeli (fiziksel adres yok)
-- Google Local Pack için optimize edilmiş
-- No keyword stuffing
-- Natural, trustworthy tone
-- Real business, real services
+- Google Search Console doğrulama kodu eklenecek
+- Google Maps linki GMB doğrulaması sonrası güncellenecek
+- Sosyal medya hesapları (Instagram, Facebook, YouTube) açıldıktan sonra eklenecek

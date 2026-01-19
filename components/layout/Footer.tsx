@@ -27,9 +27,9 @@ export function Footer() {
               {businessConfig.description}
             </p>
             <p className="text-sm text-slate-400">
-              2014 yılından beri Küçükçekmece ve çevresinde<br />
+              2004 yılından beri Arnavutköy ve çevresinde<br />
               <span className="text-slate-300 font-medium">
-                yerinde elektrik hizmetleri
+                operatörlü kepçe kiralama hizmetleri
               </span>
             </p>
           </div>

@@ -4,61 +4,67 @@ import { businessConfig } from "@/lib/config";
 
 export function CTA() {
   return (
-    <section className="relative section-padding bg-card text-foreground overflow-hidden">
+    <section className="relative section-padding bg-white border-t-4 border-primary overflow-hidden">
 
-      {/* Soft background pattern */}
-      <div className="absolute inset-0 opacity-10 pointer-events-none">
-        <div className="absolute -top-24 -right-24 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
-        <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
+      {/* Arka plan pattern - hafif */}
+      <div className="absolute inset-0 opacity-5">
+        <div className="absolute top-0 right-0 w-96 h-96 bg-primary rounded-full blur-3xl" />
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-secondary rounded-full blur-3xl" />
       </div>
 
-      <div className="container-main relative text-center">
-        {/* Heading */}
-        <h2 className="mb-4 text-3xl md:text-4xl font-bold leading-tight">
-          Küçükçekmece’de Elektrik Sorununuz mu Var?
-        </h2>
+      <div className="container-main relative">
+        <div className="max-w-4xl mx-auto text-center">
 
-        {/* Description */}
-        <p className="text-muted-foreground max-w-2xl mx-auto mb-8 text-lg md:text-xl">
-          Elektrik arızası, tesisat veya montaj işleri için
-          Küçükçekmece ve çevresinde yerinde servis sunuyoruz.
-          Ücretsiz keşif sonrası net fiyatlandırma ile çalışıyoruz.
-        </p>
+          {/* Heading - Güçlü CTA */}
+          <h2 className="mb-6 text-foreground">
+            Arnavutköy'de Kepçe Kiralama İhtiyacınız mı Var?
+          </h2>
 
-        {/* Trust bullets */}
-        <div className="mb-10 flex flex-wrap justify-center gap-6 text-sm md:text-base text-muted-foreground">
-          <div className="flex items-center gap-2">
-            <CheckCircle size={18} />
-            Ücretsiz Keşif
+          {/* Description */}
+          <p className="text-muted-foreground max-w-2xl mx-auto mb-8 text-lg">
+            Kazı, yıkım, temel kazısı veya kanal açma işleri için
+            <strong className="text-foreground"> JCB 3CX kepçe</strong> ile profesyonel hizmet.
+            <strong className="text-foreground"> Ücretsiz keşif</strong> sonrası net fiyatlandırma.
+          </p>
+
+          {/* Trust bullets - Sarı ikonlar */}
+          <div className="mb-10 flex flex-wrap justify-center gap-6">
+            <div className="flex items-center gap-2">
+              <CheckCircle size={20} className="text-primary" strokeWidth={2.5} />
+              <span className="font-semibold text-foreground">Ücretsiz Keşif</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <CheckCircle size={20} className="text-primary" strokeWidth={2.5} />
+              <span className="font-semibold text-foreground">Tecrübeli Operatör</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <CheckCircle size={20} className="text-primary" strokeWidth={2.5} />
+              <span className="font-semibold text-foreground">Güvenli Ekipman</span>
+            </div>
           </div>
-          <div className="flex items-center gap-2">
-            <CheckCircle size={18} />
-            Yerinde Servis
-          </div>
-          <div className="flex items-center gap-2">
-            <CheckCircle size={18} />
-            Garantili İşçilik
-          </div>
-        </div>
 
-        {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link
-            href="/iletisim"
-            className="inline-flex items-center justify-center px-10 py-3.5 bg-primary text-primary-foreground font-semibold rounded-lg hover:bg-primary/90 transition-all shadow-lg hover:shadow-xl text-base md:text-lg"
-            aria-label="Ücretsiz keşif talebi oluştur"
-          >
-            Ücretsiz Keşif Talep Et
-          </Link>
+          {/* CTA Buttons - Büyük ve belirgin */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+            <a
+              href={businessConfig.phoneFormatted}
+              className="btn-primary text-lg px-10 py-4"
+            >
+              <Phone size={22} />
+              Hemen Ara: {businessConfig.phone}
+            </a>
 
-          <a
-            href={businessConfig.phoneFormatted}
-            className="inline-flex items-center justify-center px-10 py-3.5 bg-primary text-primary-foreground font-semibold rounded-lg hover:bg-primary/90 transition-all shadow-lg hover:shadow-xl text-base md:text-lg"
-            aria-label="Telefon ile iletişime geç"
-          >
-            <Phone size={20} className="mr-2" />
-            {businessConfig.phone}
-          </a>
+            <Link
+              href="/iletisim"
+              className="btn-secondary text-lg px-10 py-4"
+            >
+              Ücretsiz Keşif Talep Et
+            </Link>
+          </div>
+
+          {/* Ek bilgi */}
+          <p className="text-sm text-muted-foreground">
+            22 yıldır Arnavutköy'de güvenilir kepçe kiralama hizmeti
+          </p>
         </div>
       </div>
     </section>

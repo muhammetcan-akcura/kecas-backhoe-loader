@@ -96,8 +96,8 @@ export function generateServiceMetadata(
   slug: string
 ): Metadata {
   return generateMetadata({
-    title: `${serviceName} – Küçükçekmece`,
-    description: `${serviceDescription} Küçükçekmece ve çevresinde yerinde servis sunuyoruz.`,
+    title: `${serviceName} – Arnavutköy`,
+    description: `${serviceDescription} Arnavutköy ve çevresinde 22 yıldır profesyonel hizmet.`,
     path: `/hizmetler/${slug}`,
   });
 }
@@ -108,7 +108,7 @@ export function generateServiceMetadata(
 
 export function getHomeMetadata(): Metadata {
   return generateMetadata({
-    title: "Küçükçekmece Elektrikçi – Yerinde Servis",
+    title: "Arnavutköy Kepçe Kiralama – JCB 3CX Operatörlü Hizmet",
     description: businessConfig.seo.defaultDescription,
     path: "/",
   });

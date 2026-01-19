@@ -57,15 +57,15 @@ export function FAQ({ items }: FAQProps) {
 // Türkçe varsayılan SSS
 export const defaultFAQItems: FAQItem[] = [
   {
-    question: "Küçükçekmece'de hizmet veriyor musunuz?",
-    answer: "Evet, Küçükçekmece merkez olmak üzere tüm mahallelere hizmet veriyoruz. Cennet, Halkalı, Atakent, Sefaköy ve yakın bölgelere yerinde servis sunuyoruz.",
+    question: "Arnavutköy'de hizmet veriyor musunuz?",
+    answer: "Evet, Arnavutköy merkez olmak üzere tüm mahallelere hizmet veriyoruz. Cennet, Halkalı, Atakent, Sefaköy ve yakın bölgelere yerinde servis sunuyoruz.",
   },
   {
     question: "Ücretsiz keşif yapıyor musunuz?",
     answer: "Evet, tüm hizmetlerimiz için yerinde ücretsiz keşif yapıyoruz. Keşif sonrası size detaylı ve şeffaf fiyat teklifi sunuyoruz.",
   },
   {
-    question: "Elektrikçileriniz belgeli mi?",
+    question: "Kepçeçileriniz belgeli mi?",
     answer: "Tüm ustalarımız mesleki yeterlilik belgesine sahiptir ve düzenli olarak güvenlik eğitimi almaktadır. İşlerimiz sigortalıdır.",
   },
   {

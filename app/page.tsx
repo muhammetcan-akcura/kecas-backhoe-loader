@@ -14,35 +14,35 @@ export const metadata = getHomeMetadata();
 
 const faqItems = [
   {
-    question: "Küçükçekmece'de hizmet veriyor musunuz?",
-    answer: "Evet, Küçükçekmece merkez olmak üzere tüm mahallelere hizmet veriyoruz. Cennet, Halkalı, Atakent, Sefaköy ve yakın bölgelere yerinde servis sunuyoruz.",
+    question: "Arnavutköy'de kepçe kiralama hizmeti veriyor musunuz?",
+    answer: "Evet, Arnavutköy merkez olmak üzere Şirindere, Hadımköy, Taşoluk, Boyalik ve tüm çevre mahallelere operatörlü kepçe kiralama hizmeti veriyoruz.",
   },
   {
-    question: "Ücretsiz keşif yapıyor musunuz?",
-    answer: "Evet, tüm hizmetlerimiz için yerinde ücretsiz keşif yapıyoruz. Keşif sonrası size detaylı ve şeffaf fiyat teklifi sunuyoruz.",
+    question: "Kepçe kiralama fiyatları nasıl hesaplanıyor?",
+    answer: "Fiyatlandırma işin türüne, süresine ve büyüklüğüne göre değişir. Ücretsiz keşif yapıp size en uygun fiyat teklifini sunuyoruz. Saatlik ve günlük kiralama seçeneklerimiz mevcuttur.",
   },
   {
-    question: "Elektrikçileriniz belgeli mi?",
-    answer: "Tüm ustalarımız mesleki yeterlilik belgesine sahiptir ve düzenli olarak güvenlik eğitimi almaktadır. İşlerimiz sigortalıdır.",
+    question: "Operatörleriniz tecrübeli mi?",
+    answer: "Evet, 22 yıldır bu işi yapan tecrübeli operatörlerimiz vardır. Tüm operatörlerimiz sertifikalı ve sigortalıdır.",
   },
   {
     question: "Çalışma saatleriniz nedir?",
-    answer: "Pazartesi-Cumartesi 09:00-19:00 arası hizmet veriyoruz. Pazar günleri kapalıyız. Acil durumlar için iletişime geçebilirsiniz.",
+    answer: "Pazartesi-Cumartesi 08:00-20:00 arası hizmet veriyoruz. Pazar günleri kapalıyız. Acil durumlar için 7/24 ulaşabilirsiniz.",
   },
   {
-    question: "Ödeme seçenekleriniz nelerdir?",
-    answer: "Nakit, banka kartı, kredi kartı ve havale/EFT ile ödeme kabul ediyoruz. Büyük işlerde esnek ödeme imkanı sunuyoruz.",
+    question: "Hangi tür işler için kepçe kiralıyorsunuz?",
+    answer: "Temel kazısı, kanal açma, yıkım işleri, dolgu ve tesviye, hafriyat ve her türlü kazı işi için JCB 3CX kepçe kiralama hizmeti sunuyoruz.",
   },
   {
-    question: "İş garantisi veriyor musunuz?",
-    answer: "Evet, tüm işlerimiz için garanti veriyoruz. İşçilik garantisi ve kullanılan malzemelerin garantileri geçerlidir.",
+    question: "Sigorta ve güvenlik konusunda ne gibi önlemler alıyorsunuz?",
+    answer: "Tüm ekipmanlarımız düzenli bakımlıdır ve sigortalıdır. İş güvenliği önlemlerine azami dikkat gösteriyoruz. Çalışma alanı güvenliği sağlanır.",
   },
 ];
 
 export default function HomePage() {
   return (
     <>
-      <FAQSchema items={faqItems} pageUrl="https://akcuraelektrik.com.tr" />
+      <FAQSchema items={faqItems} pageUrl="https://kecaskepce.com.tr" />
 
       <Hero />
 
@@ -54,20 +54,20 @@ export default function HomePage() {
       <section className="section-padding bg-card border-t border-border">
         <div className="container-main">
           <div className="max-w-3xl mx-auto text-center">
-            <h2>Küçükçekmece’de Güvenilir Elektrikçi Hizmeti</h2>
+            <h2>Arnavutköy'de Güvenilir Kepçe Kiralama Hizmeti</h2>
             <div className="prose prose-lg text-muted-foreground space-y-4 text-left">
               <p className="text-lg">
-                AKCURA ELEKTRİK olarak 2014 yılından beri Küçükçekmece, Halkalı, Atakent, Cennet,
-                Sefaköy ve çevre mahallelerde elektrik hizmeti veriyoruz. Bölgedeki binaları,
-                eski tesisatları ve yerel ihtiyaçları çok iyi biliyoruz.
+                KEÇAŞ KEPÇE olarak 2004 yılından beri Arnavutköy, Şirindere, Hadımköy, Taşoluk,
+                Boyalık ve çevre bölgelerde JCB 3CX kepçe kiralama ve kazı hizmeti veriyoruz.
+                Bölgedeki arazi yapısını, zemin özelliklerini ve yerel ihtiyaçları çok iyi biliyoruz.
               </p>
               <p className="text-lg">
-                <a href="/hizmetler/elektrik-ariza-onarimi" className="underline">
-                  elektrik arızalarında hızlı müdahale
-                </a>, komple tesisat yenilemede uygun
-                fiyat ve her işte kaliteli malzeme kullanımı ile müşterilerimizin
-                güvenini kazandık. İster eviniz ister iş yeriniz olsun, elektrik
-                işlerinizi gönül rahatlığıyla bize bırakabilirsiniz.
+                <a href="/hizmetler/jcb-kepce-kiralama" className="underline">
+                  Operatörlü kepçe kiralama
+                </a>, temel kazısı, yıkım işleri ve hafriyat hizmetlerinde 22 yıllık tecrübemiz,
+                uygun fiyatlarımız ve profesyonel ekipmanımız ile müşterilerimizin güvenini kazandık.
+                İster konut, ister ticari alan olsun, tüm kazı ve kepçe işlerinizi gönül rahatlığıyla
+                bize bırakabilirsiniz.
               </p>
             </div>
           </div>

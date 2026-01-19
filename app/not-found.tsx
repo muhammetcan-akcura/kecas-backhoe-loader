@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import { Metadata } from 'next';
+import { businessConfig } from '@/lib/config';
 
 export const metadata: Metadata = {
-  title: 'Sayfa Bulunamadı - 404',
-  description: 'Aradığınız sayfa bulunamadı.',
+  title: 'Sayfa Bulunamadı - 404 | Keçaş Kepçe',
+  description: 'Aradığınız sayfa bulunamadı. Arnavutköy kepçe kiralama hizmetleri için ana sayfaya dönebilirsiniz.',
   robots: {
     index: false,
     follow: false,
@@ -25,20 +26,32 @@ export default function NotFound() {
           <p className="text-lg text-muted-foreground mb-8">
             Aradığınız sayfa mevcut değil veya taşınmış olabilir.
           </p>
+
           <p className="text-sm text-muted-foreground mt-6">
-            Küçükçekmece ve çevresinde elektrik hizmetleri için
+            Arnavutköy ve çevresinde kepçe kiralama hizmetleri için
             <Link href="/iletisim" className="underline ml-1">
               bizimle iletişime geçebilirsiniz.
             </Link>
           </p>
-          <a href="tel:+905379932761" className="btn-secondary my-3.5">
-            Hemen Ara
+
+          <a
+            href={businessConfig.phoneFormatted}
+            className="inline-flex items-center justify-center px-8 py-3 my-6 bg-primary text-primary-foreground font-semibold rounded-lg hover:bg-primary/90 transition shadow-md"
+          >
+            Hemen Ara: {businessConfig.phone}
           </a>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/" className="btn-primary">
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mt-4">
+            <Link
+              href="/"
+              className="inline-flex items-center justify-center px-8 py-3 bg-primary text-primary-foreground font-semibold rounded-lg hover:bg-primary/90 transition shadow-md"
+            >
               Ana Sayfaya Dön
             </Link>
-            <Link href="/hizmetler" className="btn-secondary">
+            <Link
+              href="/hizmetler"
+              className="inline-flex items-center justify-center px-8 py-3 bg-card text-foreground font-semibold rounded-lg hover:bg-card/90 transition border-2 border-border"
+            >
               Hizmetleri İncele
             </Link>
           </div>
@@ -47,4 +60,3 @@ export default function NotFound() {
     </div>
   );
 }
-

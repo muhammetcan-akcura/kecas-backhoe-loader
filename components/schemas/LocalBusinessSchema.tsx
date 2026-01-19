@@ -3,7 +3,7 @@ import { businessConfig } from "@/lib/config";
 export function LocalBusinessSchema() {
   const schema = {
     "@context": "https://schema.org",
-    "@type": ["LocalBusiness", "Electrician"],
+    "@type": ["LocalBusiness", "HomeAndConstructionBusiness"],
     "@id": `${businessConfig.websiteUrl}#localbusiness`,
 
     name: businessConfig.name,
@@ -34,11 +34,15 @@ export function LocalBusinessSchema() {
 
     /* ---------------- BUSINESS TYPE ---------------- */
     serviceType: [
-      "Elektrik arıza onarımı",
-      "Elektrik tesisatı",
-      "Priz ve anahtar montajı",
-      "Sigorta panosu tamiri",
-      "Aydınlatma kurulumu",
+      "Kepçe kiralama",
+      "JCB kepçe kiralama",
+      "Kazı işleri",
+      "Temel kazısı",
+      "Yıkım işi",
+      "Kanal açma",
+      "Dolgu ve tesviye",
+      "Operatörlü kepçe",
+      "İş makinesi kiralama",
     ],
 
     /* ---------------- SOCIAL / ENTITY LINKS ---------------- */

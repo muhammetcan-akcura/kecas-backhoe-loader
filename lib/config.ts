@@ -1,43 +1,44 @@
-// AKCURA ELEKTRİK – Business, Local SEO & Schema Configuration
+// KEÇAŞ KEPÇE – Business, Local SEO & Schema Configuration
 
 export const businessConfig = {
   /* -------------------------------------------------------------------------- */
   /* BUSINESS IDENTITY                                                          */
   /* -------------------------------------------------------------------------- */
 
-  name: "Akcura Elektrik",
-  legalName: "Akcura Elektrik",
-  foundingDate: "2014-06-10",
+  name: "Keçaş Kepçe",
+  legalName: "Keçaş Kepçe",
+  foundingDate: "2004-10-20",
   description:
-    "Küçükçekmece ve çevresinde yerinde elektrik tesisatı, arıza onarımı ve montaj hizmetleri sunan yerel elektrikçi.",
+    "Arnavutköy ve çevresinde 22 yıldır JCB 3CX kepçe kiralama, kazı işleri, temel kazısı, yıkım ve hafriyat hizmetleri sunan tecrübeli operatörlü iş makinesi kiralama firması.",
 
   /* -------------------------------------------------------------------------- */
   /* CONTACT INFORMATION (NAP)                                                   */
   /* -------------------------------------------------------------------------- */
 
-  phone: "0537 993 27 61",
-  phoneFormatted: "tel:+905379932761",
-  whatsappUrl: "https://wa.me/905379932761",
-  email: "akcuramuhammet658@gmail.com",
+  phone: "0539 477 81 12",
+  phoneFormatted: "tel:+905394778112",
+  whatsappUrl: "https://wa.me/905394778112",
+  email: "yusufkecas@gmail.com",
 
   /* -------------------------------------------------------------------------- */
   /* WEBSITE & MAPS                                                             */
   /* -------------------------------------------------------------------------- */
 
-  website: "https://akcuraelektrik.com.tr",
-  websiteUrl: "https://akcuraelektrik.com.tr",
-  googleMapsUrl: "https://maps.app.goo.gl/RdW9GC9TdftLKwqa7", // GMB linki açılınca burayı güncelle
+  website: "https://kecaskepce.com.tr",
+  websiteUrl: "https://kecaskepce.com.tr",
+  googleMapsUrl: "https://maps.app.goo.gl/kecaskepce", // GMB linki açılınca burayı güncelle
 
   /* -------------------------------------------------------------------------- */
   /* SERVICE AREA (SERVICE-AREA BUSINESS)                                       */
   /* -------------------------------------------------------------------------- */
 
   serviceArea: {
-    district: "Küçükçekmece",
+    district: "Arnavutköy",
+    neighborhood: "Şirindere",
     city: "İstanbul",
     region: "İstanbul",
     country: "TR",
-    full: "Küçükçekmece, İstanbul",
+    full: "Arnavutköy, İstanbul",
   },
 
   /* -------------------------------------------------------------------------- */
@@ -46,9 +47,10 @@ export const businessConfig = {
 
   address: {
     "@type": "PostalAddress" as const,
-    addressLocality: "Küçükçekmece",
+    addressLocality: "Arnavutköy",
     addressRegion: "İstanbul",
     addressCountry: "TR",
+    // Şirindere mahallesi - tam adres GMB doğrulaması sonrası eklenecek
   },
 
   /* -------------------------------------------------------------------------- */
@@ -56,10 +58,11 @@ export const businessConfig = {
   /* -------------------------------------------------------------------------- */
 
   workingHours: {
-    weekdays: "09:00-19:00",
-    saturday: "09:00-19:00",
+    weekdays: "08:00-20:00",
+    saturday: "08:00-20:00",
     sunday: "Kapalı",
-    formatted: "Pazartesi–Cumartesi: 09:00–19:00, Pazar: Kapalı",
+    formatted: "Pazartesi–Cumartesi: 08:00–20:00, Pazar: Kapalı",
+    emergency: "7/24 acil hizmet mevcuttur",
   },
 
   openingHoursSpec: [
@@ -73,8 +76,8 @@ export const businessConfig = {
         "Friday",
         "Saturday",
       ] as const,
-      opens: "09:00",
-      closes: "19:00",
+      opens: "08:00",
+      closes: "20:00",
     },
   ] as const,
 
@@ -83,16 +86,17 @@ export const businessConfig = {
   /* -------------------------------------------------------------------------- */
 
   social: {
-    instagram: "",
-    facebook: "",
+    instagram: "", // Açılınca eklenecek
+    facebook: "", // Açılınca eklenecek
+    youtube: "", // Açılınca eklenecek
   },
 
   socialProfiles: [
-    // instagram / facebook eklenince buraya koy
+    // instagram / facebook / youtube eklenince buraya koy
   ],
 
   sameAs: [
-    // instagram / facebook eklenince buraya koy
+    // instagram / facebook / youtube eklenince buraya koy
   ],
 
   /* -------------------------------------------------------------------------- */
@@ -100,38 +104,54 @@ export const businessConfig = {
   /* -------------------------------------------------------------------------- */
 
   seo: {
-    siteUrl: "https://akcuraelektrik.com.tr",
-    defaultTitle: "Akcura Elektrik | Küçükçekmece Elektrik Hizmetleri",
-    titleTemplate: "%s",
+    siteUrl: "https://kecaskepce.com.tr",
+    defaultTitle: "Keçaş Kepçe | Arnavutköy Kepçe Kiralama & Kazı İşleri",
+    titleTemplate: "%s | Keçaş Kepçe",
     defaultDescription:
-      "Akcura Elektrik, Küçükçekmece ve çevresinde yerinde elektrik hizmetleri sunar. 2014 yılından beri güvenilir ve profesyonel elektrikçi.",
+      "Arnavutköy'de 22 yıldır JCB 3CX kepçe kiralama, kazı işleri, temel kazısı, yıkım ve hafriyat hizmetleri. Tecrübeli operatör, uygun fiyat, 7/24 hizmet.",
     locale: "tr_TR",
-    ogImage: "/assets/elektrik-ustasi.avif",
+    ogImage: "/assets/kepce-kiralama.avif",
     keywords: [
-      "elektrikçi",
-      "Küçükçekmece elektrikçi",
-      "elektrik arıza onarımı",
-      "elektrik tesisatı",
-      "sigorta panosu",
-      "priz anahtar montajı",
-      "aydınlatma kurulumu",
-      "İstanbul elektrikçi",
+      "kepçe kiralama",
+      "Arnavutköy kepçe",
+      "JCB kepçe",
+      "kazı işleri",
+      "temel kazısı",
+      "operatörlü kepçe",
+      "iş makinesi kiralama",
+      "beko loder",
+      "hafriyat",
+      "yıkım işi",
+      "kanal açma",
+      "İstanbul kepçe kiralama",
+      "Arnavutköy kazı",
+      "Şirindere kepçe",
     ],
-    googleVerification: "izp4XDjSxK6C2omP1XDjKci6yS4yIgAWFNWkf3jGXh4",
+    googleVerification: "", // Google Search Console doğrulama kodu eklenecek
   },
 
   /* -------------------------------------------------------------------------- */
   /* BUSINESS TYPE & ATTRIBUTES                                                 */
   /* -------------------------------------------------------------------------- */
 
-  businessType: ["LocalBusiness", "Electrician"] as const,
-  priceRange: "₺₺",
+  businessType: ["LocalBusiness", "HomeAndConstructionBusiness"] as const,
+  priceRange: "₺₺", // Orta segment - GMB için uygun
 
   features: [
-    "2014 yılından beri tecrübe",
-    "Yerinde servis hizmeti",
-    "Şeffaf çalışma",
-    "Güvenilir işçilik",
+    "22 yıldır tecrübe",
+    "7/24 acil hizmet",
+    "Tecrübeli operatör",
+    "Uygun fiyat garantisi",
+    "JCB 3CX kepçe",
+    "Profesyonel ekipman",
+  ],
+
+  equipment: [
+    {
+      name: "JCB 3CX Beko Loder",
+      type: "Kazıyıcı Yükleyici",
+      description: "Profesyonel JCB 3CX kepçe ile her türlü kazı ve yükleme işi",
+    },
   ],
 } as const;
 

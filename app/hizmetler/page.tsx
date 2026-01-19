@@ -8,22 +8,22 @@ import { FAQSchema } from "@/components/schemas/FAQSchema";
 import { businessConfig } from "@/lib/config";
 
 export const metadata: Metadata = generateMetadata({
-  title: "Küçükçekmece Elektrik Hizmetleri | AKCURA ELEKTRİK",
+  title: "Arnavutköy Kepçe Kiralama Hizmetleri | KEÇAŞ KEPÇE",
   description:
-    "Küçükçekmece elektrik tesisatı, arıza onarımı, priz montajı, sigorta panosu tamiri ve aydınlatma kurulumu. Yerinde servis, ücretsiz keşif.",
+    "Arnavutköy JCB kepçe kiralama, kazı işleri, temel kazısı, yıkım, kanal açma ve dolgu tesviye hizmetleri. Operatörlü kepçe, ücretsiz keşif.",
   path: "/hizmetler",
 });
 
 const servicesFAQ = [
   {
-    question: "Küçükçekmece’de tüm elektrik hizmetlerini veriyor musunuz?",
+    question: "Arnavutköy'de tüm kepçe hizmetlerini veriyor musunuz?",
     answer:
-      "Evet, elektrik arıza onarımı, tesisat, priz montajı, sigorta panosu tamiri ve aydınlatma kurulumu dahil tüm hizmetleri Küçükçekmece genelinde yerinde servis olarak sunuyoruz.",
+      "Evet, JCB kepçe kiralama, kazı işleri, temel kazısı, yıkım, kanal açma ve dolgu tesviye dahil tüm hizmetleri Arnavutköy genelinde operatörlü olarak sunuyoruz.",
   },
   {
     question: "Tüm hizmetler için ücretsiz keşif var mı?",
     answer:
-      "Evet, sunduğumuz tüm elektrik hizmetleri için Küçükçekmece’de ücretsiz keşif yapıyoruz. Keşif sonrası net ve şeffaf fiyat teklifi sunulur.",
+      "Evet, sunduğumuz tüm kepçe ve kazı hizmetleri için Arnavutköy'de ücretsiz keşif yapıyoruz. Keşif sonrası net ve şeffaf fiyat teklifi sunulur.",
   },
 ];
 
@@ -39,20 +39,20 @@ export default function ServicesPage() {
         ]}
       />
 
-      <FAQSchema items={servicesFAQ} pageUrl="https://akcuraelektrik.com.tr/hizmetler" />
+      <FAQSchema items={servicesFAQ} pageUrl="https://kecaskepce.com.tr/hizmetler" />
 
       {/* HERO */}
       <section className="bg-card border-b border-border">
         <div className="container-main py-14 md:py-18">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="mb-5 text-3xl md:text-4xl lg:text-5xl font-bold">
-              Küçükçekmece Elektrik Hizmetleri
+              Arnavutköy Kepçe Kiralama Hizmetleri
             </h1>
 
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              <strong>AKCURA ELEKTRİK</strong> olarak Küçükçekmece ve çevresinde
-              ev ve iş yerleri için profesyonel elektrik hizmetleri sunuyoruz.
-              Tüm işler yerinde servis ve ücretsiz keşif sonrası yapılır.
+              <strong>KEÇAŞ KEPÇE</strong> olarak Arnavutköy ve çevresinde
+              konut ve ticari alanlar için profesyonel JCB kepçe kiralama ve kazı hizmetleri sunuyoruz.
+              Tüm işler operatörlü ve ücretsiz keşif sonrası yapılır.
             </p>
 
             <div className="flex flex-wrap justify-center gap-4 text-sm md:text-base text-muted-foreground">
@@ -62,11 +62,11 @@ export default function ServicesPage() {
               </span>
               <span className="flex items-center gap-2">
                 <CheckCircle size={18} className="text-primary" />
-                Yerinde Servis
+                Tecrübeli Operatör
               </span>
               <span className="flex items-center gap-2">
                 <CheckCircle size={18} className="text-primary" />
-                İşçilik Garantisi
+                22 Yıl Tecrübe
               </span>
             </div>
           </div>
@@ -77,9 +77,9 @@ export default function ServicesPage() {
       <section className="py-6 bg-background border-b border-border min-h-[60px]">
         <div className="container-main text-center text-sm text-muted-foreground">
           <p>
-            Tüm elektrik hizmetlerimiz <strong>Küçükçekmece</strong> merkez olmak
-            üzere Halkalı, Atakent, Cennet, Sefaköy ve çevre mahallelerde
-            <strong> yerinde servis</strong> olarak sunulmaktadır.
+            Tüm kepçe ve kazı hizmetlerimiz <strong>Arnavutköy</strong> merkez olmak
+            üzere Şirindere, Hadımköy, Taşoluk, Boyalık ve çevre bölgelerde
+            <strong> operatörlü hizmet</strong> olarak sunulmaktadır.
           </p>
         </div>
       </section>
@@ -89,10 +89,10 @@ export default function ServicesPage() {
         <div className="container-main">
           <div className="text-center mb-12">
             <h2 className="mb-4 text-2xl md:text-3xl font-bold">
-              Sunduğumuz Elektrik Hizmetleri
+              Sunduğumuz Kepçe ve Kazı Hizmetleri
             </h2>
             <p className="max-w-2xl mx-auto text-muted-foreground">
-              Elektrik işlerinizde ihtiyaç duyduğunuz tüm hizmetleri
+              İnşaat ve kazı işlerinizde ihtiyaç duyduğunuz tüm hizmetleri
               tek çatı altında sunuyoruz.
             </p>
           </div>
@@ -121,7 +121,7 @@ export default function ServicesPage() {
                 </ul>
 
                 <p className="text-xs text-muted-foreground mb-4">
-                  Küçükçekmece genelinde yerinde servis
+                  Arnavutköy genelinde operatörlü hizmet
                 </p>
 
                 <div className="flex items-center justify-between border-t pt-4">
@@ -145,26 +145,26 @@ export default function ServicesPage() {
       <section className="section-padding bg-card">
         <div className="container-main max-w-4xl mx-auto">
           <h2 className="text-center mb-10 text-2xl md:text-3xl font-bold">
-            Elektrik Hizmetlerinde Neden AKCURA ELEKTRİK?
+            Kepçe Kiralama Hizmetlerinde Neden KEÇAŞ KEPÇE?
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               {
                 title: "Yerel Deneyim",
-                desc: "Küçükçekmece’nin bina yapısını ve elektrik altyapısını iyi biliyoruz.",
+                desc: "Arnavutköy'ün arazi yapısını ve zemin özelliklerini iyi biliyoruz.",
               },
               {
                 title: "Tecrübeli Ekip",
-                desc: "2014 yılından beri sektörde deneyimli, belgeli elektrikçi kadrosu.",
+                desc: "2004 yılından beri sektörde deneyimli, sertifikalı operatör kadrosu.",
               },
               {
                 title: "Şeffaf Fiyat",
                 desc: "Ücretsiz keşif sonrası net fiyat. İş bitiminde sürpriz yok.",
               },
               {
-                title: "Garanti",
-                desc: "Tüm işlerimiz işçilik garantilidir ve standartlara uygundur.",
+                title: "Profesyonel Ekipman",
+                desc: "JCB 3CX kepçe ile güvenli ve verimli çalışma garantisi.",
               },
             ].map((item, i) => (
               <div key={i} className="flex gap-4">
@@ -210,10 +210,10 @@ export default function ServicesPage() {
       <section className="section-padding bg-card text-foreground">
         <div className="container-main text-center">
           <h2 className="mb-4 text-3xl md:text-4xl font-bold">
-            Elektrik İşleriniz İçin Hemen Arayın
+            Kepçe Kiralama İçin Hemen Arayın
           </h2>
           <p className="max-w-2xl mx-auto mb-8 text-lg text-muted-foreground">
-            Küçükçekmece’de tüm elektrik hizmetleri için ücretsiz keşif yapıyoruz.
+            Arnavutköy'de tüm kepçe ve kazı hizmetleri için ücretsiz keşif yapıyoruz.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -233,7 +233,7 @@ export default function ServicesPage() {
           </div>
 
           <p className="mt-6 text-sm text-muted-foreground">
-            Google Haritalar’da işletmemizi aratarak yorumlarımızı inceleyebilirsiniz.
+            22 yıldır Arnavutköy'de güvenilir kepçe kiralama hizmeti
           </p>
         </div>
       </section>

@@ -12,9 +12,9 @@ import { CheckCircle } from "lucide-react";
 /* -------------------------------------------------------------------------- */
 
 export const metadata: Metadata = generateMetadata({
-  title: "Hakkımızda",
+  title: "Hakkımızda | Keçaş Kepçe - 22 Yıllık Tecrübe",
   description:
-    "Akcura Elektrik, 2014 yılından beri Küçükçekmece ve çevresinde yerinde elektrik hizmetleri sunmaktadır. Güvenilir, şeffaf ve profesyonel hizmet anlayışı.",
+    "Keçaş Kepçe, 2004 yılından beri Arnavutköy ve çevresinde JCB kepçe kiralama, kazı işleri ve hafriyat hizmetleri sunmaktadır. Güvenilir, şeffaf ve profesyonel hizmet anlayışı.",
   path: "/hakkimizda",
 });
 
@@ -65,8 +65,8 @@ export default function AboutPage() {
               Hakkımızda
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground">
-              2014 yılından beri Küçükçekmece ve çevresinde yerinde elektrik
-              hizmetleri sunuyoruz.
+              2004 yılından beri Arnavutköy ve çevresinde operatörlü kepçe kiralama
+              ve kazı hizmetleri sunuyoruz.
             </p>
           </div>
         </div>
@@ -83,31 +83,31 @@ export default function AboutPage() {
 
               <div className="space-y-5 text-muted-foreground text-base md:text-lg leading-relaxed">
                 <p>
-                  {businessConfig.name}, 2014 yılında Küçükçekmece’de
-                  kurulmuştur. Elektrik sektöründe edinilen uzun yıllara
-                  dayanan tecrübe ile bölge halkına güvenilir hizmet sunmak
-                  amacıyla yola çıktık.
+                  {businessConfig.name}, 2004 yılında Arnavutköy'de
+                  kurulmuştur. İnşaat ve kazı sektöründe edinilen 22 yıllık
+                  tecrübe ile bölge halkına güvenilir kepçe kiralama ve kazı hizmetleri
+                  sunmak amacıyla yola çıktık.
                 </p>
 
                 <p>
-                  Hizmetlerimiz sabit bir mağaza üzerinden değil, müşterilerimizin
-                  adresine gelerek sunulmaktadır. Bu sayede Küçükçekmece ve
-                  çevresindeki elektrik ihtiyaçlarına hızlı ve yerinde çözümler
-                  üretiriz.
+                  JCB 3CX beko loder kazıyıcı yükleyici ekipmanımız ve tecrübeli
+                  operatörlerimiz ile Arnavutköy, Şirindere, Hadımköy, Taşoluk,
+                  Boyalık ve çevresindeki tüm kazı, yıkım ve hafriyat ihtiyaçlarına
+                  hızlı ve profesyonel çözümler üretiriz.
                 </p>
 
                 <p>
                   Amacımız sadece bir işi tamamlamak değil, uzun vadeli güven
-                  ilişkileri kurmaktır. Bu nedenle her işi kendi evimizdeymiş
-                  gibi titizlikle yaparız.
+                  ilişkileri kurmaktır. Bu nedenle her işi kendi projemizmiş
+                  gibi titizlikle yaparız. 7/24 acil hizmet desteği ile yanınızdayız.
                 </p>
               </div>
             </div>
 
             <div className="relative h-[400px] lg:h-[500px] rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/assets/elektrik-ustasi.avif"
-                alt="Akcura Elektrik çalışma sahası"
+                src="/assets/kecas-kepce-calisma-sahasi.jpeg"
+                alt="Keçaş Kepçe JCB 3CX çalışma sahası"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -123,13 +123,13 @@ export default function AboutPage() {
         <div className="container-main">
           <div className="max-w-3xl">
             <h2 className="mb-4 text-3xl md:text-4xl font-bold">
-              Küçükçekmece ve Çevresinde Hizmet
+              Arnavutköy ve Çevresinde Hizmet
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              Küçükçekmece başta olmak üzere Halkalı, Atakent, Cennet ve
-              Sefaköy bölgelerinde yerinde elektrik hizmetleri sunuyoruz.
-              Tüm çalışmalar servis bölgesi kapsamında, adresinizde
-              gerçekleştirilmektedir.
+              Arnavutköy başta olmak üzere Şirindere, Hadımköy, Taşoluk,
+              Boyalık ve çevre bölgelerde operatörlü kepçe kiralama hizmetleri sunuyoruz.
+              Tüm çalışmalar profesyonel ekipman ve tecrübeli operatörler ile
+              güvenli şekilde gerçekleştirilmektedir.
             </p>
           </div>
         </div>
@@ -174,17 +174,17 @@ export default function AboutPage() {
         <div className="container-main">
           <div className="max-w-3xl mx-auto">
             <h2 className="mb-10 text-center text-3xl md:text-4xl font-bold">
-              Neden Akcura Elektrik?
+              Neden Keçaş Kepçe?
             </h2>
 
             <div className="space-y-6">
               <div>
                 <h3 className="text-xl font-semibold mb-2">
-                  Tecrübe ve Süreklilik
+                  22 Yıllık Tecrübe
                 </h3>
                 <p className="text-muted-foreground">
-                  2014 yılından bu yana aynı bölgede aktif olarak hizmet
-                  veriyoruz.
+                  2004 yılından bu yana aynı bölgede aktif olarak kepçe kiralama
+                  ve kazı hizmetleri veriyoruz.
                 </p>
               </div>
 
@@ -193,27 +193,38 @@ export default function AboutPage() {
                   Yerel Bilgi
                 </h3>
                 <p className="text-muted-foreground">
-                  Küçükçekmece’nin bina yapısını ve altyapısını yakından
-                  tanıyoruz.
+                  Arnavutköy'ün arazi yapısını, zemin özelliklerini ve altyapısını
+                  yakından tanıyoruz.
                 </p>
               </div>
 
               <div>
                 <h3 className="text-xl font-semibold mb-2">
-                  Şeffaf Çalışma
+                  Profesyonel Ekipman
                 </h3>
                 <p className="text-muted-foreground">
-                  İş öncesi bilgilendirme yapar, süreç boyunca açık iletişim
-                  kurarız.
+                  JCB 3CX beko loder kazıyıcı yükleyici ile bakımlı ve güvenli
+                  ekipman garantisi sunuyoruz.
                 </p>
               </div>
 
               <div>
                 <h3 className="text-xl font-semibold mb-2">
-                  Sorumluluk
+                  Tecrübeli Operatör
                 </h3>
                 <p className="text-muted-foreground">
-                  Yaptığımız işlerin arkasında dururuz.
+                  Sertifikalı ve deneyimli operatörlerimiz ile her işi güvenle
+                  tamamlıyoruz.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-xl font-semibold mb-2">
+                  7/24 Hizmet
+                </h3>
+                <p className="text-muted-foreground">
+                  Acil durumlarda 7 gün 24 saat ulaşılabilir ve hızlı çözüm
+                  sunuyoruz.
                 </p>
               </div>
             </div>
@@ -228,7 +239,7 @@ export default function AboutPage() {
             Bizimle İletişime Geçin
           </h2>
           <p className="max-w-2xl mx-auto mb-8 text-lg text-muted-foreground">
-            Elektrik hizmetleri hakkında bilgi almak için bize ulaşabilirsiniz.
+            Kepçe kiralama ve kazı hizmetleri hakkında bilgi almak için bize ulaşabilirsiniz.
           </p>
           <Link
             href="/iletisim"

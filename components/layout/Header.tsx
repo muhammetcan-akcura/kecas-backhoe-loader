@@ -26,12 +26,12 @@ export function Header() {
           <Link
             href="/"
             className="flex items-center gap-3 shrink-0"
-            aria-label="Akcura Elektrik Ana Sayfa"
+            aria-label="Keçaş Kepçe Ana Sayfa"
           >
             <div className="relative w-[44px] h-[44px] sm:w-[52px] sm:h-[52px]">
               <Image
-                src="/assets/akcura-elektrik-logo.avif"
-                alt="Akcura Elektrik Logo"
+                src="/assets/kecas-kepce-logo.avif"
+                alt="Keçaş Kepçe Logo"
                 fill
                 priority
                 sizes="(max-width: 640px) 44px, 52px"
@@ -40,7 +40,7 @@ export function Header() {
             </div>
 
             <span className="font-bold text-gray-900 tracking-tight leading-tight text-lg sm:text-xl">
-              Akcura Elektrik
+              Keçaş Kepçe
             </span>
           </Link>
 
@@ -61,7 +61,7 @@ export function Header() {
           {/* DESKTOP CTA */}
           <Link
             href="/iletisim"
-            className="hidden md:inline-flex items-center px-6 py-3 rounded-lg bg-primary text-primary-foreground font-semibold shadow-sm hover:bg-primary/90 transition"
+            className="hidden md:inline-flex items-center px-6 py-3 rounded-lg bg-primary text-primary-foreground font-semibold shadow-sm hover:bg-white/90 transition"
             aria-label="İletişim sayfasına git"
           >
             İletişime Geç

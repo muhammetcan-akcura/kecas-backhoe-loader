@@ -10,8 +10,8 @@ import { Phone, Mail, MapPin, Clock } from "lucide-react";
 /* -------------------------------------------------------------------------- */
 
 export const metadata: Metadata = generateMetadata({
-  title: "İletişim",
-  description: `${businessConfig.name} ile iletişime geçin. Küçükçekmece ve çevresinde yerinde elektrik hizmetleri için telefon veya e-posta yoluyla bize ulaşabilirsiniz.`,
+  title: "İletişim | Keçaş Kepçe Arnavutköy",
+  description: `${businessConfig.name} ile iletişime geçin. Arnavutköy ve çevresinde JCB kepçe kiralama ve kazı hizmetleri için telefon veya e-posta yoluyla bize ulaşabilirsiniz.`,
   path: "/iletisim",
 });
 
@@ -40,7 +40,7 @@ export default function ContactPage() {
               İletişim
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground">
-              Elektrik hizmetleri hakkında bilgi almak ve randevu oluşturmak
+              Kepçe kiralama ve kazı hizmetleri hakkında bilgi almak ve ücretsiz keşif
               için bizimle iletişime geçebilirsiniz.
             </p>
           </div>
@@ -98,8 +98,8 @@ export default function ContactPage() {
                       {businessConfig.serviceArea.full}
                     </p>
                     <p className="text-sm text-muted-foreground mt-1">
-                      Hizmetlerimiz sabit bir mağaza üzerinden değil,
-                      adresinize gelerek sunulmaktadır.
+                      Operatörlü kepçe kiralama hizmetimiz bölge genelinde
+                      sunulmaktadır.
                     </p>
                   </div>
                 </div>
@@ -128,19 +128,19 @@ export default function ContactPage() {
 
               <div className="bg-card border border-border rounded-lg overflow-hidden h-[420px]">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d145618.86533730265!2d28.779357!3d41.020681!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2ba31ce02fca4235%3A0x535971576d417566!2sAkcura%20Elektrik!5e1!3m2!1str!2str!4v1768251499730!5m2!1str!2str"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48377.89171478588!2d28.6892!3d41.1892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b55f0a0a0a0a0a%3A0x0!2sArnavutk%C3%B6y%2C%20%C4%B0stanbul!5e0!3m2!1str!2str!4v1234567890"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  aria-label="Küçükçekmece Elektrikçi Harita"
+                  aria-label="Arnavutköy Kepçe Kiralama Harita"
                 />
               </div>
 
               <p className="text-sm text-muted-foreground mt-4">
-                Küçükçekmece başta olmak üzere Halkalı, Atakent, Cennet,
-                Sefaköy ve çevre mahallelere yerinde servis hizmeti sunuyoruz.
+                Arnavutköy başta olmak üzere Şirindere, Hadımköy, Taşoluk,
+                Boyalık ve çevre bölgelere operatörlü kepçe kiralama hizmeti sunuyoruz.
               </p>
             </div>
           </div>
@@ -154,11 +154,11 @@ export default function ContactPage() {
             Bizimle İletişime Geçin
           </h2>
           <p className="max-w-2xl mx-auto mb-8 text-lg opacity-95">
-            Elektrik hizmetleri hakkında bilgi almak için bize ulaşabilirsiniz.
+            Kepçe kiralama ve kazı hizmetleri hakkında bilgi almak için bize ulaşabilirsiniz.
           </p>
           <a
             href={businessConfig.phoneFormatted}
-            className="inline-flex items-center justify-center px-8 py-3 bg-card text-primary font-medium rounded-lg shadow-md hover:bg-card/90 transition"
+            className="inline-flex items-center justify-center px-8 py-3 bg-card text-black font-medium rounded-lg shadow-md hover:bg-card/90 transition"
           >
             <Phone size={20} className="mr-2" />
             {businessConfig.phone}
