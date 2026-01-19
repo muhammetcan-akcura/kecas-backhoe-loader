@@ -127,7 +127,7 @@ export const businessConfig = {
       "Arnavutköy kazı",
       "Şirindere kepçe",
     ],
-    googleVerification: "", // Google Search Console doğrulama kodu eklenecek
+    googleVerification: "NhA4tjEBpPfywoWAFG129NlMlh-OJPtCmTxNajxZALU",
   },
 
   /* -------------------------------------------------------------------------- */
