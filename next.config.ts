@@ -28,7 +28,7 @@ const nextConfig: NextConfig = {
   },
   // Target modern browsers to reduce polyfills
   transpilePackages: [],
-  output: 'standalone',
+  // output: 'standalone', // Disabled for Netlify deployment optimization
   async headers() {
     return [
       {
