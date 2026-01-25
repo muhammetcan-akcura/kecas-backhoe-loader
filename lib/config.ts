@@ -26,7 +26,7 @@ export const businessConfig = {
 
   website: "https://kecaskepce.com.tr",
   websiteUrl: "https://kecaskepce.com.tr",
-  googleMapsUrl: "https://maps.app.goo.gl/kecaskepce", // GMB linki açılınca burayı güncelle
+  googleMapsUrl: "https://maps.app.goo.gl/BAmrmJkgLn8SwLiG8", // GMB linki açılınca burayı güncelle
 
   /* -------------------------------------------------------------------------- */
   /* SERVICE AREA (SERVICE-AREA BUSINESS)                                       */
