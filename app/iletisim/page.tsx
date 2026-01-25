@@ -127,8 +127,9 @@ export default function ContactPage() {
               </h2>
 
               <div className="bg-card border border-border rounded-lg overflow-hidden h-[420px]">
+
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48377.89171478588!2d28.6892!3d41.1892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b55f0a0a0a0a0a%3A0x0!2sArnavutk%C3%B6y%2C%20%C4%B0stanbul!5e0!3m2!1str!2str!4v1234567890"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48031.66308267822!2d28.694215750804837!3d41.20043265881691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4376f201f7f4c7e7%3A0x63a51a405f34860f!2zS2XDp2HFnyBLZXDDp2U!5e0!3m2!1str!2str!4v1769334977259!5m2!1str!2str"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

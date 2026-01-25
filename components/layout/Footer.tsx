@@ -17,7 +17,7 @@ export function Footer() {
     <footer className="bg-slate-900 text-slate-200">
       <div className="container-main py-16">
         {/* TOP */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 xl:gap-12">
           {/* BRAND */}
           <div>
             <h3 className="text-2xl font-bold text-white mb-4">
@@ -134,6 +134,34 @@ export function Footer() {
                 </a>
               </li>
             </ul>
+          </div>
+
+          {/* MAP EXTENSION */}
+          <div className="flex flex-col">
+            <h4 className="text-lg font-semibold text-white mb-4">
+              Konum
+            </h4>
+            <div className="rounded-lg overflow-hidden border border-slate-700 h-48 w-full">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48031.66308267822!2d28.694215750804837!3d41.20043265881691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4376f201f7f4c7e7%3A0x63a51a405f34860f!2zS2XDp2HFnyBLZXDDp2U!5e0!3m2!1str!2str!4v1769334977259!5m2!1str!2str"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                aria-label="Keçaş Kepçe Konum"
+                className="grayscale hover:grayscale-0 transition duration-300"
+              />
+            </div>
+            <a
+              href={businessConfig.googleMapsUrl}
+              target="_blank"
+              rel="nofollow noopener"
+              className="text-xs text-slate-400 mt-2 hover:text-white transition flex items-center gap-1"
+            >
+              <ExternalLink size={12} />
+              Büyük haritada görüntüle
+            </a>
           </div>
         </div>
 
