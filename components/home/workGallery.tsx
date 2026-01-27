@@ -3,14 +3,19 @@ import Image from "next/image";
 // 2-3 destek görsel - statik, slider YOK
 const galleryImages = [
   {
-    src: "/assets/kecas-kepce-kazi-isleri.jpeg",
-    alt: "JCB 3CX kepçe ile kazı işleri - Arnavutköy",
-    title: "Kazı İşleri",
+    src: "/assets/arnavutkoy-jcb-3cx-kepce-arazi-calismasi.avif",
+    alt: "Arnavutköy'de JCB 3CX kepçe ile arazi hazırlama çalışması",
+    title: "Arazi Hazırlama",
   },
   {
-    src: "/assets/kecas-kepce-logo.avif",
-    alt: "Keçaş Kepçe operatörlü hizmet - Arnavutköy",
-    title: "Operatörlü Hizmet",
+    src: "/assets/arnavutkoy-kanal-kazi-altyapi-calismasi.avif",
+    alt: "Arnavutköy'de kanal kazısı ve altyapı çalışması",
+    title: "Kanal Kazısı",
+  },
+  {
+    src: "/assets/arnavutkoy-sokak-kazi-kepce-kabininden-gorunum.avif",
+    alt: "Arnavutköy sokak kazısı - kepçe kabininden operatör görünümü",
+    title: "Operatör Perspektifi",
   },
 ];
 
@@ -30,7 +35,7 @@ export function WorkGallery() {
         </div>
 
         {/* Statik Galeri - YAN YANA, SLIDER YOK */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {galleryImages.map((image, index) => (
             <div
               key={index}

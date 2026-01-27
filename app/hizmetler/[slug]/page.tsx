@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Phone, CheckCircle, ArrowRight, Clock, MapPin } from "lucide-react";
 import { businessConfig } from "@/lib/config";
+import { ServiceGallery } from "@/components/common/ServiceGallery";
 
 type Props = {
     params: { slug: string };
@@ -123,6 +124,11 @@ export default async function ServicePage({ params }: Props) {
                     </div>
                 </div>
             </section>
+
+            {/* SERVICE GALLERY - Real Work Images */}
+            {service.media.galleryImages && service.media.galleryImages.length > 0 && (
+                <ServiceGallery images={service.media.galleryImages} />
+            )}
 
             {/* BENEFITS */}
             <section className="section-padding bg-accent">
