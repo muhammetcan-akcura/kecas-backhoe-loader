@@ -104,6 +104,8 @@ export default function RootLayout({
   return (
     <html lang="tr" className={`${inter.variable} ${lora.variable} ${spaceMono.variable}`}>
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
           rel="preload"
           as="image"

@@ -66,8 +66,9 @@ export function Hero() {
                 fill
                 priority
                 fetchPriority="high"
-                sizes="(max-width: 1024px) 100vw, 50vw"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 640px"
                 className="object-cover"
+                quality={85}
               />
 
               {/* Sarı accent çerçeve */}

@@ -25,6 +25,7 @@ const nextConfig: NextConfig = {
   },
   experimental: {
     optimizePackageImports: ['lucide-react', '@radix-ui/react-accordion', '@radix-ui/react-slot'],
+    optimizeCss: true, // Inline critical CSS
   },
   // Target modern browsers to reduce polyfills
   transpilePackages: [],
