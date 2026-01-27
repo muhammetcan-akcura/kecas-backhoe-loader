@@ -61,12 +61,13 @@ export function Hero() {
           <div className="order-1 lg:order-2 relative">
             <div className="relative aspect-[4/3] lg:aspect-square rounded-lg overflow-hidden shadow-2xl">
               <Image
-                src="/assets/kecas-kepce-logo.avif"
+                src="/assets/arnavutkoy-jcb-3cx-kepce-arazi-calismasi.avif"
                 alt="Keçaş Kepçe - JCB 3CX Kepçe Kiralama Arnavutköy"
                 fill
                 priority
+                fetchPriority="high"
                 sizes="(max-width: 1024px) 100vw, 50vw"
-                className="object-contain bg-white p-8"
+                className="object-cover"
               />
 
               {/* Sarı accent çerçeve */}

@@ -103,6 +103,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="tr" className={`${inter.variable} ${lora.variable} ${spaceMono.variable}`}>
+      <head>
+        <link
+          rel="preload"
+          as="image"
+          href="/assets/arnavutkoy-jcb-3cx-kepce-arazi-calismasi.avif"
+          type="image/avif"
+          fetchPriority="high"
+        />
+      </head>
       <body className="antialiased flex flex-col min-h-screen">
         <LocalBusinessSchema />
         <GoogleAnalytics />
