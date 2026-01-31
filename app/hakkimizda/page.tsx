@@ -106,7 +106,7 @@ export default function AboutPage() {
 
             <div className="relative h-[400px] lg:h-[500px] rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/assets/kecas-kepce-calisma-sahasi.jpeg"
+                src="/assets/kecas-kepce-calisma-sahasi.avif"
                 alt="Keçaş Kepçe JCB 3CX çalışma sahası"
                 fill
                 className="object-cover"

@@ -75,10 +75,10 @@ export const servicesData: ServiceData[] = [
         primaryLocation: "Arnavutköy, İstanbul",
         secondaryLocations: ["Şirindere", "Hadımköy", "Taşoluk", "Boyalık"],
         seo: {
-            metaTitle: "Arnavutköy Operatörlü Kepçe Kiralama | JCB 3CX Kepçe Hizmeti",
-            metaDescription: "Arnavutköy'de 22 yıldır profesyonel kepçe hizmeti ve JCB 3CX kepçe kiralama. Tecrübeli operatör dahil, saatlik/günlük kiralama. Kazı, yükleme, hafriyat. ☎ 0539 477 81 12",
+            metaTitle: "Operatörlü Kepçe Kiralama | Keçaş Kepçe",
+            metaDescription: "JCB 3CX ile operatörlü kepçe kiralama hizmeti. Tecrübeli operatör dahil, saatlik/günlük kiralama. Kazı, yükleme, hafriyat işleriniz için ücretsiz keşif. ☎ 0539 477 81 12",
             canonical: "/hizmetler/operatorlu-kepce-kiralama",
-            h1: "Arnavutköy Operatörlü Kepçe Kiralama"
+            h1: "Operatörlü Kepçe Kiralama"
         },
         content: {
             intro: "Arnavutköy'de 2004 yılından bu yana profesyonel kepçe hizmeti ve JCB 3CX kepçe kiralama sunuyoruz. İş makinesi kiralamak sadece makineyi değil, onu kullanacak ustalığı da kiralamaktır. Bakımlı JCB 3CX beko loder kazıyıcı yükleyici ekipmanımız ve sektörün en tecrübeli operatörleri ile kazı, yükleme, hafriyat ve zemin düzenleme işlerinde güvenilir çözümler üretiyoruz. 22 yıllık sektör tecrübemiz ve tecrübeli operatör kadromuz ile konut, ticari alan ve altyapı projelerinde hızlı ve kaliteli hizmet sağlıyoruz. Saatlik veya günlük kiralama seçenekleri ile ihtiyacınıza uygun esnek çalışma imkanı sunuyoruz.",
@@ -191,10 +191,10 @@ export const servicesData: ServiceData[] = [
         secondaryLocations: ["Şirindere", "Hadımköy", "Taşoluk", "Boyalık"],
 
         seo: {
-            metaTitle: "Arnavutköy Kazı İşleri | Profesyonel Hafriyat ve Kazı",
-            metaDescription: "Arnavutköy'de profesyonel kazı işleri. Temel, kanal, çevre düzenleme ve her türlü toprak kazısı için JCB kepçe kiralama. Hemen arayın: ☎ 0539 477 81 12",
+            metaTitle: "Kazı İşleri | Keçaş Kepçe",
+            metaDescription: "Profesyonel kazı ve hafriyat hizmeti. JCB 3CX kepçe ile temel, kanal, çevre düzenleme ve toprak kazısı. Ücretsiz keşif sonrası net fiyat. ☎ 0539 477 81 12",
             canonical: "/hizmetler/kazi-isleri",
-            h1: "Arnavutköy Kazı İşleri"
+            h1: "Kazı İşleri"
         },
 
         content: {
@@ -256,10 +256,10 @@ export const servicesData: ServiceData[] = [
         secondaryLocations: ["Bolluca", "Haraççı", "İmrahor"],
 
         seo: {
-            metaTitle: "Arnavutköy Temel Kazısı | Bina ve İnşaat Temeli",
-            metaDescription: "Arnavutköy'de bina, villa ve yapı temel kazısı hizmeti. Projeye uygun, hassas ve güvenli temel açma. Tecrübeli operatör. ☎ 0539 477 81 12",
+            metaTitle: "Temel Kazısı | Keçaş Kepçe",
+            metaDescription: "Bina, villa ve yapı temel kazısı hizmeti. Projeye uygun, hassas ve güvenli temel açma. JCB 3CX kepçe ile profesyonel çözüm. ☎ 0539 477 81 12",
             canonical: "/hizmetler/temel-kazisi",
-            h1: "Arnavutköy Temel Kazısı"
+            h1: "Temel Kazısı"
         },
 
         content: {
@@ -316,10 +316,10 @@ export const servicesData: ServiceData[] = [
         primaryLocation: "Arnavutköy, İstanbul",
         secondaryLocations: ["Şirindere", "Hadımköy", "Karlıbayır", "Deliklikaya", "Ömerli", "Anadolu Mahallesi"],
         seo: {
-            metaTitle: "Arnavutköy Dolgu ve Tesviye | Toprak Dolgu, Zemin Düzeltme",
-            metaDescription: "Arnavutköy'de dolgu işleri, arazi tesviyesi ve zemin düzleme hizmeti. Toprak dolgu, bahçe düzenleme, arsa hazırlama, sıkıştırma. JCB kepçe ile profesyonel hizmet. ☎ 0539 477 81 12",
+            metaTitle: "Dolgu ve Tesviye | Keçaş Kepçe",
+            metaDescription: "Dolgu işleri, arazi tesviyesi ve zemin düzleme hizmeti. Toprak dolgu, bahçe düzenleme, arsa hazırlama. JCB kepçe ile profesyonel çözüm. ☎ 0539 477 81 12",
             canonical: "/hizmetler/dolgu-tesviye",
-            h1: "Arnavutköy Dolgu ve Tesviye"
+            h1: "Dolgu ve Tesviye"
         },
         content: {
             intro: "Düzgün bir zemin, her projenin başlangıç noktasıdır. Arnavutköy'de inşaat temellerinin çevresi, bahçe zeminleri, kot düşüklüğü olan alanlar ve engebeli arazilerin düzeltilmesi için profesyonel dolgu ve tesviye hizmeti veriyoruz. Dolgu malzemesinin temini, alana serilmesi, sıkıştırılması ve zemin tesviyesi (reglaj) işlemlerini anahtar teslim veya sadece işçilik olarak sunuyoruz. JCB kepçemizin ön kovası (loader) ile kot farklarını gideriyor, suyun doğru akışını sağlıyor ve kullanım alanınızı maksimuma çıkarıyoruz.",
@@ -406,10 +406,10 @@ export const servicesData: ServiceData[] = [
         primaryLocation: "Arnavutköy, İstanbul",
         secondaryLocations: ["Haraççı", "Taşoluk", "İmrahor", "Şirindere", "Boğazköy", "Hadımköy", "Sanayi Bölgesi"],
         seo: {
-            metaTitle: "Arnavutköy Yıkım Hizmetleri | Bina, Duvar, Beton Kırma",
-            metaDescription: "Arnavutköy'de profesyonel yıkım hizmetleri: Bina yıkımı, duvar yıkımı, küçük yapı yıkımı, beton kırma. JCB kepçe ve kırıcı ile güvenli yıkım. Moloz dahil. ☎ 0539 477 81 12",
+            metaTitle: "Yıkım Hizmetleri | Keçaş Kepçe",
+            metaDescription: "Profesyonel yıkım hizmeti: Bina yıkımı, duvar yıkımı, küçük yapı yıkımı, beton kırma. JCB kepçe ve kırıcı ile güvenli yıkım. Moloz dahil. ☎ 0539 477 81 12",
             canonical: "/hizmetler/yikim-hizmetleri",
-            h1: "Arnavutköy Yıkım Hizmetleri"
+            h1: "Yıkım Hizmetleri"
         },
         content: {
             intro: "Arnavutköy'de kentsel dönüşüm, yenileme projeleri ve bahçe düzenlemesi için her türlü yıkım hizmetini güvenli bir şekilde gerçekleştiriyoruz. Bina yıkımı, duvar yıkımı, küçük yapı yıkımı ve beton kırma işlemlerinde JCB 3CX kepçemiz ve hidrolik kırıcı ekipmanımız ile çevreye zarar vermeden, gürültü ve toz kontrolü sağlayarak profesyonel hizmet veriyoruz. Yıkım sonrası çıkan molozun yüklenmesi ve döküm sahasına nakliyesi dahil anahtar teslim çözüm sunuyoruz. 22 yıllık tecrübemizle güvenli ve kontrollü yıkım garantisi veriyoruz.",
@@ -515,10 +515,10 @@ export const servicesData: ServiceData[] = [
         primaryLocation: "Arnavutköy, İstanbul",
         secondaryLocations: ["Hadımköy", "Bolluca", "Taşoluk"],
         seo: {
-            metaTitle: "Arnavutköy İş Makinesi Kiralama | Kepçe, Ekskavatör, Kamyon",
-            metaDescription: "Arnavutköy'de her türlü iş makinesi kiralama çözümleri. JCB, mini ekskavatör, kamyon temini. Projenize uygun makine parkı. ☎ 0539 477 81 12",
+            metaTitle: "İş Makinesi Kiralama | Keçaş Kepçe",
+            metaDescription: "Her türlü iş makinesi kiralama çözümleri. JCB kepçe, mini ekskavatör, kamyon temini. Projenize uygun makine parkı. ☎ 0539 477 81 12",
             canonical: "/hizmetler/is-makinesi-kiralama",
-            h1: "Arnavutköy İş Makinesi Kiralama"
+            h1: "İş Makinesi Kiralama"
         },
         content: {
             intro: "İnşaat ve hafriyat projeleriniz için sadece JCB kepçe değil, ihtiyacınız olabilecek diğer iş makineleri konusunda da çözüm ortağınızız. Kendi filomuz ve geniş tedarik ağımız sayesinde ekskavatör, mini kepçe, bobcat veya hafriyat kamyonu ihtiyaçlarınıza tek noktadan cevap veriyoruz. Arnavutköy'de iş makinesi arama derdine son veriyoruz.",
@@ -550,6 +550,89 @@ export const servicesData: ServiceData[] = [
         ],
         conversion: { primaryCTA: "Makine İste", secondaryCTA: "Proje Danış" },
         internalLinks: { relatedServices: ["operatorlu-kepce-kiralama", "kazi-isleri", "temel-kazisi"] }
+    },
+
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    // 7. ARNAVUTKÖY KİRALIK KEPÇE (LOKASYON SAYFASI)
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    {
+        slug: "arnavutkoy-kiralik-kepce",
+        name: "Arnavutköy Kiralık Kepçe",
+        industry: "equipment-rental",
+        serviceType: "local",
+        primaryLocation: "Arnavutköy, İstanbul",
+        secondaryLocations: ["Hadımköy", "Taşoluk", "Bolluca", "Haraççı", "Şirindere"],
+        seo: {
+            metaTitle: "Arnavutköy Kiralık Kepçe | Operatörlü JCB 3CX – Keçaş Kepçe",
+            metaDescription: "Arnavutköy'de operatörlü kiralık kepçe hizmeti. JCB 3CX ile kazı, dolgu, temel kazısı ve yıkım işleri. Aynı gün hizmet, ücretsiz keşif. ☎ 0539 477 81 12",
+            canonical: "/hizmetler/arnavutkoy-kiralik-kepce",
+            h1: "Arnavutköy Kiralık Kepçe Hizmeti"
+        },
+        content: {
+            intro: "Keçaş Kepçe olarak Arnavutköy'de JCB 3CX kazıyıcı yükleyici ile operatörlü kiralık kepçe hizmeti sunuyoruz. Kazı, temel açma, dolgu, tesviye ve yıkım işleri Arnavutköy genelinde profesyonel şekilde gerçekleştirilir. Yerel ekip avantajımız sayesinde hızlı mobilizasyon ve uygun fiyat sunuyoruz.",
+            problemStatement: "Arnavutköy'de kepçe ihtiyacı genellikle acildir. Güvenilir operatör bulmak, makinenin zamanında gelmemesi veya fiyat belirsizliği işleri geciktirir. Yanlış makine seçimi hem maliyeti artırır hem de işi uzatır.",
+            solutionOverview: "Tek makine – tek sorumluluk prensibiyle çalışıyoruz. JCB 3CX kepçemiz ve tecrübeli operatörümüzle işi baştan sona biz yönetiyoruz. Ücretsiz keşif sonrası net fiyat veriyor, sürpriz maliyet çıkarmıyoruz.",
+            processSteps: [
+                { title: "Keşif ve Planlama", description: "İşin yapılacağı alan incelenir, uygun çalışma planı çıkarılır." },
+                { title: "Fiyat ve Zamanlama", description: "Saatlik veya günlük net fiyat belirlenir, randevu oluşturulur." },
+                { title: "Uygulama", description: "JCB 3CX kepçe ve operatör sahaya gelir, iş güvenli şekilde yapılır." },
+                { title: "Teslim", description: "İş tamamlanır, saha temiz bırakılır." }
+            ],
+            benefits: [
+                "Arnavutköy odaklı hızlı hizmet",
+                "Operatörlü kiralama – ek masraf yok",
+                "JCB 3CX ile çok yönlü çalışma",
+                "Aynı gün hizmet imkanı",
+                "Net ve şeffaf fiyatlandırma"
+            ],
+            useCases: [
+                "Arnavutköy temel kazısı",
+                "Bahçe ve arsa kazısı",
+                "Dolgu ve tesviye işleri",
+                "Duvar ve küçük yapı yıkımı",
+                "Kanal açma"
+            ],
+            experienceProof: [
+                "Arnavutköy'de 20+ yıllık saha tecrübesi",
+                "Yüzlerce yerel kazı ve dolgu işi",
+                "Bölge zemin yapısına hakim operatör"
+            ],
+            pricingLogic: "Saatlik veya günlük kiralama bazlıdır. İşin türüne ve süresine göre net fiyat ücretsiz keşif sonrası belirlenir.",
+            trustSignals: [
+                "Yerel Arnavutköy firması",
+                "Gerçek saha fotoğrafları",
+                "Operatörlü ve sigortalı çalışma",
+                "Müşteri memnuniyeti odaklı hizmet"
+            ]
+        },
+        media: {
+            heroImageAlt: "Arnavutköy'de JCB 3CX ile kiralık kepçe çalışması",
+            galleryAlts: [
+                "Arnavutköy kiralık kepçe kazı çalışması",
+                "JCB 3CX ile dolgu işlemi",
+                "Arnavutköy kepçe yıkım işi"
+            ]
+        },
+        localSEO: {
+            serviceAreaText: "Arnavutköy merkez ve çevre mahallelerde aktif kiralık kepçe hizmeti veriyoruz.",
+            locationContext: "Arnavutköy'ün arazi ve zemin yapısını bilen yerel ekip avantajıyla hızlı ve güvenli hizmet sağlıyoruz."
+        },
+        faq: [
+            {
+                question: "Arnavutköy kiralık kepçe fiyatları ne kadar?",
+                answer: "Fiyatlar işin süresine ve yapılacak çalışmaya göre değişir. Ücretsiz keşif sonrası net fiyat sunuyoruz."
+            },
+            {
+                question: "Operatör dahil mi?",
+                answer: "Evet, tüm kiralık kepçe hizmetlerimiz operatörlüdür."
+            },
+            {
+                question: "Aynı gün hizmet alabilir miyim?",
+                answer: "Müsaitlik durumuna göre Arnavutköy içinde aynı gün hizmet sağlıyoruz."
+            }
+        ],
+        conversion: { primaryCTA: "Hemen Ara: 0539 477 81 12", secondaryCTA: "Ücretsiz Keşif İste" },
+        internalLinks: { relatedServices: ["operatorlu-kepce-kiralama", "kazi-isleri", "dolgu-tesviye", "yikim-hizmetleri"] }
     }
 ];
 

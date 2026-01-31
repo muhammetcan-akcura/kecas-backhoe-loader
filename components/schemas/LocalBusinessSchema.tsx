@@ -17,22 +17,56 @@ export function LocalBusinessSchema() {
     telephone: businessConfig.phone,
     email: businessConfig.email,
 
-    /* ---------------- ADDRESS (SERVICE AREA SAFE) ---------------- */
+    /* ---------------- ADDRESS ---------------- */
     address: businessConfig.address,
 
-    /* ---------------- SERVICE AREA ---------------- */
-    areaServed: {
-      "@type": "ServiceArea",
-      areaServed: {
-        "@type": "AdministrativeArea",
-        name: businessConfig.serviceArea.full,
+    /* ---------------- GEO COORDINATES ---------------- */
+    geo: businessConfig.geo,
+
+    /* ---------------- MAP LINK ---------------- */
+    hasMap: businessConfig.hasMap,
+
+    /* ---------------- SERVICE AREA (CORRECTED) ---------------- */
+    areaServed: [
+      {
+        "@type": "City",
+        name: "Arnavutköy",
+        containedInPlace: {
+          "@type": "State",
+          name: "İstanbul",
+        },
       },
-    },
+      {
+        "@type": "Place",
+        name: "Hadımköy",
+      },
+      {
+        "@type": "Place",
+        name: "Taşoluk",
+      },
+      {
+        "@type": "Place",
+        name: "Şirindere",
+      },
+      {
+        "@type": "Place",
+        name: "Bolluca",
+      },
+      {
+        "@type": "Place",
+        name: "Boyalık",
+      },
+    ],
 
     /* ---------------- OPENING HOURS ---------------- */
     openingHoursSpecification: businessConfig.openingHoursSpec,
 
-    /* ---------------- BUSINESS TYPE ---------------- */
+    /* ---------------- PAYMENT & LANGUAGE ---------------- */
+    paymentAccepted: businessConfig.paymentAccepted,
+    currenciesAccepted: businessConfig.currenciesAccepted,
+    knowsLanguage: businessConfig.knowsLanguage,
+
+    /* ---------------- SERVICE TYPES ---------------- */
     serviceType: [
       "Kepçe kiralama",
       "JCB kepçe kiralama",

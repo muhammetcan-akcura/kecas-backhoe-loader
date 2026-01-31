@@ -6,6 +6,7 @@ import { businessConfig } from "@/lib/config";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { LocalBusinessSchema } from "@/components/schemas/LocalBusinessSchema";
+import { WebSiteSchema } from "@/components/schemas/WebSiteSchema";
 import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics";
 
 // Dynamic import for mobile-only CTA (not SEO-critical, reduces initial bundle)
@@ -116,6 +117,7 @@ export default function RootLayout({
       </head>
       <body className="antialiased flex flex-col min-h-screen">
         <LocalBusinessSchema />
+        <WebSiteSchema />
         <GoogleAnalytics />
         <Header />
         <main className="grow">

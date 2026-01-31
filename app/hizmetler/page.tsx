@@ -8,9 +8,9 @@ import { FAQSchema } from "@/components/schemas/FAQSchema";
 import { businessConfig } from "@/lib/config";
 
 export const metadata: Metadata = generateMetadata({
-  title: "Arnavutköy Kepçe Kiralama Hizmetleri | KEÇAŞ KEPÇE",
+  title: "Kepçe ve Hafriyat Hizmetleri | Keçaş Kepçe",
   description:
-    "Arnavutköy JCB kepçe kiralama, kazı işleri, temel kazısı, yıkım, kanal açma ve dolgu tesviye hizmetleri. Operatörlü kepçe, ücretsiz keşif.",
+    "JCB kepçe kiralama, kazı işleri, temel kazısı, yıkım, kanal açma ve dolgu tesviye hizmetleri. Operatörlü kepçe, ücretsiz keşif.",
   path: "/hizmetler",
 });
 
@@ -46,7 +46,7 @@ export default function ServicesPage() {
         <div className="container-main py-14 md:py-18">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="mb-5 text-3xl md:text-4xl lg:text-5xl font-bold">
-              Arnavutköy Kepçe Kiralama Hizmetleri
+              Kepçe ve Hafriyat Hizmetlerimiz
             </h1>
 
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">

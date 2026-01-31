@@ -13,7 +13,7 @@ export function Hero() {
           <div className="order-2 lg:order-1">
             {/* H1 - SEO Optimized */}
             <h1 className="mb-6 text-foreground leading-tight">
-              Arnavutköy'de Güvenilir Kepçe Kiralama Hizmeti
+              Arnavutköy'de Profesyonel Kepçe Hizmetleri
             </h1>
 
             {/* Alt başlık - Değer teklifi */}

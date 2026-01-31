@@ -108,8 +108,8 @@ export function generateServiceMetadata(
 
 export function getHomeMetadata(): Metadata {
   return generateMetadata({
-    title: "Arnavutköy Kepçe Kiralama – JCB 3CX Operatörlü Hizmet",
-    description: businessConfig.seo.defaultDescription,
+    title: "Arnavutköy Kepçe Hizmetleri | Keçaş Kepçe",
+    description: "Keçaş Kepçe, Arnavutköy'de kazı, dolgu, temel kazısı ve yıkım işleri için profesyonel kepçe hizmetleri sunar. 22 yıllık tecrübe, JCB 3CX, hızlı çözüm.",
     path: "/",
   });
 }

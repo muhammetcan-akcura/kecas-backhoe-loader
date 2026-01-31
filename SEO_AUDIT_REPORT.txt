@@ -1,0 +1,417 @@
+SEO AUDIT REPORT - KECAS KEPCE
+Date: 2026-01-31
+Analyst: Technical SEO Expert
+
+================================================================================
+1. EXECUTIVE SUMMARY
+================================================================================
+
+Site Status: READY TO RANK (with minor fixes)
+
+The site has a well-structured SEO foundation with clear intent separation between 
+the homepage, location landing page, and service pages. The recent anti-cannibalization 
+updates have correctly positioned each page for its target keywords.
+
+Key Strengths:
+- Clear keyword differentiation between homepage and money page
+- Proper internal linking hierarchy
+- Well-structured schema markup with entity connections
+- Strong local SEO signals without spammy over-optimization
+
+Key Weaknesses:
+- Some semantic overlap in content body text
+- Missing reciprocal internal links from service pages to homepage
+- FAQ on homepage still contains "kepce kiralama" which slightly dilutes intent
+
+Overall Risk Level: LOW
+The site is unlikely to be penalized in a Core Update. The structure is clean
+and follows Google's guidelines for local service businesses.
+
+
+================================================================================
+2. CANNIBALIZATION FINDINGS
+================================================================================
+
+2.1 TITLE/H1 ANALYSIS - NO CRITICAL CANNIBALIZATION DETECTED
+
+URL: /
+Title: Arnavutkoy Kepce Hizmetleri | Kecas Kepce
+H1: Arnavutkoy'de Profesyonel Kepce Hizmetleri
+Target: kepce hizmetleri, kepce calismasi, kepceci
+Status: CLEAN - No "kiralik" in title/H1
+
+URL: /hizmetler/arnavutkoy-kiralik-kepce
+Title: Arnavutkoy Kiralik Kepce | Operatorlu JCB 3CX - Kecas Kepce
+H1: Arnavutkoy Kiralik Kepce Hizmeti
+Target: kiralik kepce, arnavutkoy kiralik kepce
+Status: CLEAN - Sole leader for "kiralik kepce"
+
+URL: /hizmetler/operatorlu-kepce-kiralama
+Title: Operatorlu Kepce Kiralama | Kecas Kepce
+H1: Operatorlu Kepce Kiralama
+Target: operatorlu kepce kiralama
+Status: CLEAN - No location in title/H1
+
+URL: /hizmetler/kazi-isleri
+Title: Kazi Isleri | Kecas Kepce
+H1: Kazi Isleri
+Target: kazi isleri, hafriyat
+Status: CLEAN
+
+URL: /hizmetler/temel-kazisi
+Title: Temel Kazisi | Kecas Kepce
+H1: Temel Kazisi
+Target: temel kazisi
+Status: CLEAN
+
+URL: /hizmetler/dolgu-tesviye
+Title: Dolgu ve Tesviye | Kecas Kepce
+H1: Dolgu ve Tesviye
+Target: dolgu tesviye, arazi tesviyesi
+Status: CLEAN
+
+URL: /hizmetler/yikim-hizmetleri
+Title: Yikim Hizmetleri | Kecas Kepce
+H1: Yikim Hizmetleri
+Target: yikim, beton kirma
+Status: CLEAN
+
+URL: /hizmetler/is-makinesi-kiralama
+Title: Is Makinesi Kiralama | Kecas Kepce
+H1: Is Makinesi Kiralama
+Target: is makinesi kiralama
+Status: CLEAN
+
+URL: /hizmetler
+Title: Kepce ve Hafriyat Hizmetleri | Kecas Kepce
+H1: Kepce ve Hafriyat Hizmetlerimiz
+Target: Distributor page - no specific keyword
+Status: CLEAN - Acts as a hub, not a leader
+
+
+2.2 MINOR CONTENT OVERLAP ISSUES
+
+Issue 1: Homepage FAQ contains "kepce kiralama" phrases
+Location: /app/page.tsx lines 17-35
+Risk Level: LOW
+Google Impact: May slightly confuse which page should rank for "kepce kiralama"
+Solution: Reword FAQ to use "kepce hizmeti" instead of "kepce kiralama"
+
+Issue 2: Hero subtitle mentions "JCB 3CX kepce kiralama"
+Location: /components/home/Hero.tsx line 21
+Risk Level: LOW
+Google Impact: Minor signal dilution
+Solution: Change to "JCB 3CX kepce hizmeti" or "JCB 3CX kepce calismalari"
+
+
+================================================================================
+3. PAGE-BY-PAGE INTENT ANALYSIS
+================================================================================
+
+3.1 HOMEPAGE (/)
+Intent Type: Commercial + Navigational + Brand
+Primary Role: Brand hub, trust builder, distributor
+Secondary Role: Local authority for "kepce hizmetleri"
+Cannibalization Risk: LOW
+Assessment: Correctly positioned. Does not compete with money page.
+
+3.2 LOCATION LANDING PAGE (/hizmetler/arnavutkoy-kiralik-kepce)
+Intent Type: Transactional (Money Page)
+Primary Role: Convert "kiralik kepce" searchers
+Secondary Role: Local authority for Arnavutkoy kepce rental
+Cannibalization Risk: NONE
+Assessment: Single leader for transactional queries. Well isolated.
+
+3.3 OPERATOR RENTAL PAGE (/hizmetler/operatorlu-kepce-kiralama)
+Intent Type: Commercial Investigation
+Primary Role: Explain operator-included rental service
+Secondary Role: Support money page
+Cannibalization Risk: LOW
+Assessment: Clear differentiation from money page. Service-focused, not location-focused.
+
+3.4 SERVICE PAGES (kazi-isleri, temel-kazisi, dolgu-tesviye, yikim-hizmetleri, is-makinesi-kiralama)
+Intent Type: Commercial Investigation
+Primary Role: Service-specific information
+Secondary Role: Internal link donors to money page
+Cannibalization Risk: NONE
+Assessment: Each page targets unique service keywords. No overlap.
+
+3.5 SERVICES HUB (/hizmetler)
+Intent Type: Navigational
+Primary Role: Directory page, internal link distributor
+Secondary Role: None
+Cannibalization Risk: NONE
+Assessment: Correctly positioned as a hub, not a leader.
+
+
+================================================================================
+4. INTERNAL LINKING ISSUES
+================================================================================
+
+4.1 CURRENT STRUCTURE
+
+Homepage (/) 
+  -> /hizmetler/arnavutkoy-kiralik-kepce [GOOD - "Arnavutkoy kiralik kepce hizmeti"]
+  -> /iletisim
+
+Service Pages (/hizmetler/*)
+  -> /hizmetler/arnavutkoy-kiralik-kepce [GOOD - via banner]
+
+arnavutkoy-kiralik-kepce
+  -> / [GOOD - "Arnavutkoy kepce hizmetleri"]
+
+
+4.2 ANCHOR TEXT ANALYSIS
+
+Anchor: "Arnavutkoy kiralik kepce hizmeti"
+From: Homepage
+To: Money page
+Assessment: GOOD - Exact match for transactional intent
+
+Anchor: "Arnavutkoy kiralik kepce"
+From: All service pages
+To: Money page
+Assessment: GOOD - Consistent anchor text
+
+Anchor: "Arnavutkoy kepce hizmetleri"
+From: Money page
+To: Homepage
+Assessment: GOOD - Supports homepage intent
+
+
+4.3 MISSING INTERNAL LINKS
+
+Issue 1: ServiceGrid component links only to /hizmetler/[slug], not to money page
+Risk Level: LOW
+Solution: Add highlighted card for arnavutkoy-kiralik-kepce in ServiceGrid
+
+Issue 2: No internal links from /hakkimizda or /iletisim to money page
+Risk Level: VERY LOW
+Solution: Add contextual link in About and Contact pages
+
+
+4.4 LINK DISTRIBUTION
+
+Most linked page (internal): Homepage (via header/footer)
+Money page links received: 7+ (homepage + all service pages)
+Assessment: GOOD - Money page receives adequate internal link support
+
+
+================================================================================
+5. SCHEMA AND ENTITY REVIEW
+================================================================================
+
+5.1 LOCALBUSINESS SCHEMA
+
+Location: /components/schemas/LocalBusinessSchema.tsx
+Status: CORRECT
+
+Fields Present:
+- @id: kecaskepce.com.tr#localbusiness [GOOD - unique identifier]
+- @type: [LocalBusiness, HomeAndConstructionBusiness] [GOOD]
+- name, description, foundingDate [GOOD]
+- telephone, email [GOOD]
+- address [GOOD - partial, waiting for GMB verification]
+- geo [GOOD - coordinates present]
+- hasMap [GOOD - GMB link present]
+- areaServed [GOOD - City + Places structure]
+- openingHoursSpecification [GOOD]
+- paymentAccepted, currenciesAccepted, knowsLanguage [GOOD]
+- serviceType [GOOD - 9 services listed]
+- sameAs [EMPTY - needs social profiles when available]
+
+Issues Found: NONE
+Entity Graph: LocalBusiness is properly defined as the central entity
+
+
+5.2 WEBSITE SCHEMA
+
+Location: /components/schemas/WebSiteSchema.tsx
+Status: CORRECT
+
+Fields Present:
+- @id: kecaskepce.com.tr#website [GOOD]
+- publisher -> @id: #localbusiness [GOOD - proper entity reference]
+- inLanguage: tr-TR [GOOD]
+
+Issues Found: NONE
+
+
+5.3 SERVICE SCHEMA
+
+Location: /components/schemas/ServiceSchema.tsx
+Status: CORRECT
+
+Fields Present:
+- @id: unique per service [GOOD]
+- provider -> @id: #localbusiness [GOOD - links to central entity]
+- areaServed: City [GOOD]
+- url: service-specific [GOOD]
+
+Issues Found: NONE
+
+
+5.4 FAQ SCHEMA
+
+Location: /components/schemas/FAQSchema.tsx
+Status: CORRECT
+Used on: Homepage, /hizmetler
+Issues Found: NONE
+
+
+5.5 BREADCRUMB SCHEMA
+
+Location: /components/schemas/BreadcrumbSchema.tsx
+Status: CORRECT
+Used on: /hizmetler
+Issues Found: NONE
+Missing on: Service pages (not critical)
+
+
+5.6 ENTITY GRAPH SUMMARY
+
+LocalBusiness (#localbusiness)
+  <- WebSite.publisher
+  <- Service.provider (x7 services)
+
+Assessment: Clean entity graph. No duplicate entities. Proper @id references.
+
+
+================================================================================
+6. CONTENT QUALITY REVIEW
+================================================================================
+
+6.1 HOMEPAGE (/)
+
+Brand Signal: STRONG
+- Company name prominent
+- 22 years experience mentioned multiple times
+- JCB 3CX equipment highlighted
+
+Local Trust: STRONG
+- Arnavutkoy mentioned in H1
+- Service area neighborhoods listed
+- Location-specific language
+
+Sales Pressure: BALANCED
+- Not overly aggressive
+- Clear CTAs without manipulation
+- Phone number visible but not overwhelming
+
+Content Depth: ADEQUATE
+- FAQ present
+- Trust signals visible
+- Could add more unique content
+
+
+6.2 LOCATION LANDING PAGE (/hizmetler/arnavutkoy-kiralik-kepce)
+
+Transactional Readiness: STRONG
+- Clear pricing logic
+- Process steps explained
+- Multiple CTAs
+
+Competitive Edge: MODERATE
+- Good local focus
+- Could strengthen with testimonials
+- Photo gallery mentioned but needs real images
+
+CTA Placement: GOOD
+- Phone number in CTA
+- "Ucretsiz Kesif" option
+
+
+6.3 SERVICE PAGES
+
+Content Depth: STRONG
+- Problem-solution format
+- Process steps
+- FAQ sections
+- Benefits listed
+
+Local vs General Balance: GOOD
+- Location mentioned in intro only
+- Service-focused content
+- Not competing with money page
+
+
+================================================================================
+7. PRIORITY FIX LIST
+================================================================================
+
+HIGH PRIORITY (Fix within 1 week):
+
+1. Homepage FAQ Wording
+   File: /app/page.tsx lines 17-35
+   Action: Change "kepce kiralama" to "kepce hizmeti"
+   Impact: Removes last semantic overlap
+
+2. Homepage Hero Subtitle
+   File: /components/home/Hero.tsx line 21
+   Action: Change "JCB 3CX kepce kiralama" to "JCB 3CX kepce hizmeti"
+   Impact: Cleans up intent signals
+
+
+MEDIUM PRIORITY (Fix within 2 weeks):
+
+3. ServiceGrid Money Page Highlight
+   Action: Add visual priority for arnavutkoy-kiralik-kepce card
+   Impact: Improves internal link visibility
+
+4. Add Social Profiles to sameAs
+   File: /lib/config.ts
+   Action: Add Instagram/Facebook/YouTube when available
+   Impact: Strengthens entity signals
+
+
+LOW PRIORITY (Fix within 1 month):
+
+5. Add Breadcrumb Schema to Service Pages
+   Action: Include BreadcrumbSchema in [slug]/page.tsx
+   Impact: Minor rich results enhancement
+
+6. Add Internal Links from /hakkimizda and /iletisim
+   Action: Contextual link to money page
+   Impact: Additional link equity
+
+
+================================================================================
+8. FINAL VERDICT
+================================================================================
+
+IS THIS SITE READY TO RANK?
+
+Answer: YES
+
+The site has a clean, well-structured SEO foundation. The anti-cannibalization 
+updates have correctly separated search intents:
+
+- Homepage = kepce hizmetleri (brand + services)
+- Money Page = kiralik kepce (transactional)
+- Service Pages = individual services (commercial investigation)
+
+Schema markup is properly implemented with correct entity references.
+Internal linking supports the money page from all relevant pages.
+
+Risk Assessment:
+- Core Update Risk: LOW
+- Local Spam Risk: VERY LOW
+- Over-optimization Risk: LOW
+
+Expected Timeline:
+- Initial ranking signals: 2-4 weeks
+- Stable rankings for target keywords: 6-12 weeks
+- Full local pack inclusion: Depends on GMB status
+
+Immediate Actions:
+1. Deploy current changes
+2. Submit sitemap to Search Console
+3. Request re-indexing of updated pages
+4. Monitor Search Console for indexing status
+
+The site is technically sound and ready to compete for local search queries
+in the Arnavutkoy kepce/excavator rental market.
+
+================================================================================
+END OF REPORT
+================================================================================

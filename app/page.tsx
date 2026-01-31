@@ -54,20 +54,22 @@ export default function HomePage() {
       <section className="section-padding bg-card border-t border-border">
         <div className="container-main">
           <div className="max-w-3xl mx-auto text-center">
-            <h2>Arnavutköy'de Güvenilir Kepçe Kiralama Hizmeti</h2>
+            <h2>Arnavutköy'de Güvenilir Kepçe Hizmeti</h2>
             <div className="prose prose-lg text-muted-foreground space-y-4 text-left">
               <p className="text-lg">
                 KEÇAŞ KEPÇE olarak 2004 yılından beri Arnavutköy, Şirindere, Hadımköy, Taşoluk,
-                Boyalık ve çevre bölgelerde JCB 3CX kepçe kiralama ve kazı hizmeti veriyoruz.
+                Boyalık ve çevre bölgelerde JCB 3CX kepçe ile profesyonel kazı hizmeti veriyoruz.
                 Bölgedeki arazi yapısını, zemin özelliklerini ve yerel ihtiyaçları çok iyi biliyoruz.
               </p>
               <p className="text-lg">
-                <a href="/hizmetler/jcb-kepce-kiralama" className="underline">
-                  Operatörlü kepçe kiralama
-                </a>, temel kazısı, yıkım işleri ve hafriyat hizmetlerinde 22 yıllık tecrübemiz,
+                Temel kazısı, yıkım işleri, dolgu ve hafriyat hizmetlerinde 22 yıllık tecrübemiz,
                 uygun fiyatlarımız ve profesyonel ekipmanımız ile müşterilerimizin güvenini kazandık.
                 İster konut, ister ticari alan olsun, tüm kazı ve kepçe işlerinizi gönül rahatlığıyla
-                bize bırakabilirsiniz.
+                bize bırakabilirsiniz.{" "}
+                <a href="/hizmetler/arnavutkoy-kiralik-kepce" className="underline font-semibold">
+                  Arnavutköy kiralık kepçe hizmeti
+                </a>{" "}
+                hakkında detaylı bilgi alabilirsiniz.
               </p>
             </div>
           </div>

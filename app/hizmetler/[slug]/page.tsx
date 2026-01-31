@@ -7,6 +7,7 @@ import Link from "next/link";
 import { Phone, CheckCircle, ArrowRight, Clock, MapPin } from "lucide-react";
 import { businessConfig } from "@/lib/config";
 import { ServiceGallery } from "@/components/common/ServiceGallery";
+import { ServiceSchema } from "@/components/schemas/ServiceSchema";
 
 type Props = {
     params: { slug: string };
@@ -52,6 +53,9 @@ export default async function ServicePage({ params }: Props) {
 
     return (
         <main className="min-h-screen bg-white">
+            {/* SERVICE SCHEMA */}
+            <ServiceSchema service={service} />
+
             {/* HERO SECTION */}
             <section className="bg-white border-b-4 border-primary">
                 <div className="container-main py-12 md:py-16">
@@ -75,6 +79,42 @@ export default async function ServicePage({ params }: Props) {
                     </div>
                 </div>
             </section>
+
+            {/* ARNAVUTKÖY LOCATION LINK - Show on all service pages except arnavutkoy-kiralik-kepce */}
+            {slug !== "arnavutkoy-kiralik-kepce" && (
+                <section className="bg-primary/10 border-y-2 border-primary">
+                    <div className="container-main py-4">
+                        <p className="text-center text-gray-900">
+                            <MapPin size={18} className="inline-block mr-2 text-primary" />
+                            <Link
+                                href="/hizmetler/arnavutkoy-kiralik-kepce"
+                                className="font-semibold text-primary hover:underline"
+                            >
+                                Arnavutköy kiralık kepçe
+                            </Link>
+                            {" "}hizmetimiz hakkında detaylı bilgi için tıklayın.
+                        </p>
+                    </div>
+                </section>
+            )}
+
+            {/* HOMEPAGE LINK - Only for arnavutkoy-kiralik-kepce */}
+            {slug === "arnavutkoy-kiralik-kepce" && (
+                <section className="bg-primary/10 border-y-2 border-primary">
+                    <div className="container-main py-4">
+                        <p className="text-center text-gray-900">
+                            <MapPin size={18} className="inline-block mr-2 text-primary" />
+                            <Link
+                                href="/"
+                                className="font-semibold text-primary hover:underline"
+                            >
+                                Arnavutköy kepçe hizmetleri
+                            </Link>
+                            {" "}hakkında daha fazla bilgi için ana sayfamızı ziyaret edin.
+                        </p>
+                    </div>
+                </section>
+            )}
 
             {/* PROBLEM → SOLUTION */}
             <section className="section-padding bg-accent">
