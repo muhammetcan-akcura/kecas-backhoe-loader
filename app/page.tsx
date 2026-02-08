@@ -50,27 +50,75 @@ export default function HomePage() {
       <WorkGallery />
       <TrustSignals />
 
-      {/* Local relevance section */}
-      <section className="section-padding bg-card border-t border-border">
+      {/* Recent Activity Section - Shows Google site is active */}
+      <section className="section-padding bg-gradient-to-b from-background to-card border-t border-border">
         <div className="container-main">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2>Arnavutköy'de Güvenilir Kepçe Hizmeti</h2>
-            <div className="prose prose-lg text-muted-foreground space-y-4 text-left">
-              <p className="text-lg">
-                KEÇAŞ KEPÇE olarak 2004 yılından beri Arnavutköy, Şirindere, Hadımköy, Taşoluk,
-                Boyalık ve çevre bölgelerde JCB 3CX kepçe ile profesyonel kazı hizmeti veriyoruz.
-                Bölgedeki arazi yapısını, zemin özelliklerini ve yerel ihtiyaçları çok iyi biliyoruz.
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-10">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                Devam Eden Çalışmalarımız
+              </h2>
+              <p className="text-lg text-muted-foreground">
+                Arnavutköy ve çevresinde aktif olarak hizmet vermeye devam ediyoruz.
               </p>
-              <p className="text-lg">
-                Temel kazısı, yıkım işleri, dolgu ve hafriyat hizmetlerinde 22 yıllık tecrübemiz,
-                uygun fiyatlarımız ve profesyonel ekipmanımız ile müşterilerimizin güvenini kazandık.
-                İster konut, ister ticari alan olsun, tüm kazı ve kepçe işlerinizi gönül rahatlığıyla
-                bize bırakabilirsiniz.{" "}
-                <a href="/hizmetler/arnavutkoy-kiralik-kepce" className="underline font-semibold">
-                  Arnavutköy kiralık kepçe hizmeti
-                </a>{" "}
-                hakkında detaylı bilgi alabilirsiniz.
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-card border border-border rounded-xl p-6 hover:shadow-lg transition-shadow">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+                  <span className="text-sm font-medium text-green-600">Aktif Hizmet</span>
+                </div>
+                <h3 className="text-xl font-semibold mb-2">Arnavutköy Bölgesi</h3>
+                <p className="text-muted-foreground text-sm">
+                  Temel kazısı, kanalizasyon ve altyapı çalışmaları için operatörlü kepçe kiralama hizmeti sunuyoruz.
+                </p>
+              </div>
+
+              <div className="bg-card border border-border rounded-xl p-6 hover:shadow-lg transition-shadow">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+                  <span className="text-sm font-medium text-green-600">Aktif Hizmet</span>
+                </div>
+                <h3 className="text-xl font-semibold mb-2">Hadımköy - Şirindere</h3>
+                <p className="text-muted-foreground text-sm">
+                  Villa projeleri ve inşaat alanlarında kazı, dolgu ve hafriyat işleri gerçekleştiriyoruz.
+                </p>
+              </div>
+
+              <div className="bg-card border border-border rounded-xl p-6 hover:shadow-lg transition-shadow">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
+                  <span className="text-sm font-medium text-blue-600">Tamamlanan Proje</span>
+                </div>
+                <h3 className="text-xl font-semibold mb-2">Taşoluk Villaları</h3>
+                <p className="text-muted-foreground text-sm">
+                  Toplu konut projesi temel kazısı ve bahçe düzenleme işleri başarıyla tamamlandı.
+                </p>
+              </div>
+
+              <div className="bg-card border border-border rounded-xl p-6 hover:shadow-lg transition-shadow">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
+                  <span className="text-sm font-medium text-blue-600">Tamamlanan Proje</span>
+                </div>
+                <h3 className="text-xl font-semibold mb-2">Boyalık Sanayi Alanı</h3>
+                <p className="text-muted-foreground text-sm">
+                  Fabrika alanı tesviye ve yol açma çalışmaları başarıyla tamamlandı.
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-8 text-center">
+              <p className="text-sm text-muted-foreground">
+                <span className="font-medium">Şubat 2026</span> itibarıyla 22 yıldır kesintisiz hizmet veriyoruz.
               </p>
+              <a
+                href="/iletisim"
+                className="inline-flex items-center gap-2 mt-4 text-primary hover:underline font-medium"
+              >
+                Projeniz için teklif alın →
+              </a>
             </div>
           </div>
         </div>

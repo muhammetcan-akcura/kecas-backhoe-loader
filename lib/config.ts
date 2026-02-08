@@ -106,17 +106,17 @@ export const businessConfig = {
   /* -------------------------------------------------------------------------- */
 
   social: {
-    instagram: "", // Açılınca eklenecek
+    instagram: "https://www.instagram.com/kecaskiralikkepce",
     facebook: "", // Açılınca eklenecek
     youtube: "", // Açılınca eklenecek
   },
 
   socialProfiles: [
-    // instagram / facebook / youtube eklenince buraya koy
+    "https://www.instagram.com/kecaskiralikkepce",
   ],
 
   sameAs: [
-    // instagram / facebook / youtube eklenince buraya koy
+    "https://www.instagram.com/kecaskiralikkepce",
   ],
 
   /* -------------------------------------------------------------------------- */

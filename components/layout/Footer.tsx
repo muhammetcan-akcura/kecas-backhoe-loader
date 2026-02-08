@@ -5,6 +5,7 @@ import {
   MapPin,
   Clock,
   ExternalLink,
+  Instagram,
 } from "lucide-react";
 import { businessConfig } from "@/lib/config";
 import { getAllServices } from "@/lib/services";
@@ -130,9 +131,23 @@ export function Footer() {
                   rel="nofollow noopener"
                   className="text-sm text-slate-400 hover:text-white transition"
                 >
-                  Google Haritalar’da Görüntüle
+                  Google Haritalar'da Görüntüle
                 </a>
               </li>
+
+              {businessConfig.social.instagram && (
+                <li className="flex gap-3">
+                  <Instagram size={18} className="text-pink-400 mt-1" />
+                  <a
+                    href={businessConfig.social.instagram}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-slate-400 hover:text-white transition"
+                  >
+                    Instagram'da Takip Et
+                  </a>
+                </li>
+              )}
             </ul>
           </div>
 

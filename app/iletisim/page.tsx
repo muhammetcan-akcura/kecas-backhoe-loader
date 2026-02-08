@@ -3,7 +3,7 @@ import { generateMetadata } from "@/lib/metadata";
 import { businessConfig } from "@/lib/config";
 import { BreadcrumbSchema } from "@/components/schemas/BreadcrumbSchema";
 import { LocalBusinessSchema } from "@/components/schemas/LocalBusinessSchema";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Instagram } from "lucide-react";
 
 /* -------------------------------------------------------------------------- */
 /* METADATA                                                                   */
@@ -117,6 +117,26 @@ export default function ContactPage() {
                     </p>
                   </div>
                 </div>
+
+                {businessConfig.social.instagram && (
+                  <div className="flex gap-4 p-6 bg-card border border-border rounded-lg">
+                    <Instagram className="text-pink-500 mt-1" size={24} />
+                    <div>
+                      <h3 className="font-semibold mb-1">Instagram</h3>
+                      <a
+                        href={businessConfig.social.instagram}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-primary hover:underline"
+                      >
+                        @kecaskiralikkepce
+                      </a>
+                      <p className="text-sm text-muted-foreground mt-1">
+                        Son çalışmalarımızı ve projelerimizi takip edin
+                      </p>
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
 
