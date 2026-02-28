@@ -56,6 +56,22 @@ export function LocalBusinessSchema() {
         "@type": "Place",
         name: "Boyalık",
       },
+      {
+        "@type": "Place",
+        name: "Yunus Emre Mahallesi",
+      },
+      {
+        "@type": "Place",
+        name: "Hadımköy",
+      },
+      {
+        "@type": "Place",
+        name: "Taşoluk",
+      },
+      {
+        "@type": "Place",
+        name: "Bolluca",
+      },
     ],
 
     /* ---------------- OPENING HOURS ---------------- */

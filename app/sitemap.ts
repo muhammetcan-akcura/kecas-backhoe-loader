@@ -33,12 +33,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  const servicePages = servicesData.map((service) => ({
-    url: `${baseUrl}/hizmetler/${service.slug}`,
-    lastModified: now,
-    changeFrequency: 'monthly' as const,
-    priority: 0.8,
-  }));
+  const servicePages = servicesData.map((service) => {
+    const isMoneyPage = service.slug === 'arnavutkoy-kiralik-kepce';
+    return {
+      url: `${baseUrl}/hizmetler/${service.slug}`,
+      lastModified: now,
+      changeFrequency: (isMoneyPage ? 'weekly' : 'monthly') as 'weekly' | 'monthly',
+      priority: isMoneyPage ? 0.95 : 0.8,
+    };
+  });
 
   return [...staticPages, ...servicePages];
 }

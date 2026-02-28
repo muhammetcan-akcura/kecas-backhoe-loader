@@ -99,7 +99,14 @@ export default function ContactPage() {
                     </p>
                     <p className="text-sm text-muted-foreground mt-1">
                       Operatörlü kepçe kiralama hizmetimiz bölge genelinde
-                      sunulmaktadır.
+                      sunulmaktadır.{" "}
+                      <a
+                        href="/hizmetler/arnavutkoy-kiralik-kepce"
+                        className="text-primary hover:underline font-medium"
+                      >
+                        Arnavutköy kiralık kepçe
+                      </a>{" "}
+                      sayfamızdan detaylı bilgi alabilirsiniz.
                     </p>
                   </div>
                 </div>

@@ -131,6 +131,16 @@ export default function AboutPage() {
               Tüm çalışmalar profesyonel ekipman ve tecrübeli operatörler ile
               güvenli şekilde gerçekleştirilmektedir.
             </p>
+            <p className="text-muted-foreground text-lg leading-relaxed mt-4">
+              Arnavutköy genelinde{" "}
+              <Link
+                href="/hizmetler/arnavutkoy-kiralik-kepce"
+                className="text-primary font-semibold hover:underline"
+              >
+                kiralık kepçe hizmetimiz
+              </Link>{" "}
+              hakkında detaylı bilgi alabilir, ücretsiz keşif talep edebilirsiniz.
+            </p>
           </div>
         </div>
       </section>

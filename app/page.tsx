@@ -14,12 +14,12 @@ export const metadata = getHomeMetadata();
 
 const faqItems = [
   {
-    question: "Arnavutköy'de kepçe kiralama hizmeti veriyor musunuz?",
-    answer: "Evet, Arnavutköy merkez olmak üzere Şirindere, Hadımköy, Taşoluk, Boyalik ve tüm çevre mahallelere operatörlü kepçe kiralama hizmeti veriyoruz.",
+    question: "Arnavutköy'de kepçe hizmeti veriyor musunuz?",
+    answer: "Evet, Arnavutköy merkez olmak üzere Şirindere, Hadımköy, Taşoluk, Boyalık ve tüm çevre mahallelere operatörlü kepçe hizmeti veriyoruz.",
   },
   {
-    question: "Kepçe kiralama fiyatları nasıl hesaplanıyor?",
-    answer: "Fiyatlandırma işin türüne, süresine ve büyüklüğüne göre değişir. Ücretsiz keşif yapıp size en uygun fiyat teklifini sunuyoruz. Saatlik ve günlük kiralama seçeneklerimiz mevcuttur.",
+    question: "Kepçe hizmeti fiyatları nasıl hesaplanıyor?",
+    answer: "Fiyatlandırma işin türüne, süresine ve büyüklüğüne göre değişir. Ücretsiz keşif yapıp size en uygun fiyat teklifini sunuyoruz. Saatlik ve günlük çalışma seçeneklerimiz mevcuttur.",
   },
   {
     question: "Operatörleriniz tecrübeli mi?",
@@ -30,8 +30,8 @@ const faqItems = [
     answer: "Pazartesi-Cumartesi 08:00-20:00 arası hizmet veriyoruz. Pazar günleri kapalıyız. Acil durumlar için 7/24 ulaşabilirsiniz.",
   },
   {
-    question: "Hangi tür işler için kepçe kiralıyorsunuz?",
-    answer: "Temel kazısı, kanal açma, yıkım işleri, dolgu ve tesviye, hafriyat ve her türlü kazı işi için JCB 3CX kepçe kiralama hizmeti sunuyoruz.",
+    question: "Hangi tür işler için kepçe hizmeti veriyorsunuz?",
+    answer: "Temel kazısı, kanal açma, yıkım işleri, dolgu ve tesviye, hafriyat ve her türlü kazı işi için JCB 3CX kepçe ile profesyonel hizmet sunuyoruz.",
   },
   {
     question: "Sigorta ve güvenlik konusunda ne gibi önlemler alıyorsunuz?",

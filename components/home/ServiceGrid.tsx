@@ -1,25 +1,34 @@
 import Link from "next/link";
 import { servicesData } from "@/lib/servicesData";
-import { ArrowRight, Hammer, Pickaxe, Truck, Wrench, Building2, Trash2 } from "lucide-react";
+import { ArrowRight, Hammer, Pickaxe, Truck, Wrench, Building2, Trash2, Star } from "lucide-react";
 
-// Hizmet ikonları - sarı vurgu ile
+// Ana hizmet slugları (neighborhood sayfaları hariç)
+const mainServiceSlugs = [
+  "operatorlu-kepce-kiralama",
+  "kazi-isleri",
+  "temel-kazisi",
+  "dolgu-tesviye",
+  "yikim-hizmetleri",
+  "is-makinesi-kiralama",
+];
+
+const moneyPageSlug = "arnavutkoy-kiralik-kepce";
+
+// Hizmet ikonları
 const serviceIcons: Record<string, any> = {
-  "kepce-hizmeti": Truck,
-  "jcb-kepce-kiralama": Wrench,
+  "operatorlu-kepce-kiralama": Wrench,
   "kazi-isleri": Pickaxe,
   "temel-kazisi": Building2,
-  "kanal-acma": Hammer,
-  "dolgu-isleri": Truck,
   "dolgu-tesviye": Hammer,
-  "yikim-isi": Trash2,
-  "duvar-yikimi": Hammer,
-  "kucuk-yapi-yikimi": Trash2,
-  "beton-kirma": Hammer,
-  "operatorlu-kepce-kiralama": Wrench,
+  "yikim-hizmetleri": Trash2,
   "is-makinesi-kiralama": Truck,
+  "arnavutkoy-kiralik-kepce": Truck,
 };
 
 export function ServiceGrid() {
+  const moneyPage = servicesData.find((s) => s.slug === moneyPageSlug);
+  const mainServices = servicesData.filter((s) => mainServiceSlugs.includes(s.slug));
+
   return (
     <section className="section-padding bg-white">
       <div className="container-main">
@@ -34,9 +43,56 @@ export function ServiceGrid() {
           </p>
         </div>
 
-        {/* Services Grid - İkonlu kartlar */}
+        {/* HIGHLIGHTED MONEY PAGE CARD */}
+        {moneyPage && (
+          <Link
+            href={`/hizmetler/${moneyPage.slug}`}
+            className="block mb-8 group"
+            aria-label="Arnavutköy Kiralık Kepçe detayları"
+          >
+            <div className="relative overflow-hidden bg-gradient-to-r from-primary/5 via-primary/10 to-primary/5 border-2 border-primary rounded-xl p-6 md:p-8 shadow-md hover:shadow-xl transition-all duration-300">
+              {/* Badge */}
+              <div className="absolute top-4 right-4 flex items-center gap-1 px-3 py-1 bg-primary text-primary-foreground text-xs font-bold rounded-full">
+                <Star size={12} fill="currentColor" />
+                Öne Çıkan
+              </div>
+
+              <div className="flex flex-col md:flex-row md:items-center gap-6">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/15 rounded-xl shrink-0">
+                  <Truck size={32} className="text-primary" strokeWidth={2.5} />
+                </div>
+
+                <div className="flex-1">
+                  <h3 className="text-2xl font-bold text-foreground mb-2">
+                    {moneyPage.name}
+                  </h3>
+                  <p className="text-muted-foreground text-sm md:text-base line-clamp-2">
+                    {moneyPage.content.intro.substring(0, 180)}...
+                  </p>
+                  <div className="flex flex-wrap gap-3 mt-3">
+                    {moneyPage.content.benefits.slice(0, 4).map((b, i) => (
+                      <span key={i} className="inline-flex items-center gap-1 text-xs font-medium text-primary bg-primary/10 px-2.5 py-1 rounded-full">
+                        ✓ {b.split("–")[0].trim()}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-2 text-primary font-semibold shrink-0">
+                  Detaylar
+                  <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                </div>
+              </div>
+
+              {/* Hover line */}
+              <div className="absolute bottom-0 left-0 w-0 h-1 bg-primary transition-all duration-300 group-hover:w-full rounded-b-xl"></div>
+            </div>
+          </Link>
+        )}
+
+        {/* Services Grid - Ana hizmetler */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {servicesData.map((service) => {
+          {mainServices.map((service) => {
             const Icon = serviceIcons[service.slug] || Wrench;
 
             return (

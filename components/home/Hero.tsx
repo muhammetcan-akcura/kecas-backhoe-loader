@@ -18,7 +18,7 @@ export function Hero() {
 
             {/* Alt başlık - Değer teklifi */}
             <p className="mb-8 text-lg md:text-xl text-muted-foreground leading-relaxed">
-              <strong className="text-foreground">JCB 3CX kepçe kiralama</strong>, kazı işleri, temel kazısı ve yıkım hizmetlerinde
+              <strong className="text-foreground">JCB 3CX kepçe hizmeti</strong>, kazı işleri, temel kazısı ve yıkım hizmetlerinde
               Arnavutköy ve çevresinde <strong className="text-foreground">operatörlü hizmet</strong> sunuyoruz.
             </p>
 

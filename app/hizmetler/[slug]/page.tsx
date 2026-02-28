@@ -8,6 +8,8 @@ import { Phone, CheckCircle, ArrowRight, Clock, MapPin } from "lucide-react";
 import { businessConfig } from "@/lib/config";
 import { ServiceGallery } from "@/components/common/ServiceGallery";
 import { ServiceSchema } from "@/components/schemas/ServiceSchema";
+import { BreadcrumbSchema } from "@/components/schemas/BreadcrumbSchema";
+import { FAQSchema } from "@/components/schemas/FAQSchema";
 
 type Props = {
     params: { slug: string };
@@ -28,10 +30,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {
         title: service.seo.metaTitle,
         description: service.seo.metaDescription,
+        alternates: {
+            canonical: `${businessConfig.seo.siteUrl}${service.seo.canonical}`,
+        },
         openGraph: {
             title: service.seo.metaTitle,
             description: service.seo.metaDescription,
-            url: service.seo.canonical,
+            url: `${businessConfig.seo.siteUrl}${service.seo.canonical}`,
             type: 'website',
         },
     };
@@ -53,8 +58,16 @@ export default async function ServicePage({ params }: Props) {
 
     return (
         <main className="min-h-screen bg-white">
-            {/* SERVICE SCHEMA */}
+            {/* SCHEMAS */}
             <ServiceSchema service={service} />
+            <BreadcrumbSchema
+                items={[
+                    { name: "Ana Sayfa", path: "/" },
+                    { name: "Hizmetler", path: "/hizmetler" },
+                    { name: service.name, path: `/hizmetler/${service.slug}` },
+                ]}
+            />
+            <FAQSchema items={service.faq} pageUrl={`${businessConfig.seo.siteUrl}/hizmetler/${service.slug}`} />
 
             {/* HERO SECTION */}
             <section className="bg-white border-b-4 border-primary">
@@ -405,53 +418,7 @@ export default async function ServicePage({ params }: Props) {
                 </section>
             )}
 
-            {/* FAQ SCHEMA */}
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "FAQPage",
-                        "mainEntity": service.faq.map(item => ({
-                            "@type": "Question",
-                            "name": item.question,
-                            "acceptedAnswer": {
-                                "@type": "Answer",
-                                "text": item.answer
-                            }
-                        }))
-                    })
-                }}
-            />
 
-            {/* SERVICE SCHEMA */}
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Service",
-                        "name": service.name,
-                        "description": service.content.intro,
-                        "provider": {
-                            "@type": "LocalBusiness",
-                            "name": businessConfig.name,
-                            "telephone": businessConfig.phone,
-                            "address": {
-                                "@type": "PostalAddress",
-                                "addressLocality": service.primaryLocation.split(",")[0],
-                                "addressRegion": service.primaryLocation.split(",")[1]?.trim(),
-                                "addressCountry": "TR"
-                            }
-                        },
-                        "areaServed": [
-                            service.primaryLocation,
-                            ...service.secondaryLocations
-                        ],
-                        "serviceType": service.name
-                    })
-                }}
-            />
         </main>
     );
 }

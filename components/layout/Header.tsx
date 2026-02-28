@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { useState, useRef, useEffect } from "react";
+import { Menu, X, ChevronDown, MapPin, Wrench } from "lucide-react";
 import Image from "next/image";
 
 const navLinks = [
@@ -12,8 +12,77 @@ const navLinks = [
   { name: "İletişim", href: "/iletisim" },
 ];
 
+const hizmetBolgeleri = [
+  {
+    name: "Yunus Emre Mahallesi",
+    href: "/hizmetler/yunus-emre-kiralik-kepce",
+    services: [
+      { name: "Kiralık Kepçe", href: "/hizmetler/yunus-emre-kiralik-kepce" },
+      { name: "Kazı İşleri", href: "/hizmetler/yunus-emre-kazi-isleri" },
+      { name: "Temel Kazısı", href: "/hizmetler/yunus-emre-temel-kazisi" },
+      { name: "Yıkım Hizmetleri", href: "/hizmetler/yunus-emre-yikim" },
+    ],
+  },
+  {
+    name: "Hadımköy",
+    href: "/hizmetler/hadimkoy-kiralik-kepce",
+    services: [
+      { name: "Kiralık Kepçe", href: "/hizmetler/hadimkoy-kiralik-kepce" },
+    ],
+  },
+  {
+    name: "Taşoluk",
+    href: "/hizmetler/tasoluk-kiralik-kepce",
+    services: [
+      { name: "Kiralık Kepçe", href: "/hizmetler/tasoluk-kiralik-kepce" },
+    ],
+  },
+  {
+    name: "Bolluca",
+    href: "/hizmetler/bolluca-kiralik-kepce",
+    services: [
+      { name: "Kiralık Kepçe", href: "/hizmetler/bolluca-kiralik-kepce" },
+    ],
+  },
+];
+
+const tumHizmetler = [
+  { name: "Operatörlü Kepçe", href: "/hizmetler/operatorlu-kepce-kiralama" },
+  { name: "Kazı İşleri", href: "/hizmetler/kazi-isleri" },
+  { name: "Temel Kazısı", href: "/hizmetler/temel-kazisi" },
+  { name: "Dolgu & Tesviye", href: "/hizmetler/dolgu-tesviye" },
+  { name: "Yıkım Hizmetleri", href: "/hizmetler/yikim-hizmetleri" },
+  { name: "İş Makinesi Kiralama", href: "/hizmetler/is-makinesi-kiralama" },
+  { name: "Arnavutköy Kiralık Kepçe", href: "/hizmetler/arnavutkoy-kiralik-kepce" },
+];
+
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [desktopDropdownOpen, setDesktopDropdownOpen] = useState(false);
+  const [mobileDropdownOpen, setMobileDropdownOpen] = useState(false);
+  const [activeMahalle, setActiveMahalle] = useState<string | null>(hizmetBolgeleri[0]?.name ?? null);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+  const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // Close desktop dropdown on outside click
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+        setDesktopDropdownOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  const handleMouseEnter = () => {
+    if (timeoutRef.current) clearTimeout(timeoutRef.current);
+    setDesktopDropdownOpen(true);
+  };
+
+  const handleMouseLeave = () => {
+    timeoutRef.current = setTimeout(() => setDesktopDropdownOpen(false), 200);
+  };
 
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-gray-100">
@@ -45,7 +114,101 @@ export function Header() {
           </Link>
 
           {/* DESKTOP NAV */}
-          <div className="hidden md:flex items-center gap-2">
+          <div className="hidden md:flex items-center gap-1">
+            {/* Hizmet Bölgeleri dropdown */}
+            <div
+              ref={dropdownRef}
+              className="relative"
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              <button
+                onClick={() => setDesktopDropdownOpen(!desktopDropdownOpen)}
+                className="flex items-center gap-1 px-4 py-2 text-gray-700 font-medium rounded-lg hover:text-blue-600 transition group"
+                aria-expanded={desktopDropdownOpen}
+                aria-haspopup="true"
+              >
+                Hizmet Bölgeleri
+                <ChevronDown
+                  className={`w-4 h-4 transition-transform duration-200 ${desktopDropdownOpen ? "rotate-180" : ""}`}
+                />
+              </button>
+
+              {/* Desktop Mega Dropdown */}
+              {desktopDropdownOpen && (
+                <div className="absolute left-0 top-full mt-1 w-[640px] bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden z-50">
+                  <div className="flex">
+                    {/* Left: Mahalleler */}
+                    <div className="w-[200px] bg-gray-50 border-r border-gray-100 py-4">
+                      <p className="px-4 mb-3 text-xs font-bold tracking-wider text-blue-600 uppercase">
+                        Mahalleler
+                      </p>
+                      {hizmetBolgeleri.map((bolge) => (
+                        <button
+                          key={bolge.name}
+                          onMouseEnter={() => setActiveMahalle(bolge.name)}
+                          onClick={() => setActiveMahalle(bolge.name)}
+                          className={`w-full flex items-center gap-2 px-4 py-2.5 text-sm font-medium transition text-left ${activeMahalle === bolge.name
+                            ? "text-blue-600 bg-blue-50"
+                            : "text-gray-700 hover:text-blue-600 hover:bg-gray-100"
+                            }`}
+                        >
+                          <MapPin className="w-3.5 h-3.5 shrink-0" />
+                          {bolge.name}
+                          <ChevronDown className="w-3 h-3 -rotate-90 ml-auto shrink-0 opacity-50" />
+                        </button>
+                      ))}
+                    </div>
+
+                    {/* Center: Mahalle hizmetleri */}
+                    <div className="flex-1 py-4">
+                      {hizmetBolgeleri
+                        .filter((b) => b.name === activeMahalle)
+                        .map((bolge) => (
+                          <div key={bolge.name}>
+                            <p className="px-5 mb-3 text-xs font-bold tracking-wider text-blue-600 uppercase">
+                              {bolge.name} Hizmetleri
+                            </p>
+                            <div className="space-y-0.5">
+                              {bolge.services.map((service) => (
+                                <Link
+                                  key={service.href}
+                                  href={service.href}
+                                  className="flex items-center gap-2 px-5 py-2.5 text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition"
+                                  onClick={() => setDesktopDropdownOpen(false)}
+                                >
+                                  <Wrench className="w-3.5 h-3.5 shrink-0 opacity-50" />
+                                  {service.name}
+                                </Link>
+                              ))}
+                            </div>
+                          </div>
+                        ))}
+
+                      {/* Tüm hizmetler divider */}
+                      <div className="mx-5 my-3 border-t border-gray-100" />
+                      <p className="px-5 mb-2 text-xs font-bold tracking-wider text-gray-400 uppercase">
+                        Tüm Hizmetler
+                      </p>
+                      <div className="grid grid-cols-2 gap-0.5">
+                        {tumHizmetler.map((h) => (
+                          <Link
+                            key={h.href}
+                            href={h.href}
+                            className="flex items-center gap-2 px-5 py-2 text-sm text-gray-500 hover:text-blue-600 hover:bg-blue-50 transition"
+                            onClick={() => setDesktopDropdownOpen(false)}
+                          >
+                            {h.name}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {/* Standard nav links */}
             {navLinks.map((link) => (
               <Link
                 key={link.name}
@@ -85,7 +248,66 @@ export function Header() {
         {/* MOBILE MENU */}
         {mobileMenuOpen && (
           <div className="md:hidden border-t border-gray-100 py-4">
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-1">
+              {/* Hizmet Bölgeleri - Mobile Accordion */}
+              <div>
+                <button
+                  onClick={() => setMobileDropdownOpen(!mobileDropdownOpen)}
+                  className="w-full flex items-center justify-between px-4 py-3 rounded-lg text-gray-700 font-medium hover:bg-gray-50 transition"
+                  aria-expanded={mobileDropdownOpen}
+                >
+                  <span className="flex items-center gap-2">
+                    <MapPin className="w-4 h-4 text-blue-600" />
+                    Hizmet Bölgeleri
+                  </span>
+                  <ChevronDown
+                    className={`w-4 h-4 transition-transform ${mobileDropdownOpen ? "rotate-180" : ""}`}
+                  />
+                </button>
+
+                {mobileDropdownOpen && (
+                  <div className="ml-4 border-l-2 border-blue-100 pl-4 mt-1 mb-2 space-y-3">
+                    {hizmetBolgeleri.map((bolge) => (
+                      <div key={bolge.name}>
+                        <p className="text-xs font-bold text-blue-600 uppercase tracking-wider mb-1.5">
+                          {bolge.name}
+                        </p>
+                        <div className="space-y-0.5">
+                          {bolge.services.map((service) => (
+                            <Link
+                              key={service.href}
+                              href={service.href}
+                              className="flex items-center gap-2 px-3 py-2 text-sm text-gray-600 rounded-lg hover:text-blue-600 hover:bg-blue-50 transition"
+                              onClick={() => setMobileMenuOpen(false)}
+                            >
+                              <Wrench className="w-3.5 h-3.5 opacity-40" />
+                              {service.name}
+                            </Link>
+                          ))}
+                        </div>
+                      </div>
+                    ))}
+
+                    <div className="border-t border-gray-100 pt-2">
+                      <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-1.5">
+                        Tüm Hizmetler
+                      </p>
+                      {tumHizmetler.map((h) => (
+                        <Link
+                          key={h.href}
+                          href={h.href}
+                          className="flex items-center gap-2 px-3 py-2 text-sm text-gray-500 rounded-lg hover:text-blue-600 hover:bg-blue-50 transition"
+                          onClick={() => setMobileMenuOpen(false)}
+                        >
+                          {h.name}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* Standard mobile links */}
               {navLinks.map((link) => (
                 <Link
                   key={link.name}

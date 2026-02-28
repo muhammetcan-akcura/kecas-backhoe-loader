@@ -108,6 +108,102 @@ export const services: Service[] = [
     ],
     priceRange: "Proje bazlı fiyatlandırma",
   },
+
+  // Yunus Emre Mahallesi Sayfaları
+  {
+    slug: "yunus-emre-kiralik-kepce",
+    name: "Yunus Emre Mah. Kiralık Kepçe",
+    shortDescription: "Yunus Emre Mahallesi'nde operatörlü kiralık kepçe",
+    description: "Arnavutköy Yunus Emre Mahallesi'nde JCB 3CX ile operatörlü kiralık kepçe hizmeti. Temel kazısı, kanal açma, dolgu, yıkım dahil tüm kazı işleri. Aynı gün hizmet.",
+    features: [
+      "Operatörlü kiralık kepçe",
+      "JCB 3CX iş makinesi",
+      "Aynı gün hizmet",
+      "Ücretsiz keşif",
+      "Sigortalı çalışma",
+    ],
+    priceRange: "Saatlik/günlük – ücretsiz keşif sonrası",
+  },
+  {
+    slug: "yunus-emre-kazi-isleri",
+    name: "Yunus Emre Mah. Kazı İşleri",
+    shortDescription: "Yunus Emre Mahallesi'nde profesyonel kazı hizmeti",
+    description: "Yunus Emre Mahallesi'nde inşaat, bahçe, kanal ve altyapı kazı işleri. Mahallenin zemin yapısına uygun ekipman ve tekniklerle hızlı ve güvenli kazı.",
+    features: [
+      "Toprak ve kanal kazısı",
+      "Altyapı korumalı hassas kazı",
+      "Hafriyat nakliye desteği",
+      "Zemine uygun teknik",
+    ],
+    priceRange: "Metreküp veya saatlik bazlı",
+  },
+  {
+    slug: "yunus-emre-temel-kazisi",
+    name: "Yunus Emre Mah. Temel Kazısı",
+    shortDescription: "Yunus Emre Mahallesi'nde villa ve yapı temel kazısı",
+    description: "Yunus Emre Mahallesi'nde projeye uygun hassas temel kazısı. Kot kontrolü, güvenli şev ve grobetona hazır zemin teslimi. Kaya zemine hakimiyet.",
+    features: [
+      "Projeye uygun hassas kazı",
+      "Kot kontrolü",
+      "Kaya zemine hakimiyet",
+      "Güvenli şev oluşturma",
+    ],
+    priceRange: "Proje metrajına göre",
+  },
+  {
+    slug: "yunus-emre-yikim",
+    name: "Yunus Emre Mah. Yıkım Hizmetleri",
+    shortDescription: "Yunus Emre Mahallesi'nde güvenli yıkım ve beton kırma",
+    description: "Yunus Emre Mahallesi'nde bina, duvar yıkımı ve beton kırma. JCB kırıcı ile hızlı, kontrollü yıkım. Moloz nakliyesi dahil anahtar teslim hizmet.",
+    features: [
+      "Kontrollü yıkım",
+      "Beton kırma ve söküm",
+      "Moloz nakliyesi dahil",
+      "Komşu yapı koruma hassasiyeti",
+    ],
+    priceRange: "Yıkım alanına ve moloz miktarına göre",
+  },
+
+  // Hadımköy, Taşoluk, Bolluca
+  {
+    slug: "hadimkoy-kiralik-kepce",
+    name: "Hadımköy Kiralık Kepçe",
+    shortDescription: "Hadımköy sanayi bölgesinde operatörlü kiralık kepçe",
+    description: "Hadımköy'de fabrika, depo ve OSB çevresi kazı işleri. Sanayi altyapısı, ağır hafriyat ve büyük çaplı projeler. Paket fiyat avantajı.",
+    features: [
+      "Sanayi bölgesi deneyimi",
+      "Ağır tonajlı kazı kapasitesi",
+      "Paket fiyat avantajı",
+      "İş güvenliği tam uyum",
+    ],
+    priceRange: "Günlük/haftalık paket fiyat",
+  },
+  {
+    slug: "tasoluk-kiralik-kepce",
+    name: "Taşoluk Kiralık Kepçe",
+    shortDescription: "Taşoluk'ta arazi dönüşüm ve konut projesi kepçe hizmeti",
+    description: "Taşoluk'ta bakir arazi dönüşümü, toplu konut hazırlığı ve geniş çaplı reglaj. Tarım arazisinden inşaat sahasına tek elden çözüm.",
+    features: [
+      "Arazi dönüşüm uzmanlığı",
+      "Toplu konut proje deneyimi",
+      "Geniş çaplı reglaj kapasitesi",
+      "Kamyon koordinasyonu dahil",
+    ],
+    priceRange: "Proje bazlı toplam fiyat",
+  },
+  {
+    slug: "bolluca-kiralik-kepce",
+    name: "Bolluca Kiralık Kepçe",
+    shortDescription: "Bolluca'da eğimli arazi ve yamaç kazısı uzmanı",
+    description: "Bolluca'nın tepelik arazisinde istinat duvarı temeli, yamaç kazısı ve kayalık zeminde kırıcı çalışma. Eğimli arazi uzmanı.",
+    features: [
+      "Eğimli arazi uzmanlığı",
+      "İstinat duvarı temeli",
+      "Kayalık zeminde kırıcı uç",
+      "Dar yollardan geçebilen makine",
+    ],
+    priceRange: "Arazi zorluğuna göre",
+  },
 ];
 
 // Helper Functions
