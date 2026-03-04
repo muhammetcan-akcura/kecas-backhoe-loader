@@ -61,6 +61,10 @@ export default function AboutPage() {
       <section className="bg-card border-b border-border">
         <div className="container-main py-12 md:py-16 lg:py-20">
           <div className="max-w-3xl">
+            <div className="inline-flex items-center gap-2 px-3 py-1 bg-green-100 text-green-700 rounded-full text-xs font-bold mb-4 animate-pulse">
+              <span className="w-2 h-2 bg-green-500 rounded-full"></span>
+              Sistem Güncellendi: 5 Mart 2026
+            </div>
             <h1 className="mb-4 text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">
               Hakkımızda
             </h1>
