@@ -34,7 +34,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   const servicePages = servicesData.map((service) => {
-    const isMoneyPage = service.slug === 'arnavutkoy-kiralik-kepce';
+    // Tüm kiralık kepçe sayfaları (merkez + mahalleler) 'money page' olarak kabul edilir
+    const isMoneyPage = service.slug.includes('kiralik-kepce');
+
     return {
       url: `${baseUrl}/hizmetler/${service.slug}`,
       lastModified: now,
