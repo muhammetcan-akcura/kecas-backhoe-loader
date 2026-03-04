@@ -1,12 +1,11 @@
 import { MetadataRoute } from 'next';
 import { businessConfig } from '@/lib/config';
-import { servicesData } from '@/lib/servicesData';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = businessConfig.seo.siteUrl;
   const now = new Date();
 
-  const staticPages = [
+  return [
     {
       url: baseUrl,
       lastModified: now,
@@ -31,19 +30,99 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly' as const,
       priority: 0.6,
     },
-  ];
 
-  const servicePages = servicesData.map((service) => {
-    // Tüm kiralık kepçe sayfaları (merkez + mahalleler) 'money page' olarak kabul edilir
-    const isMoneyPage = service.slug.includes('kiralik-kepce');
-
-    return {
-      url: `${baseUrl}/hizmetler/${service.slug}`,
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    // KİRALIK KEPÇE & MONEY PAGES (Haftalık, Yüksek Öncelik)
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    {
+      url: `${baseUrl}/hizmetler/arnavutkoy-kiralik-kepce`,
       lastModified: now,
-      changeFrequency: (isMoneyPage ? 'weekly' : 'monthly') as 'weekly' | 'monthly',
-      priority: isMoneyPage ? 0.95 : 0.8,
-    };
-  });
+      changeFrequency: 'weekly' as const,
+      priority: 1.0,
+    },
+    {
+      url: `${baseUrl}/hizmetler/yunus-emre-kiralik-kepce`,
+      lastModified: now,
+      changeFrequency: 'weekly' as const,
+      priority: 0.95,
+    },
+    {
+      url: `${baseUrl}/hizmetler/hadimkoy-kiralik-kepce`,
+      lastModified: now,
+      changeFrequency: 'weekly' as const,
+      priority: 0.95,
+    },
+    {
+      url: `${baseUrl}/hizmetler/tasoluk-kiralik-kepce`,
+      lastModified: now,
+      changeFrequency: 'weekly' as const,
+      priority: 0.95,
+    },
+    {
+      url: `${baseUrl}/hizmetler/bolluca-kiralik-kepce`,
+      lastModified: now,
+      changeFrequency: 'weekly' as const,
+      priority: 0.95,
+    },
+    {
+      url: `${baseUrl}/hizmetler/operatorlu-kepce-kiralama`,
+      lastModified: now,
+      changeFrequency: 'weekly' as const,
+      priority: 0.9,
+    },
 
-  return [...staticPages, ...servicePages];
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    // DİĞER HİZMETLER & CLUSTERS (Aylık)
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    {
+      url: `${baseUrl}/hizmetler/kazi-isleri`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/hizmetler/temel-kazisi`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/hizmetler/dolgu-tesviye`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/hizmetler/yikim-hizmetleri`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/hizmetler/is-makinesi-kiralama`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    },
+
+    // Yunus Emre Cluster
+    {
+      url: `${baseUrl}/hizmetler/yunus-emre-kazi-isleri`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/hizmetler/yunus-emre-temel-kazisi`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/hizmetler/yunus-emre-yikim`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    },
+  ];
 }
