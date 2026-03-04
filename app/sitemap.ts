@@ -1,6 +1,8 @@
 import { MetadataRoute } from 'next';
 import { businessConfig } from '@/lib/config';
 
+export const revalidate = 0; // Force re-evaluation
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = businessConfig.seo.siteUrl;
   const now = new Date();
