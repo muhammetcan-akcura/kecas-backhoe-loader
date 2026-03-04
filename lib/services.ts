@@ -109,6 +109,21 @@ export const services: Service[] = [
     priceRange: "Proje bazlı fiyatlandırma",
   },
 
+  {
+    slug: "arnavutkoy-kiralik-kepce",
+    name: "Arnavutköy Kiralık Kepçe",
+    shortDescription: "Arnavutköy genelinde operatörlü kiralık kepçe hizmeti",
+    description: "Arnavutköy ve çevresinde JCB 3CX ile profesyonel kiralık kepçe hizmeti. Temel kazısı, dolgu, yıkım ve kanal açma işleri için aynı gün destek.",
+    features: [
+      "Operatörlü kiralık kepçe",
+      "JCB 3CX iş makinesi",
+      "Hızlı mobilizasyon",
+      "Ücretsiz saha keşfi",
+      "22 yıllık tecrübe",
+    ],
+    priceRange: "Saatlik/günlük kiralama seçenekleri",
+  },
+
   // Yunus Emre Mahallesi Sayfaları
   {
     slug: "yunus-emre-kiralik-kepce",
