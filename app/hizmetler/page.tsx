@@ -98,45 +98,59 @@ export default function ServicesPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {services.map((service) => (
-              <article
-                key={service.slug}
-                className="bg-card border border-border rounded-xl p-6 shadow-sm hover:shadow-lg transition-all hover:-translate-y-1"
-              >
-                <h3 className="text-xl font-semibold mb-3">
-                  {service.name}
-                </h3>
+            {services.map((service) => {
+              const neighborhoodSlugs = [
+                "arnavutkoy-kiralik-kepce",
+                "yunus-emre-kiralik-kepce",
+                "yunus-emre-kazi-isleri",
+                "yunus-emre-temel-kazisi",
+                "yunus-emre-yikim",
+                "hadimkoy-kiralik-kepce",
+                "tasoluk-kiralik-kepce",
+                "bolluca-kiralik-kepce",
+              ];
+              const path = neighborhoodSlugs.includes(service.slug) ? `/${service.slug}` : `/hizmetler/${service.slug}`;
 
-                <p className="text-sm text-muted-foreground mb-4">
-                  {service.shortDescription}
-                </p>
+              return (
+                <article
+                  key={service.slug}
+                  className="bg-card border border-border rounded-xl p-6 shadow-sm hover:shadow-lg transition-all hover:-translate-y-1"
+                >
+                  <h3 className="text-xl font-semibold mb-3">
+                    {service.name}
+                  </h3>
 
-                <ul className="space-y-1 text-sm text-muted-foreground mb-4">
-                  {service.features.slice(0, 3).map((feature, idx) => (
-                    <li key={idx} className="flex items-start gap-2">
-                      <span className="text-primary mt-1">•</span>
-                      {feature}
-                    </li>
-                  ))}
-                </ul>
+                  <p className="text-sm text-muted-foreground mb-4">
+                    {service.shortDescription}
+                  </p>
 
-                <p className="text-xs text-muted-foreground mb-4">
-                  Arnavutköy genelinde operatörlü hizmet
-                </p>
+                  <ul className="space-y-1 text-sm text-muted-foreground mb-4">
+                    {service.features.slice(0, 3).map((feature, idx) => (
+                      <li key={idx} className="flex items-start gap-2">
+                        <span className="text-primary mt-1">•</span>
+                        {feature}
+                      </li>
+                    ))}
+                  </ul>
 
-                <div className="flex items-center justify-between border-t pt-4">
-                  <span className="text-sm font-medium">
-                    {service.priceRange}
-                  </span>
-                  <Link
-                    href={`/hizmetler/${service.slug}`}
-                    className="text-primary text-sm font-medium flex items-center gap-1 hover:gap-2 transition-all"
-                  >
-                    Detaylar <ArrowRight size={14} />
-                  </Link>
-                </div>
-              </article>
-            ))}
+                  <p className="text-xs text-muted-foreground mb-4">
+                    Arnavutköy genelinde operatörlü hizmet
+                  </p>
+
+                  <div className="flex items-center justify-between border-t pt-4">
+                    <span className="text-sm font-medium">
+                      {service.priceRange}
+                    </span>
+                    <Link
+                      href={path}
+                      className="text-primary text-sm font-medium flex items-center gap-1 hover:gap-2 transition-all"
+                    >
+                      Detaylar <ArrowRight size={14} />
+                    </Link>
+                  </div>
+                </article>
+              );
+            })}
           </div>
         </div>
       </section>

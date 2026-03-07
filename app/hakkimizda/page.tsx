@@ -137,7 +137,7 @@ export default function AboutPage() {
             </p>
             <div className="flex justify-center">
               <Link
-                href="/hizmetler/arnavutkoy-kiralik-kepce"
+                href="/arnavutkoy-kiralik-kepce"
                 className="btn-outline"
               >
                 Arnavutköy Kiralık Kepçe Detayları

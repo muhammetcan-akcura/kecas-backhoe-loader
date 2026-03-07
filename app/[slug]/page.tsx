@@ -1,8 +1,6 @@
 import { notFound } from "next/navigation";
 import { getServiceDataBySlug, servicesData } from "@/lib/servicesData";
-import { generateServiceMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { Phone, CheckCircle, ArrowRight, Clock, MapPin } from "lucide-react";
 import { businessConfig } from "@/lib/config";
@@ -15,16 +13,7 @@ type Props = {
     params: { slug: string };
 };
 
-// General service slugs (non-neighborhood)
-const generalServiceSlugs = [
-    "operatorlu-kepce-kiralama",
-    "kazi-isleri",
-    "temel-kazisi",
-    "dolgu-tesviye",
-    "yikim-hizmetleri",
-    "is-makinesi-kiralama",
-];
-
+// Local/Neighborhood service slugs that should be at root level
 const neighborhoodSlugs = [
     "arnavutkoy-kiralik-kepce",
     "yunus-emre-kiralik-kepce",
@@ -36,9 +25,8 @@ const neighborhoodSlugs = [
     "bolluca-kiralik-kepce",
 ];
 
-// Generate static params for general services only
 export async function generateStaticParams() {
-    return generalServiceSlugs.map((slug) => ({
+    return neighborhoodSlugs.map((slug) => ({
         slug,
     }));
 }
@@ -46,8 +34,8 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const { slug } = await params;
 
-    // Only handle general service slugs here
-    if (!generalServiceSlugs.includes(slug)) return {};
+    // Only handle neighborhood slugs here
+    if (!neighborhoodSlugs.includes(slug)) return {};
 
     const service = getServiceDataBySlug(slug);
     if (!service) return {};
@@ -56,22 +44,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         title: service.seo.metaTitle,
         description: service.seo.metaDescription,
         alternates: {
-            canonical: `${businessConfig.seo.siteUrl}/hizmetler/${service.slug}`,
+            // Update to root level path
+            canonical: `${businessConfig.seo.siteUrl}/${service.slug}`,
         },
         openGraph: {
             title: service.seo.metaTitle,
             description: service.seo.metaDescription,
-            url: `${businessConfig.seo.siteUrl}/hizmetler/${service.slug}`,
+            url: `${businessConfig.seo.siteUrl}/${service.slug}`,
             type: 'website',
         },
     };
 }
 
-export default async function ServicePage({ params }: Props) {
+export default async function NeighborhoodServicePage({ params }: Props) {
     const { slug } = await params;
 
-    // Safety check: if not a general service slug, return 404
-    if (!generalServiceSlugs.includes(slug)) {
+    // Safety check: if not a neighborhood slug, return 404 to let other routes handle it
+    if (!neighborhoodSlugs.includes(slug)) {
         notFound();
     }
 
@@ -88,11 +77,10 @@ export default async function ServicePage({ params }: Props) {
             <BreadcrumbSchema
                 items={[
                     { name: "Ana Sayfa", path: "/" },
-                    { name: "Hizmetler", path: "/hizmetler" },
-                    { name: service.name, path: `/hizmetler/${service.slug}` },
+                    { name: service.name, path: `/${service.slug}` },
                 ]}
             />
-            <FAQSchema items={service.faq} pageUrl={`${businessConfig.seo.siteUrl}/hizmetler/${service.slug}`} />
+            <FAQSchema items={service.faq} pageUrl={`${businessConfig.seo.siteUrl}/${service.slug}`} />
 
             {/* HERO SECTION */}
             <section className="bg-white border-b-4 border-primary">
@@ -185,7 +173,7 @@ export default async function ServicePage({ params }: Props) {
                 </div>
             </section>
 
-            {/* SERVICE GALLERY - Real Work Images */}
+            {/* SERVICE GALLERY */}
             {service.media.galleryImages && service.media.galleryImages.length > 0 && (
                 <ServiceGallery images={service.media.galleryImages} />
             )}
@@ -428,8 +416,6 @@ export default async function ServicePage({ params }: Props) {
                     </div>
                 </section>
             )}
-
-
         </main>
     );
 }

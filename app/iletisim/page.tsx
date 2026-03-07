@@ -101,7 +101,7 @@ export default function ContactPage() {
                       Operatörlü kepçe kiralama hizmetimiz bölge genelinde
                       sunulmaktadır.{" "}
                       <a
-                        href="/hizmetler/arnavutkoy-kiralik-kepce"
+                        href="/arnavutkoy-kiralik-kepce"
                         className="text-primary hover:underline font-medium"
                       >
                         Arnavutköy kiralık kepçe

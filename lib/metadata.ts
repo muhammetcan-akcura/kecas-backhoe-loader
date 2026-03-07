@@ -95,10 +95,23 @@ export function generateServiceMetadata(
   serviceDescription: string,
   slug: string
 ): Metadata {
+  const neighborhoodSlugs = [
+    "arnavutkoy-kiralik-kepce",
+    "yunus-emre-kiralik-kepce",
+    "yunus-emre-kazi-isleri",
+    "yunus-emre-temel-kazisi",
+    "yunus-emre-yikim",
+    "hadimkoy-kiralik-kepce",
+    "tasoluk-kiralik-kepce",
+    "bolluca-kiralik-kepce",
+  ];
+  const isNeighborhood = neighborhoodSlugs.includes(slug);
+  const path = isNeighborhood ? `/${slug}` : `/hizmetler/${slug}`;
+
   return generateMetadata({
     title: `${serviceName} – Arnavutköy`,
     description: `${serviceDescription} Arnavutköy ve çevresinde 22 yıldır profesyonel hizmet.`,
-    path: `/hizmetler/${slug}`,
+    path,
   });
 }
 

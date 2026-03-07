@@ -11,6 +11,15 @@ const serviceRedirects: Record<string, string> = {
     '/hizmetler/beton-kirma': '/hizmetler/yikim-hizmetleri',
     '/hizmetler/yikim-isi': '/hizmetler/yikim-hizmetleri',
     '/hizmetler/kanal-acma': '/hizmetler/kazi-isleri',
+    // Neighborhood and money page root level redirects
+    '/hizmetler/arnavutkoy-kiralik-kepce': '/arnavutkoy-kiralik-kepce',
+    '/hizmetler/yunus-emre-kiralik-kepce': '/yunus-emre-kiralik-kepce',
+    '/hizmetler/yunus-emre-kazi-isleri': '/yunus-emre-kazi-isleri',
+    '/hizmetler/yunus-emre-temel-kazisi': '/yunus-emre-temel-kazisi',
+    '/hizmetler/yunus-emre-yikim': '/yunus-emre-yikim',
+    '/hizmetler/hadimkoy-kiralik-kepce': '/hadimkoy-kiralik-kepce',
+    '/hizmetler/tasoluk-kiralik-kepce': '/tasoluk-kiralik-kepce',
+    '/hizmetler/bolluca-kiralik-kepce': '/bolluca-kiralik-kepce',
 };
 
 export function middleware(request: NextRequest) {

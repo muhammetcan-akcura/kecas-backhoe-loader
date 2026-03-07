@@ -565,7 +565,7 @@ export const servicesData: ServiceData[] = [
         seo: {
             metaTitle: "Arnavutköy Kiralık Kepçe | Operatörlü JCB 3CX ☎ 0539 477 81 12",
             metaDescription: "Arnavutköy'de operatörlü kiralık kepçe hizmeti ✓ JCB 3CX kazıyıcı yükleyici ✓ Temel kazısı, dolgu, yıkım ✓ Aynı gün hizmet ✓ Ücretsiz keşif ✓ 22 yıl tecrübe. Hemen arayın!",
-            canonical: "/hizmetler/arnavutkoy-kiralik-kepce",
+            canonical: "/arnavutkoy-kiralik-kepce",
             h1: "Arnavutköy Kiralık Kepçe Hizmeti"
         },
         content: {
@@ -704,7 +704,7 @@ export const servicesData: ServiceData[] = [
         seo: {
             metaTitle: "Yunus Emre Mahallesi Kiralık Kepçe | Arnavutköy ☎ 0539 477 81 12",
             metaDescription: "Yunus Emre Mahallesi'nde operatörlü kiralık kepçe hizmeti ✓ JCB 3CX ✓ Kazı, temel, dolgu, yıkım ✓ Aynı gün hizmet ✓ Ücretsiz keşif ✓ 22 yıl tecrübe. Hemen arayın!",
-            canonical: "/hizmetler/yunus-emre-kiralik-kepce",
+            canonical: "/yunus-emre-kiralik-kepce",
             h1: "Yunus Emre Mahallesi Kiralık Kepçe Hizmeti"
         },
         content: {
@@ -806,7 +806,7 @@ export const servicesData: ServiceData[] = [
         seo: {
             metaTitle: "Yunus Emre Mahallesi Kazı İşleri | Arnavutköy – Keçaş Kepçe",
             metaDescription: "Yunus Emre Mahallesi'nde profesyonel kazı ve hafriyat hizmeti ✓ JCB 3CX ✓ Toprak, kanal, temel kazısı ✓ Operatörlü ✓ Ücretsiz keşif ✓ 22 yıl tecrübe. ☎ 0539 477 81 12",
-            canonical: "/hizmetler/yunus-emre-kazi-isleri",
+            canonical: "/yunus-emre-kazi-isleri",
             h1: "Yunus Emre Mahallesi Kazı İşleri"
         },
         content: {
@@ -895,7 +895,7 @@ export const servicesData: ServiceData[] = [
         seo: {
             metaTitle: "Yunus Emre Mahallesi Temel Kazısı | Arnavutköy – Keçaş Kepçe",
             metaDescription: "Yunus Emre Mahallesi'nde bina, villa ve yapı temel kazısı ✓ Projeye uygun hassas kazı ✓ JCB 3CX ✓ Operatörlü ✓ Ücretsiz keşif. ☎ 0539 477 81 12",
-            canonical: "/hizmetler/yunus-emre-temel-kazisi",
+            canonical: "/yunus-emre-temel-kazisi",
             h1: "Yunus Emre Mahallesi Temel Kazısı"
         },
         content: {
@@ -984,7 +984,7 @@ export const servicesData: ServiceData[] = [
         seo: {
             metaTitle: "Yunus Emre Mahallesi Yıkım Hizmetleri | Arnavutköy – Keçaş Kepçe",
             metaDescription: "Yunus Emre Mahallesi'nde güvenli yıkım hizmeti ✓ Bina, duvar, beton kırma ✓ Moloz dahil ✓ JCB kırıcı ✓ Kontrollü yıkım ✓ Ücretsiz keşif. ☎ 0539 477 81 12",
-            canonical: "/hizmetler/yunus-emre-yikim",
+            canonical: "/yunus-emre-yikim",
             h1: "Yunus Emre Mahallesi Yıkım Hizmetleri"
         },
         content: {
@@ -1074,7 +1074,7 @@ export const servicesData: ServiceData[] = [
         seo: {
             metaTitle: "Hadımköy Kiralık Kepçe | Sanayi & Lojistik Bölge ☎ 0539 477 81 12",
             metaDescription: "Hadımköy'de operatörlü kiralık kepçe ✓ Fabrika, depo, OSB çevresi kazı ✓ Sanayi altyapısı ✓ Büyük çaplı hafriyat ✓ Ağır iş kapasitesi. Hemen arayın!",
-            canonical: "/hizmetler/hadimkoy-kiralik-kepce",
+            canonical: "/hadimkoy-kiralik-kepce",
             h1: "Hadımköy Kiralık Kepçe – Sanayi ve Lojistik Bölge Hizmeti"
         },
         content: {
@@ -1160,7 +1160,7 @@ export const servicesData: ServiceData[] = [
         seo: {
             metaTitle: "Taşoluk Kiralık Kepçe | Konut & Arazi Dönüşüm ☎ 0539 477 81 12",
             metaDescription: "Taşoluk'ta operatörlü kiralık kepçe ✓ Toplu konut projeleri ✓ Tarım arazisi dönüşümü ✓ Büyük çaplı arazi kazısı ✓ Ücretsiz keşif. Hemen arayın!",
-            canonical: "/hizmetler/tasoluk-kiralik-kepce",
+            canonical: "/tasoluk-kiralik-kepce",
             h1: "Taşoluk Kiralık Kepçe – Konut ve Arazi Dönüşüm Hizmeti"
         },
         content: {
@@ -1246,7 +1246,7 @@ export const servicesData: ServiceData[] = [
         seo: {
             metaTitle: "Bolluca Kiralık Kepçe | Eğimli Arazi Uzmanı ☎ 0539 477 81 12",
             metaDescription: "Bolluca'da operatörlü kiralık kepçe ✓ Yamaçlı arazi kazısı ✓ İstinat duvarı ✓ Kayalık zemin ✓ Eğimli temel kazısı ✓ Ücretsiz keşif. Hemen arayın!",
-            canonical: "/hizmetler/bolluca-kiralik-kepce",
+            canonical: "/bolluca-kiralik-kepce",
             h1: "Bolluca Kiralık Kepçe – Eğimli Arazi ve Yamaç Çalışmaları"
         },
         content: {

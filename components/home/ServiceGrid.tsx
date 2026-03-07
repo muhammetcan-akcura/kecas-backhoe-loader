@@ -25,6 +25,21 @@ const serviceIcons: Record<string, any> = {
   "arnavutkoy-kiralik-kepce": Truck,
 };
 
+const neighborhoodSlugs = [
+  "arnavutkoy-kiralik-kepce",
+  "yunus-emre-kiralik-kepce",
+  "yunus-emre-kazi-isleri",
+  "yunus-emre-temel-kazisi",
+  "yunus-emre-yikim",
+  "hadimkoy-kiralik-kepce",
+  "tasoluk-kiralik-kepce",
+  "bolluca-kiralik-kepce",
+];
+
+const getServicePath = (slug: string) => {
+  return neighborhoodSlugs.includes(slug) ? `/${slug}` : `/hizmetler/${slug}`;
+};
+
 export function ServiceGrid() {
   const moneyPage = servicesData.find((s) => s.slug === moneyPageSlug);
   const mainServices = servicesData.filter((s) => mainServiceSlugs.includes(s.slug));
@@ -46,7 +61,7 @@ export function ServiceGrid() {
         {/* HIGHLIGHTED MONEY PAGE CARD */}
         {moneyPage && (
           <Link
-            href={`/hizmetler/${moneyPage.slug}`}
+            href={getServicePath(moneyPage.slug)}
             className="block mb-8 group"
             aria-label="Arnavutköy Kiralık Kepçe detayları"
           >
@@ -94,6 +109,7 @@ export function ServiceGrid() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {mainServices.map((service) => {
             const Icon = serviceIcons[service.slug] || Wrench;
+            const path = getServicePath(service.slug);
 
             return (
               <article
@@ -142,7 +158,7 @@ export function ServiceGrid() {
                     {service.content.pricingLogic.substring(0, 30)}...
                   </span>
                   <Link
-                    href={`/hizmetler/${service.slug}`}
+                    href={path}
                     className="inline-flex items-center gap-1 text-sm font-semibold text-primary hover:gap-2 transition-all group-hover:text-primary"
                     aria-label={`${service.name} detaylarını görüntüle`}
                   >

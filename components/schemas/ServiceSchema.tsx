@@ -6,10 +6,23 @@ interface ServiceSchemaProps {
 }
 
 export function ServiceSchema({ service }: ServiceSchemaProps) {
+  const neighborhoodSlugs = [
+    "arnavutkoy-kiralik-kepce",
+    "yunus-emre-kiralik-kepce",
+    "yunus-emre-kazi-isleri",
+    "yunus-emre-temel-kazisi",
+    "yunus-emre-yikim",
+    "hadimkoy-kiralik-kepce",
+    "tasoluk-kiralik-kepce",
+    "bolluca-kiralik-kepce",
+  ];
+  const isNeighborhood = neighborhoodSlugs.includes(service.slug);
+  const servicePath = isNeighborhood ? `/${service.slug}` : `/hizmetler/${service.slug}`;
+
   const schema = {
     "@context": "https://schema.org",
     "@type": "Service",
-    "@id": `${businessConfig.websiteUrl}/hizmetler/${service.slug}#service`,
+    "@id": `${businessConfig.websiteUrl}${servicePath}#service`,
     name: service.name,
     description: service.content.intro,
     serviceType: service.name,
@@ -30,7 +43,7 @@ export function ServiceSchema({ service }: ServiceSchemaProps) {
     provider: {
       "@id": `${businessConfig.websiteUrl}#localbusiness`,
     },
-    url: `${businessConfig.websiteUrl}/hizmetler/${service.slug}`,
+    url: `${businessConfig.websiteUrl}${servicePath}`,
     offers: {
       "@type": "Offer",
       priceCurrency: "TRY",

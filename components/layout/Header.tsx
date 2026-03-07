@@ -12,48 +12,54 @@ const navLinks = [
   { name: "İletişim", href: "/iletisim" },
 ];
 
+/// Helper to get correct path for a service slug
+const getServicePath = (slug: string) => {
+  const neighborhoodSlugs = [
+    "arnavutkoy-kiralik-kepce",
+    "yunus-emre-kiralik-kepce",
+    "yunus-emre-kazi-isleri",
+    "yunus-emre-temel-kazisi",
+    "yunus-emre-yikim",
+    "hadimkoy-kiralik-kepce",
+    "tasoluk-kiralik-kepce",
+    "bolluca-kiralik-kepce",
+  ];
+  return neighborhoodSlugs.includes(slug) ? `/${slug}` : `/hizmetler/${slug}`;
+};
+
 const hizmetBolgeleri = [
   {
-    name: "Yunus Emre Mahallesi",
-    href: "/hizmetler/yunus-emre-kiralik-kepce",
+    name: "Yunus Emre",
     services: [
-      { name: "Kiralık Kepçe", href: "/hizmetler/yunus-emre-kiralik-kepce" },
-      { name: "Kazı İşleri", href: "/hizmetler/yunus-emre-kazi-isleri" },
-      { name: "Temel Kazısı", href: "/hizmetler/yunus-emre-temel-kazisi" },
-      { name: "Yıkım Hizmetleri", href: "/hizmetler/yunus-emre-yikim" },
+      { name: "Yunus Emre Kiralık Kepçe", href: getServicePath("yunus-emre-kiralik-kepce") },
+      { name: "Kazı İşleri", href: getServicePath("yunus-emre-kazi-isleri") },
+      { name: "Temel Kazısı", href: getServicePath("yunus-emre-temel-kazisi") },
+      { name: "Yıkım Hizmetleri", href: getServicePath("yunus-emre-yikim") },
     ],
   },
   {
     name: "Hadımköy",
-    href: "/hizmetler/hadimkoy-kiralik-kepce",
     services: [
-      { name: "Kiralık Kepçe", href: "/hizmetler/hadimkoy-kiralik-kepce" },
+      { name: "Hadımköy Kiralık Kepçe", href: getServicePath("hadimkoy-kiralik-kepce") },
     ],
   },
   {
     name: "Taşoluk",
-    href: "/hizmetler/tasoluk-kiralik-kepce",
     services: [
-      { name: "Kiralık Kepçe", href: "/hizmetler/tasoluk-kiralik-kepce" },
+      { name: "Taşoluk Kiralık Kepçe", href: getServicePath("tasoluk-kiralik-kepce") },
     ],
   },
   {
     name: "Bolluca",
-    href: "/hizmetler/bolluca-kiralik-kepce",
     services: [
-      { name: "Kiralık Kepçe", href: "/hizmetler/bolluca-kiralik-kepce" },
+      { name: "Bolluca Kiralık Kepçe", href: getServicePath("bolluca-kiralik-kepce") },
     ],
   },
 ];
 
 const tumHizmetler = [
-  { name: "Operatörlü Kepçe", href: "/hizmetler/operatorlu-kepce-kiralama" },
-  { name: "Kazı İşleri", href: "/hizmetler/kazi-isleri" },
-  { name: "Temel Kazısı", href: "/hizmetler/temel-kazisi" },
-  { name: "Dolgu & Tesviye", href: "/hizmetler/dolgu-tesviye" },
-  { name: "Yıkım Hizmetleri", href: "/hizmetler/yikim-hizmetleri" },
-  { name: "İş Makinesi Kiralama", href: "/hizmetler/is-makinesi-kiralama" },
-  { name: "Arnavutköy Kiralık Kepçe", href: "/hizmetler/arnavutkoy-kiralik-kepce" },
+  { name: "Arnavutköy Kiralık Kepçe", href: getServicePath("arnavutkoy-kiralik-kepce") },
+  { name: "Tüm Hizmetler", href: "/hizmetler" },
 ];
 
 export function Header() {

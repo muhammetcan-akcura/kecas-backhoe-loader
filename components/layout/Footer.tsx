@@ -41,16 +41,30 @@ export function Footer() {
               Hizmetler
             </h4>
             <ul className="space-y-2.5">
-              {services.map((service) => (
-                <li key={service.slug}>
-                  <Link
-                    href={`/hizmetler/${service.slug}`}
-                    className="text-sm text-slate-400 hover:text-white transition"
-                  >
-                    {service.name}
-                  </Link>
-                </li>
-              ))}
+              {services.map((service) => {
+                const neighborhoodSlugs = [
+                  "arnavutkoy-kiralik-kepce",
+                  "yunus-emre-kiralik-kepce",
+                  "yunus-emre-kazi-isleri",
+                  "yunus-emre-temel-kazisi",
+                  "yunus-emre-yikim",
+                  "hadimkoy-kiralik-kepce",
+                  "tasoluk-kiralik-kepce",
+                  "bolluca-kiralik-kepce",
+                ];
+                const path = neighborhoodSlugs.includes(service.slug) ? `/${service.slug}` : `/hizmetler/${service.slug}`;
+
+                return (
+                  <li key={service.slug}>
+                    <Link
+                      href={path}
+                      className="text-sm text-slate-400 hover:text-white transition"
+                    >
+                      {service.name}
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </div>
 
