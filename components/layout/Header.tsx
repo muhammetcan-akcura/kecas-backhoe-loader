@@ -124,7 +124,7 @@ export function Header() {
             >
               <button
                 onClick={() => setDesktopDropdownOpen(!desktopDropdownOpen)}
-                className="flex items-center gap-1 px-4 py-2 text-gray-700 font-medium rounded-lg hover:text-blue-600 transition group"
+                className="flex items-center gap-1 px-4 py-2 text-gray-700 font-medium rounded-lg hover:text-primary transition group"
                 aria-expanded={desktopDropdownOpen}
                 aria-haspopup="true"
               >
@@ -140,7 +140,7 @@ export function Header() {
                   <div className="flex">
                     {/* Left: Mahalleler */}
                     <div className="w-[200px] bg-gray-50 border-r border-gray-100 py-4">
-                      <p className="px-4 mb-3 text-xs font-bold tracking-wider text-blue-600 uppercase">
+                      <p className="px-4 mb-3 text-xs font-bold tracking-wider text-primary uppercase">
                         Mahalleler
                       </p>
                       {hizmetBolgeleri.map((bolge) => (
@@ -149,8 +149,8 @@ export function Header() {
                           onMouseEnter={() => setActiveMahalle(bolge.name)}
                           onClick={() => setActiveMahalle(bolge.name)}
                           className={`w-full flex items-center gap-2 px-4 py-2.5 text-sm font-medium transition text-left ${activeMahalle === bolge.name
-                            ? "text-blue-600 bg-blue-50"
-                            : "text-gray-700 hover:text-blue-600 hover:bg-gray-100"
+                            ? "text-primary bg-primary/5"
+                            : "text-gray-700 hover:text-primary hover:bg-gray-100"
                             }`}
                         >
                           <MapPin className="w-3.5 h-3.5 shrink-0" />
@@ -166,7 +166,7 @@ export function Header() {
                         .filter((b) => b.name === activeMahalle)
                         .map((bolge) => (
                           <div key={bolge.name}>
-                            <p className="px-5 mb-3 text-xs font-bold tracking-wider text-blue-600 uppercase">
+                            <p className="px-5 mb-3 text-xs font-bold tracking-wider text-primary uppercase">
                               {bolge.name} Hizmetleri
                             </p>
                             <div className="space-y-0.5">
@@ -174,7 +174,7 @@ export function Header() {
                                 <Link
                                   key={service.href}
                                   href={service.href}
-                                  className="flex items-center gap-2 px-5 py-2.5 text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition"
+                                  className="flex items-center gap-2 px-5 py-2.5 text-sm text-gray-700 hover:text-primary hover:bg-primary/5 transition"
                                   onClick={() => setDesktopDropdownOpen(false)}
                                 >
                                   <Wrench className="w-3.5 h-3.5 shrink-0 opacity-50" />
@@ -195,7 +195,7 @@ export function Header() {
                           <Link
                             key={h.href}
                             href={h.href}
-                            className="flex items-center gap-2 px-5 py-2 text-sm text-gray-500 hover:text-blue-600 hover:bg-blue-50 transition"
+                            className="flex items-center gap-2 px-5 py-2 text-sm text-gray-500 hover:text-primary hover:bg-primary/5 transition"
                             onClick={() => setDesktopDropdownOpen(false)}
                           >
                             {h.name}
@@ -213,10 +213,10 @@ export function Header() {
               <Link
                 key={link.name}
                 href={link.href}
-                className="relative px-4 py-2 text-gray-700 font-medium rounded-lg hover:text-blue-600 transition group"
+                className="relative px-4 py-2 text-gray-700 font-medium rounded-lg hover:text-primary transition group"
               >
                 {link.name}
-                <span className="absolute left-1/2 -bottom-0.5 h-0.5 w-0 bg-blue-600 transition-all duration-300 group-hover:w-3/4 -translate-x-1/2" />
+                <span className="absolute left-1/2 -bottom-0.5 h-0.5 w-0 bg-primary transition-all duration-300 group-hover:w-3/4 -translate-x-1/2" />
               </Link>
             ))}
           </div>
@@ -224,7 +224,7 @@ export function Header() {
           {/* DESKTOP CTA */}
           <Link
             href="/iletisim"
-            className="hidden md:inline-flex items-center px-6 py-3 rounded-lg bg-primary text-primary-foreground font-semibold shadow-sm hover:bg-white/90 transition"
+            className="hidden md:inline-flex items-center px-6 py-3 rounded-lg bg-primary text-primary-foreground font-semibold shadow-sm hover:translate-y-[-2px] transition"
             aria-label="İletişim sayfasına git"
           >
             İletişime Geç
@@ -257,7 +257,7 @@ export function Header() {
                   aria-expanded={mobileDropdownOpen}
                 >
                   <span className="flex items-center gap-2">
-                    <MapPin className="w-4 h-4 text-blue-600" />
+                    <MapPin className="w-4 h-4 text-primary" />
                     Hizmet Bölgeleri
                   </span>
                   <ChevronDown
@@ -266,10 +266,10 @@ export function Header() {
                 </button>
 
                 {mobileDropdownOpen && (
-                  <div className="ml-4 border-l-2 border-blue-100 pl-4 mt-1 mb-2 space-y-3">
+                  <div className="ml-4 border-l-2 border-primary/20 pl-4 mt-1 mb-2 space-y-3">
                     {hizmetBolgeleri.map((bolge) => (
                       <div key={bolge.name}>
-                        <p className="text-xs font-bold text-blue-600 uppercase tracking-wider mb-1.5">
+                        <p className="text-xs font-bold text-primary uppercase tracking-wider mb-1.5">
                           {bolge.name}
                         </p>
                         <div className="space-y-0.5">
@@ -277,7 +277,7 @@ export function Header() {
                             <Link
                               key={service.href}
                               href={service.href}
-                              className="flex items-center gap-2 px-3 py-2 text-sm text-gray-600 rounded-lg hover:text-blue-600 hover:bg-blue-50 transition"
+                              className="flex items-center gap-2 px-3 py-2 text-sm text-gray-600 rounded-lg hover:text-primary hover:bg-primary/5 transition"
                               onClick={() => setMobileMenuOpen(false)}
                             >
                               <Wrench className="w-3.5 h-3.5 opacity-40" />
@@ -296,7 +296,7 @@ export function Header() {
                         <Link
                           key={h.href}
                           href={h.href}
-                          className="flex items-center gap-2 px-3 py-2 text-sm text-gray-500 rounded-lg hover:text-blue-600 hover:bg-blue-50 transition"
+                          className="flex items-center gap-2 px-3 py-2 text-sm text-gray-500 rounded-lg hover:text-primary hover:bg-primary/5 transition"
                           onClick={() => setMobileMenuOpen(false)}
                         >
                           {h.name}
@@ -312,7 +312,7 @@ export function Header() {
                 <Link
                   key={link.name}
                   href={link.href}
-                  className="px-4 py-3 rounded-lg text-gray-700 font-medium hover:bg-gray-50 hover:text-blue-600 transition"
+                  className="px-4 py-3 rounded-lg text-gray-700 font-medium hover:bg-gray-50 hover:text-primary transition"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {link.name}
