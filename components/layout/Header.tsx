@@ -23,6 +23,18 @@ const getServicePath = (slug: string) => {
     "hadimkoy-kiralik-kepce",
     "tasoluk-kiralik-kepce",
     "bolluca-kiralik-kepce",
+    "deliklikaya-kiralik-kepce",
+    "omerli-kiralik-kepce",
+    "imrahor-kiralik-kepce",
+    "karlibayir-kiralik-kepce",
+    "haracci-kiralik-kepce",
+    "yassioren-kiralik-kepce",
+    "baklali-kiralik-kepce",
+    "bogazkoy-kiralik-kepce",
+    "yavuz-selim-kiralik-kepce",
+    "tayakadin-kiralik-kepce",
+    "mavigol-kiralik-kepce",
+    "boyalik-kiralik-kepce",
   ];
   return neighborhoodSlugs.includes(slug) ? `/${slug}` : `/hizmetler/${slug}`;
 };
@@ -53,6 +65,78 @@ const hizmetBolgeleri = [
     name: "Bolluca",
     services: [
       { name: "Bolluca Kiralık Kepçe", href: getServicePath("bolluca-kiralik-kepce") },
+    ],
+  },
+  {
+    name: "Deliklikaya",
+    services: [
+      { name: "Deliklikaya Kiralık Kepçe", href: getServicePath("deliklikaya-kiralik-kepce") },
+    ],
+  },
+  {
+    name: "Ömerli",
+    services: [
+      { name: "Ömerli Kiralık Kepçe", href: getServicePath("omerli-kiralik-kepce") },
+    ],
+  },
+  {
+    name: "İmrahor",
+    services: [
+      { name: "İmrahor Kiralık Kepçe", href: getServicePath("imrahor-kiralik-kepce") },
+    ],
+  },
+  {
+    name: "Karlıbayır",
+    services: [
+      { name: "Karlıbayır Kiralık Kepçe", href: getServicePath("karlibayir-kiralik-kepce") },
+    ],
+  },
+  {
+    name: "Haraççı",
+    services: [
+      { name: "Haraççı Kiralık Kepçe", href: getServicePath("haracci-kiralik-kepce") },
+    ],
+  },
+  {
+    name: "Yassıören",
+    services: [
+      { name: "Yassıören Kiralık Kepçe", href: getServicePath("yassioren-kiralik-kepce") },
+    ],
+  },
+  {
+    name: "Baklalı",
+    services: [
+      { name: "Baklalı Kiralık Kepçe", href: getServicePath("baklali-kiralik-kepce") },
+    ],
+  },
+  {
+    name: "Boğazköy",
+    services: [
+      { name: "Boğazköy Kiralık Kepçe", href: getServicePath("bogazkoy-kiralik-kepce") },
+    ],
+  },
+  {
+    name: "Yavuz Selim",
+    services: [
+      { name: "Yavuz Selim Kiralık Kepçe", href: getServicePath("yavuz-selim-kiralik-kepce") },
+    ],
+  },
+  {
+    name: "Tayakadın",
+    services: [
+      { name: "Tayakadın Kiralık Kepçe", href: getServicePath("tayakadin-kiralik-kepce") },
+    ],
+  },
+  {
+    name: "Mavigöl",
+    services: [
+      { name: "Mavigöl Mahallesi Kiralık Kepçe", href: getServicePath("mavigol-kiralik-kepce") },
+    ],
+  },
+  {
+    name: "Boyalık",
+    services: [
+      { name: "Boyalık Kiralık Kepçe", href: getServicePath("boyalik-kiralik-kepce") },
     ],
   },
 ];

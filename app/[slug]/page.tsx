@@ -23,6 +23,13 @@ const neighborhoodSlugs = [
     "hadimkoy-kiralik-kepce",
     "tasoluk-kiralik-kepce",
     "bolluca-kiralik-kepce",
+    "deliklikaya-kiralik-kepce",
+    "omerli-kiralik-kepce",
+    "imrahor-kiralik-kepce",
+    "karlibayir-kiralik-kepce",
+    "haracci-kiralik-kepce",
+    "yassioren-kiralik-kepce",
+    "baklali-kiralik-kepce",
 ];
 
 export async function generateStaticParams() {

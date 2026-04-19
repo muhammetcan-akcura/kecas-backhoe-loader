@@ -1317,6 +1317,1098 @@ export const servicesData: ServiceData[] = [
         ],
         conversion: { primaryCTA: "Yamaç Projesi İçin Ara", secondaryCTA: "Ücretsiz Keşif İste" },
         internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "temel-kazisi", "kazi-isleri", "yunus-emre-kiralik-kepce"] }
+    },
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    // 15. DELİKLİKAYA KİRALIK KEPÇE (SANAYİ & LOJİSTİK HUB)
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    {
+        slug: "deliklikaya-kiralik-kepce",
+        name: "Deliklikaya Kiralık Kepçe",
+        industry: "equipment-rental",
+        serviceType: "local",
+        primaryLocation: "Deliklikaya, Arnavutköy",
+        secondaryLocations: ["Hadımköy", "Ömerli", "Sazlıbosna", "Hastane Mahallesi"],
+        seo: {
+            metaTitle: "Deliklikaya Kiralık Kepçe | Sanayi & Lojistik Bölge Uzmanı",
+            metaDescription: "Deliklikaya'da profesyonel kiralık kepçe hizmeti. DESB Sanayi Bölgesi ve lojistik merkezler için JCB 3CX operatörlü kepçe. 22 yıllık tecrübe. ☎ 0539 477 81 12",
+            canonical: "/deliklikaya-kiralik-kepce",
+            h1: "Deliklikaya Kiralık Kepçe ve İş Makinesi Hizmetleri"
+        },
+        content: {
+            intro: "Deliklikaya Mahallesi, bugün Arnavutköy'ün ve hatta İstanbul'un sanayi yükünü sırtlayan en kritik lokasyonlardan biri haline gelmiştir. Deliklikaya Sanayi Bölgesi (DESB) ve çevresindeki devasa lojistik yatırımları, beraberinde profesyonel iş makinesi ihtiyacını da getirmektedir. Keçaş Kepçe olarak, 2004 yılından bu yana Deliklikaya'nın tarladan modern sanayi sitesine dönüşüm sürecine bizzat şahitlik ettik ve yüzlerce projenin temelinde yer aldık. DESB içindeki fabrika yapımları, depo zemin hazırlıkları ve sanayi altyapı çalışmaları sıradan bir kepçe operatörünün yapabileceği işler değildir; yüksek konsantrasyon, mevcut altyapı hatlarına (doğalgaz, yüksek gerilim, fiber optik) hakimiyet ve sanayi disiplini gerektirir. JCB 3CX beko loder makinemiz ve sanayi sahalarında pişmiş tecrübeli operatörlerimizle, Deliklikaya'daki tüm projelerinizde çözüm ortağınız olmaya hazırız. Bölgenin ağır vasıta trafiğine, sanayi sitelerinin çalışma prosedürlerine ve zemin yapısının getirdiği zorluklara tam hakimiz. İster Deliklikaya Tren İstasyonu çevresindeki yeni şantiyelerde olsun, ister Tesko Sanayi Sitesi içindeki tadilat işlerinde; makinemizi tam zamanında sahaya ulaştırarak iş akışınızı kesintiye uğratmıyoruz.",
+            problemStatement: "Deliklikaya Sanayi Bölgesi'nde çalışmak, beraberinde büyük riskler ve teknik zorluklar getirir. Bölgenin zemini, yoğun dolgu alanlarından ve yer yer sert kaya katmanlarından oluşur. Bu durum, tecrübesiz bir operatör için hem zaman kaybı hem de makineye zarar verme riskidir. Ayrıca, sanayi tesislerinin içinde veya çevresinde yapılan kazılarda en büyük kabus, yeraltındaki gelişmiş altyapı ağlarına zarar vermektir. Tek bir fiber kablonun veya su ana hattının kopması, sadece sizin projenizi değil, tüm sanayi sitesini durdurabilir ve ağır cezalarla karşılaşmanıza neden olabilir. Bir diğer sorun ise, büyük ölçekli kurumsal firmaların küçük ama acil kepçe ihtiyaçları için muhatap bulamamasıdır. Çoğu büyük hafriyat firması tekil kepçe kiralama taleplerine geç dönerken, mahalle aralarındaki kepçeciler ise sanayi sitelerinin iş güvenliği (İSG) şartlarını karşılayamaz. Bu boşluk, projelerin durmasına ve maliyetlerin artmasına yol açar.",
+            solutionOverview: "Keçaş Kepçe olarak bu sorunları, sanayi odaklı çalışma prensibimizle kökten çözüyoruz. Deliklikaya'daki projeleriniz için sadece bir iş makinesi değil, 22 yıllık 'sanayi tecrübesi' sunuyoruz. Operatörlerimiz, sanayi bölgelerinin katı İSG kurallarına, yelek ve baret disiplinine, çalışma saatlerine tam uyum sağlar. Kazı öncesinde bölgedeki altyapı haritalarını göz önünde bulundurarak, şüpheli noktalarda manuel kontrol ile makine gücünü birleştiriyoruz. JCB 3CX makinemizdeki hidrolik kırıcı (breaker) ve açılır kova (loader) fonksiyonları sayesinde, beton kırma işinden zemin tesviyesine kadar her şeyi tek seferde bitiriyoruz. Fabrika içindeki dar alanlarda dahi kıvrak manevra kabiliyetimizle işinizi tamamlıyoruz. SRC 4 belgeli, sigortalı ve profesyonel ekibimizle, kurumsal firmaların aradığı güvenilir ve hesap verebilir taşeron desteğini sağlıyoruz. Üstelik Deliklikaya'ya çok yakın lokasyonda olmamız sebebiyle, acil taleplerinizde ulaştırma maliyetini minimumda tutarak 'aynı gün' hizmet veriyoruz.",
+            processSteps: [
+                { title: "Saha İncelemesi ve Altyapı Tespiti", description: "Deliklikaya'daki iş sahanıza gelip yerinde ücretsiz keşif yapıyoruz. Mevcut altyapı hatlarını gözlemliyor, zemin sertliğini analiz ediyoruz." },
+                { title: "Sanayi Standartlarında Fiyatlandırma", description: "İşin hacmine göre saatlik, günlük veya götürü fiyat teklifimizi sunuyoruz. Sanayi siteleri için gerekli fatura ve puantaj sistemini netleştiriyoruz." },
+                { title: "İSG Uyumlu Mobilizasyon", description: "Makinemizi ve operatörümüzü iş güvenliği ekipmanları tam şekilde sahaya ulaştırıyoruz. DESB giriş prosedürlerini sizin adınıza koordine ediyoruz." },
+                { title: "Hassas Uygulama ve Temizlik", description: "Operatörümüz, projeye uygun kazı veya yükleme işlemini gerçekleştirir. İş bitiminde saha temizlenir, molozlar yüklenir ve zemin düzgün şekilde teslim edilir." }
+            ],
+            benefits: [
+                "Deliklikaya Sanayi Bölgesi (DESB) tecrübesi",
+                "Sanayi altyapı hatlarına karşı yüksek hassasiyet",
+                "SRC 4 belgeli ve İSG kurallarına hakim profesyonel operatör",
+                "Ağır sanayi tipi JCB 3CX ve kırıcı ataşman desteği",
+                "7/24 ulaşılan acil kiralık kepçe hattı",
+                "Aynı gün mobilizasyon ve düşük nakliye maliyeti",
+                "Kurumsal firmalar için şeffaf puantaj ve faturalandırma",
+                "Zemin tesviyesinde (reglaj) milimetrik hassasiyet",
+                "Fabrika ve depo içi çalışmalarda yüksek manevra kabiliyeti",
+                "Aziz Sancar MTAL ve çevresindeki kamu şantiyelerine hızlı destek"
+            ],
+            useCases: [
+                "Fabrika binası temel kazısı ve hafriyat alımı",
+                "Depo ve lojistik antrepo zemin tesviyesi",
+                "Sanayi sitesi kanalizasyon ve yağmur suyu hattı kazısı",
+                "Fabrika bahçesi beton kırma ve moloz yükleme",
+                "TIR parkı sahası hazırlama ve stabilize dolgu",
+                "Makine temeli için hassas kırım ve kazı işleri",
+                "Elektrik ve fiber optik kanallarının açılması",
+                "Sanayi parseli arazi temizliği ve reglaj",
+                "Drenaj hattı oluşturma ve su tahliyesi",
+                "Asfalt sökümü ve yol genişletme çalışmaları"
+            ],
+            experienceProof: [
+                "Deliklikaya Sanayi Bölgesi (DESB) kuruluşundan bu yana 100+ fabrika sahası hazırlığı",
+                "Tesko Sanayi Sitesi içerisinde sayısız tadilat ve altyapı projesi",
+                "Hadımköy-Deliklikaya bağlantı yolu üzerindeki geniş ölçekli reglaj işleri",
+                "22 yıllık Arnavutköy ve yerel sanayi bölgesi uzmanlığı",
+                "Bölgenin killi ve dolgu zemin yapısına tam hakimiyet"
+            ],
+            pricingLogic: "Deliklikaya kiralık kepçe fiyatlandırmamız, sanayi sahalarının yoğun çalışma temposuna göre esneklik gösterir. Standart saatlik kiralama dışında, uzun süreli fabrika inşaatları için haftalık veya aylık indirimli paketlerimiz mevcuttur. Sanayi bölgelerindeki nakliye (lowbed veya sürüş) maliyetlerimiz, yerel bir işletme olduğumuz için oldukça uygundur. Ücretsiz saha keşfi sonrası, işin zorluğu ve kullanılacak ataşmanlar (kırıcı uç, dar kova vs.) dikkate alınarak net bir fiyat teklifi sunulur; iş sonunda sürpriz maliyetlerle karşılaşmazsınız.",
+            trustSignals: [
+                "Arnavutköy Ticaret Odası kaydı",
+                "DESB ve sanayi sitelerinde aktif çalışma referansları",
+                "Belgeli ve sigortalı operatör güvencesi",
+                "JCB yetkili servisi tarafından düzenli bakımı yapılan ekipman",
+                "İş kazalarına karşı tam sorumluluk ve sigorta kapsamı",
+                "22 yıllık bölge yerleşiği, güvenilir aile işletmesi"
+            ]
+        },
+        media: {
+            heroImageAlt: "Deliklikaya Sanayi Bölgesi'nde çalışan operatörlü JCB 3CX kiralık kepçe - Keçaş Kepçe",
+            galleryAlts: [
+                "DESB fabrika temeli kazısı",
+                "Deliklikaya sanayi lojistik saha tesviyesi",
+                "Deliklikaya beton kırma ve moloz yükleme",
+                "Sanayi caddesi altyapı kazı çalışması",
+                "Keçaş Kepçe Deliklikaya bölge mobilizasyonu"
+            ]
+        },
+        localSEO: {
+            serviceAreaText: "Deliklikaya Sanayi Bölgesi (DESB), Tesko Sanayi Sitesi, Deliklikaya Tren İstasyonu çevresi ve mahallenin tüm yerleşim alanlarında aktif hizmet veriyoruz.",
+            locationContext: "Deliklikaya, özellikle 2010 sonrası İstanbul'un sanayi dönüşümünün merkezi haline gelmiştir. Mahalle, doğusunda Hadımköy, batısında Sazlıbosna ile komşudur. Bu stratejik konum, bölgeyi bir lojistik üssü yapmaktadır. Bölge genelinde zeminin killi yapısı, kış aylarında şantiyelerin çamurlaşmasına, yazın ise beton kadar sertleşmesine neden olur. Keçaş Kepçe olarak bu mevsimsel zemin değişkenliğini bilerek, makinemizin bakımını ve lastik seçimini buna göre yapıyoruz. Mahallenin meydanından Aliya İzzetbegoviç Parkı çevresindeki konut inşaatlarına kadar her noktada 'yerel usta' kimliğimizle hizmet sağlıyoruz."
+        },
+        faq: [
+            { question: "Deliklikaya Sanayi Bölgesi'ne aynı gün kepçe gönderebilir misiniz?", answer: "Evet, Deliklikaya'da sürekli devam eden projelerimiz olduğundan veya merkezimize yakınlığından dolayı müsaitlik durumuna göre 1-2 saat içinde makinemizi şantiyenize ulaştırabiliyoruz. Acil kiralık kepçe ihtiyaçlarınız için 0539 477 81 12'den 7/24 bizi arayabilirsiniz." },
+            { question: "Sanayi sitesi içinde beton kırma yapabiliyor musunuz?", answer: "Evet, JCB 3CX makinemizde yüksek vuruş gücüne sahip hidrolik kırıcı (breaker) ataşmanımız mevcuttur. Fabrika zemin betonu, istinat duvarı veya saha betonu gibi kırım işlerini hızlıca yapıp, çıkan molozu ön kovamızla yükleyerek alanı temizliyoruz." },
+            { question: "İSG evraklarınız (İş Sağlığı ve Güvenliği) tam mı?", answer: "Evet, operatörlerimizin tüm mesleki yeterlilik belgeleri, G sınıfı ehliyetleri, sigorta girişleri ve sağlık raporları tamdır. Makinelerimizin periyodik kontrolleri düzenli yapılmaktadır. Sanayi sitelerinin kapı girişlerinde ve çalışma sahasında istenen tüm evrak grubunu sunabiliyoruz." },
+            { question: "Deliklikaya'da kanal açma fiyatları nasıl hesaplanır?", answer: "Kanal açma işlerinde projenin derinliği, genişliği ve toplam metrajına göre fiyat veriyoruz. Genellikle sanayi bölgelerinde saatlik kiralama tercih edilse de, uzun metrajlı kanalizasyon veya kablo kanalı işleri için metre başına veya iş bazlı götürü fiyat teklifi almanız daha avantajlı olabilir." },
+            { question: "Mevcut yeraltı hatlarına zarar gelmemesi için nasıl bir önlem alıyorsunuz?", answer: "Kazı öncesinde sahadaki altyapı krokilerini projenizden istiyoruz. Eğer kroki yoksa, operatörümüzün 'el hassasiyeti' ve tecrübesiyle, şüpheli bölgelerde önce yüzeysel sıyırma yaparak ilerliyoruz. Gerekirse operatörümüz yardımcı personeli (işçi) ile manuel kontrol eşliğinde kazıyı yönlendirir." }
+        ],
+        conversion: { primaryCTA: "Hemen Ara: 0539 477 81 12", secondaryCTA: "Ücretsiz Keşif İste" },
+        internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "hadimkoy-kiralik-kepce", "omerli-kiralik-kepce", "kazi-isleri", "yikim-hizmetleri"] }
+    },
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    // 16. ÖMERLİ KİRALIK KEPÇE (DEPOLAMA & ALTYAPI ODAKLI)
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    {
+        slug: "omerli-kiralik-kepce",
+        name: "Ömerli Kiralık Kepçe",
+        industry: "equipment-rental",
+        serviceType: "local",
+        primaryLocation: "Ömerli, Arnavutköy",
+        secondaryLocations: ["Hadımköy", "Deliklikaya", "Yeşilbayır", "Karlıbayır"],
+        seo: {
+            metaTitle: "Ömerli Kiralık Kepçe | Arnavutköy İş Makinesi Hizmetleri",
+            metaDescription: "Ömerli'de operatörlü kiralık kepçe hizmeti. KİPTAŞ konutları, sanayi siteleri ve depo projeleri için JCB 3CX kepçe. 7/24 acil hizmet. ☎ 0539 477 81 12",
+            canonical: "/omerli-kiralik-kepce",
+            h1: "Ömerli Kiralık Kepçe ve Hafriyat Çözümleri"
+        },
+        content: {
+            intro: "Ömerli Mahallesi, Arnavutköy'ün yükselen değeri olarak hem devasa lojistik depoların hem de KİPTAŞ ve benzeri büyük konut projelerinin kesişme noktasında yer almaktadır. Bölgenin hızla artan nüfusu ve ticari hacmi, altyapı ve çevre düzenleme işlerinde profesyonel kepçe hizmetine olan ihtiyacı her geçen gün artırmaktadır. Keçaş Kepçe olarak, Ömerli'nin hem dar sokaklarındaki bahçe düzenlemelerinde hem de sanayi parselindeki büyük kazı işlerinde 22 yıllık tecrübemizle faaliyet gösteriyoruz. Ömerli Bölge Parkı çevresindeki peyzaj hazırlıklarından tutun, sanayi caddesi üzerindeki fabrika tadilatlarına kadar mahallenin her köşesine hakimiz. Bölgedeki yüksek vasıfta zemin tesviyesi, drenaj kanalları ve temel kazıları projenin ömrünü belirler. Biz, Ömerli'nin toprak yapısını (özellikle killi ve yer yer kaygan zeminlerini) bilerek, iş makinemizi en verimli şekilde kullanıyoruz. Hadımköy-Ömerli hattındaki lojistik koridorda karşılaşılan tüm kazı ve yükleme taleplerine, donanımlı JCB 3CX kepçemiz ve sertifikalı operatörümüzle anında yanıt veriyoruz.",
+            problemStatement: "Ömerli mahallesindeki şantiyelerde en sık karşılaşılan sorun, zeminin değişken yapısına uygun olmayan makine seçimidir. KİPTAŞ konutları çevresindeki dar alanlarda veya site bahçelerinde çalışmak, milimetrik hassasiyet gerektirir; tecrübesiz bir operatör yaya kaldırımlarına, çevre çitlerine veya otopark zeminlerine zarar vererek yüksek tamir masrafları çıkarabilir. Öte yandan, Ömerli Sanayi bölgesindeki büyük parsellerde ise küçük makineler kapasite olarak yetersiz kalırken, devasa ekskavatörler ise hem çok pahalıdır hem de küçük detaylarda (kanal açma, ince tesviye) hantal kalır. Ayrıca bölgedeki yoğun lojistik trafiği nedeniyle makinelerin sahaya gelmesi bazen saatler sürebilir, bu da iş programınızın aksamasına neden olur. Mahalle aralarındaki kayıt dışı kepçecilerle çalışmak ise, olası bir kazada veya altyapı hasarında karşınızda sorumlu bir muhatap bulamamanıza yol açar.",
+            solutionOverview: "Ömerli projelerinizde Keçaş Kepçe olarak sunduğumuz 'çok fonksiyonlu' çözümle bu riskleri ortadan kaldırıyoruz. JCB 3CX kazıyıcı yükleyicimiz, hem dar alanlarda çalışabilecek kadar kompakt hem de temel kazısı yapabilecek kadar güçlüdür. Ön kovasıyla 1 metreküp yükleme yapabilirken, arka kazıcı koluyla 4 metrenin üzerine inebiliriz. Site içlerindeki hassas peyzaj işlerinde, 'lastik tekerlekli' olmamızın avantajıyla zemini bozmadan ilerliyoruz. Operatörlerimiz Ömerli'nin tüm cadde ve sokaklarını (Dr. Muhtar Ahmet Ensari Parkı çevresi, Sanayi Caddesi vs.) bildiği için, navigasyonla vakit kaybetmeden en kestirme yoldan sahanıza ulaşır. İş öncesi ve sonrası 'ücretsiz keşif' ve 'şeffaf puantaj' uyguluyoruz. Herhangi bir iş kazasına karşı tam sigortalı çalışma prensibimizle, hem bireysel mülk sahiplerine hem de kurumsal şantiye yöneticilerine iç huzuru sağlıyoruz. Makinemize takılabilen açılır kova, forklift çatalı ve hidrolik kırıcı gibi farklı ataşmanlarla, Ömerli'deki her türlü işi (tesviye, kırım, yükleme, istifleme) tek seferde bitirip çıkıyoruz.",
+            processSteps: [
+                { title: "Lokasyon ve İş Analizi", description: "Ömerli mahallesindeki adresinize geliyoruz. Çalışma alanının dar yollarını, eğim durumunu ve zemin sertliğini analiz ediyoruz." },
+                { title: "Bütçe Dostu Fiyatlandırma", description: "Ömerli'de yakın mesafede olmanın getirdiği avantajla, düşük nakliye bedelli ve iş süresine uygun ekonomik bir fiyat sunuyoruz." },
+                { title: "Hızlı Mobilizasyon", description: "Müsait durumdaki JCB 3CX'imiz, söz verdiğimiz saatte Ömerli şantiyenizde hazır hale getirilir." },
+                { title: "Profesyonel Uygulama ve Onay", description: "Operatörümüz talimatlarınız doğrultusunda işi yapar. Sizin onayınız alınmadan sahadan ayrılmayız, işi teslim eder ve puantajı kapatırız." }
+            ],
+            benefits: [
+                "Ömerli ve Hadımköy lokasyonlarına dakikalar içinde ulaşım",
+                "KİPTAŞ konutları ve site içi çalışmalarda yüksek tecrübe",
+                "Bahçe düzenlemesi ve peyzaj tesviyesinde (reglaj) uzmanlık",
+                "JCB 3CX ile hem kazı hem yükleme yapabilme avantajı",
+                "22 yıllık yerel aile işletmesi güvenilirliği",
+                "Uygun fiyatlı saatlik ve günlük kiralama seçenekleri",
+                "Operatörlü kiralama – makine + yakıt(opsiyonel) + operatör paketi",
+                "Dar sokaklarda ve müstakil ev bahçelerinde güvenli çalışma",
+                "Altyapı hatlarına (İSKİ, İGDAŞ) zarar vermeyen hassas kazı",
+                "Her türlü zemin ve moloz yükleme işine uygun ön kova kapasitesi"
+            ],
+            useCases: [
+                "Villa ve müstakil ev bahçe tesviyesi",
+                "Ömerli sanayi bölgesi fabrika temel kazıları",
+                "Site içi çevre düzenleme ve kanal açma işleri",
+                "Beton duvar ve eski kömürlük yıkımı",
+                "Toprak serimi ve rulo çim öncesi reglaj",
+                "İnşaat molozu ve hafriyat yüklemesi",
+                "Kanalizasyon ve foseptik çukuru kazısı",
+                "Dar sokaklarda altyapı onarım kazıları",
+                "Arsa temizliği ve yabani ot sıyırma",
+                "Yağmur suyu drenaj hattı oluşturma"
+            ],
+            experienceProof: [
+                "Ömerli Mahallesi genelinde 22 yıldır kesintisiz hizmet",
+                "KİPTAŞ ve civarındaki site projelerinde onlarca tamamlanmış iş",
+                "Ömerli sanayi parsellerinde fabrika zemin hazırlığı referansları",
+                "Arnavutköy Belediyesi ve yerel müteahhitlerle koordineli çalışma geçmişi",
+                "Birinci sınıf JCB 3CX operatörlüğü uzmanlığı"
+            ],
+            pricingLogic: "Ömerli kiralık kepçe ücretlerimiz, işin niteliğine göre şekillenir. Bahçe düzenleme gibi kısa süreli işler için 'saatlik', büyük kazı veya dolgu işleri için 'günlük' bazda fiyat veriyoruz. Ömerli merkez mahalle sınırları içinde nakliye (lowbed) gerektirmeden, makinenin kendi sürüşüyle gelmesi maliyetlerinizi düşürür. Ücretsiz keşif yaparak işin kaç saat süreceğini önceden tahmin ediyor ve size 'sürprizsiz fatura' garantisi veriyoruz.",
+            trustSignals: [
+                "Arnavutköy Yerel Esnaf kaydı",
+                "SGK'lı ve profesyonel operatör kadrosu",
+                "Müşteri memnuniyeti %98 olan hizmet geçmişi",
+                "Düzenli bakımlı, yeni model JCB 3CX ekipman",
+                "7/24 ulaşılabilecek sabit ve mobil numaralar",
+                "Referans odaklı büyüme ve güven prensibi"
+            ]
+        },
+        media: {
+            heroImageAlt: "Ömerli Arnavutköy'de bahçe düzenleme yapan kiralık JCB kepçe - Keçaş Kepçe",
+            galleryAlts: [
+                "Ömerli bahçe tesviye çalışması",
+                "Ömerli sanayi fabrika kazısı",
+                "Ömerli moloz yükleme ve temizlik",
+                "KİPTAŞ konutları çevre düzenleme kepçe işi",
+                "Ömerli'de dar alanda çalışan kepçe"
+            ]
+        },
+        localSEO: {
+            serviceAreaText: "Ömerli merkez, KİPTAŞ Ömerli Konutları, Ömerli Sanayi Bölgesi ve çevresindeki tüm sitelerde aktif kiralık kepçe hizmeti sağlıyoruz.",
+            locationContext: "Ömerli, İstanbul'un batısında, Arnavutköy ile Esenyurt arasında kalan stratejik bir bölgedir. Bir tarafında yoğun sanayi ve lojistik koridoru (Hadımköy-Ömerli), diğer tarafında modern konut projeleri bulunur. Bu ikili yapı, hem profesyonel ağır iş kapasitesi olan hem de kentsel estetiği bozmayacak hassas makinelerin gerekliliğini doğurur. Ömerli'nin yer yer killi olan zemin yapısı, özellikle yağışlı havalarda drenaj sorunlarına yol açar. Keçaş Kepçe olarak bu bölgenin toprak özelliklerini bilerek, buralarda su tahliye kanalları açma ve zemin stabilizasyonu konusunda bölge halkına ve sanayicilerine 22 yıldır destek veriyoruz."
+        },
+        faq: [
+            { question: "Ömerli'de bahçe düzenlemesi için kepçe kiralıyor musunuz?", answer: "Evet, özellikle Ömerli'deki villa, müstakil ev veya site bahçeleri için kepçe kiralıyoruz. Makinemizin lastik tekerlekli olması sayesinde kilit parke veya çim alanlara (gerekli önlemle) zarar vermeden tesviye, toprak serimi ve ağaç kökü sökme gibi işleri yapıyoruz." },
+            { question: "En az kaç saat kiralama yapılabiliyor?", answer: "Standart olarak minimum kiralama süremiz bulunmakla birlikte, Ömerli içindeki işler için mesafeye bağlı olarak esneklik gösterebiliyoruz. Detaylı bilgi ve size en uygun fiyat teklifi için bizi hemen arayabilirsiniz." },
+            { question: "Makineleriniz dar sokaklara girebilir mi?", answer: "Evet, JCB 3CX makinemiz bir kamyon boyutlarındadır ve Ömerli'nin standart sokaklarının tamamında rahatlıkla manevra yapabilir. Sadece çok dar kapılardan veya duvar arası tünellerden geçemeyiz." },
+            { question: "Operatörünüz tecrübeli mi?", answer: "Kesinlikle. Operatörlerimiz minimum 10 yıl tecrübeye sahiptir, SRC 4 belgeleri tamdır ve Ömerli'nin yerel zemin koşullarına son derece hakimdirler." },
+            { question: "Kepçe ile beton kırma yapıyor musunuz?", answer: "Evet, Ömerli'deki eski duvarlar, şap betonları veya saha betonları için hidrolik kırıcı ataşmanımızla kırım yapabiliyoruz. Hızlı ve çevreye minimum rahatsızlık vererek işi bitiriyoruz." }
+        ],
+        conversion: { primaryCTA: "Ömerli Kepçe Hattı: 0539 477 81 12", secondaryCTA: "Ücretsiz Saha Keşfi" },
+        internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "deliklikaya-kiralik-kepce", "hadimkoy-kiralik-kepce", "dolgu-tesviye", "temel-kazisi"] }
+    },
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    // 17. İMRAHOR KİRALIK KEPÇE (KAZI & DOĞA ODAKLI)
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    {
+        slug: "imrahor-kiralik-kepce",
+        name: "İmrahor Kiralık Kepçe",
+        industry: "equipment-rental",
+        serviceType: "local",
+        primaryLocation: "İmrahor, Arnavutköy",
+        secondaryLocations: ["Arnavutköy Merkez", "Karaburun", "Tayakadın", "Boğazköy"],
+        seo: {
+            metaTitle: "İmrahor Kiralık Kepçe | Arnavutköy Kazı & Hafriyat",
+            metaDescription: "İmrahor'da kiralık kepçe ve iş makinesi hizmetleri. Mesire alanı hazırlığı, arazi kazısı ve yıkım işleri için JCB 3CX biko loder. 22 yıllık usta operatör.",
+            canonical: "/imrahor-kiralik-kepce",
+            h1: "İmrahor Kiralık Kepçe ve Arazi Düzenleme Hizmeti"
+        },
+        content: {
+            intro: "Arnavutköy'ün hem tarihi dokusunu koruyan hem de doğasıyla nefes alan mahallesi İmrahor, son yıllarda kentsel dönüşüm ve yeni sosyal donatı projeleriyle büyük bir değişim içindedir. İmrahor Mesire Alanı gibi devasa sosyal projelerin ve bölgedeki tescilli tarihi yapıların çevresindeki çalışmalar, özel bir ihtimam ve uzmanlık gerektirir. Keçaş Kepçe olarak, İmrahor Mahallesi'nin her bir parselinde, eski taş ocakları bölgesinden İmrahor Roma Köprüsü çevresine kadar 22 yıllık saha deneyimimizle kiralık kepçe hizmeti sunuyoruz. İmrahor'un zemini, geçmişteki maden ve taş ocağı faaliyetleri nedeniyle oldukça değişkendir: bir noktada yumuşak dolgu toprak varken, birkaç metre ötede sert kaya tabakalarıyla karşılaşabilirsiniz. Biz, JCB 3CX iş makinemiz ve bu zemin dilinden anlayan operatörlerimizle, İmrahor'daki şantiyelerde veya müstakil arsalarınızda 'sorunsuz işçilik' garantisi veriyoruz. Mahallenin dar yollarından geçebilen makinemizle, bahçe temizliği, temel kazısı veya altyapı kanalı açma gibi işleri büyük bir titizlikle yürütüyoruz.",
+            problemStatement: "İmrahor'da iş makinesi çalıştırmanın en büyük zorluğu, bölgenin 'doğasını ve tarihini' korurken modern işleyişi sürdürmektir. Amatör kepçe operatörleri, İmrahor'un hassas noktalarında veya eski yapıların çevresinde çalışırken dikkatsiz manevralar yapabilir, meyve bahçelerine veya mevcut altyapıya kalıcı zararlar verebilirler. Ayrıca, İmrahor'un bazı bölgeleri sular ve göletler çevresinde yer aldığı için yer altı su seviyesi yüksektir; yanlış bir kazı stratejisi şantiyenin anında suyla dolmasına ve projenin durmasına neden olabilir. İmrahor sakinleri için bir diğer sorun ise, Arnavutköy merkezden uzaklaştıkça kepçe bulmanın zorlaşması veya gelen makinelerin çok yüksek nakliye (sefer) ücretleri talep etmesidir. Güvenilmez şahıs kepçecileri, işi yarıda bırakabilir veya fiyatı iş ortasında artırabilir, bu da İmrahor'daki mülk sahiplerini ve müteahhitleri zor durumda bırakır.",
+            solutionOverview: "Biz İmrahor'da 'lokal uzman' kimliğimizle hareket ederek bu problemleri bertaraf ediyoruz. 22 yıldır bu mahallede çalışıyor olmanın getirdiği tecrübeyle, nerede hangi zeminle karşılaşacağımızı biliyoruz. İmrahor Mesire Alanı civarındaki gevşek dolgularda güvenli şev açıları vererek kazı yapıyor, kaya zeminlere denk geldiğimizde JCB 3CX kırıcımızla zaman kaybetmeden müdahale ediyoruz. Suyun yüksek olduğu bölgelerde drenaj kanallarını önceleyerek sahanın kuru kalmasını sağlıyoruz. Arnavutköy'ün her köşesinde olduğu gibi İmrahor'da da 'nakliye dostu' fiyatlandırma yapıyoruz; makinemiz bölgede aktif çalıştığı için ulaşım maaliyetini müşterimize yansıtmıyoruz. Operatörlerimiz sadece makineyi kullanmaz; İmrahor'un tarihi köprüsü veya camileri çevresindeki hassas bölgelerin 'sit alanı' bilinciyle çalışır, doğaya ve çevreye zarar vermeden işini bitirir. Her iş sonunda, İmrahor'un o güzel doğasına uygun şekilde sahanın kaba temizliğini yapıyor ve tesviyesi yapılmış düzgün bir alan teslim ediyoruz.",
+            processSteps: [
+                { title: "Ücretsiz Saha Keşfi", description: "İmrahor'daki arsanıza veya şantiyenize geliyoruz. Zemin yapısını, giriş çıkış imkanlarını ve riskli noktaları ücretsiz analiz ediyoruz." },
+                { title: "Net ve Şeffaf Teklif", description: "Yapılacak işin süresini ve gerekecek ataşmanları (kırıcı, dar kova vs.) belirleyip, saatlik veya götürü fiyatımızı iletiyoruz." },
+                { title: "Zamanında Varış ve Uygulama", description: "İmrahor'a olan yakınlığımız sayesinde tam zamanında mobilizasyon sağlıyoruz. Operatörümüz iş planını harfiyen uygular." },
+                { title: "Kalite Kontrol ve Teslimat", description: "Hassas kot kontrolü ile işi tamamlıyoruz. Sizin onayınızdan sonra çalışmayı bitirip makinemizi sahadan çekiyoruz." }
+            ],
+            benefits: [
+                "İmrahor Mahallesi ve mesire alanı çevresinde yüksek saha deneyimi",
+                "Arnavutköy-İmrahor hattında hızlı ve ekonomik mobilizasyon",
+                "Değişken zemin yapısına (dolgu-taş-kaya) uygun ekipman seçimi",
+                "JCB 3CX ile hassas arazi temizliği ve reglaj işçiliği",
+                "Geçmişten gelen maden ve ocak sahası zemin bilgisi",
+                "Operatörlü kiralama – 22 yıllık usta işçiliğine sahip ekip",
+                "Bahçe, tarla ve mesire alanlarında 'çevre dostu' çalışma",
+                "Kentsel dönüşüm alanlarında güvenli duvar ve bina yıkımı",
+                "Altyapı (su, kanalizasyon) kazılarında sızdırmazlık ve kot hassasiyeti",
+                "7/24 operatör desteği ve acil durum müdahale kapasitesi"
+            ],
+            useCases: [
+                "Mesire alanı ve hobi bahçesi zemin hazırlığı",
+                "İmrahor kentsel dönüşüm konut temeli kazıları",
+                "Tarihi yapı çevresinde (izinli) hassas altyapı işleri",
+                "Araba yolu açma ve stabilize malzeme serimi",
+                "Bahçe temizliği, kök sökme ve moloz kaldırma",
+                "Sera ve tarım alanı drenaj kanallarının açılması",
+                "Beton saha kırma ve eski temel söküm işleri",
+                "Eğilimli arazilerde kademeli tesviye ve dolgu",
+                "Foseptik çukuru ve kanalizasyon hattı kazısı",
+                "Havuz yeri açma ve çevre düzenleme reglajı"
+            ],
+            experienceProof: [
+                "İmrahor bölgesinde 20 yılı aşkın sürede devam eden kazı referansları",
+                "Mesire alanı projelerinde alt yüklenici olarak edinilen tecrübe",
+                "Roma Köprüsü ve çevresindeki hassas şantiye deneyimleri",
+                "Yüzlerce müstakil parsel sahibine sunulan güvenilir hizmet",
+                "Bölgenin yerel operatörü olarak tescillenmiş marka değeri"
+            ],
+            pricingLogic: "İmrahor kiralık kepçe fiyatlarımız, bölgenin mesafesini ve çalışma koşullarını gözeten bir yapıdadır. Kısa süreli bahçe işleri için saatlik, büyük çaplı konut temelleri için günlük veya 'sefer başı' fiyat seçeneklerimiz bulunur. İmrahor'un değişken zeminleri (özellikle taşlık alanlar) ek kırıcı kullanımı gerektirebileceği için, ücretsiz keşif sonrası en net rakamı veriyoruz. 'Dürüst Esnaf' politikamız gereği, çalışılmayan saati değil sadece fiilen çalışılan süreyi puantaja ekliyoruz.",
+            trustSignals: [
+                "Arnavutköy Belediyesi onaylı yerel işletmecilik",
+                "SRC ve G sınıfı belgeli, her yıl İSG eğitiminden geçen operatörler",
+                "JCB marka iş makinerinde yetkili servis garantisi",
+                "Gerçek referanslar ve bitirilen işlere dair saha fotoğrafları",
+                "Vergi levhalı, fatura kesen ve yasal sorumluluk alan resmi yapı",
+                "Mahalle sakinleri tarafından tanınan, sözünün eri aile firması"
+            ]
+        },
+        media: {
+            heroImageAlt: "İmrahor Arnavutköy'de arazi düzenleme yapan kiralık JCB kepçe - Keçaş Kepçe",
+            galleryAlts: [
+                "İmrahor arazi tesviye çalışması",
+                "İmrahor mesire alanı hazırlık işi",
+                "İmrahor moloz yükleme ve temizlik",
+                "Roma Köprüsü çevresi altyapı kazısı",
+                "İmrahor'da kayalık zemin kırma çalışması"
+            ]
+        },
+        localSEO: {
+            serviceAreaText: "İmrahor merkez, İmrahor Mesire Alanı çevresi, Roma Köprüsü mevkii ve mahallemizin tüm sokaklarında aktif kiralık kepçe desteği veriyoruz.",
+            locationContext: "İmrahor, ismini Osmanlı'nın 'mir ahur'undan (saray atlarının bakıcısı) alan, Arnavutköy'ün hem tarihi hem stratejik bir mahallesidir. Bir tarafı Sazlıbosna Barajı'na, diğer tarafı Arnavutköy merkeze dayanır. Bölgenin en büyük özelliği, eskiden aktif olan taş ocaklarının bugün yerini sosyal alanlara ve kentsel dönüşüme bırakmasıdır. Bu durum İmrahor'un zeminini 'yorgun ve sürprizli' bir hale getirmiştir. Keçaş Kepçe olarak, toprağın altında nerede boşluk, nerede kaya olduğunu bilerek kazıyoruz. Hz. Ömer Camii'nden Halis Kutmangil okuluna kadar her bölgede 'İmrahörlünün komşusu' olarak hizmetteyiz."
+        },
+        faq: [
+            { question: "İmrahor Mesire Alanı yakınlarına kepçe gönderiyor musunuz?", answer: "Evet, İmrahor Mesire Alanı ve çevresindeki hobi bahçeleri, piknik alanları veya yeni şantiyelerin tamamına hizmet veriyoruz. Bölgenin giriş yollarını ve çalışma sınırlarını yakından tanıyoruz." },
+            { question: "Zemin taşa veya kayaya denk gelirse ne yapıyorsunuz?", answer: "JCB 3CX makinemizin arkasında her zaman hidrolik kırıcı (breaker) ataşmanımız montajlıdır. Kayaya denk gelindiğinde hemen kazıcı kovayı çıkarıp kırıya geçiyor ve işi aksatmadan bitiriyoruz." },
+            { question: "Dar bahçelere kepçe giriyor mu?", answer: "Evet, İmrahor'daki çoğu bahçeye 2.30 metre genişliğindeki JCB kepçemiz rahatlıkla girer. Operatörümüz çok hassas manevra yapabildiği için ağaçlara veya duvarlara zarar vermeden çalışır." },
+            { question: "Fiyatlarınıza operatör ve yakıt dahil mi?", answer: "Evet, genellikle operatörlü, sigortalı ve yakıt dahil 'yarım gün' veya 'tam gün' paketleri üzerinden fiyat veriyoruz. İsteğinize göre yakıt hariç seçeneklerimizi de değerlendirebilirsiniz." },
+            { question: "Acil bir kanalizasyon patlamasında hemen gelebilir misiniz?", answer: "İmrahor acil durum hattımız (0539 477 81 12) 7/24 hizmettedir. Hafriyat veya kazı makinelerimiz müsaitse en kısa sürede adresinize yönlendirilir." }
+        ],
+        conversion: { primaryCTA: "İmrahor Kepçe Hattı: 0539 477 81 12", secondaryCTA: "Ücretsiz Fiyat Al" },
+        internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "karaburun-kiralik-kepce", "kazi-isleri", "temel-kazisi", "yikim-hizmetleri"] }
+    },
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    // 18. KARLIBAYIR KİRALIK KEPÇE (KENTSEL DÖNÜŞÜM ODAKLI)
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    {
+        slug: "karlibayir-kiralik-kepce",
+        name: "Karlıbayır Kiralık Kepçe",
+        industry: "equipment-rental",
+        serviceType: "local",
+        primaryLocation: "Karlıbayır, Arnavutköy",
+        secondaryLocations: ["Arnavutköy Merkez", "İslambey", "Yavuz Selim", "Hicret"],
+        seo: {
+            metaTitle: "Karlıbayır Kiralık Kepçe | Arnavutköy Kentsel Dönüşüm Kazı",
+            metaDescription: "Karlıbayır'da profesyonel kiralık kepçe. Kentsel dönüşüm, bina temeli ve dar alan kazıları için JCB 3CX. Devlet Hastanesi çevresi hızlı hizmet. ☎ 0539 477 81 12",
+            canonical: "/karlibayir-kiralik-kepce",
+            h1: "Karlıbayır Kiralık Kepçe ve Bina Temel Kazısı"
+        },
+        content: {
+            intro: "Arnavutköy'ün merkezine en yakın ve yerleşim yoğunluğunun en yüksek olduğu mahallelerden biri olan Karlıbayır, son yıllarda kentsel dönüşümün kalbi haline gelmiştir. Eski ve riskli binaların yıkılıp yerine modern konutların yükseldiği bu süreçte, Karlıbayır'ın kendine has coğrafi yapısı ve dar sokakları, profesyonel bir kepçe hizmetini zorunlu kılmaktadır. Karlıbayır Mahallesi, Arnavutköy Devlet Hastanesi'ne olan yakınlığı ve merkezi konumuyla sürekli bir hareketlilik içindedir. Keçaş Kepçe olarak, Karlıbayır'daki inşaat projelerinde, özellikle kot farkı olan arazilerde ve bitişik nizami yapılarda 22 yıllık tecrübemizle yanınızdayız. Bölgenin sıkışık yapılaşması, operatörün makineyi milimetrik bir hassasiyetle kullanmasını gerektirir. Bir komşu duvara zarar vermeden temel kazmak veya dar bir sokaktaki kanalizasyon arızasına müdahale etmek, sadece iyi bir makineyle değil, Karlıbayır'ın sokaklarını avucunun içi gibi bilen usta bir operatörle mümkündür. JCB 3CX beko loder makinemiz, Karlıbayır'ın dik yokuşlarında ve dar dönüşlerinde üstün manevra kabiliyeti sergileyerek projelerinizin aksamadan ilerlemesini sağlar.",
+            problemStatement: "Karlıbayır'da çalışırken karşılaşılan en büyük zorluk, dar çalışma alanları ve bitişik nizam binalardır. Çoğu zaman makinenin girebileceği alan o kadar kısıtlıdır ki, en ufak bir manevra hatası yan binanın temeline, yoldaki doğalgaz hattına veya elektrik kablolarına zarar verebilir. Özellikle kentsel dönüşüm kapsamında yapılan yıkımlarda, çıkan molozun dar sokaklardan tahliyesi büyük bir lojistik problem oluşturur. Tecrübesiz operatörlerin kullandığı büyük makineler, Karlıbayır'ın asfalt yollarına ve kaldırımlarına zarar vererek mahalle sakinleriyle sorun yaşamanıza neden olabilir. Ayrıca, bölgedeki kot farkları nedeniyle kazı esnasında toprak kayması riskleri yüksektir. Profesyonel olmayan, mahalle dışından gelen kepçeciler bu yerel riskleri öngöremedikleri için işin süresinin uzamasına ve maliyetlerin kontrolsüzce artmasına yol açarlar. Şahıs odaklı, belgesiz ve sigortasız çalışanlar ise olası bir kaza anında sizi yasal olarak savunmasız bırakır.",
+            solutionOverview: "Keçaş Kepçe olarak Karlıbayır projelerinizde 'güvenli ve hassas' çalışma garantisi sunuyoruz. 22 yıldır bu mahallede, komşularınızla kurduğumuz güven bağıyla hizmet veriyoruz. JCB 3CX makinemiz, lastik tekerlekli yapısı sayesinde Karlıbayır'ın asfalt zeminine zarar vermez. Dar sokaklarda geri manevra yaparken kullandığımız profesyonel yardımcı personelimiz ve operatörümüzün 'el hassasiyeti' sayesinde çevre yapılara en ufak bir temas dahi etmeden kazıyı tamamlıyoruz. Kot farkı olan arazilerde, istinat duvarı öncesi yapılan kademeli kazılarda (şevli kazı) toprak dengesini koruyarak güvenli bir çalışma ortamı yaratıyoruz. Karlıbayır Meydanı ve Devlet Hastanesi çevresindeki projelerde, trafik akışını bozmayacak şekilde hızlı mobilizasyon sağlıyoruz. İş öncesinde altyapı hatlarını (İSKİ, İGDAŞ) kontrol ederek riski minimuma indiriyoruz. Çıkan molozu ön kovamızla hızlıca yükleyerek, dar sokaklardaki işgal süresini en aza indiriyoruz. SRC belgeli ve sigortalı operatörlerimizle hem kurumsal müteahhitlere hem de kendi evini yaptıran mülk sahiplerine resmi, faturalı ve hesap verebilir bir hizmet sunuyoruz.",
+            processSteps: [
+                { title: "Saha ve Çevre Analizi", description: "Karlıbayır'daki iş sahanıza gelip komşu binaların durumunu, sokak genişliğini ve altyapı risklerini yerinde inceliyoruz." },
+                { title: "Hassas Fiyatlandırma", description: "Bitişik nizam çalışma zorluklarını ve işin süresini dikkate alarak, bütçenize uygun şeffaf bir teklif sunuyoruz." },
+                { title: "Koordineli Çalışma", description: "Makinemizi trafik yoğunluğunu gözeterek sahaya ulaştırıyor, iş güvenliği önlemlerini alarak kazı veya kırım işlemine başlıyoruz." },
+                { title: "Saha Temizliği ve Onay", description: "İş bitiminde zemini düzeltiyor, alanı temizliyoruz. Sizin onayınızla puantajı tutup teslimatımızı yapıyoruz." }
+            ],
+            benefits: [
+                "Karlıbayır'ın dar sokaklarında milimetrik manevra kabiliyeti",
+                "Kentsel dönüşüm yıkım ve temel kazılarında yüksek tecrübe",
+                "Arnavutköy Devlet Hastanesi çevresine 15 dakikada ulaşım",
+                "Asfalt ve yaya yollarına zarar vermeyen lastik tekerlekli JCB kepçeler",
+                "22 yıllık bölge hakimiyetiyle altyapı hatlarına karşı yüksek duyarlılık",
+                "Bitişik nizam binalarda güvenli ve sarsıntısız kazı işçiliği",
+                "7/24 acil kiralık kepçe ve teknik destek hattı",
+                "Hukuki sorumluluğu üstlenen sigortalı ve belgeli operatör ekibi",
+                "Açılır kova ve kırıcı ataşmanlar ile tek makinede çoklu çözüm",
+                "Bölge müteahhitleri tarafından tercih edilen güvenilir iş ortağı"
+            ],
+            useCases: [
+                "Bina temeli kazısı ve hafriyat yükleme",
+                "İstinat duvarı temel hendeği açılması",
+                "Dar sokaklarda kanalizasyon ve su hattı kazıları",
+                "Eski bina yıkımı ve moloz kaldırma çalışmaları",
+                "Bahçe duvarı hazırlığı ve arazi tesviyesi",
+                "Doğalgaz ve elektrik tavası kanallarının açılması",
+                "Kot farkı olan arazilerde kademeli reglaj",
+                "İnşaat sahası malzeme taşıma ve istifleme",
+                "Site içi çevre düzenleme ve toprak serimi",
+                "Kentsel dönüşüm projelerinde altyapı deplase işleri"
+            ],
+            experienceProof: [
+                "Karlıbayır'da kentsel dönüşüm kapsamında bitirilen 50+ bina temeli",
+                "Arnavutköy Devlet Hastanesi ek inşaat sürecinde sağlanan iş makinesi desteği",
+                "Bölgedeki birçok yerel müteahhit ile 20 yılı aşkın sürekli çalışma",
+                "Karlıbayır'ın dik yokuşlarında makine devrilme riskine karşı uzman operatör kontrolü",
+                "22 yıllık mahalle esnafı olmanın getirdiği yüksek güven endeksi"
+            ],
+            pricingLogic: "Karlıbayır kiralık kepçe fiyatlarımızda, bitişik nizam ve dar sokak gibi 'dikkat gerektiren' koşulları gözetiyoruz. Standart saatlik kiralama dışında, bina temeli gibi hacimli işler için 'metreküp' veya 'götürü' fiyat paketleri sunabiliyoruz. Mahalle sakinlerine özel, kısa süreli moloz yükleme veya bahçe temizliği gibi işlerde oldukça ekonomik tarifeler uyguluyoruz. Ücretsiz keşif yaparak, işin zorluk derecesini önceden belirliyor ve size sonradan ek maliyet çıkarmayan net bir rakam veriyoruz.",
+            trustSignals: [
+                "Arnavutköy Esnaf ve Sanatkarlar Odası üyeliği",
+                "Karlıbayır yerel referanslı onlarca başarılı şantiye",
+                "Aktif sigortalı, profesyonel operatör kadrosu",
+                "Arıza yapmayan, yeni nesil ve bakımlı JCB 3CX makine parkuru",
+                "Cayırma ve mağdur etmeyen, sözleşmeli/faturalı çalışma sistemi",
+                "7/24 ulaşılan canlı destek ve operasyon hattı"
+            ]
+        },
+        media: {
+            heroImageAlt: "Karlıbayır Arnavutköy'de bitişik nizam bina temeli kazan kiralık kepçe - Keçaş Kepçe",
+            galleryAlts: [
+                "Karlıbayır kentsel dönüşüm kazı çalışması",
+                "Karlıbayır dar sokak moloz yükleme",
+                "Arnavutköy Devlet Hastanesi çevresi kepçe işi",
+                "Karlıbayır temel sondaj ve kanal kazısı",
+                "Keçaş Kepçe Karlıbayır bölge mobilizasyonu"
+            ]
+        },
+        localSEO: {
+            serviceAreaText: "Karlıbayır Meydanı, Arnavutköy Devlet Hastanesi çevresi, İslambey sınırı ve Karlıbayır'ın tüm cadde ve sokaklarında hizmetinizdeyiz.",
+            locationContext: "Karlıbayır, ismini kış aylarında karların en geç kalktığı yüksek mevkisinden alan, coğrafi olarak Arnavutköy'ün yüksek bir tepesinde kurulu mahallesidir. Bu durum, bölgedeki inşaatlarda ciddi kot farkları ve dik yamaçlar doğurur. Karlıbayır'da kazı demek, aynı zamanda 'istinat' ve 'denge' demektir. Keçaş Kepçe olarak bu toprağın ruhunu biliyor, kazıkları ve perdeleri ona göre planlamanıza yardımcı oluyoruz. Mahallemizin merkezi camisi ve meydanından, hastane arka sokaklarındaki en dar parsellere kadar her noktada operasyon yeteneğine sahibiz."
+        },
+        faq: [
+            { question: "Karlıbayır'ın dar sokaklarına kepçeniz girebilir mi?", answer: "Evet, JCB 3CX makinemiz standart bir damperli kamyondan daha dar bir gövdeye sahiptir. Karlıbayır'ın en dar sokaklarında bile manevra yapabiliyor, binalar arasından geçebiliyoruz. Eksperimiz gerekirse gelip sokağı önceden ölçebilir." },
+            { question: "Yan binanın temeline zarar gelmesinden korkuyoruz, ne önlem alıyorsunuz?", answer: "Hassas operatörlüğümüz en büyük garantimizdir. Bitişik nizamlarda kazıyı kademeli yapıyor, yan binanın temel pabuçlarını el ile sıyırır gibi açıyoruz. Gerekirse destek elemanımız (işçi) ile manuel koordinasyon sağlıyoruz." },
+            { question: "Karlıbayır'da acil kanalizasyon arızası için 7/24 kepçe bulabilir miyiz?", answer: "Evet, Karlıbayır mahallesine çok yakın lokasyonda makinelerimiz hazır bulunmaktadır. Gece veya gündüz fark etmeksizin acil altyapı kazıları için 0539 477 81 12 numarasından bize ulaşabilirsiniz." },
+            { question: "Yıkım sonrası molozu da siz mi taşıyorsunuz?", answer: "Biz kepçe ile yükleme hizmeti veriyoruz. Anlaşmalı olduğumuz damperli hafriyat kamyonları ile koordineli çalışarak molozunuzu döküm sahasına gönderiyoruz. Tek yerden çözüm sunuyoruz." },
+            { question: "Kentsel dönüşüm projelerinde fiyat paketleriniz var mı?", answer: "Evet, müteahhitlerimiz için bina yıkımı, temel kazısı ve altyapı bağlantılarını kapsayan 'anahtar teslim' kazı paketleri sunuyoruz. Uzun süreli çalışmalarda günlük fiyatlarımız oldukça rekabetçidir." }
+        ],
+        conversion: { primaryCTA: "Karlıbayır Kepçe: 0539 477 81 12", secondaryCTA: "Ücretsiz Keşif ve Fiyat" },
+        internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "temel-kazisi", "kazi-isleri", "yunus-emre-kiralik-kepce", "yikim-hizmetleri"] }
+    },
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    // 19. HARAÇÇI KİRALIK KEPÇE (GELİŞİM & SANAYİ ODAKLI)
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    {
+        slug: "haracci-kiralik-kepce",
+        name: "Haraççı Kiralık Kepçe",
+        industry: "equipment-rental",
+        serviceType: "local",
+        primaryLocation: "Haraççı, Arnavutköy",
+        secondaryLocations: ["Hadımköy", "Merkez", "Taşoluk", "İmrahor"],
+        seo: {
+            metaTitle: "Haraççı Kiralık Kepçe | Arnavutköy İş Makinesi Kiralama",
+            metaDescription: "Haraççı'da operatörlü kiralık kepçe hizmeti. Konut inşaatları ve hafif sanayi projeleri için JCB 3CX. 22 yıllık yerel tecrübe. ☎ 0539 477 81 12",
+            canonical: "/haracci-kiralik-kepce",
+            h1: "Haraççı Kiralık Kepçe ve Hafriyat Çözümleri"
+        },
+        content: {
+            intro: "Arnavutköy'ün köklü yerleşim birimlerinden biri olan Haraççı Mahallesi, son yıllarda hem sanayi sitelerinin hem de modern yapılaşmanın etkisiyle büyük bir dönüşüm geçirmektedir. Haraççı, İstanbul Havalimanı'na yakınlığı ve stratejik konumuyla iş makinesi ihtiyacının en yoğun olduğu bölgelerden biridir. Keçaş Kepçe olarak, Haraççı'nın hem eski yerleşim alanlarındaki dar bahçe işlerinde hem de yeni gelişen sanayi parsellerindeki büyük hafriyat taleplerinde 22 yıldır kesintisiz hizmet sunuyoruz. Haraççı Meydanı'ndan en ücra sokaklarına kadar mahallemizin her noktasına hakimiz. Bölgenin genel olarak düz ama yer yer yumuşak toprak yapısı, kazı işlemlerinde özel bir dikkat gerektirir. Biz, donanımlı JCB 3CX beko loder makinemiz ve bölgeyi tanıyan usta operatörlerimizle, Haraççı'daki projelerinizde hem hız hem de güvenlik vaat ediyoruz. Fabrika zemin hazırlıklarından, villa temellerine kadar her ölçekteki işinizde 'tek yerden uzman destek' prensibiyle hareket ediyoruz.",
+            problemStatement: "Haraççı mahallesindeki şantiyelerde en sık karşılaşılan sorun, altyapı hatlarının yoğunluğu ve yerleşim yerleriyle iç içe geçen sanayi alanlarıdır. Tecrübesiz operatörlerin yaptığı dikkatsiz kazılar, Haraççı'nın yerleşik sakinlerini susuz bırakabilir veya elektrik kesintilerine yol açabilir. Ayrıca bölgenin bazı kısımlarında yer alan meyve bahçeleri ve tarım arazilerinin inşaata dönüştürülmesi esnasında, verimli toprağın korunması ve doğru tesviye yapılması kritik bir konudur; yanlış kepçe kullanımı bu arazileri verimsiz hale getirebilir veya drenaj sorunlarına yol açabilir. Bir diğer problem ise, kurumsal sanayi tesislerinin 'belgeli ve profesyonel' taşeron bulmakta yaşadığı zorluktur. Çoğu serbest çalışan kepçeci, İSG kurallarına ve gerekli resmi evrak süreçlerine hakim olmadığı için iş akışını yavaşlatır. Haraççı sakinleri ise küçük işleri için kepçe bulamamaktan veya yüksek yol masraflarından şikayetçidirler.",
+            solutionOverview: "Keçaş Kepçe olarak bu sorunları, 22 yıllık yerel deneyimimiz ve kurumsal çalışma disiplinimizle çözüyoruz. Haraççı'daki her parselde 'kazmadan önce anla' felsefesiyle çalışıyoruz. İGDAŞ ve İSKİ hatlarını dikkate alarak, hassas kotlarla kazı yapıyoruz. Makinemize takılabilen hidrolik kırıcı (breaker) ile beton sökümlerini sessiz ve hızlı bitiriyor, açılır kovamızla zemin düzleme (reglaj) işlemlerinde milimetrik hassasiyet sunuyoruz. Haraççı mahalle sınırları içine çok yakın olduğumuz için 'yol masrafı' gibi ek yükleri müşterimize yansıtmıyoruz; böylece en ufak bahçe düzenleme işiniz dahi ekonomik bir hal alıyor. Operatörlerimiz SRC 4 belgeli, sigortalı ve profesyoneldir; fabrikalarınızın veya site yönetimlerinizin istediği tüm İSG belgelerini (periyodik kontrol, operatörlük belgesi vs.) anında sunabiliyoruz. İş bittiğinde alanı tertemiz bırakıyor, çıkan tüm fazlalıkları yükleyerek sizi moloz derdinden kurtarıyoruz. 'Yarın değil, bugün' sloganımızla Haraççı'daki acil taleplerinize saatler içinde yanıt veriyoruz.",
+            processSteps: [
+                { title: "Saha Keşfi ve Talimat Alımı", description: "Haraççı'daki adresinize gelip işin kapsamını belirliyoruz. Altyapı hatlarını projeniz üzerinden veya yerinde kontrol ediyoruz." },
+                { title: "Ekonomik Fiyatlandırma", description: "İşimizi yerel olarak yaptığımız için nakliye avantajlı, net ve rekabetçi fiyat teklifimizi iletiyoruz." },
+                { title: "Zamanında Mobilizasyon", description: "JCB 3CX kepçemizi söz verdiğimiz saatte Haraççı şantiyenize ulaştırarak çalışmaya başlıyoruz." },
+                { title: "Onaylı Teslimat", description: "Yapılan kazı veya tesviye işini sizinle birlikte kontrol edip onay aldıktan sonra sahadan ayrılıyoruz." }
+            ],
+            benefits: [
+                "Haraççı ve çevresinde 22 yıllık yerleşik firma güveni",
+                "Sanayi ve konut projelerinde çift yönlü uzmanlık",
+                "Arnavutköy-Haraççı hattında en hızlı mobilizasyon kapasitesi",
+                "Operatörlerin bölge altyapısına olan yüksek hakimiyeti",
+                "JCB 3CX ile kazı, kırım ve yükleme işlerinde yüksek verimlilik",
+                "Tüm İSG belgelerine ve resmi çalışma standartlarına tam uyum",
+                "Bahçe düzenlemelerinde bitkilere ve çevre yapılara zarar vermeyen hassas kullanım",
+                "Ekonomik saatlik ve günlük kiralama seçenekleri",
+                "7/24 acil kiralık kepçe desteği",
+                "Sürpriz maliyet içermeyen, şeffaf ve dürüst fiyatlandırma"
+            ],
+            useCases: [
+                "Fabrika ve depo zemin hazırlığı (reglaj)",
+                "Villa ve müstakil ev temel kazıları",
+                "Bahçe temizliği, ağaç sökümü ve toprak serimi",
+                "Hafif sanayi siteleri altyapı kanal kazıları",
+                "Eski bina ve fabrika içi zemin yıkımları",
+                "Yağmur suyu drenaj hatları oluşturma",
+                "İnşaat molozu yükleme ve saha temizliği",
+                "Arsa parselleme ve sınır belirleme kazıları",
+                "Beton saha kırma ve hafriyat alımı",
+                "Otopark ve garaj zemini hazırlama"
+            ],
+            experienceProof: [
+                "Haraççı Mahallesi'nde 2004'ten bu yana tamamlanmış 100+ proje",
+                "Haraççı Meydanı ve çevresindeki birçok kamu projesinde görev alma",
+                "Bölgedeki yerel üreticiler ve sanayicilerle uzun vadeli çözüm ortaklıkları",
+                "Hassas zeminlerde operatör hatasız teslim edilen yüksek metrajlı kanal işleri",
+                "Haraççı yerlisi operatörler ile bölge coğrafyasına tam hakimiyet"
+            ],
+            pricingLogic: "Haraççı kiralık kepçe fiyatlarımız, işin zorluk derecesine ve makinenin sahada kalacağı süreye göre belirlenir. 'Komşu esnaf' mantığıyla yaklaştığımız için, küçük bahçe işleri veya 1-2 saatlik yükleme taleplerinde en uygun tarifeyi uyguluyoruz. Fabrika temeli gibi büyük projelerde ise günlük veya iş bazlı paketlerle maliyetlerinizi düşürüyoruz. Ücretsiz saha keşfi yaparak, işinize en uygun bütçeyi birlikte oluşturuyoruz.",
+            trustSignals: [
+                "Arnavutköy Belediyesi ve Kaymakamlığına kayıtlı yasal işletme",
+                "Sürekli yenilenen ve bakımı yapılan JCB ekipman parkuru",
+                "Müşteri yorumlarında %100 güvenirlik puanı",
+                "Resmi sözleşme ve fatura imkanı",
+                "Yasal tüm operatörlük belgelerine sahip uzman ekip",
+                "Bölgenin en eski ve tanınan iş makinesi kiralama markası"
+            ]
+        },
+        media: {
+            heroImageAlt: "Haraççı Arnavutköy'de fabrika zemin tesviyesi yapan JCB kiralık kepçe - Keçaş Kepçe",
+            galleryAlts: [
+                "Haraççı sanayi sitesi altyapı çalışması",
+                "Haraççı villa temeli kazı işi",
+                "Haraççı bahçe düzenleme ve reglaj",
+                "Haraççı Meydanı çevresi moloz yükleme",
+                "Keçaş Kepçe Haraççı iş sahası mobilizasyonu"
+            ]
+        },
+        localSEO: {
+            serviceAreaText: "Haraççı Meydanı, Sanayi Caddesi, İBB Sosyal Tesisler çevresi ve mahallenin tüm yerleşim bölgelerinde aktif hizmet veriyoruz.",
+            locationContext: "Haraççı, ismini Osmanlı dönemindeki askeri bir birim veya vergi sisteminden alan, Arnavutköy'ün en merkezi gelişim akslarından biridir. Mahalle, sanayi ile konutun iç içe geçtiği, bu yüzden de kepçe hizmetinde 'hassasiyet' ve 'güç' dengesinin korunması gereken bir yerdir. Haraççı'nın killi toprak yapısı, kışın ağır makinelerin batmasına neden olabilir; bu yüzden JCB 3CX gibi optimize edilmiş makineler burada en yüksek verimi verir. Mahallemizin camilerinden okul yollarına kadar her karışı avucumuzun içi gibi biliyoruz."
+        },
+        faq: [
+            { question: "Haraççı'da kepçe kiralama ücretleri ne kadar?", answer: "Ücretlerimiz saatlik ve günlük olarak değişmektedir. Haraççı'da yerel olduğumuz için nakliye maliyetimiz yoktur, bu da fiyatlarımıza indirim olarak yansır. Ücretsiz keşif sonrası net rakamı iletiyoruz." },
+            { question: "Dar sokaktaki bir bahçe için kepçe gelir mi?", answer: "Kesinlikle. Haraççı'nın eski yerleşim alanlarındaki en dar sokaklara dahi JCB 3CX ile girebiliyoruz. Bahçe temizliği, kök sökme veya toprak serimi gibi işleri çevreye zarar vermeden yapıyoruz." },
+            { question: "Makinelerinizde kırıcı mevcut mu?", answer: "Evet, tüm makinelerimizde beton ve asfalt kırmak için yüksek darbeli hidrolik kırıcı ataşmanı bulunmaktadır. Haraççı'daki otopark veya bahçe betonu kırma işleriniz için bizi 7/24 arayabilirsiniz." },
+            { question: "Resmi kurumlar için fatura kesiyor musunuz?", answer: "Evet, tüm hizmetlerimiz için resmi fatura kesiyoruz. Ayrıca sanayi sitelerinin ve kurumsal firmaların talep ettiği tüm İSG evraklarımız eksiksizdir." },
+            { question: "Acil taleplerde kaç dakikada gelirsiniz?", answer: "Haraççı'da makinelerimiz aktif olduğu için ortalama 30-60 dakika içinde sahanızda olabiliyoruz. Takvimimize göre en hızlı çözümü sunuyoruz." }
+        ],
+        conversion: { primaryCTA: "Haraççı Kepçe Hattı: 0539 477 81 12", secondaryCTA: "Ücretsiz Fiyat Al" },
+        internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "tasoluk-kiralik-kepce", "kazi-isleri", "temel-kazisi", "yassioren-kiralik-kepce"] }
+    },
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    // 20. YASSIÖREN KİRALIK KEPÇE (SANAYİ & LOJİSTİK ÜSSÜ)
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    {
+        slug: "yassioren-kiralik-kepce",
+        name: "Yassıören Kiralık Kepçe",
+        industry: "equipment-rental",
+        serviceType: "local",
+        primaryLocation: "Yassıören, Arnavutköy",
+        secondaryLocations: ["Hadımköy", "Yassıören-Akpınar Sanayi", "Dursunköy", "Boyalık"],
+        seo: {
+            metaTitle: "Yassıören Kiralık Kepçe | Akpınar Sanayi Bölgesi Uzmanı",
+            metaDescription: "Yassıören'de profesyonel kiralık kepçe. Akpınar Sanayi Bölgesi ve lojistik depolar için JCB 3CX biko loder. Operatörlü, güvenilir hizmet. ☎ 0539 477 81 12",
+            canonical: "/yassioren-kiralik-kepce",
+            h1: "Yassıören Kiralık Kepçe ve Sanayi Hafriyat Hizmetleri"
+        },
+        content: {
+            intro: "Arnavutköy'ün kuzeybatısında, lojistik ve ağır sanayinin kalbi olarak konumlanan Yassıören Mahallesi, bugün İstanbul'un en önemli üretim üslerinden birine ev sahipliği yapmaktadır. Özellikle Akpınar Sanayi Bölgesi ve çevresindeki devasa antrepo yatırımları, Yassıören'i iş makinesi kiralama sektöründe en yüksek standartların arandığı bir nokta haline getirmiştir. Keçaş Kepçe olarak, Yassıören'in meralardan dev fabrikalara dönüşüm sürecinde 22 yıldır aktif rol oynuyoruz. Kuzey Marmara Otoyolu bağlantısı ve İstanbul Havalimanı koridoru üzerindeki bu stratejik lokasyonda, kurumsal firmaların ve yatırımcıların en güvendiği çözüm ortağıyız. Yassıören'in sert rüzgarlı açık alanlarından, fabrika içlerindeki dar operasyon sahalarına kadar her türlü koşulda JCB 3CX kepçemizle hizmet veriyoruz. Sanayi disiplinine hakim operatörlerimiz, yüksek metrajlı kanalizasyon hatlarından milimetrik fabrika temeli reglaj işlerine kadar tüm süreçleri profesyonellikle yönetir. Akpınar Sanayi Bölgesi'nin katı kurallarına ve çalışma temposuna tam uyumlu ekibimizle, işinizin aksamasına asla izin vermiyoruz.",
+            problemStatement: "Yassıören ve Akpınar Sanayi hattındaki projelerde en büyük problem, sahaların büyüklüğü ile işin detaycılığı arasındaki dengedir. Devasa ekskavatörlerin giremediği dar alanlarda veya küçük detaylı altyapı işlerinde hantal makineler zaman ve para kaybıdır. Ayrıca bölgenin sanayi karakteri gereği, altyapı hatları (yüksek gerilim, ana su boruları, fiber optik) son derece yoğundur; tecrübesiz bir operatörün ufak bir hatası koca bir sanayi bölgesinin enerjisinin kesilmesine ve milyonlarca liralık tazminatlara yol açar. Bir diğer sorun ise, Yassıören gibi merkeze biraz daha mesafeli bölgelerde acil kepçe ihtiyacı doğduğunda, operatörüyle birlikte sağlıklı bir makine bulmanın zorluğudur. Çoğu kiralama firması uzaklık nedeniyle yüksek 'nakliye sefer bedeli' talep ederken, bakımsız makineli şahıslar ise sanayi sitelerinin istediği İSG evraklarını (E-Devlet giriş bildirimleri, periyodik kontrol formları vs.) sağlayamaz.",
+            solutionOverview: "Keçaş Kepçe olarak Yassıören'deki bu boşluğu 'kurumsal yerellik' ve '7/24 mobilizasyon' ile dolduruyoruz. Akpınar Sanayi Bölgesi ve Yassıören merkezindeki şantiyeler için makinemizi her an hazır tutuyoruz. JCB 3CX makinemiz, hem ağır yükleme yapabilecek kapasitede hem de dar kanalları hassasça açabilecek kıvraklıktadır. Sanayi sitelerine girişlerde istenen operatör sigorta girişleri, mesleki yeterlilik belgeleri ve makine periyodik raporlarını dijital ortamda şantiye şefinize anında ulaştırıyoruz. Altyapı yoğunluğu olan sahalarda, kazı öncesi 'güvenli bölge' tespiti yapıyor ve el hassasiyeti yüksek operatörlerimizle çalışıyoruz. Yassıören'e olan rotamız üzerinde sürekli makinelerimiz bulunduğundan, müşterilerimize ek nakliye yükü bindirmeden en rekabetçi fiyatları sunuyoruz. Sadece kazı değil, fabrika içi beton kırma, forklift çatalı ile paletli malzeme taşıma ve yükleme gibi entegre çözümlerimizle projenizdeki makine çeşitliliği ihtiyacını tek başına karşılıyoruz. İş bitiminde, sanayi disiplinine uygun saha temizliğini yaparak personelinizi yormadan alanı teslim ediyoruz.",
+            processSteps: [
+                { title: "Saha ve Altyapı Tetkiki", description: "Yassıören'deki sanayi parselinize veya şantiyenize gelip ücretsiz keşif yapıyoruz. Altyapı kritik noktalarını işaretliyoruz." },
+                { title: "Sanayi Standartlarında Teklif", description: "İş güvenliği ve çalışma süresini kapsayan, sürpriz maliyet içermeyen profesyonel fiyatlandırmamızı sunuyoruz." },
+                { title: "Zamanında Sahaya İniş", description: "Söz verdiğimiz gün ve saatte, tüm belgeleri hazır makine ve operatörümüzle Yassıören'de hazır bulunuyoruz." },
+                { title: "Profesyonel Uygulama ve Raporlama", description: "Hassas kotlarda kazı ve dolgu işlemlerini tamamlıyor, puantajınızı onaylatarak işi kusursuz teslim ediyoruz." }
+            ],
+            benefits: [
+                "Akpınar Sanayi Bölgesi (ASKOOP) çalışma prosedürlerine tam hakimiyet",
+                "Sanayi altyapı hatlarına karşı yüksek hassasiyetli operatörlük",
+                "Yassıören ve çevresine hızlı mobilizasyon (Ek nakliye maliyetsiz)",
+                "JCB 3CX ile kazı, kırım ve forklift hizmetinin tek makinede birleşmesi",
+                "Tüm resmi kurum ve sanayi siteleri için eksiksiz İSG evrak desteği",
+                "Lojistik depoların zemin hazırlığında (stabilize dolgu) uzmanlaşmış ekip",
+                "22 yıllık Arnavutköy ve yerel sanayi bölgeleri tecrübesi",
+                "Kurumsal firmalar için faturalı ve şeffaf çalışma sistemi",
+                "7/24 ulaşılabilen teknik destek ve operatör hattı",
+                "Bölgenin rüzgarlı ve açık arazi koşullarında yüksek iş disiplini"
+            ],
+            useCases: [
+                "Fabrika ve depo temeli pabuç kazıları",
+                "Akpınar Sanayi Bölgesi altyapı ve kanal işleri",
+                "Lojistik antrepo zemin tesviyesi ve reglaj",
+                "Saha betonu öncesi stabilize dolgu ve sıkıştırma",
+                "Trafo merkezi ve makine temeli hassas kazıları",
+                "Yangın hidrant hattı ve su deposu kazıları",
+                "TIR parkı sahası hazırlığı ve çevre düzenleme",
+                "Sanayi binaları içindeki beton kırım ve moloz yükleme",
+                "Fiber optik ve OG/AG kablo kanallarının açılması",
+                "Parsel bazlı ağaç sökümü ve genel arazi temizliği"
+            ],
+            experienceProof: [
+                "Akpınar Sanayi Bölgesi ve Yassıören hattında tamamlanmış 150+ orta ve büyük ölçekli iş",
+                "Lojistik devlerinin depo zemin hazırlığı süreçlerinde aktif taşeronluk",
+                "Bölgedeki altyapı deplase ve onarım işlerinde sağlanan acil müdahale desteği",
+                "Yüksek gerilim hatları altında dahi hatasız ve emniyetli operatörlük performansı",
+                "22 yıllık Arnavutköy-Hadımköy-Yassıören yerel sanayi uzmanlığı"
+            ],
+            pricingLogic: "Yassıören kiralık kepçe fiyatlarımız, sanayi bölgelerinin yoğun ve disiplinli çalışma temposuna göre optimize edilmiştir. Fabrika inşaatı gibi uzun süreli projeler için günlük ve haftalık indirimli tarifelerimiz mevcuttur. Akpınar Sanayi'ye yakınlığımız sayesinde yol ücretini minimize ediyoruz. Ücretsiz saha keşfi sonrası, kullanılacak ataşmanlara ve işin risk derecesine göre en ekonomik ve dürüst teklifi sunuyoruz.",
+            trustSignals: [
+                "Arnavutköy yerleşiği olan köklü ve yasal şirket yapısı",
+                "Akpınar Sanayi ve büyük lojistik depolarından alınan referanslar",
+                "SRC ve G sınıfı belgeli, kalifiye operatör kadrosu",
+                "JCB marka, yeni model ve periyodik bakımlı iş makineleri",
+                "Resmi sözleşme, tam fatura ve şeffaf puantaj sistemi",
+                "İş kazalarına karşı %100 önlem ve kurumsal İSG disiplini"
+            ]
+        },
+        media: {
+            heroImageAlt: "Yassıören Akpınar Sanayi Bölgesi'nde depo temeli hazırlayan kiralık kepçe - Keçaş Kepçe",
+            galleryAlts: [
+                "Akpınar Sanayi altyapı hattı kazısı",
+                "Yassıören lojistik depo zemin tesviyesi",
+                "Yassıören fabrika bahçesi beton kırma",
+                "Sanayi parseli arazi reglaj çalışması",
+                "Keçaş Kepçe Yassıören sanayi mobilizasyonu"
+            ]
+        },
+        localSEO: {
+            serviceAreaText: "Akpınar Sanayi Bölgesi (ASKOOP), Yassıören Merkez, Kuzey Marmara Otoyolu bağlantı noktaları ve civarındaki tüm lojistik antrepolarda hizmet veriyoruz.",
+            locationContext: "Yassıören, Arnavutköy'ün kuzeybatı ucunda, İstanbul'un sanayi ve lojistik geleceğinin inşa edildiği bir merkezdir. Bölge, geniş meraların yerini alan modern endüstriyel tesislerle karakterizedir. Yassıören'in zemin yapısı, sanayi yapıları için ideal olan 'sertleşmiş dolgu' ve kaya katmanlarından oluşur; bu da güçlü kırıcılara ve dayanıklı JCB makinelerine olan ihtiyacı artırır. Keçaş Kepçe olarak bu ağır çalışma koşullarına ve sanayi temposuna 22 yıldır tam uyum sağlıyoruz. Mahallenin camisinden, Akpınar Sanayi nizamiyesine kadar her noktada 'çözüm ortağınız' olarak bekliyoruz."
+        },
+        faq: [
+            { question: "Akpınar Sanayi Bölgesi'ne giriş için evraklarınız tam mı?", answer: "Evet, Akpınar Sanayi (ASKOOP) ve diğer tüm OSB/Sanayi sitelerinin istediği sigorta girişleri, operatörlük belgeleri, İSG eğitim formları ve makine periyodik kontrol belgelerinin tamamını eksiksiz sunuyoruz." },
+            { question: "Yassıören'de fabrika içi beton kırma yapabiliyor musunuz?", answer: "Evet, JCB 3CX makinemizde bulunan yüksek vuruş gücüne sahip hidrolik kırıcı ataşmanımız ile fabrika içi zemin betonu, makine temeli veya saha betonlarını çevreye en az sarsıntıyı vererek kırıyoruz." },
+            { question: "Kepçe ile forklift hizmeti veriyor musunuz?", answer: "Makinemizin ön kısmına takılabilen forklift çatalı (forklift attachment) sayesinde, Yassıören'deki şantiyelerinizde 1.5 tona kadar olan paletli malzemelerinizi taşıyabiliyor ve yüksek raflara istifleyebiliyoruz." },
+            { question: "Uzun süreli kiralama fiyatlarınız nasıl?", answer: "Haftalık ve aylık kiralama talepleriniz için liste fiyatlarımız üzerinden %20'den başlayan indirimler uyguluyoruz. Sanayi projeleri için en ekonomik ve kurumsal çözümü sunmak temel ilkemizdir." },
+            { question: "Yassıören'deki acil altyapı kazılarına müdahale edebilir misiniz?", answer: "Bölgeye olan yakınlığımız ve lojistik ağımız sayesinde, acil kanal veya kablo arızaları için makinemizi ortalama 1 saat içinde Yassıören şantiyenize ulaştırabiliyoruz." }
+        ],
+        conversion: { primaryCTA: "Yassıören Kepçe: 0539 477 81 12", secondaryCTA: "Ücretsiz Sanayi Keşfi" },
+        internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "hadimkoy-kiralik-kepce", "deliklikaya-kiralik-kepce", "kazi-isleri", "temel-kazisi"] }
+    },
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    // 21. BAKLALI KİRALIK KEPÇE (STRATEJİK GELİŞİM ODAKLI)
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    {
+        slug: "baklali-kiralik-kepce",
+        name: "Baklalı Kiralık Kepçe",
+        industry: "equipment-rental",
+        serviceType: "local",
+        primaryLocation: "Baklalı, Arnavutköy",
+        secondaryLocations: ["Boyalık", "Yassıören", "Tayakadın", "Hadımköy"],
+        seo: {
+            metaTitle: "Baklalı Kiralık Kepçe | Arnavutköy Kanal İstanbul Güzergahı",
+            metaDescription: "Baklalı'da profesyonel kiralık kepçe hizmeti. Arazi tesviyesi, temel kazısı ve büyük parsel reglaj işleri için JCB 3CX. 22 yıllık yerel tecrübe. ☎ 0539 477 81 12",
+            canonical: "/baklali-kiralik-kepce",
+            h1: "Baklalı Kiralık Kepçe ve Geniş Arazi Kazı Çözümleri"
+        },
+        content: {
+            intro: "Arnavutköy'ün kuzeybatısında, stratejik konumu ve Kanal İstanbul projesinin muhtemel güzergahı üzerinde yer alan Baklalı Mahallesi, bugün tarımsal geçmişinden gelen geniş arazileriyle büyük bir değişim ve gelişim sürecinin eşiğindedir. Baklalı, hem mevcut hayvancılık ve tarım alanlarındaki altyapı ihtiyaçları hem de yeni planlanan sanayi ve lojistik bölgeleriyle iş makinesi kiralama sektöründe kilit bir noktadır. Keçaş Kepçe olarak, Baklalı'nın düz ama bereketli topraklarında 22 yıldır arazi düzenleme, kanal açma ve temel kazısı hizmetleri sunuyoruz. Bölgenin geniş parsel yapısı, yüksek verimliliğe sahip ve hızlı hareket edebilen makineleri zorunlu kılar. JCB 3CX beko loder makinemiz ve Baklalı'nın toprak yapısını (özellikle yüzey altındaki killi katmanları ve su yataklarını) iyi bilen operatörlerimizle, projelerinizde en doğru kazı stratejisini uyguluyoruz. Boyalık ve Yassıören aksındaki tüm arazi hazırlıklarında, tarlalardan şantiye sahalarına dönüşümde bölge halkının ve yatırımcıların en güvenilir 'yerel' partneriyiz.",
+            problemStatement: "Baklalı'da çalışırken karşılaşılan temel zorluk, arazilerin büyüklüğü ve altyapı eksikliği olan bölgelerdeki lojistik problemlerdir. Çoğu operatör, Baklalı'nın yumuşak tarım topraklarında makineyi batırma riskiyle karşı karşıya kalabilir veya yanlış kotlandırma yaparak yağmur sularının arazide göllenmesine neden olabilir. Ayrıca Kanal İstanbul güzergahı olması sebebiyle bölgedeki arazi hareketliliği, 'kimin nerede kazdığının' ve yasal sınırların korunmasının kritik önem taşıdığı bir durumdur; belgesiz ve dikkatsiz operatörlerin yaptığı sınır ihlalleri komşuluk ve yasal sorunlara yol açabilir. Baklalı sakinleri için bir diğer sorun ise, mahalleye dışarıdan gelen makinelerin talep ettiği fahiş nakliye ücretleridir. Uzmanlığı olmayan kepçecilerin arazi tesviyesi (reglaj) yaparken toprağı gereğinden fazla sıyırarak verimliliği düşürmesi veya dolgu alanlarını dayanıksız bırakması şantiyenin geleceğine zarar verir.",
+            solutionOverview: "Keçaş Kepçe olarak Baklalı projelerinizde 'toprağın dilinden anlayan' uzmanlığımızı konuşturuyoruz. 22 yıldır bu bölgenin köylerinde ve tarlalarında çalıştığımız için, toprağın hangi derinlikte sertleşeceğini veya nerede su damarı olduğunu biliyoruz. JCB 3CX makinemizin geniş ağızlı ön kovası ve güçlü arka kepçesiyle, Baklalı'nın geniş arazilerinde hızlı ve kaba reglaj (tesviye) işlemlerini milimetrik bir doğrulukla yapıyoruz. Arazi sınırlarınıza azami saygı gösteriyor, kazı öncesi ölçümlerinize sadık kalarak sınır ihlallerini önlüyoruz. Baklalı'ya çok yakın bir lokasyonda olduğumuz için, makinemizi kendi tekerlekleri üzerinde hızlıca sahaya ulaştırıyor ve sizden 'lowbed/nakliye' gibi ağır masraflar talep etmiyoruz. Tarlasını hobi bahçesine çevirmek isteyen sakinlere de, büyük sanayi parselini hazırlayan müteahhitlere de aynı profesyonel dille yaklaşıyoruz. Operatörlerimizin yerel olması, hem bölgeyi tanıması hem de iş güvenliği konusunda tam bilinçli olması (sigortalı ve belgeli) projenizin yasal güvencesidir. İş bitiminde toprağı havalandırılmış, drenaj kanalları açılmış ve üzerinde yapılaşmaya hazır bir zemin teslim ediyoruz.",
+            processSteps: [
+                { title: "Saha Analizi ve Su Yolu Tespiti", description: "Baklalı'daki arazinize gelip toprağın eğimini ve doğal su yollarını inceliyoruz. Kazı sonrası birikme riskini minimize ediyoruz." },
+                { title: "Yerel Dostu Fiyatlandırma", description: "Bölgenin yerlisi ve yakını olduğumuz için en düşük nakliye maliyetli ve dürüst saatlik/günlük fiyatımızı sunuyoruz." },
+                { title: "Planlı Uygulama ve Reglaj", description: "Arazinizi hedeflenen kot seviyesine getiriyor, kazı ve dolgu dengesini bozmadan profesyonel tesviye işlemini yapıyoruz." },
+                { title: "Onaylı Saha Teslimi", description: "İşin her aşamasını sizinle koordineli yönetiyoruz. Saha istediğiniz formu aldığında onayınızı alıp çalışmayı bitiriyoruz." }
+            ],
+            benefits: [
+                "Baklalı ve Boyalık bölgesinde 22 yıllık yerel operatörlük uzmanlığı",
+                "Kanal İstanbul güzergahı zemin özelliklerine yüksek hakimiyet",
+                "Geniş arazilerde hızlı ve ekonomik reglaj (tesviye) yeteneği",
+                "JCB 3CX ile tarlalarda batma ve kayma riskine karşı kontrollü sürüş",
+                "Nakliye (lowbed) masrafsız, kendi gücüyle hızlı mobilizasyon",
+                "Operatörlerin parsel ve sınır hassasiyeti konusunda yüksek bilinci",
+                "7/24 ulaşılan yerel acil destek ve fiyatlandırma hattı",
+                "Bahçe düzenlemesinden dev parsel hazırlığına kadar esnek çözüm kapasitesi",
+                "Toprak serimi ve drenaj kanallarında 'usta gözüyle' doğru uygulama",
+                "Resmi kurumlar tarafından tanınan, dürüst ve belgeli işletme güvencesi"
+            ],
+            useCases: [
+                "Hobi bahçesi zemin hazırlığı ve toprak serimi",
+                "Büyük sanayi ve lojistik parsellerinin tesviyesi",
+                "Tarımsal arazilerde drenaj kanallarının açılması",
+                "Parsel sınır yollarının açılması ve stabilize serimi",
+                "Villa ve müstakil ev yerleşimi için temel kazıları",
+                "Eski köy evi yıkımı ve moloz kaldırma çalışmaları",
+                "Hayvan damı ve ahır temeli beton hendeği kazısı",
+                "Arsa temizliği, diken sıyırma ve yabani ot reglajı",
+                "Kanalizasyon ve foseptik çukurlarının standartlara uygun kazılması",
+                "Elektrik ve su boru hatları için uzun metrajlı kanal açımı"
+            ],
+            experienceProof: [
+                "Baklalı ve çevresinde tarladan arsaya dönen düzinelerce parselin hazırlığı",
+                "Bölge hayvancılarının ve çiftçilerinin altyapı onarımındaki tek tercih noktası",
+                "Baklalı Köyü gelişim aksındaki altyapı ve yol genişletme tecrübeleri",
+                "Operatörlerin bölge insanı olması sayesinde sağlanan sarsılmaz güven",
+                "JCB 3CX ile hassas zeminlerde dahi makine kontrolü sağlayan usta operatörlük"
+            ],
+            pricingLogic: "Baklalı kiralık kepçe fiyatlarımızda, mahallemizin merkeze göre daha geniş araziler içermesini göz önünde bulunduruyoruz. Kısa süreli kanal açma işleri için saatlik, büyük parsel düzenlemeleri için ise 'günlük' veya 'alan bazlı' (dönüm bazlı) ekonomik çözümler üretiyoruz. Baklalı'ya komşu olduğumuz için ulaştırma ücretlerini en alt seviyede tutuyoruz. Ücretsiz keşif yaparak, projeniz için en karlı makine saat programını birlikte çıkartıyoruz.",
+            trustSignals: [
+                "Arnavutköy yerel esnaf tescili ve 22 yıllık marka ömrü",
+                "Baklalı'da bitirilen tarımsal ve inşaat odaklı referanslar",
+                "G sınıfı ehliyetli ve tam sigortalı uzman operatörler",
+                "Bakımı tam, yüksek performanslı JCB 3CX makine parkuru",
+                "Dürüst puantaj, net fatura ve tam resmiyet",
+                "24 saat cevap veren whatsapp ve telefon destek hattı"
+            ]
+        },
+        media: {
+            heroImageAlt: "Baklalı Arnavutköy'de geniş arazi tesviyesi yapan kiralık JCB kepçe - Keçaş Kepçe",
+            galleryAlts: [
+                "Baklalı arazi reglaj ve düzleme",
+                "Baklalı Kanal İstanbul güzergahı kazı çalışması",
+                "Baklalı bahçe düzenleme ve toprak serimi",
+                "Baklalı parsel yolu açma işi",
+                "Baklalı killi toprak kazı ve kanal açma"
+            ]
+        },
+        localSEO: {
+            serviceAreaText: "Baklalı Merkez, Boyalık Hattı, Tayakadın sınırı ve mahallenin tüm arazi parsellerinde aktif kiralık kepçe hizmeti sağlıyoruz.",
+            locationContext: "Baklalı, Arnavutköy'ün hem geçmişini hem geleceğini temsil eden stratejik bir köydür. Geçmişte bakla ve hububat tarımıyla bilinen bu düzlükler, bugün İstanbul'un en önemli kanal ve lojistik projelerinin odağındadır. Baklalı'nın düz arazisi kepçe çalışması için ideal görünse de, toprak altındaki yüksek nem oranı ve killi yapı tecrübesiz makinelerin çamura saplanmasına neden olur. Keçaş Kepçe olarak biz bu toprakta büyüdük; nerede duracağımızı, nerede kazacağımızı biliriz. Baklalı Camii'nden, Sazlıdere Barajı kıyısındaki parsellere kadar her noktada operasyon yeteneğine sahibiz."
+        },
+        faq: [
+            { question: "Baklalı'da tarlamı hobi bahçesi yapacağım, kepçe hizmetiniz var mı?", answer: "Kesinlikle. Tarlanızın otlarını sıyırıyor, toprağı havalandırıyor, su drenaj kanallarını açıyor ve varsa meyve fidanı yerlerinizi hassasça hazırlıyoruz. Baklalı'daki hobi bahçesi projelerinde çok tecrübeliyiz." },
+            { question: "Kanal İstanbul ve çevresi sanayi parsellerinde çalışabiliyor musunuz?", answer: "Evet, bölgedeki planlanmış tüm yeni parselasyon alanlarında, imar durumuna ve yasal izinlerinize uygun olarak zemin etüdü kazıları ve tesviye işleri yapıyoruz." },
+            { question: "Makinelerinizin günlük kira bedeli nedir?", answer: "Baklalı'da günlük kiralama bedellerimiz Arnavutköy geneline göre daha uygundur çünkü nakliye masrafımız yok denecek kadar azdır. Güncel ve net fiyat için 0539 477 81 12'den bizi arayın." },
+            { question: "Operatör parsel sınırlarına dikkat eder mi?", answer: "Bizim için en önemli kural sınır haklarıdır. Operatörümüz sizin verdiğiniz aplikasyon veya sınır işaretlerine harfiyen uyar, asla komşu parsele müdahale etmez." },
+            { question: "Toprak altı su çıkarsa kepçeyle kanal açabilir misiniz?", answer: "Evet, Baklalı'nın bazı bölgelerinde su seviyesi yüksektir. JCB 3CX ile derin tahliye kanalları açarak sahanızın kurumasını ve inşaata elverişli hale gelmesini sağlıyoruz." }
+        ],
+        conversion: { primaryCTA: "Baklalı Kepçe Hattı: 0539 477 81 12", secondaryCTA: "Ücretsiz Arazi Keşfi" },
+        internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "yassioren-kiralik-kepce", "kazi-isleri", "temel-kazisi", "dolgu-tesviye"] }
+    },
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    // 22. BOĞAZKÖY KİRALIK KEPÇE (PREMİUM KONUT & PEYZAJ)
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    {
+        slug: "bogazkoy-kiralik-kepce",
+        name: "Boğazköy Kiralık Kepçe",
+        industry: "equipment-rental",
+        serviceType: "local",
+        primaryLocation: "Boğazköy, Arnavutköy",
+        secondaryLocations: ["İstiklal", "Yunus Emre", "Karlıbayır", "Bolluca"],
+        seo: {
+            metaTitle: "Boğazköy Kiralık Kepçe | Villa & Peyzaj Kazı Hizmetleri",
+            metaDescription: "Boğazköy'de profesyonel kiralık kepçe. Villa temeli, havuz kazısı ve bahçe düzenleme için operatörlü JCB 3CX. Hassas ve temiz işçilik. ☎ 0539 477 81 12",
+            canonical: "/bogazkoy-kiralik-kepce",
+            h1: "Boğazköy Kiralık Kepçe ve Bahçe Düzenleme"
+        },
+        content: {
+            intro: "Arnavutköy'ün en nezih yerleşim alanlarından biri olan Boğazköy, geniş bahçeli villaları, butik siteleri ve yeşil dokusuyla öne çıkmaktadır. Boğazköy'de kepçe hizmeti, kaba bir kazıdan ziyade; mevcut peyzaja zarar vermeyen, dar bahçe kapılarından geçebilen ve milimetrik tesviye yapabilen bir ustalık gerektirir. Keçaş Kepçe olarak, Boğazköy'ün bu estetik ve huzurlu atmosferine uygun, 'temiz işçilik' odaklı kiralık kepçe hizmeti sunuyoruz. 22 yıllık tecrübemizle, Boğazköy'deki villa sahiplerinin ve site yönetimlerinin en güvendiği partneriyiz. JCB 3CX makinemizin sunduğu kıvraklık sayesinde, havuz yeri kazısı, otomatik sulama kanalları veya rulo çim öncesi toprak serimi gibi hassas işlerde profesyonel çözümler üretiyoruz. Bölgenin yer yer killi ve bitkisel toprak ağırlıklı yapısına hakim operatörlerimiz, toprağın verimli katmanını koruyarak şantiyenizi peyzaja hazır hale getirir.",
+            problemStatement: "Boğazköy'deki mülk sahipleri için en büyük çekince, iş makinesinin mevcut bahçeye, çevre duvarlarına veya yerleşik bitkilere zarar vermesidir. Çoğu operatör büyük makinelerle dar alanlara girmeye çalışırken manevra hataları yapabilir ve telafisi zor masraflar çıkarabilir. Ayrıca, Boğazköy gibi sessiz mahallelerde gürültü ve çevre kirliliği komşu ilişkilerini bozabilir. Belgesiz ve sigortasız çalışan kepçeciler, olası bir altyapı hasarında (fiber internet kablosu veya bahçe sulama hattı kopması gibi) sorumluluk almaktan kaçınırlar. Küçük ama detaylı işler için büyük hafriyat firmalarından yanıt alamamak da bölge halkının sıkça yaşadığı bir sorundur.",
+            solutionOverview: "Boğazköy'ün hassas dokusuna 'operatör hassasiyeti' ile yanıt veriyoruz. JCB 3CX makinemiz lastik tekerlekli olduğu için kilit parke yollarınıza veya asfalt zemine zarar vermez. Dar yollarda ve bahçe içlerinde çalışırken operatörümüz yüksek odakla hareket eder; gerekirse çevre güvenliği için yardımcı personel eşliğinde manevra yaparız. Gürültü kirliliğini minimumda tutmak için makinemizin bakımını eksiksiz yapıyor, işi en kısa sürede bitirerek yaşam alanınızdaki konforu bozmamaya özen gösteriyoruz. Tüm altyapı hatlarını kazı öncesi gözlemliyor, süpriz hasarların önüne geçiyoruz. SRC 4 belgeli ve sigortalı ekibimizle profesyonel, faturalı ve güvenilir bir hizmet sunuyoruz. İş bitiminde bahçenizi kaba molozundan arındırılmış ve tesviyesi yapılmış şekilde teslim ediyoruz.",
+            processSteps: [
+                { title: "Detaylı Bahçe Keşfi", description: "Boğazköy'deki adresinize gelip makinenin giriş imkanlarını, toprak yapısını ve korunması gereken ağaç/yapıları analiz ediyoruz." },
+                { title: "Hassas İş Planı ve Teklif", description: "İşin süresini ve gerekecek ataşmanları (ince kova, tesviye bıçağı vs.) belirleyip şeffaf fiyatımızı sunuyoruz." },
+                { title: "Temiz ve Sessiz Uygulama", description: "Belirlenen saatte makinemizle gelip, çevreye minimum rahatsızlık vererek profesyonel kazı veya dolgu işlemini yapıyoruz." },
+                { title: "Onaylı Teslimat", description: "Sizinle birlikte yapılan işi kontrol ediyoruz; zemin düzgünlüğü sağlandığında sahadan ayrılıyoruz." }
+            ],
+            benefits: [
+                "Boğazköy'de villa ve site içi çalışmalarda 22 yıllık uzmanlık",
+                "Mevcut peyzaja ve ağaçlara zarar vermeyen hassas kullanım",
+                "Lastik tekerlekli JCB ile asfalt ve parke dostu sürüş",
+                "Havuz kazısı ve drenaj hatlarında milimetrik kot hassasiyeti",
+                "Arnavutköy Boğazköy lokasyonuna en hızlı ulaşım kapasitesi",
+                "Sertifikalı ve sigortalı operatör güvencesi",
+                "Bahçe düzenlemesi için özel tesviye (reglaj) yeteneği",
+                "Kentsel estetiği bozmayan temiz çalışma disiplini",
+                "Açılır kova ile toprak serimi ve rulo çim hazırlığı uzmanlığı",
+                "Hafta içi ve hafta sonu (izinli saatlerde) esnek çalışma desteği"
+            ],
+            useCases: [
+                "Villa bahçesi havuz yeri kazısı",
+                "Otomatik sulama ve drenaj kanalı açılması",
+                "Bahçe toprağı serimi ve seviye düzenleme",
+                "Ağaç yeri açma ve eski köklerin sökülmesi",
+                "Villa çevresi istinat duvarı temel kazısı",
+                "Kilit taşı ve otopark zemini hazırlığı",
+                "Eski kömürlük veya bahçe duvarı yıkımı",
+                "Site içi altyapı onarım ve kanal kazıları",
+                "Hobi bahçesi teraslama ve reglaj",
+                "Peyzaj molozu yükleme ve saha temizliği"
+            ],
+            experienceProof: [
+                "Boğazköy villa bölgelerinde tamamlanmış yüzlerce peyzaj ve temel işi",
+                "Bölgedeki site yönetimleri ile uzun vadeli bakım ve altyapı çalışmaları",
+                "Hassas zeminlerde operatör hatasız teslim edilen havuz projeleri",
+                "Boğazköy Kültür Merkezi çevresindeki çevre düzenleme destekleri",
+                "22 yıldır bölge sakinlerinin referanslarıyla büyüyen güvenli hizmet"
+            ],
+            pricingLogic: "Boğazköy kiralık kepçe fiyatlarımızda, bahçe işlerinin detaycı yapısını gözetiyoruz. Saatlik kiralama ile bütçenizi korurken, havuz kazısı gibi net işler için 'götürü' paketler sunuyoruz. Boğazköy merkezinde aktif olduğumuz için nakliye maliyetini en alt seviyede tutuyoruz. Ücretsiz keşif yaparak işin kaç saatte biteceğini önceden tahmin ediyor, süpriz maliyetleri önlüyoruz.",
+            trustSignals: [
+                "Yerel Arnavutköy esnafı ve 22 yıllık resmi şirket ömrü",
+                "Boğazköy'de bitirilen villa projelerinden güçlü referanslar",
+                "SRC belgeli, profesyonel ve güler yüzlü operatör ekibi",
+                "Yeni nesil, sessiz ve bakımlı JCB 3CX makine parkuru",
+                "Resmi faturalı, puantaj odaklı ve dürüst çalışma sistemi",
+                "İş kazalarına karşı %100 sigortalı ve yasal sorumlu yapı"
+            ]
+        },
+        media: {
+            heroImageAlt: "Boğazköy Arnavutköy'de villa bahçesinde çalışan kiralık JCB kepçe - Keçaş Kepçe",
+            galleryAlts: [
+                "Boğazköy villa havuz kazısı",
+                "Boğazköy bahçe düzenleme ve tesviye",
+                "Boğazköy site içi altyapı kazısı",
+                "Boğazköy toprak serimi ve reglaj",
+                "Keçaş Kepçe Boğazköy mobilizasyonu"
+            ]
+        },
+        localSEO: {
+            serviceAreaText: "Boğazköy Merkez, Boğazköy Villaları, Boğazköy Bölge Parkı çevresi ve mahallenin tüm butik sitelerinde hizmet veriyoruz.",
+            locationContext: "Boğazköy, Arnavutköy'ün yükselen modern yüzü olarak, geniş yeşil alanları ve kaliteli yapılaşmasıyla bilinir. Bölgenin zemini genellikle killi ve sağlamdır, ancak peyzaj çalışmaları için üst katmanların doğru işlenmesi gerekir. Boğazköy'de kepçeci olmak, sadece çukur açmak değil, mahallemizin estetik değerine saygı duyarak çalışmaktır. Keçaş Kepçe olarak, Boğazköy Camii'nden mesire alanı girişlerine kadar her sokakta komşuluk hukukuyla hizmet veriyoruz."
+        },
+        faq: [
+            { question: "Boğazköy'deki dar bahçe kapılarından kepçeniz geçer mi?", answer: "JCB 3CX makinemiz yaklaşık 2.36 metre genişliğindedir. Standart villa bahçe kapılarının çoğundan rahatlıkla geçer. Eğer kapı çok darsa, mini makinelerimiz için yönlendirme de yapabiliyoruz." },
+            { question: "Bahçemdeki kilit parke taşlarına zarar gelir mi?", answer: "Makinemiz lastik tekerleklidir; beton veya parke üzerinde iz yapmaz. Ancak engebeli manevralarda taşların oynamaması için operatörümüz ekstra hassas çalışır ve gerekirse zemin koruyucu önlemler alırız." },
+            { question: "Bahçe toprağını siz mi getiriyorsunuz?", answer: "Biz kepçe hizmeti veriyoruz. Talep etmeniz halinde, verimli nebati toprak veya dolgu malzemesi getirecek kamyonları organize edebiliyor, kepçemizle serme ve tesviye işlemini yapıyoruz." },
+            { question: "Hafta sonu çalışma yapabiliyor musunuz?", answer: "Site kuralları ve belediye yasakları dahilinde, pazar günü hariç cumartesi günleri veya izinli saatlerde Boğazköy'deki bahçe işlerinizi yapabiliyoruz." },
+            { question: "Havuz kazısı ne kadar sürer?", answer: "Standart bir villa havuzu (4x8m gibi) zemin sertliğine göre ortalama 4-6 saat içinde kazılıp, hafriyatı kamyona yüklenebilir durumda tamamlanır." }
+        ],
+        conversion: { primaryCTA: "Boğazköy Kepçe Hattı: 0539 477 81 12", secondaryCTA: "Ücretsiz Bahçe Keşfi" },
+        internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "yunus-emre-kiralik-kepce", "dolgu-tesviye", "temel-kazisi", "kazi-isleri"] }
+    },
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    // 23. YAVUZ SELİM MAHALLESİ KİRALIK KEPÇE (KENTSEL YOĞUNLUK & MERKEZ)
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    {
+        slug: "yavuz-selim-kiralik-kepce",
+        name: "Yavuz Selim Mahallesi Kiralık Kepçe",
+        industry: "equipment-rental",
+        serviceType: "local",
+        primaryLocation: "Yavuz Selim, Arnavutköy",
+        secondaryLocations: ["Arnavutköy Merkez", "İslambey", "Karlıbayır", "Nenehatun"],
+        seo: {
+            metaTitle: "Yavuz Selim Mahallesi Kiralık Kepçe | Arnavutköy Merkez Hafriyat",
+            metaDescription: "Yavuz Selim Mahallesi'nde operatörlü kiralık kepçe. Kentsel dönüşüm, dar sokak kazıları ve bina temel hazırlığı için JCB 3CX. 7/24 hizmet. ☎ 0539 477 81 12",
+            canonical: "/yavuz-selim-kiralik-kepce",
+            h1: "Yavuz Selim Mahallesi Kiralık Kepçe ve Temel Kazısı"
+        },
+        content: {
+            intro: "Arnavutköy'ün merkezinde, ticaretin ve yaşamın en yoğun olduğu mahallelerden biri olan Yavuz Selim, son yıllarda kentsel dönüşüm projeleriyle hızla kabuk değiştirmektedir. Yavuz Selim Mahallesi'nde kepçe çalışması, yoğun trafik, dar sokaklar ve bitişik nizam binalar nedeniyle en üst düzey operatör mahareti gerektirir. Keçaş Kepçe olarak, Yavuz Selim'in merkezindeki her bir sokakta, komşu binalara ve altyapıya zarar vermeden 22 yıldır faaliyet gösteriyoruz. Bölgenin merkezi konumu, iş makinesinin sahaya vaktinde ulaşmasını ve işini trafiği aksatmadan bitirmesini zorunlu kılar. JCB 3CX beko loder makinemiz ve mahallemizin dar labirentlerine hakim operatörlerimizle, bina temel kazılarından kanalizasyon onarımlarına kadar tüm ihtiyaçlarınızda 'yerel usta' hızıyla yanınızdayız.",
+            problemStatement: "Yavuz Selim Mahallesi'nde en büyük zorluk, makinelerin hareket alanının kısıtlı olmasıdır. Bitişik binaların temellerine çok yakın çalışmak, tecrübesiz operatörler için büyük bir risk oluşturur; en küçük bir dikkatsizlik komşu yapıların statik güvenliğini tehlikeye atabilir. Ayrıca, Yavuz Selim'in dar sokaklarında doğalgaz, su ve fiber optik hatları yüzeye çok yakındır; yanlış kazı Yavuz Selim sakinlerini günlerce mağdur edebilir. Trafik yoğunluğu nedeniyle iş makinelerinin mahalleye girmesi gecikirse, şantiye programınız sarkar ve maliyetleriniz artar. Kayıt dışı çalışan kepçecilerle Yavuz Selim gibi merkezi yerlerde çalışmak, zabıta ve iş güvenliği denetimlerinde sizi zor durumda bırakabilir.",
+            solutionOverview: "Yavuz Selim projelerinizde 'merkezi çözüm' sunuyoruz. 22 yıldır Arnavutköy Meydanı ve çevresinde kurduğumuz güvenle, Yavuz Selim'in tüm sokaklarını (Hükümet Konağı çevresi, Necip Fazıl Caddesi vs.) biliyoruz. JCB 3CX makinemizin lastik tekerlekli yapısı Yavuz Selim'in yoğun kullanılan asfalt yollarını bozmaz. Bitişik nizam binalarda pabuç kazılarını milimetrik hassasiyetle yapıyor, gerekirse yer altı radarı gibi yerel bilgimizle altyapıya zarar vermeden ilerliyoruz. Trafik akışını bozmamak adına Yavuz Selim'deki mobilizasyonlarımızı erken saatlerde veya planlı şekilde koordine ediyoruz. SRC 4 belgeli, sigortalı ve faturalı çalışmamızla Yavuz Selim'deki müteahhitlerimize ve vatandaşlarımıza yasal güvence sağlıyoruz. İş bittiğinde çıkan molozu hızlıca yükleyerek sokağınızdaki işgali sonlandırıyoruz.",
+            processSteps: [
+                { title: "Sokak ve Altyapı Analizi", description: "Yavuz Selim'deki adresinize gelip sokak genişliğini, trafik durumunu ve komşu binaların risklerini analiz ediyoruz." },
+                { title: "Merkezi Konum Fiyatlandırması", description: "Yakın mesafede olmanın avantajıyla nakliye masrafsız, dürüst ve şeffaf saatlik/günlük fiyatımızı sunuyoruz." },
+                { title: "Hızlı Sahaya İniş", description: "Trafik yoğunluğunu gözeterek makinemizi Yavuz Selim şantiyenize ulaştırıp hemen çalışmaya başlıyoruz." },
+                { title: "Kontrollü Uygulama ve Onay", description: "Bitişik yapılara dikkat ederek kazıyı tamamlıyor, onayınızı alıp çevreyi temizleyerek sahadan ayrılıyoruz." }
+            ],
+            benefits: [
+                "Yavuz Selim Mahallesi ve Arnavutköy merkezde 22 yıllık yerel tecrübe",
+                "Dar sokaklarda ve bitişik nizamlarda milimetrik kazı yeteneği",
+                "Arnavutköy Belediyesi ve Hükümet Konağı çevresine 10 dakikada ulaşım",
+                "Tüm İSG belgeleri tam, sigortalı ve profesyonel operatör ekibi",
+                "JCB 3CX ile Yavuz Selim asfaltına zarar vermeden hızlı çalışma",
+                "Bölgenin yoğun altyapı hattına karşı yüksek operatör dikkati",
+                "Kentsel dönüşüm temel kazılarında uzmanlaşmış iş ortağı",
+                "Sürpriz maliyet içermeyen, faturalı ve hesap verebilir resmi yapı",
+                "7/24 acil durum kanalizasyon ve altyapı kazı desteği",
+                "Müteahhitler için şeffaf puantaj ve düzenli raporlama imkanı"
+            ],
+            useCases: [
+                "Kentsel dönüşüm bina temeli kazısı",
+                "Bitişik nizam yapılarda pabuç ve perde kazıları",
+                "Dar sokaklarda kanalizasyon onarım ve bağlantı kazısı",
+                "Eski bina yıkımı ve inşaat molozu yükleme",
+                "Hükümet Caddesi çevresi dükkan önü tesviye ve kırım",
+                "Hizmet binaları ve kamu alanı çevre düzenleme kepçe işi",
+                "Otopark alanı kazısı ve stabilize malzeme serimi",
+                "Doğalgaz ve fiber optik ana hat kanallarının açılması",
+                "Bahçe duvarı yıkımı ve moloz kaldırma",
+                "Site/Apartman bahçelerinde hassas kanal ve dolgu işleri"
+            ],
+            experienceProof: [
+                "Yavuz Selim Mahallesi genelinde bitirilmiş 50+ bina temeli",
+                "Arnavutköy merkez cadde düzenlemelerinde sağlanan iş makinesi destekleri",
+                "Mahalledeki yerel müteahhitlerin 20 yıldır değişmeyen kepçe partneri olma",
+                "Dar sokaklardaki altyapı patlaklarında hızlı müdahale referansları",
+                "22 yıllık mahalle esnafı olmanın getirdiği yüksek güvenilirliğimiz"
+            ],
+            pricingLogic: "Yavuz Selim kiralık kepçe fiyatlarımızda, merkez mahalle olmanın avantajını müşterimize yansıtıyoruz. Nakliye maliyeti olmadığı için oldukça ekonomik saatlik ücretler sunuyoruz. Bina temeli gibi uzun süreli işler için Yavuz Selim şantiyelerinize özel günlük indirimli paketlerimiz mevcuttur. Ücretsiz keşif sonrası işin kaç gün süreceğini netleştirip, iş bütçenizi koruyoruz.",
+            trustSignals: [
+                "Arnavutköy yerel esnaf tescili ve 22 yıllık köklü geçmiş",
+                "Yavuz Selim'de aktif çalışan müteahhitlerin onaylı referansları",
+                "SRC belgeli, profesyonel ve yasal tüm hakları korunmuş operatörler",
+                "Teknolojik donanımı tam, bakımlı JCB 3CX makine parkuru",
+                "Resmi faturalı, yasal sorumluluğu üstlenen kurumsal yapı",
+                "7/24 ulaşılan canlı destek ve acil çağrı operasyonu"
+            ]
+        },
+        media: {
+            heroImageAlt: "Yavuz Selim Mahallesi Arnavutköy'de bina temeli kazan kiralık kepçe - Keçaş Kepçe",
+            galleryAlts: [
+                "Yavuz Selim kentsel dönüşüm kazısı",
+                "Yavuz Selim dar sokak moloz yükleme",
+                "Arnavutköy merkez altyapı onarımı",
+                "Yavuz Selim bina temeli pabuç açma",
+                "Keçaş Kepçe Yavuz Selim mobilizasyonu"
+            ]
+        },
+        localSEO: {
+            serviceAreaText: "Yavuz Selim Meydanı, Necip Fazıl Caddesi, Hükümet Konağı çevresi ve mahallenin tüm sokaklarında aktif hizmet veriyoruz.",
+            locationContext: "Yavuz Selim Mahallesi, Arnavutköy'ün kalbi ve idari merkezidir. Ticaretin en yoğun olduğu Necip Fazıl Caddesi ve Fatih Caddesi arasındaki bu bölge, kentsel dönüşümün en hızlı yürüdüğü yerdir. Yavuz Selim'de kepçe çalıştırmak, şehir hayatının ritmini bozmadan, güvenli ve hızlı operasyon yapmayı gerektirir. Keçaş Kepçe olarak, Yavuz Selim Camii'nden merkez kapalı pazar alanına kadar her noktada 'merkez usta' kimliğimizle 22 yıldır hizmetteyiz."
+        },
+        faq: [
+            { question: "Yavuz Selim'in dar sokaklarında makineniz trafiği engeller mi?", answer: "Operatörlerimiz trafik akışını koordine ederek çalışır. JCB 3CX makinemiz kompakttır; sokak girişlerini tamamen kapatmadan, çevre güvenliği alarak kazı yapıyoruz. Gerekirse akşam veya hafta sonu saatlerini tercih ediyoruz." },
+            { question: "Bitişik nizam binada temel kazarken risk olur mu?", answer: "En büyük uzmanlığımız bitişik nizam bina temelleridir. Kademeli kazı tekniğimiz ve operatörümüzün el hassasiyeti sayesinde yan binalara sarsıntı vermeden, pabuçları emniyetli şekilde açıyoruz." },
+            { question: "Acil kanal arızalarında Yavuz Selim'e ne kadar sürede gelirsiniz?", answer: "Hükümet Konağı civarındaki merkezimiz ve bölgede aktif bulunan makinelerimizle ortalama 15-30 dakika içinde Yavuz Selim şantiyenize ulaşabiliyoruz." },
+            { question: "Zabıta ve Belediye izinlerinde yardımcı oluyor musunuz?", answer: "Kepçe ve operatör evraklarımızı (belgeli/sigortalı) anında sunuyoruz. Yol işgal izinleri konusunda ise tecrübemizle sizi yönlendiriyoruz." },
+            { question: "Yıkım sonrası molozu da yüklüyor musunuz?", answer: "Evet, kepçemizin ön kovasıyla kentsel dönüşüm sahanızdaki molozu kamyonlara hızlıca yükleyerek sokağı tertemiz bırakıyoruz." }
+        ],
+        conversion: { primaryCTA: "Yavuz Selim Kepçe: 0539 477 81 12", secondaryCTA: "Ücretsiz Saha Keşfi" },
+        internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "karlibayir-kiralik-kepce", "kazi-isleri", "temel-kazisi", "yikim-hizmetleri"] }
+    },
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    // 24. TAYAKADIN KİRALIK KEPÇE (HAVAALANI & STRATEJİK HUB)
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    {
+        slug: "tayakadin-kiralik-kepce",
+        name: "Tayakadın Kiralık Kepçe",
+        industry: "equipment-rental",
+        serviceType: "local",
+        primaryLocation: "Tayakadın, Arnavutköy",
+        secondaryLocations: ["Karaburun", "Baklalı", "Terkos", "Yassıören", "Yeni Havalimanı"],
+        seo: {
+            metaTitle: "Tayakadın Kiralık Kepçe | Havalimanı & Lojistik Bölge",
+            metaDescription: "Tayakadın'da profesyonel kiralık kepçe. İstanbul Havalimanı çevresi lojistik sahalar ve arazi hazırlığı için JCB 3CX. Hızlı mobilizasyon. ☎ 0539 477 81 12",
+            canonical: "/tayakadin-kiralik-kepce",
+            h1: "Tayakadın Kiralık Kepçe ve Lojistik Saha Hazırlığı"
+        },
+        content: {
+            intro: "İstanbul Havalimanı'nın gölgesinde, Arnavutköy'ün en stratejik noktalarından biri olan Tayakadın Mahallesi, bugün dünya çapında bir lojistik ve ulaşım merkezine dönüşmüştür. Tayakadın'da kepçe hizmeti demek; havalimanı servis yolları, dev antrepolar, personel lojmanları ve her geçen gün büyüyen ticari parsellerde 'zamanla yarışmak' demektir. Keçaş Kepçe olarak, Tayakadın'ın bu dinamik yapısını 22 yıldır yakından tanıyor, bölgedeki büyük çaplı projelerde ve yerel arazi düzenlemelerinde aktif rol alıyoruz. Bölgenin geçmişteki tarımsal dokusu ile bugünkü dev şantiye karakteri arasındaki geçişi en iyi bilen yerel ekiplerden biriyiz. JCB 3CX makinemizle, hem havalimanı nizamiyesi çevresindeki hassas işlerde hem de geniş arazi temizliklerinde yüksek verim sağlıyoruz. Tayakadın'ın sert rüzgarlarına ve değişken zemin yapısına karşı, tecrübeli operatörlerimizle projelerinizin zeminini sağlamlaştırıyoruz.",
+            problemStatement: "Tayakadın'da şantiye yönetmenin en büyük zorluğu, bölgenin çok kısıtlı zaman dilimleri ve yüksek güvenlik standartları altında çalışmasıdır. Havalimanı çevresindeki projelerde, iş makinelerinin hızı ve arıza yapmama garantisi hayati önem taşır; duran bir makine tüm lojistik zincirini aksatabilir. Ayrıca, bölgenin yer yeraltı su seviyesi (göl ve deniz yakınlığı sebebiyle) değişkendir ve kontrolsüz kazılar su baskınlarına yol açabilir. Tayakadın şantiyelerinde İSG (İş Sağlığı ve Güvenliği) standartları çok yüksektir ve mahalle dışından gelen sıradan kepçecilerin bu evraklara ve disipline sahip olmaması, projelerin durdurulmasına neden olur. Dev şantiye hareketliliği içinde küçük ölçekli ama acil kazı ihtiyaçları için profesyonel muhatap bulmak da mülk sahi平 için kronik bir sorundur.",
+            solutionOverview: "Keçaş Kepçe olarak Tayakadın'da 'lojistik hız' ile hizmet veriyoruz. Havalimanı koridoruna olan yakınlığımız sayesinde, acil kiralık kepçe taleplerinize dakikalar içinde yanıt verebiliyoruz. Makinelerimiz periyodik bakımlı ve yeni nesil olduğu için havalimanı çevresindeki kritik projelerde 'kesintisiz çalışma' garantisi sunuyoruz. Operatörlerimizin tamamı SRC belgeli ve sanayi disiplinine hakimdir; büyük şantiyelerin istediği tüm resmi evrakları (İSG dosyası, sigorta girişleri vs.) dijital olarak anında iletiyoruz. Zemin suyunun yüksek olduğu parsellerde önce drenaj kanalları açarak çalışma alanını kuru tutuyor, ardından hassas temel kazısına geçiyoruz. Geniş ön kovamızla yüksek hacimli toprak taşıma yaparken, arka kazıcımızla dar altyapı kanallarını açıyoruz. Tayakadın yerlisi olmanın getirdiği nakliye avantajıyla, bölgedeki sanayicilere ve arazi sahiplerine ek masraf çıkarmadan en rekabetçi fiyatları ulaştırıyoruz.",
+            processSteps: [
+                { title: "Lojistik Saha Analizi", description: "Tayakadın'daki şantiye veya parselinize geliyoruz. Havalimanı trafiğini ve zemin su seviyesini analiz ederek çalışma planı kuruyoruz." },
+                { title: "Hızlı Teklif ve Onay", description: "Projenin büyüklüğüne göre saatlik veya günlük paket fiyatımızı iletiyoruz. Onay sonrası belgelerimizi şantiye yönetimine sunuyoruz." },
+                { title: "24/7 Odaklı Uygulama", description: "Tayakadın'ın yoğun temposuna uygun şekilde, makinemizle sahaya inip kazı, dolgu veya kırım işini profesyonelce yapıyoruz." },
+                { title: "Raporlama ve Teslim", description: "Yapılan hafriyat miktarını veya çalışılan saati raporlayıp, sahayı temiz şekilde teslim ediyoruz." }
+            ],
+            benefits: [
+                "İstanbul Havalimanı ve Tayakadın lojistik hattında 22 yıllık deneyim",
+                "Havalimanı çevresindeki yüksek güvenlik ve İSG standartlarına tam uyum",
+                "Bölgedeki yüksek yer altı su seviyesine uygun drenaj odaklı kazı tekniği",
+                "JCB 3CX ile hem dar alan altyapısı hem de geniş parsel temizliği",
+                "Tayakadın ve Karaburun hattında en hızlı mobilizasyon kapasitesi",
+                "Lojistik depoların zemin hazırlığında (reglaj) kanıtlanmış uzmanlık",
+                "Kurumsal firmalar için eksiksiz evrak, fatura ve puantaj desteği",
+                "7/24 ulaşılan acil destek ve yedek makine garantisi",
+                "Asfalt sökümü ve yol genişletme işlerinde kullanılan güçlü kırıcı ataşmanı",
+                "Yerel bölge bilgisiyle altyapı hatlarına karşı maksimum duyarlılık"
+            ],
+            useCases: [
+                "Lojistik depo ve antrepo temel kazıları",
+                "Havalimanı çevresi geçici şantiye ve personel kampı hazırlığı",
+                "Geniş arazi temizliği, çalı sıyırma ve reglaj",
+                "Tır parkı sahalarında stabilize dolgu ve sıkıştırma",
+                "Tayakadın merkez ve köy içi kentsel dönüşüm yıkımları",
+                "Elektrik, su ve fiber optik ana hat kanallarının açılması",
+                "Bahçe duvarı ve istinat yapısı temel hendekleri",
+                "Bölgedeki meyve bahçeleri için drenaj kanalı oluşturma",
+                "İnşaat molozu yükleme ve saha temizleme işleri",
+                "Asfalt kırma ve yeni yol altyapısı hazırlığı"
+            ],
+            experienceProof: [
+                "Tayakadın - Havalimanı bağlantı yollarında tamamlanmış onlarca altyapı işi",
+                "Bölgedeki büyük lojistik antrepoların zemin hazırlığı süreçlerinde aktif rol alma",
+                "Tayakadın Köy içi yerleşimlerinde sunulan 22 yıllık bireysel hizmet referansı",
+                "Zorlu zemin koşullarında ve kısıtlı zamanlarda hatasız bitirilen şantiye işleri",
+                "Karaburun ve Terkos hattındaki su kanalları projelerinde edinilen tecrübe"
+            ],
+            pricingLogic: "Tayakadın kiralık kepçe fiyatlarımızda, sanayi ve lojistik projelerin 'uzun süreli' yapısını destekliyoruz. Günlük ve haftalık kiralama taleplerinde kurumsal indirimler uyguluyoruz. Tayakadın'ın merkezine olan yakınlığımız sayesinde yol masrafını minimize ediyor, mülk sahiplerine ekonomik çözümler sunuyoruz. Ücretsiz keşif yaparak en uygun makine-saat planını çıkarıyoruz.",
+            trustSignals: [
+                "Arnavutköy yerel usta tescili ve 22 yıllık marka güveni",
+                "Tayakadın'da aktif çalışan kurumsal firmalardan alınan referanslar",
+                "SRC ve G sınıfı belgeli, kalifiye operatör kadrosu",
+                "Periyodik bakımlı, yüksek performanslı JCB 3CX iş makineleri",
+                "Resmi sözleşme, fatura ve kurumsal hesap verebilirlik",
+                "7/24 canlı destek hattı ve hızlı çözüm üretme garantisi"
+            ]
+        },
+        media: {
+            heroImageAlt: "Tayakadın Arnavutköy'de lojistik saha hazırlığı yapan kiralık JCB kepçe - Keçaş Kepçe",
+            galleryAlts: [
+                "Tayakadın lojistik depo kazısı",
+                "Tayakadın havalimanı çevresi altyapı işi",
+                "Tayakadın arazi temizliği ve reglaj",
+                "Tayakadın köy içi temel kazısı",
+                "Keçaş Kepçe Tayakadın mobilizasyonu"
+            ]
+        },
+        localSEO: {
+            serviceAreaText: "Tayakadın Merkez, Havalimanı Lojistik Bölgesi, Karaburun Yolu ve mahallenin tüm arazi parsellerinde hizmet veriyoruz.",
+            locationContext: "Tayakadın, ismiyle müsemma (eski bir menzil noktası), Arnavutköy'ün hem tarihi hem de en modern kavşak noktasıdır. Dünyanın en büyük havalimanlarından birine komşu olan bu mahallede, toprak artık sadece tarım için değil, küresel ticaretin zemini olarak işlenmektedir. Tayakadın'da kepçeci olmak, şantiyenin hızına ve güvenliğine ayak uydurabilmektir. Keçaş Kepçe olarak, Tayakadın Camii'nden Karaburun sapağına kadar her noktada lojistik disipliniyle çalışıyoruz."
+        },
+        faq: [
+            { question: "Tayakadın şantiyelerinde gece çalışması yapabiliyor musunuz?", answer: "Havalimanı projelerinin aciliyetine binaen, önceden planlanması ve gerekli ışıklandırmanın sağlanması durumunda 7/24 çalışma düzenleyebiliyoruz." },
+            { question: "İSG evraklarınız kurumsal firmalar için uygun mu?", answer: "Kesinlikle. Operatörlerimizin e-devlet girişleri, periyodik makine muayeneleri ve sağlık raporları eksiksizdir. Kurumsal şantiye yönetmeliklerine tam uyum sağlıyoruz." },
+            { question: "Tayakadın'daki killi ve sulak zeminlerde makineniz batar mı?", answer: "JCB 3CX operatörlerimiz bölge zeminine hakimdir. Sulak alanlarda önce drenaj yaparak ilerliyor ve makineyi emniyetli platformlarda çalıştırıyoruz." },
+            { question: "En az kaç gün kiralama yapılabiliyor?", answer: "Tayakadın'daki yerel projeleriniz için saatlik kiralama yapabildiğimiz gibi, büyük parseller için aylık kiralama seçeneklerimiz de mevcuttur. Yakınlık avantajımızla her süreye cevap veriyoruz." },
+            { question: "Asfalt sökümü yapabilir misiniz?", answer: "Evet, makinemizin arkasındaki yüksek vuruşlu kırıcı ile eski asfalt ve beton yolları söküp, ön kova ile çıkan molozu kamyonlara yüklüyoruz." }
+        ],
+        conversion: { primaryCTA: "Tayakadın Kepçe: 0539 477 81 12", secondaryCTA: "Ücretsiz Sanayi Keşfi" },
+        internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "baklali-kiralik-kepce", "yassioren-kiralik-kepce", "kazi-isleri", "yikim-hizmetleri"] }
+    },
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    // 25. MAVİGÖL MAHALLESİ KİRALIK KEPÇE (SAHİL & YERLEŞİM ODAKLI)
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    {
+        slug: "mavigol-kiralik-kepce",
+        name: "Mavigöl Mahallesi Kiralık Kepçe",
+        industry: "equipment-rental",
+        serviceType: "local",
+        primaryLocation: "Mavigöl, Arnavutköy",
+        secondaryLocations: ["İmrahor", "Sazlıbosna", "Taşoluk", "Arnavutköy Merkez"],
+        seo: {
+            metaTitle: "Mavigöl Mahallesi Kiralık Kepçe | Bahçe & Villa Kazı",
+            metaDescription: "Mavigöl'de profesyonel kiralık kepçe. Göl manzaralı villalar, bahçe düzenleme ve altyapı kanalları için operatörlü JCB 3CX. ☎ 0539 477 81 12",
+            canonical: "/mavigol-kiralik-kepce",
+            h1: "Mavigöl Mahallesi Kiralık Kepçe ve Arazi Hazırlığı"
+        },
+        content: {
+            intro: "İmrahor ve Sazlıdere Barajı hattında, ismini göl manzarasından alan Arnavutköy'ün yeni gözdesi Mavigöl Mahallesi, huzurlu bir yaşam ve modern müstakil projelerin merkezidir. Mavigöl'de kepçe hizmeti; hem bölgenin engebeli yamaçlarını hem de baraj gölü çevresindeki hassas ekosistemi gözeterek yürütülmelidir. Keçaş Kepçe olarak, Mavigöl Mahallesi'nin bu özel coğrafyasında 22 yıllık tecrübemizle villa bahçelerini düzenliyor, rüya evlerin temellerini kazıyoruz. Bölgenin yer yer yumuşak, yer yer kayalık olan yamaç yapısı, operatörün hem dengeyi korumasını hem de doğru kova tekniğini kullanmasını gerektirir. JCB 3CX makinemizle, Mavigöl'deki dar sokaklardan ve eğimli arazilerden geçerek, manzaranızı bozmadan şantiye alanınızı en düzgün hale getiriyoruz. Su yollarına ve baraj havzasına olan yakınlık bilinciyle, doğaya en az sarsıntıyı vererek profesyonel kazı çözümleri sunuyoruz.",
+            problemStatement: "Mavigöl Mahallesi'ndeki mülk sahipleri için en büyük zorluk, eğimli arazilerde yapılan kazılarda toprak kayması ve istinat duvarı ihtiyacıdır. Tecrübesiz bir operatörün yanlış açıyla yaptığı kazılar, yağışlı havalarda setlerin çökmesine ve komşu parsellere zarar gelmesine neden olabilir. Ayrıca, baraj havzasına yakın kısımlarda toprağın nemli yapısı makinelerin saplanma riskini artırır. Mavigöl'ün yeni gelişen dar sokaklarında ağır vasıta hareketliliği, mevcut asfalt yollara ve çevre duvarlarına zarar verebilir. Yerleşik sakinler için gürültülü ve özensiz çalışma süreci komşuluk ilişkilerini zedeleyen bir diğer unsurdur. Küçük bahçe tadilatları için bölge dışından makine getirmek ise, yüksek yol ücretleri nedeniyle çoğu zaman astronomik maliyetlere ulaşır.",
+            solutionOverview: "Mavigöl'ün 'manzaralı şantiyelerinde' denge ve hassasiyetle çalışıyoruz. Eğimli parsellerde kazı yaparken, toprağın doğal basamağını (şev) bozmadan kademeli olarak ilerliyoruz. Lastik tekerlekli JCB 3CX makinemizle Mavigöl'ün yeni yollarına zarar vermiyoruz. Operatörlerimiz, baraj gölüne sızıntı yapmayacak şekilde makinelerimizin bakımını (yağ kaçağı kontrolü vs.) her sabah eksiksiz yapar; doğayı sizin kadar önemsiyoruz. Gürültü seviyesini düşük tutarak, sabah saatlerine duyarlı çalışma programları uyguluyoruz. İstinat duvarı temelleri için hassas kot belirleme yapıyor, kazıdan çıkan toprağı bahçenizin tesviyesinde geri dönüştürerek sizi ekstra hafriyat maliyetinden kurtarıyoruz. Mavigöl'e komşu yerel bir işletme olduğumuz için 'yol masrafı' almadan, en ekonomik bütçe ile villa bahçenize giriyoruz. SRC belgeli ve sigortalı ekibimizle profesyonel, temiz ve güvenilir bir teslimat sağlıyoruz.",
+            processSteps: [
+                { title: "Eğim ve Zemin Analizi", description: "Mavigöl'deki parselinize gelip göl tarafındaki eğimi ve zemin yumuşaklığını analiz ediyoruz." },
+                { title: "Manzara Dostu Fiyatlandırma", description: "İşin zorluk derecesini ve bitiş süresini belirleyip, bölge ve özel en şeffaf fiyat teklifimizi sunuyoruz." },
+                { title: "Hassas ve Güvenli Kazı", description: "Eğimli arazide makinemizi sabitleyerek, çevre mülklere ve doğaya en az sarsıntıyı vererek çalışıyoruz." },
+                { title: "Saha Regülasyonu ve Teslim", description: "Bahçenizi rulo çim veya beton öncesi istenen koda getirip tesviye ediyoruz ve onayınızı alıyoruz." }
+            ],
+            benefits: [
+                "Mavigöl ve baraj hattındaki eğimli arazilerde 22 yıllık kazı uzmanlığı",
+                "Göl manzaralı villa bahçelerinde 'sıfır hata' ile hassas çalışma",
+                "Arnavutköy Mavigöl lokasyonuna dakikalar içinde ulaşım (Ek masrafsız)",
+                "İstinat duvarı ve set kazılarında mühendislik hassasiyeti",
+                "JCB 3CX ile dar yollarda ve bahçe içlerinde yüksek manevra kabiliyeti",
+                "Baraj havzasına duyarlı, sızıntısız ve temiz iş makine parkuru",
+                "Operatörlü kiralama – 22 yıllık bölge tecrübesine sahip usta ekip",
+                "Bahçe düzenlemesi (reglaj) ve toprak seriminde uzman işçilik",
+                "Yeni yerleşim alanlarında yasalara ve saatlere duyarlı çalışma disiplini",
+                "İş kazalarına ve altyapı hasarlarına karşı %100 sigortalı güvence"
+            ],
+            useCases: [
+                "Villa bahçesi kademeli tesviye ve reglaj",
+                "Göl manzaralı parsellerde istinat duvarı temeli kazısı",
+                "Havuz yeri açma ve bahçe drenaj kanallarının açılması",
+                "Mavigöl kentsel yerleşimlerinde bina temel kazıları",
+                "Arsa temizliği, diken sıyırma ve yabani ot reglajı",
+                "Hobi bahçesi hazırlığı ve organik toprak serimi",
+                "Eski baraka yıkımı ve inşaat molozu kaldırma",
+                "Site içi altyapı onarım ve beton kırım işleri",
+                "Otopark alanı hazırlığı ve stabilize malzeme serme",
+                "Foseptik çukuru ve yağmur suyu hattı kazıları"
+            ],
+            experienceProof: [
+                "Mavigöl ve İmrahor yamaçlarında yapılmış onlarca villa temel projesi",
+                "Baraj havzası korama kuşağındaki hassas altyapı çalışmalarında edinilen tecrübe",
+                "Mavigöl sakinleri tarafından takdir edilen 'temiz bahçe' teslimat referansları",
+                "Eğimli arazilerde makine dengesini koruyan usta operatörlük performansları",
+                "22 yıldır bölgenin jeolojik yapısını tanıyan yerel marka değerimiz"
+            ],
+            pricingLogic: "Mavigöl kiralık kepçe fiyatlarımızda, bölgenin 'gelişim' karakterini destekliyoruz. Bahçe tadilatlarınız için ekonomik saatlik kiralama yaparken, büyük arsa tesviyeleri için günlük indirimli paketler sunuyoruz. Mavigöl'e olan yakınlığımız sebebiyle nakliye bedelini müşterimize yansıtmayarak maliyet avantajı sağlıyoruz. Ücretsiz keşif yaparak, projenize en karlı çözüm planını iletiyoruz.",
+            trustSignals: [
+                "Arnavutköy yerel esnaf tescili ve 22 yıllık marka imajı",
+                "Mavigöl'de bitirilen birçok özel mülk ve hobi bahçesi referansı",
+                "SRC ve G sınıfı belgeli, kalifiye ve güvenilir operatör kadrosu",
+                "Periyodik bakımlı, çevre dostu ve yeni model JCB 3CX parkuru",
+                "Resmi yasalara uygun, sigortalı ve profesyonel hizmet yapısı",
+                "Dürüst puantaj, net fatura ve tam şeffaflık prensibi"
+            ]
+        },
+        media: {
+            heroImageAlt: "Mavigöl Arnavutköy'de göl manzaralı villa bahçesinde çalışan kiralık JCB kepçe - Keçaş Kepçe",
+            galleryAlts: [
+                "Mavigöl bahçe kademeli tesviye",
+                "Mavigöl villa temel kazısı",
+                "Mavigöl göl kenarı drenaj hattı",
+                "Mavigöl istinat duvarı hazırlığı",
+                "Keçaş Kepçe Mavigöl bölge mobilizasyonu"
+            ]
+        },
+        localSEO: {
+            serviceAreaText: "Mavigöl Merkez, Göl Boyu Villaları, İmrahor sınırı ve mahallenin tüm yeni yerleşim bölgelerinde hizmet veriyoruz.",
+            locationContext: "Mavigöl, Arnavutköy'ün hem huzuru hem de modernleşmeyi bir arada sunduğu, Sazlıdere Barajı'na nazır özel bir mahalledir. Bölgenin en büyük özelliği, yerleşimlerin bir taraftan göle bakarken diğer taraftan dik yamaçlara yaslanmasıdır. Bu durum Mavigöl'de kepçe çalışmasını 'titizlik ve denge' sınavı haline getirir. Keçaş Kepçe olarak, biz bu yamaçların ruhunu tanıyoruz. Mavigöl Camii'nden baraj kıyısındaki en uç villaya kadar her noktada komşularımıza 'usta gözüyle' hizmet veriyoruz."
+        },
+        faq: [
+            { question: "Mavigöl'deki eğimli bahçemize kepçe girebilir mi?", answer: "JCB 3CX operatörlerimiz yamaçlı arazilerde ileri derece tecrübelidir. Makineyi emniyetli açıyla konumlandırıp, bahçenizi kademe kademe tesviye ederek düz alanlar (teraslama) oluşturuyoruz." },
+            { question: "Göl manzaralı bahçemizi mahvetmeden kök sökebilir misiniz?", answer: "Hassas operatörlüğümüzle, korunması gereken bitkilere zarar vermeden, sadece temizlenmesi gereken ağaç köklerini ve çalıları kökünden söküp alanı pürüzsüzleştiriyoruz." },
+            { question: "Baraj havzasında çalışma kısıtlaması var mı?", answer: "İlgili belediye ve İSKİ yönetmeliklerine uygun alanlarda, çevresel hassasiyetleri (yağ kaçağı, gürültü vs.) gözeterek profesyonel kazı yapıyoruz. Yasal sınırları biliyor ve sizi yönlendiriyoruz." },
+            { question: "Acil kanalizasyon sızıntısında Mavigöl'e ne zaman gelirsiniz?", answer: "İmrahor'daki merkezimize çok yakın olan Mavigöl'e ortalama 20-30 dakika içinde iş makinemizi yönlendirebiliyoruz." },
+            { question: "Havuz yeri kazısı yapıyor musunuz?", answer: "Evet, Mavigöl villalarında çok sayıda havuz kazısı tamamladık. Projenize uygun kotlarda, temiz bir temel tabanı açıp, çıkan hafriyatı yükleyerek işi bitiriyoruz." }
+        ],
+        conversion: { primaryCTA: "Mavigöl Kepçe Hattı: 0539 477 81 12", secondaryCTA: "Ücretsiz Bahçe Keşfi" },
+        internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "imrahor-kiralik-kepce", "dolgu-tesviye", "temel-kazisi", "kazi-isleri"] }
+    },
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    // 26. BOYALIK KİRALIK KEPÇE (TARIMDAN SANAYİYE GEÇİŞ)
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    {
+        slug: "boyalik-kiralik-kepce",
+        name: "Boyalık Kiralık Kepçe",
+        industry: "equipment-rental",
+        serviceType: "local",
+        primaryLocation: "Boyalık, Arnavutköy",
+        secondaryLocations: ["Hadımköy", "Baklalı", "Terkos", "Yassıören"],
+        seo: {
+            metaTitle: "Boyalık Kiralık Kepçe | Arnavutköy Arazi Hazırlığı & Hafriyat",
+            metaDescription: "Boyalık Mahallesi'nde profesyonel kiralık kepçe. Tarım arazisi düzenleme, temel kazısı ve geniş parsel temizliği için JCB 3CX. ☎ 0539 477 81 12",
+            canonical: "/boyalik-kiralik-kepce",
+            h1: "Boyalık Kiralık Kepçe ve Arazi Düzenleme Hizmetleri"
+        },
+        content: {
+            intro: "Hadımköy ve Arnavutköy merkez arasındaki stratejik kavşakta yer alan Boyalık Mahallesi, bugün tarımsal köklerinden kopmadan hızla inşaat ve sanayi gelişimine açılan bir bölgedir. Boyalık'ta kepçe hizmeti demek; geniş ayçiçeği tarlalarını hobi bahçelerine çevirmek, yeni sanayi parsellerini inşaata hazırlamak ve köy içi kentsel dönüşüm süreçlerini yönetmek demektir. Keçaş Kepçe olarak, Boyalık'ın bu bereketli ve hareketli topraklarında 22 yıldır operatörlük yapıyoruz. Bölgenin geniş parselleri, iş makinesinin hem hızlı hem de düşük maliyetle yüksek metrajlı işler bitirmesini zorunlu kılar. JCB 3CX kepçemizle, Boyalık'taki arazi temizliği, reglaj ve temel kazısı işlerinde 'yerel marka' gücümüzle yanınızdayız. Tarlasını parselleyen yatırımcıdan, evini yenileyen köylümüze kadar herkesin dilinden anlayan, Boyalık'ın killi ve yer yer taşlı zemin karakteristiklerine hakim bir ekiple çalışmanın avantajını sunuyoruz.",
+            problemStatement: "Boyalık'ta çalışırken karşılaşılan temel problem, arazilerin büyüklüğüdür; yanlış bir reglaj (tesviye) stratejisi yüzlerce metreküp toprağın yanlış yere yığılmasına ve maliyetlerin katlanmasına neden olur. Ayrıca bölgenin killi toprak yapısı yağmurlu havalarda iş makineleri için batma riski taşır; tecrübesiz operatörler işi yarıda bırakmak zorunda kalabilir. Boyalık, orman ve su kaynaklarına olan yakınlığı sebebiyle çevresel denetimlerin ve yasal sınırların önemli olduğu bir yerdir; belgesiz kepçecilerin yaptığı kontrolsüz kazılar mülk sahiplerine ağır cezalar olarak geri dönebilir. Mahalle sakinleri için bir diğer sorun ise, Hadımköy merkezden Boyalık'a makine getirmeye çalışan firmaların talep ettiği yüksek 'nakliye' bedelleridir. Küçük ama teknik gerektiren bahçe işlerinde muhatap bulmak da Boyalık halkının sıkça yaşadığı bir zorluktur.",
+            solutionOverview: "Keçaş Kepçe olarak Boyalık projelerinizde 'verimlilik ve dürüstlük' ile hareket ediyoruz. Boyalık'ın geniş arazilerinde toprağı en az enerjiyle en doğru forma getirecek kazı-dolgu planları uyguluyoruz. JCB 3CX makinemizin genişliği ve torka dayalı gücüyle, sertleşmiş Boyalık killi topraklarında dahi kesintisiz kırım ve kazı yapabiliyoruz. Kazı öncesinde parsel sınırlarınızı (kadastro işaretlerini) hassasiyetle kontrol ediyor, komşu haklarını koruyoruz. Boyalık ve çevresinde sürekli makinelerimiz bulunduğu için sizden 'nakliye/lowbed' ücreti talep etmiyor, işinize sadece çalışma saati üzerinden şeffaf bütçe veriyoruz. Operatörlerimiz SRC belgeli, profesyonel ve yasal tüm standartlara uygundur; böylece hem idari denetimlerde hem de sahada başınız ağrımaz. İş bittiğinde toprağı iyice tesviye edilmiş, molozundan arındırılmış ve projenize hazır tertemiz bir alan teslim ediyoruz.",
+            processSteps: [
+                { title: "Geniş Saha Keşfi", description: "Boyalık'taki arazinize geliyoruz. Toprak yapısını, doğal eğimi ve malzeme döküm alanlarını ücretsiz analiz ediyoruz." },
+                { title: "Şeffaf Alan/Saat Fiyatlandırması", description: "İşin hacmine göre en ekonomik saatlik veya götürü fiyatımızı iletiyoruz. Boyalık yerlisi olmanın avantajını bütçenize yansıtıyoruz." },
+                { title: "Planlı ve Güçlü Mobilizasyon", description: "JCB 3CX kepçemizle sözleşilen saatte sahaya inip, geniş parsellerinizde hızlı ve etkili çalışmaya başlıyoruz." },
+                { title: "Denetimli Teslimat", description: "Kot kontrollerini sizinle birlikte yapıp, şantiyeyi projenize tam uygun şekilde teslim ederek sahadan ayrılıyoruz." }
+            ],
+            benefits: [
+                "Boyalık ve çevresinde tarımsal arazi dönüşümünde 22 yıllık usta tecrübesi",
+                "Geniş parsellerde düşük maliyetli ve yüksek hızlı reglaj (tesviye) yeteneği",
+                "Arnavutköy-Hadımköy hattında nakliye masrafsız, kendi gücüyle ulaşım",
+                "Boyalık'ın killi ve sert zemin yapısına uygun ekipman ve kova seçimi",
+                "Parsel sınırlarına ve komşu haklarına duyarlı, dikkatli operatörlük",
+                "Yeni sanayi bölgeleri için altyapı ve temel kazısı uzmanlığı",
+                "Resmi kurumlar tarafından tanınan, sigortalı ve faturalı resmi yapı",
+                "7/24 ulaşılan yerel destek ve acil kiralık kepçe hattı",
+                "Bahçe düzenlemesinden fidan yeri açmaya kadar geniş hizmet yelpazesi",
+                "Açılır kova ve hidrolik kırıcı ataşmanlarıyla her türlü zemine müdahale gücü"
+            ],
+            useCases: [
+                "Tarımsal araziyi hobi bahçesine dönüştürme ve reglaj",
+                "Yeni sanayi parsellerinin temel ve zemin hazırlığı",
+                "Hafriyat yükleme, toprak serme ve arazi temizliği",
+                "Boyalık merkez köy içi kentsel dönüşüm temel kazıları",
+                "Drenaj kanalları ve yağmur suyu tahliye hatları",
+                "Bahçe duvarı hazırlığı ve eskilerin sökülmesi",
+                "Asfalt ve beton saha kırma, moloz kaldırma çalışmaları",
+                "Foseptik çukuru kazısı ve standartlara uygun dolgu",
+                "Ağaç yerleri açma ve yabani bitki örtüsü sıyırma",
+                "Stabilize yol malzemesi serimi ve sıkıştırma işleri"
+            ],
+            experienceProof: [
+                "Boyalık ve Hadımköy arasında bitirilmiş onlarca geniş arazi temizlik projesi",
+                "Bölge çiftçilerinin ve yatırımcılarının 22 yıldır ilk tercihi olma güveni",
+                "Parsel yollarının açılması ve stabilizasyonunda kanıtlanmış işçilik",
+                "Çetin kış şartlarında dahi bölge zemininde başarıyla tamamlanan şantiye işleri",
+                "Köy yerleşik alanındaki dar sokak yapılarında sunulan hassas kepçe hizmeti"
+            ],
+            pricingLogic: "Boyalık kiralık kepçe fiyatlarımızda, mahallemizin yerel kalkınmasına destek veriyoruz. Uzun süreli arazi ıslahı işlerinde günlük ve haftalık paketlerle maliyetlerinizi düşürüyoruz. Boyalık'a yakınlığımız sayesinde yol ücreti almıyoruz. Ücretsiz keşif yaparak, işinize en uygun ve dürüst bütçeyi birlikte oluşturuyoruz.",
+            trustSignals: [
+                "Arnavutköy Yerel Esnaf tescili ve 20 yılı aşan marka ömrü",
+                "Boyalık'ta bitirilen yüzlerce hobi bahçesi ve inşaat referansı",
+                "G sınıfı ehliyetli, sigortalı ve profesyonel usta operatörler",
+                "Hatasız çalışan, yeni nesil ve bakımlı JCB 3CX ekipman parkuru",
+                "Dürüst puantaj, faturalı çalışma ve tam yasal sorumluluk",
+                "24 saat cevap veren whatsapp ve çağrı destek hattı"
+            ]
+        },
+        media: {
+            heroImageAlt: "Boyalık Arnavutköy'de geniş arazi tesviyesi yapan kiralık JCB kepçe - Keçaş Kepçe",
+            galleryAlts: [
+                "Boyalık arazi temizliği ve reglaj",
+                "Boyalık sanayi parseli kazı hazırlığı",
+                "Boyalık bahçe düzenleme ve toprak serimi",
+                "Boyalık köy içi temel kazısı",
+                "Keçaş Kepçe Boyalık bölge mobilizasyonu"
+            ]
+        },
+        localSEO: {
+            serviceAreaText: "Boyalık Merkez, Hadımköy Yolu Üzeri, Şamlar sınırı ve mahallenin tüm arazi parsellerinde hizmet veriyoruz.",
+            locationContext: "Boyalık, Arnavutköy'ün hem merkezine hem de Hadımköy sanayi aksına olan yakınlığıyla 'stratejik bir geçiş noktasıdır'. Mahalle, geniş düzlükleri ve verimli killi toprağıyla karakterizedir. Burada kepçe çalışması, toprağın gücüne saygı duyarak, onun gelecekteki kullanım amacına (tarım, bahçe veya sanayi) göre şekillendirilmesidir. Keçaş Kepçe olarak, Boyalık Camii'nden merkez okul çevresindeki tüm parsellere kadar 'yerel komşunuz' olarak 22 yıldır hizmetteyiz."
+        },
+        faq: [
+            { question: "Boyalık'ta tarlamıza hobi bahçesi yaparken kepçe gerekir mi?", answer: "Kesinlikle. Tarlanın otlarını temizlemek, zemin kotunu düzeltmek, suyun akışını sağlamak ve fidan dikilecek yerleri havalandırmak için kepçe çalışması arazinin ömrünü uzatır." },
+            { question: "Makinelerinizde killi toprak için uygun tırnaklar var mı?", answer: "JCB 3CX kepçemizde Boyalık'ın sert ve killi zeminine uygun kova tırnakları ve güçlü hidrolik sistem bulunmaktadır. Toprak sertleştiğinde dahi verim kaybı yaşamıyoruz." },
+            { question: "Boyalık'ta aynı gün kepçe bulabilir miyiz?", answer: "Bölgeye çok yakın olduğumuz için, müsaitlik durumuna göre aynı gün içinde makinemizi arazinize sevk edebiliyoruz. 0539 477 81 12'den teyit alabilirsiniz." },
+            { question: "Bahçe duvarı yıkıp molozunu atıyor musunuz?", answer: "Evet, kırıcımızla eski duvarı yıkıyor, çıkan molozu ön kova ile hafriyat kamyonuna yüklüyor ve alanı pürüzsüzleştiriyoruz." },
+            { question: "Fiyatlarınıza yakıt dahil mi?", answer: "Genelde operatörlü ve yakıt dahil 'yarım gün' veya 'tam gün' paketleri üzerinden şeffaf ve ekonomik fiyat veriyoruz." }
+        ],
+        conversion: { primaryCTA: "Boyalık Kepçe Hattı: 0539 477 81 12", secondaryCTA: "Ücretsiz Arazi Keşfi" },
+        internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "hadimkoy-kiralik-kepce", "baklali-kiralik-kepce", "kazi-isleri", "temel-kazisi"] }
     }
 ];
 
