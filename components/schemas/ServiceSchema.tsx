@@ -22,6 +22,11 @@ export function ServiceSchema({ service }: ServiceSchemaProps) {
     "haracci-kiralik-kepce",
     "yassioren-kiralik-kepce",
     "baklali-kiralik-kepce",
+    "bogazkoy-kiralik-kepce",
+    "yavuz-selim-kiralik-kepce",
+    "tayakadin-kiralik-kepce",
+    "mavigol-kiralik-kepce",
+    "boyalik-kiralik-kepce",
   ];
   const isNeighborhood = neighborhoodSlugs.includes(service.slug);
   const servicePath = isNeighborhood ? `/${service.slug}` : `/hizmetler/${service.slug}`;
