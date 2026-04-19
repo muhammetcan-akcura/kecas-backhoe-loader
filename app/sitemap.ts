@@ -116,5 +116,77 @@ export default function sitemap(): MetadataRoute.Sitemap {
             changeFrequency: 'weekly',
             priority: 1.0,
         },
+        {
+            url: `${baseUrl}/deliklikaya-kiralik-kepce`,
+            lastModified: new Date('2026-04-19'),
+            changeFrequency: 'weekly',
+            priority: 0.9,
+        },
+        {
+            url: `${baseUrl}/omerli-kiralik-kepce`,
+            lastModified: new Date('2026-04-19'),
+            changeFrequency: 'weekly',
+            priority: 0.9,
+        },
+        {
+            url: `${baseUrl}/imrahor-kiralik-kepce`,
+            lastModified: new Date('2026-04-19'),
+            changeFrequency: 'weekly',
+            priority: 0.9,
+        },
+        {
+            url: `${baseUrl}/karlibayir-kiralik-kepce`,
+            lastModified: new Date('2026-04-19'),
+            changeFrequency: 'weekly',
+            priority: 0.9,
+        },
+        {
+            url: `${baseUrl}/haracci-kiralik-kepce`,
+            lastModified: new Date('2026-04-19'),
+            changeFrequency: 'weekly',
+            priority: 0.9,
+        },
+        {
+            url: `${baseUrl}/yassioren-kiralik-kepce`,
+            lastModified: new Date('2026-04-19'),
+            changeFrequency: 'weekly',
+            priority: 0.9,
+        },
+        {
+            url: `${baseUrl}/baklali-kiralik-kepce`,
+            lastModified: new Date('2026-04-19'),
+            changeFrequency: 'weekly',
+            priority: 0.9,
+        },
+        {
+            url: `${baseUrl}/bogazkoy-kiralik-kepce`,
+            lastModified: new Date('2026-04-19'),
+            changeFrequency: 'weekly',
+            priority: 0.9,
+        },
+        {
+            url: `${baseUrl}/yavuz-selim-kiralik-kepce`,
+            lastModified: new Date('2026-04-19'),
+            changeFrequency: 'weekly',
+            priority: 0.9,
+        },
+        {
+            url: `${baseUrl}/tayakadin-kiralik-kepce`,
+            lastModified: new Date('2026-04-19'),
+            changeFrequency: 'weekly',
+            priority: 0.9,
+        },
+        {
+            url: `${baseUrl}/mavigol-kiralik-kepce`,
+            lastModified: new Date('2026-04-19'),
+            changeFrequency: 'weekly',
+            priority: 0.9,
+        },
+        {
+            url: `${baseUrl}/boyalik-kiralik-kepce`,
+            lastModified: new Date('2026-04-19'),
+            changeFrequency: 'weekly',
+            priority: 0.9,
+        },
     ];
 }
