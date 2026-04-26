@@ -2409,6 +2409,370 @@ export const servicesData: ServiceData[] = [
         ],
         conversion: { primaryCTA: "Boyalık Kepçe Hattı: 0539 477 81 12", secondaryCTA: "Ücretsiz Arazi Keşfi" },
         internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "hadimkoy-kiralik-kepce", "baklali-kiralik-kepce", "kazi-isleri", "temel-kazisi"] }
+    },
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    // 27. DURSUNKÖY KİRALIK KEPÇE (YENİŞEHİR & MEGA PROJELER)
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    {
+        slug: "dursunkoy-kiralik-kepce",
+        name: "Dursunköy Kiralık Kepçe",
+        industry: "equipment-rental",
+        serviceType: "local",
+        primaryLocation: "Dursunköy, Arnavutköy",
+        secondaryLocations: ["Sazlıbosna", "Hacımaşlı", "Tayakadın", "Bolluca"],
+        seo: {
+            metaTitle: "Dursunköy Kiralık Kepçe | Yenişehir & Konut Projesi Kazı Hizmetleri",
+            metaDescription: "Dursunköy'de profesyonel kiralık kepçe. Yenişehir projesi, konut inşaatları ve altyapı kazıları için operatörlü JCB 3CX. Aynı gün hizmet. ☎ 0539 477 81 12",
+            canonical: "/dursunkoy-kiralik-kepce",
+            h1: "Dursunköy Kiralık Kepçe ve Yenişehir Proje Sahası Hizmetleri"
+        },
+        content: {
+            intro: "Arnavutköy'ün geleceğinin inşa edildiği Dursunköy Mahallesi, Yenişehir projesi ve Kanal İstanbul güzergahına yakınlığıyla İstanbul'un en büyük kentsel dönüşüm sahalarından birinin merkezindedir. Dursunköy'de kepçe hizmeti demek; binlerce konutluk sosyal konut projelerinin altyapı hazırlığından, mevcut köy yerleşimindeki bireysel inşaat işlerine kadar geniş bir yelpazede 'profesyonel zemin çözümleri' üretmek demektir. Keçaş Kepçe olarak, Dursunköy'ün bu devasa dönüşüm sürecinde 22 yıldır aktif rol alıyoruz. Bölgenin eski tarımsal arazilerinin şantiye sahalarına dönüştüğü bu dönemde, JCB 3CX kepçemizle hem büyük ölçekli arazi temizliklerinde hem de köy merkezindeki hassas temel kazılarında güvenilir çözüm ortağınızız. Dursunköy'ün killi ve yer yer kayalık zemin yapısına hakim operatörlerimizle, Yenişehir vizyonuna uygun sağlam zeminler hazırlıyoruz.",
+            problemStatement: "Dursunköy, bugün İstanbul'un en yoğun şantiye trafiğine sahip bölgelerinden biri haline gelmiştir. Büyük müteahhitlerin dev projelerinin yanı sıra, mevcut köy sakinlerinin bireysel inşaat, bahçe ve altyapı ihtiyaçları da devam etmektedir. Ancak bölgedeki yoğun iş makinesi talebi nedeniyle küçük ve orta ölçekli projeler için uygun fiyatlı ve güvenilir kepçe bulmak zorlaşmıştır. Dursunköy'ün değişken zemin yapısı – üst katmanlarda yumuşak kil, alt katmanlarda sert kaya – tecrübesiz operatörleri zorlayan bir karakter taşır. Ayrıca bölgedeki imar değişiklikleri ve parselasyon süreçleri, kazı işlerinde kadastro hassasiyetini zorunlu kılmaktadır; yanlış sınırda yapılan bir kazı büyük hukuki sorunlara yol açabilir.",
+            solutionOverview: "Keçaş Kepçe olarak Dursunköy'de 'yerel bilgi ve büyük proje disiplini' ile çalışıyoruz. 22 yıldır bölgenin zemin katmanlarını, su tablasını ve parsel sınırlarını tanıyoruz. JCB 3CX makinemizle hem yumuşak kilde hassas kazı hem de kaya katmanında kırıcı ile ilerleme yapabiliyoruz. Yenişehir projesi çevresindeki büyük şantiyelerin İSG standartlarına tam uyum sağlarken, köy merkezindeki bireysel işlerde de aynı profesyonelliği sunuyoruz. Dursunköy'e komşu yerel bir firma olarak nakliye masrafı almıyor, saatlik veya günlük net ve şeffaf fiyat teklifi veriyoruz. Parsel sınırlarınızı kadastro hassasiyetiyle kontrol ederek, hukuki güvenliğinizi de koruyoruz.",
+            processSteps: [
+                { title: "Proje ve Zemin Keşfi", description: "Dursunköy'deki arazinize gelip zemin katmanlarını, su seviyesini ve parsel sınırlarını analiz ediyoruz. Ücretsiz keşif sonrası iş planı oluşturuyoruz." },
+                { title: "Net Fiyat ve Planlama", description: "İşin hacmine ve zemin zorluğuna göre saatlik veya günlük fiyat teklifimizi sunuyoruz. Yenişehir proje disiplinine uygun belgelerimizi hazırlıyoruz." },
+                { title: "Güçlü Mobilizasyon", description: "JCB 3CX kepçemizle sözleşilen saatte Dursunköy'deki şantiyenize inip, kil katmanından kaya tabakasına kadar her zeminde verimli çalışıyoruz." },
+                { title: "Kontrollü Teslim", description: "Kazı derinliğini ve kot kontrolünü sizinle birlikte doğrulayıp, sahayı projenize hazır ve temiz şekilde teslim ediyoruz." }
+            ],
+            benefits: [
+                "Dursunköy ve Yenişehir proje sahasında 22 yıllık yerel zemin bilgisi",
+                "Büyük konut projeleri ve bireysel inşaatlarda eşit profesyonellik",
+                "Killi üst katman ve kayalık alt katmanda çift yönlü kazı kapasitesi",
+                "Arnavutköy merkezinden Dursunköy'e nakliye masrafsız hızlı ulaşım",
+                "Kadastro hassasiyetiyle parsel sınırlarına duyarlı operatörlük",
+                "Yenişehir şantiye standartlarına uygun İSG evrakları ve sigorta",
+                "JCB 3CX ile hem dar köy sokaklarında hem geniş arazilerde manevra",
+                "7/24 acil kiralık kepçe desteği ve yedek makine garantisi",
+                "Altyapı kanalları, drenaj ve kanalizasyon hatlarında uzman kazı",
+                "Şeffaf puantaj ve faturalı çalışma ile tam yasal güvence"
+            ],
+            useCases: [
+                "Yenişehir konut projesi çevresi altyapı ve zemin hazırlığı",
+                "Dursunköy köy içi villa ve müstakil ev temel kazısı",
+                "Tarım arazisinden imarlı parsele dönüşüm reglajı",
+                "Kanalizasyon, yağmur suyu ve içme suyu hat kazıları",
+                "Eski yapı yıkımı ve moloz kaldırma işleri",
+                "İstinat duvarı temeli ve şev oluşturma",
+                "Bahçe düzenleme, toprak serimi ve peyzaj hazırlığı",
+                "Foseptik çukuru açma ve dolgu işleri",
+                "Stabilize yol yapımı ve arazi tesviyesi",
+                "Hafriyat yükleme ve kamyon koordinasyonlu nakliye"
+            ],
+            experienceProof: [
+                "Dursunköy ve çevresinde tamamlanmış onlarca arazi dönüşüm ve temel kazısı projesi",
+                "Yenişehir proje sahasında büyük müteahhitlerle birlikte yürütülen altyapı çalışmaları",
+                "Bölgenin killi ve kayalık zemin geçişlerinde edinilen 22 yıllık operatörlük deneyimi",
+                "Dursunköy köy yerleşimindeki dar sokaklarda sunulan hassas kepçe hizmeti referansları",
+                "Kadastro duyarlı kazılarda sıfır hukuki sorun ile tamamlanan proje geçmişi"
+            ],
+            pricingLogic: "Dursunköy kiralık kepçe fiyatlarımızda, bölgenin büyük dönüşüm sürecini destekliyoruz. Bireysel bahçe ve temel kazılarında ekonomik saatlik kiralama, büyük arazi projelerinde günlük ve haftalık indirimli paketler sunuyoruz. Dursunköy'e olan yakınlığımız sayesinde nakliye bedeli almıyoruz. Ücretsiz keşif sonrası net ve dürüst bütçe oluşturuyoruz.",
+            trustSignals: [
+                "Arnavutköy yerel esnaf tescili ve 22 yıllık marka güvenilirliği",
+                "Dursunköy ve Yenişehir sahasında bitirilen yüzlerce proje referansı",
+                "SRC ve G sınıfı belgeli, bölge zeminine hakim usta operatörler",
+                "Periyodik bakımlı, arızasız JCB 3CX iş makinesi parkuru",
+                "Resmi sözleşme, fatura ve tam yasal sorumluluk güvencesi",
+                "24 saat cevap veren WhatsApp ve telefon destek hattı"
+            ]
+        },
+        media: {
+            heroImageAlt: "Dursunköy Arnavutköy'de Yenişehir proje sahasında çalışan kiralık JCB kepçe - Keçaş Kepçe",
+            galleryAlts: [
+                "Dursunköy arazi dönüşüm ve tesviye çalışması",
+                "Dursunköy köy içi temel kazısı",
+                "Dursunköy altyapı kanal açma işlemi",
+                "Dursunköy Yenişehir projesi çevresi kazı",
+                "Keçaş Kepçe Dursunköy bölge mobilizasyonu"
+            ]
+        },
+        localSEO: {
+            serviceAreaText: "Dursunköy Merkez, Yenişehir Proje Sahası çevresi, Sazlıbosna sınırı ve mahallenin tüm arazi parsellerinde hizmet veriyoruz.",
+            locationContext: "Dursunköy, Arnavutköy'ün en hızlı dönüşen mahallelerinden biridir. Kanal İstanbul güzergahına yakınlığı ve Yenişehir Rezerv Yapı Alanı kapsamındaki dev konut projeleri ile bölgenin çehresi her geçen gün değişmektedir. Eski tarım arazileri yerini modern yerleşim alanlarına bırakırken, hem büyük şantiyelerin altyapı ihtiyaçları hem de mevcut köy sakinlerinin bireysel inşaat talepleri artmaktadır. Keçaş Kepçe olarak, Dursunköy Camii'nden proje şantiyelerine kadar her noktada 22 yıllık yerel tecrübemizle hizmetteyiz."
+        },
+        faq: [
+            { question: "Dursunköy'de Yenişehir projesi çevresinde kepçe kiralayabilir miyiz?", answer: "Evet, Yenişehir proje sahası çevresindeki bireysel parsellerde ve altyapı ihtiyaçlarında operatörlü kiralık kepçe hizmeti veriyoruz. İSG evraklarımız kurumsal standartlara uygundur." },
+            { question: "Dursunköy'ün killi zemininde kepçe verimli çalışır mı?", answer: "JCB 3CX kepçemizde Dursunköy'ün killi zeminine uygun kova tırnakları ve güçlü hidrolik sistem mevcuttur. Kaya katmanına ulaşıldığında kırıcı ataşmanımızla çalışmaya devam ediyoruz." },
+            { question: "Dursunköy'e aynı gün kepçe gelebilir mi?", answer: "Arnavutköy merkezindeki konumumuz sayesinde Dursunköy'e müsaitlik durumuna göre aynı gün makine sevk edebiliyoruz. 0539 477 81 12'den teyit alabilirsiniz." },
+            { question: "Parsel sınırlarına dikkat ediyor musunuz?", answer: "Kesinlikle. Kazı öncesinde kadastro işaretlerini kontrol ediyor, komşu parsellere taşmadan hassas çalışma yapıyoruz. Hukuki güvenliğiniz bizim önceliğimizdir." },
+            { question: "Fiyatlarınız nakliye dahil mi?", answer: "Evet, Dursunköy'e yakınlığımız sayesinde ek nakliye bedeli almıyoruz. Operatörlü ve yakıt dahil paket fiyatlarımız mevcuttur." }
+        ],
+        conversion: { primaryCTA: "Dursunköy Kepçe: 0539 477 81 12", secondaryCTA: "Ücretsiz Proje Keşfi" },
+        internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "bolluca-kiralik-kepce", "tayakadin-kiralik-kepce", "temel-kazisi", "kazi-isleri"] }
+    },
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    // 28. SAZLIBOSNA KİRALIK KEPÇE (BARAJ HAVZASI & DOĞA DOKUSU)
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    {
+        slug: "sazlibosna-kiralik-kepce",
+        name: "Sazlıbosna Kiralık Kepçe",
+        industry: "equipment-rental",
+        serviceType: "local",
+        primaryLocation: "Sazlıbosna, Arnavutköy",
+        secondaryLocations: ["Dursunköy", "Mavigöl", "İmrahor", "Hacımaşlı"],
+        seo: {
+            metaTitle: "Sazlıbosna Kiralık Kepçe | Baraj Havzası & Arazi Hazırlığı",
+            metaDescription: "Sazlıbosna'da profesyonel kiralık kepçe. Sazlıdere Barajı çevresi, arazi düzenleme ve kentsel dönüşüm kazıları için JCB 3CX. ☎ 0539 477 81 12",
+            canonical: "/sazlibosna-kiralik-kepce",
+            h1: "Sazlıbosna Kiralık Kepçe ve Arazi Düzenleme Hizmetleri"
+        },
+        content: {
+            intro: "Sazlıdere Barajı'nın kıyısında, leylekleriyle ünlü doğal güzellikleriyle bilinen Sazlıbosna Mahallesi, Arnavutköy'ün hem en huzurlu hem de en dinamik dönüşüm sürecini yaşayan köylerinden biridir. Sazlıbosna'da kepçe hizmeti; baraj havzasının hassas ekosistemini gözeterek arazi düzenlemek, TOKİ ve Yenişehir projelerinin çevre altyapısını hazırlamak ve köyün geleneksel yapısını koruyarak yeni yaşam alanları oluşturmak demektir. Keçaş Kepçe olarak, Sazlıbosna'nın bu eşsiz coğrafyasında 22 yıldır operatörlük yapıyoruz. Bölgenin nemli ve sazlık zemin yapısından killi derin katmanlara kadar her tabakayı tanıyan ekibimizle, JCB 3CX kepçemizi Sazlıbosna'nın dar patika yollarından geniş arazi parsellerine kadar her noktaya ulaştırıyoruz. Su kaynaklarına ve baraja olan yakınlık bilinciyle, çevreye en az etkiyi vererek profesyonel kazı çözümleri sunuyoruz.",
+            problemStatement: "Sazlıbosna'da kepçe çalışmasının en büyük zorluğu, baraj havzasına yakın kısımlarda yüksek yer altı su seviyesi ve nemli zemin yapısıdır. Tecrübesiz operatörler bu koşullarda makineyi batırabilir veya kazı çukurlarını su basabilir. Ayrıca bölgenin ekolojik hassasiyeti sebebiyle İSKİ yönetmeliklerine uygun çalışmak zorunludur; kontrolsüz kazılar çevre cezalarına yol açabilir. Sazlıbosna'nın köy merkezi dar sokaklarında ağır vasıta manevra alanı kısıtlıdır. Bölge dışından gelen firmalar mahallenin yol yapısını bilmediği için mülklere zarar verebilir ve yüksek nakliye ücreti talep eder. TOKİ projelerinin hareketliliği ile bireysel arazi sahiplerinin küçük ölçekli işleri arasında profesyonel muhatap bulmak da yerel halk için süregelen bir zorluktur.",
+            solutionOverview: "Keçaş Kepçe olarak Sazlıbosna'da 'doğaya saygılı kazı' prensibiyle çalışıyoruz. Yüksek su seviyeli alanlarda önce drenaj kanalları açarak çalışma alanını kuru tutuyor, ardından güvenli kazıya geçiyoruz. Makinelerimizin bakımını titizlikle yaparak yağ kaçağı ve çevre kirliliği riskini sıfıra indiriyoruz. JCB 3CX'in kompakt boyutu Sazlıbosna'nın dar köy sokaklarında rahatlıkla çalışmasını sağlar. İSKİ ve belediye yönetmeliklerine uygun çevresel bilinçle hareket ediyoruz. Sazlıbosna'ya komşu yerel bir firma olarak nakliye masrafı çıkarmıyor, ücretsiz keşif sonrası dürüst ve ekonomik fiyat teklifi veriyoruz. 22 yıllık bölge tecrübemizle, hem büyük projelerde hem küçük bahçe işlerinde güvenilir çözüm ortağınızız.",
+            processSteps: [
+                { title: "Ekolojik Saha Analizi", description: "Sazlıbosna'daki arazinize gelerek su seviyesini, zemin nemini ve havza yakınlığını analiz ediyoruz. Çevresel hassasiyetleri belirliyoruz." },
+                { title: "Çevre Duyarlı Fiyatlandırma", description: "İşin teknik zorluğunu ve süresini hesaplayarak, bölgenin özel koşullarına uygun şeffaf fiyat teklifimizi sunuyoruz." },
+                { title: "Drenaj Odaklı Kazı", description: "Gerekli alanlarda önce drenaj hatları açarak zemini kurutuyor, ardından JCB 3CX ile hassas ve güvenli kazı yapıyoruz." },
+                { title: "Temiz ve Düzenli Teslim", description: "Kazı alanını çevre standartlarına uygun şekilde tesviye edip, sahayı pürüzsüz ve kullanıma hazır teslim ediyoruz." }
+            ],
+            benefits: [
+                "Sazlıbosna ve Sazlıdere Barajı çevresinde 22 yıllık çevresel kazı tecrübesi",
+                "Yüksek su seviyeli ve nemli zeminlerde drenaj odaklı güvenli kazı tekniği",
+                "Baraj havzasına duyarlı, sızıntısız ve çevre dostu iş makinesi bakımı",
+                "JCB 3CX ile Sazlıbosna'nın dar köy sokaklarında yüksek manevra kabiliyeti",
+                "Arnavutköy yerleşkesinden Sazlıbosna'ya nakliye masrafsız hızlı ulaşım",
+                "İSKİ ve belediye çevre yönetmeliklerine tam uyumlu çalışma garantisi",
+                "TOKİ ve Yenişehir projeleri için kurumsal standartlarda İSG evrakları",
+                "Operatörlü kiralama – SRC belgeli, 22 yıl bölge tecrübeli usta ekip",
+                "Tarım arazisi dönüşümü, hobi bahçesi ve peyzaj hazırlığında uzmanlık",
+                "Şeffaf puantaj, fatura ve dürüst fiyat garantisi"
+            ],
+            useCases: [
+                "Sazlıbosna köy içi müstakil ev ve villa temel kazısı",
+                "Baraj çevresi arazi temizliği ve tarla dönüşüm reglajı",
+                "TOKİ ve Yenişehir projesi çevresi altyapı kazıları",
+                "Drenaj kanalı, yağmur suyu ve fosseptik hat açma",
+                "Bahçe düzenleme, hobi bahçesi hazırlığı ve toprak serimi",
+                "Eski yapı ve ahır yıkımı, moloz kaldırma işleri",
+                "İstinat duvarı temeli ve yamaç şev oluşturma",
+                "Stabilize köy yolu yapımı ve onarımı",
+                "Arsa temizliği, çalı sıyırma ve yabani ot kazıması",
+                "Hafriyat yükleme ve kamyonla nakliye koordinasyonu"
+            ],
+            experienceProof: [
+                "Sazlıbosna ve Sazlıdere havzasında tamamlanmış onlarca arazi ve temel kazısı projesi",
+                "Baraj yakını nemli zeminlerde edinilen drenaj odaklı kazı uzmanlığı",
+                "Sazlıbosna köy sakinlerinin güvendiği 22 yıllık yerel marka itibarı",
+                "Leylekli Köy'ün doğal dokusuna zarar vermeden gerçekleştirilen çevreci kazı işleri",
+                "Dar köy yollarında ve geniş tarla parsellerinde eşit verimlilikle sunulan hizmet"
+            ],
+            pricingLogic: "Sazlıbosna kiralık kepçe fiyatlarımızda, bölgenin ekolojik karakterine ve yerel kalkınmasına destek veriyoruz. Bahçe düzenlemelerinde ekonomik saatlik kiralama, geniş arazi projelerinde günlük indirimli paketler sunuyoruz. Sazlıbosna'ya yakınlığımız nedeniyle nakliye bedeli almıyoruz. Ücretsiz keşif yaparak, projenize en uygun bütçeyi birlikte oluşturuyoruz.",
+            trustSignals: [
+                "Arnavutköy yerel esnaf tescili ve 22 yıllık marka güveni",
+                "Sazlıbosna'da bitirilen yüzlerce bireysel ve tarımsal proje referansı",
+                "SRC ve G sınıfı belgeli, çevre bilincine sahip usta operatörler",
+                "Periyodik bakımlı, çevre dostu ve arızasız JCB 3CX iş makinesi",
+                "Resmi sözleşme, fatura ve tam yasal sorumluluk güvencesi",
+                "24 saat cevap veren WhatsApp ve telefon destek hattı"
+            ]
+        },
+        media: {
+            heroImageAlt: "Sazlıbosna Arnavutköy'de baraj havzası yakınında çalışan kiralık JCB kepçe - Keçaş Kepçe",
+            galleryAlts: [
+                "Sazlıbosna arazi temizliği ve reglaj çalışması",
+                "Sazlıbosna köy içi temel kazısı",
+                "Sazlıbosna drenaj kanalı açma işlemi",
+                "Sazlıbosna baraj çevresi arazi düzenleme",
+                "Keçaş Kepçe Sazlıbosna bölge mobilizasyonu"
+            ]
+        },
+        localSEO: {
+            serviceAreaText: "Sazlıbosna Merkez, Sazlıdere Barajı çevresi, Dursunköy sınırı ve mahallenin tüm tarım ve yerleşim parsellerinde hizmet veriyoruz.",
+            locationContext: "Sazlıbosna, Arnavutköy'ün Sazlıdere Barajı kıyısındaki eşsiz bir mahallesidir. 'Leylekli Köy' olarak bilinen bölge, doğal güzellikleri ve tarihi Sultanlar Yolu ile dikkat çekerken, Yenişehir Rezerv Yapı Alanı kapsamındaki dev konut projeleri ile hızlı bir dönüşüm süreci yaşamaktadır. Keçaş Kepçe olarak, Sazlıbosna'nın bu doğal dokusuna saygı duyarak, baraj havzasının ekolojik hassasiyetlerini gözeten çevreye duyarlı kazı çözümleri sunuyoruz. 22 yıldır bölgenin toprağını tanıyan komşunuzuz."
+        },
+        faq: [
+            { question: "Sazlıbosna'da baraj yakınında kazı yapılabilir mi?", answer: "İSKİ yönetmeliklerine uygun alanlarda, çevresel hassasiyetleri gözeterek profesyonel kazı yapıyoruz. Yasal sınırları biliyor ve sizi doğru yönlendiriyoruz." },
+            { question: "Nemli ve sulak zeminde makineniz çalışabilir mi?", answer: "JCB 3CX operatörlerimiz Sazlıbosna'nın nemli zemin yapısına hakimdir. Sulak alanlarda önce drenaj yaparak ilerliyor ve makineyi emniyetli platformlarda çalıştırıyoruz." },
+            { question: "Sazlıbosna'ya aynı gün kepçe gelebilir mi?", answer: "Bölgeye çok yakın konumumuz sayesinde, müsaitlik durumuna göre aynı gün makinemizi arazinize sevk edebiliyoruz. 0539 477 81 12'den teyit alabilirsiniz." },
+            { question: "Köy içi dar sokaklarda çalışabilir misiniz?", answer: "JCB 3CX kompakt boyutlarıyla Sazlıbosna'nın dar köy sokaklarında ve bahçe girişlerinde rahatlıkla manevra yapabilir." },
+            { question: "Hobi bahçesi hazırlığı yapıyor musunuz?", answer: "Evet, tarla arazisini hobi bahçesine dönüştürme, toprak serimi, tesviye ve drenaj kanalı açma işlerinde uzmanız. Anahtar teslim bahçe hazırlığı sunuyoruz." }
+        ],
+        conversion: { primaryCTA: "Sazlıbosna Kepçe: 0539 477 81 12", secondaryCTA: "Ücretsiz Doğa Keşfi" },
+        internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "dursunkoy-kiralik-kepce", "mavigol-kiralik-kepce", "dolgu-tesviye", "kazi-isleri"] }
+    },
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    // 29. HACIMAŞLI KİRALIK KEPÇE (KIRSAL KÖY & DOĞAL DOKU)
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    {
+        slug: "hacimasli-kiralik-kepce",
+        name: "Hacımaşlı Kiralık Kepçe",
+        industry: "equipment-rental",
+        serviceType: "local",
+        primaryLocation: "Hacımaşlı, Arnavutköy",
+        secondaryLocations: ["Sazlıbosna", "Dursunköy", "Tayakadın", "Yassıören"],
+        seo: {
+            metaTitle: "Hacımaşlı Kiralık Kepçe | Köy İçi Kazı & Arazi Düzenleme",
+            metaDescription: "Hacımaşlı'da profesyonel kiralık kepçe. Köy içi temel kazısı, bahçe düzenleme, arazi temizliği ve altyapı işleri için JCB 3CX. ☎ 0539 477 81 12",
+            canonical: "/hacimasli-kiralik-kepce",
+            h1: "Hacımaşlı Kiralık Kepçe ve Köy İçi Arazi Hizmetleri"
+        },
+        content: {
+            intro: "Arnavutköy'ün kuzeyinde, şehrin gürültüsünden uzak doğal dokusuyla bilinen Hacımaşlı Mahallesi, İstanbul'un nadir 'köy havası' sunan yerleşimlerinden biridir. Hacımaşlı'da kepçe hizmeti; yeşil alanlarla çevrili müstakil evlerin bahçelerini düzenlemek, yeni konut projelerinin temellerini sağlam bir şekilde açmak ve köyün geleneksel yaşam alanlarını koruyarak altyapısını güçlendirmek demektir. Keçaş Kepçe olarak, Hacımaşlı'nın bu sakin ama sürekli gelişen yapısında 22 yıldır hizmet veriyoruz. Bölgenin organik toprak yapısından sert kil katmanlarına kadar her zemin tabakasını bilen operatörlerimiz, JCB 3CX kepçemizle köyün dar patikalarından çiftlik arazilerine kadar her noktada profesyonel kazı çözümleri sunuyor. Hacımaşlı'nın huzurlu atmosferini bozmadan, komşulara saygılı ve çevreci bir anlayışla çalışıyoruz.",
+            problemStatement: "Hacımaşlı'da yaşayanların en büyük sorunu, mahalle düzeyinde profesyonel iş makinesi hizmeti bulmaktır. Şehir merkezinden gelen firmalar yüksek nakliye bedeli talep eder ve köyün toprak yollarını, bahçe duvarlarını ve dar geçitlerini tanımaz. Bölgenin organik toprak yapısı yağışlarda yumuşayarak makine sapması riskini artırır; tecrübesiz operatörler bahçelere ve komşu mülklere zarar verebilir. Hacımaşlı'nın rezerv yapı alanı statüsü nedeniyle imar süreçleri dinamiktir; parsel sınırları ve yapılaşma koşulları hakkında yerel bilgi sahibi olmak kazı işlerinde zorunludur. Köy sakinlerinin küçük ama teknik gerektiren işleri (fosseptik, drenaj, bahçe düzenleme) için uygun fiyatlı muhatap bulmak da kronik bir zorluktur.",
+            solutionOverview: "Keçaş Kepçe olarak Hacımaşlı'da 'köye saygılı profesyonellik' ilkesiyle çalışıyoruz. Bölgenin toprak yapısını ve mevsimsel değişimlerini 22 yıldır takip ediyoruz; hangi ayda hangi derinlikte su çıkacağını, kil katmanının nerede başlayacağını biliyoruz. JCB 3CX makinemizin kompakt boyutu Hacımaşlı'nın dar köy yollarında ve bahçe kapılarından geçişte büyük avantaj sağlar. Gürültü ve titreşimi minimize ederek, köyün huzurlu yaşamına saygı duyuyoruz. Yerel firma olarak nakliye masrafı almıyor, komşumuz olan Hacımaşlı halkına samimi ve şeffaf hizmet sunuyoruz. Ücretsiz keşif sonrası her zaman net fiyat teklifi veriyor, işin sonunda sahayı temiz teslim ediyoruz.",
+            processSteps: [
+                { title: "Köy İçi Hassas Keşif", description: "Hacımaşlı'daki mülkünüze gelip zemin yapısını, giriş yolunu ve komşu yapıları kontrol ediyoruz. Ücretsiz ve kapsamlı saha analizi yapıyoruz." },
+                { title: "Samimi ve Şeffaf Teklif", description: "İşin büyüklüğüne ve zemin koşullarına göre saatlik veya günlük net fiyat teklifimizi sunuyoruz. Gizli masraf olmadan, komşuca anlaşma." },
+                { title: "Saygılı ve Verimli Çalışma", description: "JCB 3CX kepçemizle bahçenize veya arazinize girerek, çevredeki yapılara ve ağaçlara zarar vermeden hassas kazı yapıyoruz." },
+                { title: "Temiz Bahçe Teslimatı", description: "İşi bitirdiğimizde sahayı düzgün tesviye ediyor, molozu kaldırıyor ve mülkünüzü kullanıma hazır, pırıl pırıl teslim ediyoruz." }
+            ],
+            benefits: [
+                "Hacımaşlı ve çevre köylerde 22 yıllık yerel zemin ve arazi bilgisi",
+                "Köy içi dar yollarda ve bahçe girişlerinde JCB 3CX ile kolay manevra",
+                "Organik toprak ve kil katmanı geçişlerinde uzman operatörlük",
+                "Arnavutköy merkezinden Hacımaşlı'ya nakliye bedeli almadan hızlı ulaşım",
+                "Köyün huzurlu atmosferine saygılı, düşük gürültülü çalışma prensibi",
+                "Komşu mülklere ve bahçe ağaçlarına zarar vermeme hassasiyeti",
+                "Rezerv yapı alanı süreçlerinde yerel bilgi ve kadastro duyarlılığı",
+                "Sigortalı, SRC belgeli ve profesyonel operatör güvencesi",
+                "Küçük bahçe işlerinden büyük arazi projelerine kadar geniş hizmet yelpazesi",
+                "7/24 ulaşılabilen yerel destek ve acil kepçe hattı"
+            ],
+            useCases: [
+                "Müstakil ev ve köy evi temel kazısı",
+                "Bahçe düzenleme, toprak serimi ve peyzaj hazırlığı",
+                "Fosseptik çukuru açma ve kanalizasyon hat kazısı",
+                "Çiftlik ve tarla arazisi temizliği, dönüşüm reglajı",
+                "Eski ahır, kümüs ve baraka yıkımı ile moloz kaldırma",
+                "Bahçe duvarı temel hendek açma ve istinat yapısı",
+                "Drenaj kanalı ve yağmur suyu tahliye hattı kazıları",
+                "Ağaç yeri açma, kök sökme ve arazi havalandırma",
+                "Stabilize köy yolu düzeltme ve yol genişletme",
+                "Toprak sıkıştırma ve kot düzeltme (reglaj) işleri"
+            ],
+            experienceProof: [
+                "Hacımaşlı'da onlarca müstakil ev ve bahçe projesiyle kazanılmış güven",
+                "Köy sakinlerinin 22 yıldır ilk tercihi olan yerel marka değeri",
+                "Dar patika yollarda ve sınırlı bahçe alanlarında sunulan hassas operatörlük",
+                "Doğal dokuya zarar vermeden tamamlanan çevreci kazı referansları",
+                "Organik toprak ve kil geçişlerinde biriken deneyim ve uzmanlık"
+            ],
+            pricingLogic: "Hacımaşlı kiralık kepçe fiyatlarımızda, köy komşuluğu anlayışıyla hareket ediyoruz. Küçük bahçe ve fosseptik işlerinde ekonomik saatlik ücretler, geniş çiftlik arazileri için günlük paket fiyatlar sunuyoruz. Hacımaşlı'ya yakınlığımız sayesinde ek nakliye bedeli almıyoruz. Ücretsiz keşif sonrası dürüst ve net bütçe vererek, iş bittiğinde sürpriz maliyet çıkarmıyoruz.",
+            trustSignals: [
+                "Arnavutköy yerel esnaf tescili ve 22 yıllık kesintisiz hizmet geçmişi",
+                "Hacımaşlı köy halkının güvenini kazanmış yerel marka itibarı",
+                "SRC ve G sınıfı belgeli, köy yaşamına duyarlı usta operatörler",
+                "Periyodik bakımlı, sessiz ve verimli JCB 3CX iş makinesi",
+                "Dürüst puantaj, resmi fatura ve tam yasal güvence",
+                "24 saat cevap veren WhatsApp ve acil çağrı hattı"
+            ]
+        },
+        media: {
+            heroImageAlt: "Hacımaşlı Arnavutköy'de köy bahçesinde çalışan kiralık JCB kepçe - Keçaş Kepçe",
+            galleryAlts: [
+                "Hacımaşlı köy içi bahçe düzenleme çalışması",
+                "Hacımaşlı müstakil ev temel kazısı",
+                "Hacımaşlı çiftlik arazisi temizliği",
+                "Hacımaşlı fosseptik çukuru kazısı",
+                "Keçaş Kepçe Hacımaşlı bölge mobilizasyonu"
+            ]
+        },
+        localSEO: {
+            serviceAreaText: "Hacımaşlı Merkez, Ihlamur Parkı çevresi, çiftlik arazileri ve mahallenin tüm köy içi parsellerinde hizmet veriyoruz.",
+            locationContext: "Hacımaşlı, Arnavutköy'ün doğal dokusunu en iyi koruyan mahallelerinden biridir. Geniş yeşil alanları, sakin köy atmosferi ve şehir merkezine uzaklığı ile huzurlu bir yaşam sunar. Ancak İstanbul Havalimanı'na yakınlığı ve Yenişehir Rezerv Yapı Alanı kapsamındaki planlama süreçleri ile bölge geleceğe hazırlanmaktadır. Keçaş Kepçe olarak, Hacımaşlı'nın bu köy ruhunu koruyarak, sakinlerine profesyonel ve komşuca kepçe hizmeti sunmayı 22 yıldır sürdürüyoruz."
+        },
+        faq: [
+            { question: "Hacımaşlı'daki köy yollarından kepçe geçebilir mi?", answer: "JCB 3CX kompakt boyutlarıyla Hacımaşlı'nın dar patika ve toprak yollarından rahatlıkla geçebilir. Köy içi manevrada 22 yıllık tecrübemiz var." },
+            { question: "Küçük bir bahçe işi için de gelir misiniz?", answer: "Kesinlikle. Hacımaşlı'ya yakınlığımız sayesinde küçük bahçe düzenleme, fosseptik veya duvar yıkımı gibi işler için de ekonomik saatlik hizmet veriyoruz." },
+            { question: "Hacımaşlı'ya aynı gün kepçe geliyor mu?", answer: "Müsaitlik durumuna göre aynı gün makinemizi Hacımaşlı'ya sevk edebiliyoruz. 0539 477 81 12'den bize ulaşabilirsiniz." },
+            { question: "Bahçemdeki ağaçlara zarar verir misiniz?", answer: "Operatörlerimiz bahçe içi çalışmalarda son derece hassas davranır. Sadece hedef alana müdahale eder, ağaçlar ve komşu yapılar korunur." },
+            { question: "Fosseptik çukuru kazısı yapıyor musunuz?", answer: "Evet, Hacımaşlı ve çevre köylerde onlarca fosseptik çukuru açtık. Standartlara uygun derinlik ve genişlikte, temiz bir kazı yapıyoruz." }
+        ],
+        conversion: { primaryCTA: "Hacımaşlı Kepçe: 0539 477 81 12", secondaryCTA: "Ücretsiz Köy Keşfi" },
+        internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "sazlibosna-kiralik-kepce", "dursunkoy-kiralik-kepce", "dolgu-tesviye", "yikim-hizmetleri"] }
+    },
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    // 30. KARABURUN KİRALIK KEPÇE (SAHİL & LOJİSTİK KAVŞAK)
+    // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    {
+        slug: "karaburun-kiralik-kepce",
+        name: "Karaburun Kiralık Kepçe",
+        industry: "equipment-rental",
+        serviceType: "local",
+        primaryLocation: "Karaburun, Arnavutköy",
+        secondaryLocations: ["Tayakadın", "Durusu", "Yassıören", "Terkos"],
+        seo: {
+            metaTitle: "Karaburun Kiralık Kepçe | Sahil & Yazlık Bölgesi Kazı Hizmetleri",
+            metaDescription: "Karaburun'da profesyonel kiralık kepçe. Sahil yazlıkları, villa bahçeleri ve arazi hazırlığı için operatörlü JCB 3CX. Hızlı mobilizasyon. ☎ 0539 477 81 12",
+            canonical: "/karaburun-kiralik-kepce",
+            h1: "Karaburun Kiralık Kepçe ve Sahil Arazi Hizmetleri"
+        },
+        content: {
+            intro: "Arnavutköy'ün Karadeniz kıyısındaki incisi Karaburun Mahallesi, İstanbul'un en güzel plajlarından birine ev sahipliği yapan, yazlık kültürüyle bilinen eşsiz bir sahil yerleşimidir. Karaburun'da kepçe hizmeti; deniz manzaralı villa bahçelerini düzenlemek, sahil yakını parsellerin temellerini açmak, kum ve çakıl karışımı zemin yapısında profesyonel kazı yapmak ve bölgenin turizm potansiyelini destekleyen altyapı çalışmalarını yürütmek demektir. Keçaş Kepçe olarak, Karaburun'un bu deniz kokulu coğrafyasında 22 yıldır yerel hizmet sunuyoruz. Bölgenin tuzlu deniz havası, kumlu üst katman ve killi alt katman geçişleri, operatörün hem makine bakımına hem de kazı tekniğine hakim olmasını zorunlu kılar. JCB 3CX kepçemizle, Karaburun'un sahil yollarından tepe yamacındaki parsellere kadar her noktada güvenilir kazı çözümleri üretiyoruz.",
+            problemStatement: "Karaburun'da iş makinesi çalıştırmanın en büyük zorluğu, bölgenin sahil şeridindeki kumlu-çakıllı zemin yapısı ile iç kısımlardaki sert kil tabakası arasındaki ani geçişlerdir. Tecrübesiz operatörler kumlu zeminde batma riski yaşar veya kil katmanında yetersiz kalır. Ayrıca sahil yakını parsellerde tuzlu yer altı suyu seviyesi yüksek olabilir; bu durum kazı çukurlarının su basmasına neden olur. Karaburun'un yazlık bölgesi karakteri sebebiyle yoğun sezonlarda gürültülü çalışma komşuluk sorunlarına yol açabilir. Bölge merkezinden uzak olması nedeniyle dışarıdan gelen firmalar astronomik nakliye ücretleri talep eder. İmar planlarındaki değişiklikler ve kıyı kanunu düzenlemeleri kazı işlerinde yasal bilgi sahibi olmayı gerektirmektedir.",
+            solutionOverview: "Keçaş Kepçe olarak Karaburun'da 'sahile saygılı profesyonellik' ile çalışıyoruz. Kumlu-çakıllı üst katmanda hafif kova tekniği ile ilerlerken, kil tabakasına ulaşıldığında güçlü tırnaklarla verim artırıyoruz. Tuzlu yer altı suyu olan alanlarda drenaj öncelikli kazı planı uyguluyoruz. Makinelerimizin tuzlanmaya karşı özel bakımını yaparak sahil şartlarında uzun ömürlü çalışma garantisi veriyoruz. Karaburun'un yazlık bölgesi hassasiyetine uygun olarak sabah saatlerine ve komşuluk ilişkilerine duyarlı çalışma programları hazırlıyoruz. Yerel firma avantajımızla nakliye bedeli almıyor, ücretsiz keşif sonrası net ve dürüst fiyat teklifi sunuyoruz. Kıyı kanunu ve imar düzenlemeleri hakkında sizi bilgilendirerek, yasal güvenliğinizi de sağlıyoruz.",
+            processSteps: [
+                { title: "Sahil Şeridi Zemin Analizi", description: "Karaburun'daki parselinize gelip kumlu-killi zemin geçişlerini, su seviyesini ve kıyı mesafesini analiz ediyoruz." },
+                { title: "Sezona Uygun Fiyatlandırma", description: "İşin teknik zorluğuna ve büyüklüğüne göre saatlik veya günlük şeffaf fiyat teklifimizi sunuyoruz. Komşuluk dostu çalışma planı hazırlıyoruz." },
+                { title: "Deneyimli ve Hassas Kazı", description: "JCB 3CX kepçemizle sahil zeminine uygun tekniklerle, çevreye minimum rahatsızlık vererek profesyonel kazı yapıyoruz." },
+                { title: "Plaj Havası Teslimatı", description: "Sahayı peyzaja veya inşaata hazır şekilde tesviye edip, temiz ve düzenli teslim ederek manzaranızı koruyoruz." }
+            ],
+            benefits: [
+                "Karaburun sahil şeridinde 22 yıllık kumlu ve killi zemin kazı tecrübesi",
+                "Deniz manzaralı villa bahçelerinde hassas ve estetik odaklı çalışma",
+                "Tuzlu yer altı suyu alanlarında drenaj öncelikli kazı planlaması",
+                "JCB 3CX ile dar sahil yollarında ve eğimli parsellerde yüksek manevra",
+                "Arnavutköy merkezinden Karaburun'a nakliye masrafsız ulaşım avantajı",
+                "Yazlık bölgesi komşuluk hassasiyetine uygun sessiz ve düzenli çalışma",
+                "Kıyı kanunu ve imar düzenlemeleri hakkında yerel bilgi birikimi",
+                "Sahil koşullarına uygun makine bakımı ve arızasız çalışma garantisi",
+                "Operatörlü kiralama – SRC belgeli, 22 yıl sahil bölgesi deneyimli ekip",
+                "7/24 acil destek ve hızlı mobilizasyon kapasitesi"
+            ],
+            useCases: [
+                "Villa ve yazlık ev temel kazısı ve altyapı hazırlığı",
+                "Deniz manzaralı bahçe düzenleme ve peyzaj reglajı",
+                "Havuz kazısı ve bahçe drenaj kanalları açma",
+                "Sahil yakını arsa temizliği ve inşaat sahası hazırlama",
+                "Eski yazlık yıkımı ve moloz kaldırma işleri",
+                "İstinat duvarı temeli ve yamaç stabilizasyonu",
+                "Kanalizasyon ve yağmur suyu altyapı hat kazıları",
+                "Otel ve konaklama tesisi çevresi zemin düzenleme",
+                "Stabilize yol yapımı ve sahil yolu onarımı",
+                "Bahçe duvarı sökümü ve yeniden yapım hazırlığı"
+            ],
+            experienceProof: [
+                "Karaburun sahil şeridinde tamamlanmış onlarca villa ve yazlık evi projesi",
+                "Kumlu-killi zemin geçişlerinde biriken 22 yıllık operatörlük uzmanlığı",
+                "Tuzlu yer altı suyu koşullarında başarıyla yürütülen drenajlı kazı projeleri",
+                "Karaburun sakinlerinin ve yazlık sahiplerinin güvendiği yerel marka itibarı",
+                "Sahil yaşam alanlarında çevreci ve komşuluk dostu çalışma referansları"
+            ],
+            pricingLogic: "Karaburun kiralık kepçe fiyatlarımızda, bölgenin sahil karakterini ve yazlık kültürünü gözetiyoruz. Bahçe tadilatlarında ekonomik saatlik fiyatlar, büyük arsa projelerinde günlük indirimli paketler sunuyoruz. Karaburun'a olan yakınlığımız sayesinde ek nakliye ücreti almıyoruz. Ücretsiz keşif yaparak, projenize en uygun ve dürüst bütçeyi birlikte oluşturuyoruz.",
+            trustSignals: [
+                "Arnavutköy yerel esnaf tescili ve 22 yıllık kesintisiz marka güveni",
+                "Karaburun sahilinde bitirilen onlarca villa ve bahçe projesi referansı",
+                "SRC ve G sınıfı belgeli, sahil zemininde uzmanlaşmış operatör kadrosu",
+                "Tuzlanmaya dayanıklı bakımlı JCB 3CX iş makinesi parkuru",
+                "Resmi sözleşme, fatura ve tam yasal güvence",
+                "24 saat cevap veren WhatsApp ve telefon destek hattı"
+            ]
+        },
+        media: {
+            heroImageAlt: "Karaburun Arnavutköy'de sahil yakını villa bahçesinde çalışan kiralık JCB kepçe - Keçaş Kepçe",
+            galleryAlts: [
+                "Karaburun sahil villa bahçe düzenleme",
+                "Karaburun yazlık temel kazısı",
+                "Karaburun arazi temizliği ve reglaj",
+                "Karaburun sahil altyapı kazı işlemi",
+                "Keçaş Kepçe Karaburun bölge mobilizasyonu"
+            ]
+        },
+        localSEO: {
+            serviceAreaText: "Karaburun Merkez, Sahil Şeridi, Plaj Bölgesi ve mahallenin tüm villa parselleri ile arazi alanlarında hizmet veriyoruz.",
+            locationContext: "Karaburun, Arnavutköy'ün Karadeniz kıyısındaki en özel mahallesidir. İstanbul'un en güzel plajlarından birine ev sahipliği yapan bölge, uzun yıllardır yazlık ve ikinci konut kültürünün merkezidir. İstanbul Havalimanı'na yakınlığı ile stratejik bir konumda bulunan Karaburun, yeni konut projeleri ve turizm yatırımlarıyla sürekli gelişmektedir. Keçaş Kepçe olarak, Karaburun'un tuzlu deniz havasından kumlu sahil zeminine kadar her koşula hakim 22 yıllık tecrübemizle, sahil komşularımıza profesyonel kepçe hizmeti sunuyoruz."
+        },
+        faq: [
+            { question: "Karaburun'daki kumlu zeminde kepçe verimli çalışır mı?", answer: "JCB 3CX operatörlerimiz Karaburun'un kumlu-çakıllı üst katmanında hafif kova tekniği, kil tabakasında güçlü tırnak tekniği kullanarak her derinlikte verimli çalışır." },
+            { question: "Sahil yakınında yer altı suyu çıkarsa ne olur?", answer: "Tuzlu yer altı suyu beklenen alanlarda önce drenaj kanalları açarak çalışma alanını kurutuyor, ardından güvenli kazıya geçiyoruz. Bu konuda 22 yıllık tecrübemiz var." },
+            { question: "Karaburun'a aynı gün kepçe gelir mi?", answer: "Arnavutköy'deki konumumuz sayesinde Karaburun'a müsaitlik durumuna göre aynı gün makinemizi sevk edebiliyoruz. 0539 477 81 12'den teyit alabilirsiniz." },
+            { question: "Yazlık sezonda gürültü problemi yaratır mısınız?", answer: "Komşuluk hassasiyetine büyük önem veriyoruz. Uygun saatlerde çalışıyor, gürültüyü minimum seviyede tutarak işi hızlı bitiriyoruz." },
+            { question: "Havuz yeri kazısı yapıyor musunuz?", answer: "Evet, Karaburun villalarında çok sayıda havuz kazısı tamamladık. Projenize uygun kotlarda, temiz temel tabanı açıp çıkan hafriyatı yüklüyoruz." }
+        ],
+        conversion: { primaryCTA: "Karaburun Kepçe: 0539 477 81 12", secondaryCTA: "Ücretsiz Sahil Keşfi" },
+        internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "tayakadin-kiralik-kepce", "yassioren-kiralik-kepce", "temel-kazisi", "dolgu-tesviye"] }
     }
 ];
 

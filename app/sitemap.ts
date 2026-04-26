@@ -188,5 +188,29 @@ export default function sitemap(): MetadataRoute.Sitemap {
             changeFrequency: 'weekly',
             priority: 0.9,
         },
+        {
+            url: `${baseUrl}/dursunkoy-kiralik-kepce`,
+            lastModified: new Date('2026-04-26'),
+            changeFrequency: 'weekly',
+            priority: 0.9,
+        },
+        {
+            url: `${baseUrl}/sazlibosna-kiralik-kepce`,
+            lastModified: new Date('2026-04-26'),
+            changeFrequency: 'weekly',
+            priority: 0.9,
+        },
+        {
+            url: `${baseUrl}/hacimasli-kiralik-kepce`,
+            lastModified: new Date('2026-04-26'),
+            changeFrequency: 'weekly',
+            priority: 0.9,
+        },
+        {
+            url: `${baseUrl}/karaburun-kiralik-kepce`,
+            lastModified: new Date('2026-04-26'),
+            changeFrequency: 'weekly',
+            priority: 0.9,
+        },
     ];
 }

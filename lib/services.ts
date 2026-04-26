@@ -219,6 +219,60 @@ export const services: Service[] = [
     ],
     priceRange: "Arazi zorluğuna göre",
   },
+
+  // Dursunköy, Sazlıbosna, Hacımaşlı, Karaburun
+  {
+    slug: "dursunkoy-kiralik-kepce",
+    name: "Dursunköy Kiralık Kepçe",
+    shortDescription: "Dursunköy'de Yenişehir projesi ve konut altyapısı kepçe hizmeti",
+    description: "Dursunköy'de Yenişehir proje sahası, konut inşaatları ve bireysel arazi işleri için operatörlü kiralık kepçe. Killi ve kayalık zemin uzmanlığı.",
+    features: [
+      "Yenişehir proje sahası deneyimi",
+      "Killi ve kayalık zemin uzmanlığı",
+      "Kadastro hassasiyetli kazı",
+      "Nakliye masrafsız hızlı ulaşım",
+    ],
+    priceRange: "Saatlik/günlük paket fiyat",
+  },
+  {
+    slug: "sazlibosna-kiralik-kepce",
+    name: "Sazlıbosna Kiralık Kepçe",
+    shortDescription: "Sazlıbosna'da baraj havzası çevresi arazi ve kepçe hizmeti",
+    description: "Sazlıbosna'da Sazlıdere Barajı çevresi arazi düzenleme, drenaj odaklı kazı ve köy içi temel kazısı. Çevreye duyarlı profesyonel hizmet.",
+    features: [
+      "Baraj havzası çevresel duyarlılık",
+      "Drenaj odaklı kazı tekniği",
+      "Nemli zemin uzmanlığı",
+      "Köy içi hassas operatörlük",
+    ],
+    priceRange: "Saatlik/günlük ekonomik paket",
+  },
+  {
+    slug: "hacimasli-kiralik-kepce",
+    name: "Hacımaşlı Kiralık Kepçe",
+    shortDescription: "Hacımaşlı'da köy içi kazı ve bahçe düzenleme kepçe hizmeti",
+    description: "Hacımaşlı'da müstakil ev temeli, bahçe düzenleme, fosseptik ve çiftlik arazisi işleri için operatörlü kiralık kepçe. Köy yaşamına saygılı hizmet.",
+    features: [
+      "Köy içi dar yol uzmanlığı",
+      "Bahçe ve fosseptik kazısı",
+      "Doğal dokuya saygılı çalışma",
+      "Ekonomik saatlik kiralama",
+    ],
+    priceRange: "Saatlik/günlük köy komşu fiyatı",
+  },
+  {
+    slug: "karaburun-kiralik-kepce",
+    name: "Karaburun Kiralık Kepçe",
+    shortDescription: "Karaburun'da sahil yazlık bölgesi arazi ve kepçe hizmeti",
+    description: "Karaburun'da sahil villa bahçeleri, yazlık ev temeli ve arazi hazırlığı için operatörlü kiralık kepçe. Kumlu-killi zemin uzmanlığı.",
+    features: [
+      "Sahil zemini uzmanlığı",
+      "Villa bahçesi hassas çalışma",
+      "Tuzlu yer altı suyu drenajı",
+      "Yazlık sezon komşuluk duyarlılığı",
+    ],
+    priceRange: "Saatlik/günlük sahil paketi",
+  },
 ];
 
 // Helper Functions

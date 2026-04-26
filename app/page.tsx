@@ -27,7 +27,7 @@ const faqItems = [
   },
   {
     question: "Çalışma saatleriniz nedir?",
-    answer: "Pazartesi-Cumartesi 08:00-20:00 arası hizmet veriyoruz. Pazar günleri kapalıyız. Acil durumlar için 7/24 ulaşabilirsiniz.",
+    answer: "Haftanın 7 günü, 24 saat hizmet veriyoruz. Hafta içi, hafta sonu veya tatil günlerinde fark etmeksizin bize ulaşabilirsiniz.",
   },
   {
     question: "Hangi tür işler için kepçe hizmeti veriyorsunuz?",

@@ -70,7 +70,7 @@ export const defaultFAQItems: FAQItem[] = [
   },
   {
     question: "Çalışma saatleriniz nedir?",
-    answer: "Pazartesi-Cumartesi 09:00-19:00 arası hizmet veriyoruz. Pazar günleri kapalıyız. Acil durumlar için iletişime geçebilirsiniz.",
+    answer: "Haftanın 7 günü, 24 saat kesintisiz hizmet veriyoruz. Gece, gündüz veya hafta sonu fark etmez; ihtiyacınız olduğunda bizi arayabilirsiniz.",
   },
   {
     question: "Ödeme seçenekleriniz nelerdir?",

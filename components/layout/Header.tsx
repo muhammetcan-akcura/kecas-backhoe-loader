@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState, useRef, useEffect } from "react";
-import { Menu, X, ChevronDown, MapPin, Wrench } from "lucide-react";
+import { Menu, X, ChevronDown, MapPin, Wrench, ArrowRight } from "lucide-react";
 import Image from "next/image";
 
 const navLinks = [
@@ -12,145 +12,35 @@ const navLinks = [
   { name: "İletişim", href: "/iletisim" },
 ];
 
-/// Helper to get correct path for a service slug
-const getServicePath = (slug: string) => {
-  const neighborhoodSlugs = [
-    "arnavutkoy-kiralik-kepce",
-    "yunus-emre-kiralik-kepce",
-    "yunus-emre-kazi-isleri",
-    "yunus-emre-temel-kazisi",
-    "yunus-emre-yikim",
-    "hadimkoy-kiralik-kepce",
-    "tasoluk-kiralik-kepce",
-    "bolluca-kiralik-kepce",
-    "deliklikaya-kiralik-kepce",
-    "omerli-kiralik-kepce",
-    "imrahor-kiralik-kepce",
-    "karlibayir-kiralik-kepce",
-    "haracci-kiralik-kepce",
-    "yassioren-kiralik-kepce",
-    "baklali-kiralik-kepce",
-    "bogazkoy-kiralik-kepce",
-    "yavuz-selim-kiralik-kepce",
-    "tayakadin-kiralik-kepce",
-    "mavigol-kiralik-kepce",
-    "boyalik-kiralik-kepce",
-  ];
-  return neighborhoodSlugs.includes(slug) ? `/${slug}` : `/hizmetler/${slug}`;
-};
-
-const hizmetBolgeleri = [
-  {
-    name: "Yunus Emre",
-    services: [
-      { name: "Yunus Emre Kiralık Kepçe", href: getServicePath("yunus-emre-kiralik-kepce") },
-      { name: "Kazı İşleri", href: getServicePath("yunus-emre-kazi-isleri") },
-      { name: "Temel Kazısı", href: getServicePath("yunus-emre-temel-kazisi") },
-      { name: "Yıkım Hizmetleri", href: getServicePath("yunus-emre-yikim") },
-    ],
-  },
-  {
-    name: "Hadımköy",
-    services: [
-      { name: "Hadımköy Kiralık Kepçe", href: getServicePath("hadimkoy-kiralik-kepce") },
-    ],
-  },
-  {
-    name: "Taşoluk",
-    services: [
-      { name: "Taşoluk Kiralık Kepçe", href: getServicePath("tasoluk-kiralik-kepce") },
-    ],
-  },
-  {
-    name: "Bolluca",
-    services: [
-      { name: "Bolluca Kiralık Kepçe", href: getServicePath("bolluca-kiralik-kepce") },
-    ],
-  },
-  {
-    name: "Deliklikaya",
-    services: [
-      { name: "Deliklikaya Kiralık Kepçe", href: getServicePath("deliklikaya-kiralik-kepce") },
-    ],
-  },
-  {
-    name: "Ömerli",
-    services: [
-      { name: "Ömerli Kiralık Kepçe", href: getServicePath("omerli-kiralik-kepce") },
-    ],
-  },
-  {
-    name: "İmrahor",
-    services: [
-      { name: "İmrahor Kiralık Kepçe", href: getServicePath("imrahor-kiralik-kepce") },
-    ],
-  },
-  {
-    name: "Karlıbayır",
-    services: [
-      { name: "Karlıbayır Kiralık Kepçe", href: getServicePath("karlibayir-kiralik-kepce") },
-    ],
-  },
-  {
-    name: "Haraççı",
-    services: [
-      { name: "Haraççı Kiralık Kepçe", href: getServicePath("haracci-kiralik-kepce") },
-    ],
-  },
-  {
-    name: "Yassıören",
-    services: [
-      { name: "Yassıören Kiralık Kepçe", href: getServicePath("yassioren-kiralik-kepce") },
-    ],
-  },
-  {
-    name: "Baklalı",
-    services: [
-      { name: "Baklalı Kiralık Kepçe", href: getServicePath("baklali-kiralik-kepce") },
-    ],
-  },
-  {
-    name: "Boğazköy",
-    services: [
-      { name: "Boğazköy Kiralık Kepçe", href: getServicePath("bogazkoy-kiralik-kepce") },
-    ],
-  },
-  {
-    name: "Yavuz Selim",
-    services: [
-      { name: "Yavuz Selim Kiralık Kepçe", href: getServicePath("yavuz-selim-kiralik-kepce") },
-    ],
-  },
-  {
-    name: "Tayakadın",
-    services: [
-      { name: "Tayakadın Kiralık Kepçe", href: getServicePath("tayakadin-kiralik-kepce") },
-    ],
-  },
-  {
-    name: "Mavigöl",
-    services: [
-      { name: "Mavigöl Mahallesi Kiralık Kepçe", href: getServicePath("mavigol-kiralik-kepce") },
-    ],
-  },
-  {
-    name: "Boyalık",
-    services: [
-      { name: "Boyalık Kiralık Kepçe", href: getServicePath("boyalik-kiralik-kepce") },
-    ],
-  },
-];
-
-const tumHizmetler = [
-  { name: "Arnavutköy Kiralık Kepçe", href: getServicePath("arnavutkoy-kiralik-kepce") },
-  { name: "Tüm Hizmetler", href: "/hizmetler" },
+// All mahalle items for the mega dropdown - flat list, displayed in grid
+const mahalleler = [
+  { name: "Arnavutköy", href: "/arnavutkoy-kiralik-kepce", highlight: true },
+  { name: "Yunus Emre", href: "/yunus-emre-kiralik-kepce" },
+  { name: "Hadımköy", href: "/hadimkoy-kiralik-kepce" },
+  { name: "Taşoluk", href: "/tasoluk-kiralik-kepce" },
+  { name: "Bolluca", href: "/bolluca-kiralik-kepce" },
+  { name: "Deliklikaya", href: "/deliklikaya-kiralik-kepce" },
+  { name: "Ömerli", href: "/omerli-kiralik-kepce" },
+  { name: "İmrahor", href: "/imrahor-kiralik-kepce" },
+  { name: "Karlıbayır", href: "/karlibayir-kiralik-kepce" },
+  { name: "Haraççı", href: "/haracci-kiralik-kepce" },
+  { name: "Yassıören", href: "/yassioren-kiralik-kepce" },
+  { name: "Baklalı", href: "/baklali-kiralik-kepce" },
+  { name: "Boğazköy", href: "/bogazkoy-kiralik-kepce" },
+  { name: "Yavuz Selim", href: "/yavuz-selim-kiralik-kepce" },
+  { name: "Tayakadın", href: "/tayakadin-kiralik-kepce" },
+  { name: "Mavigöl", href: "/mavigol-kiralik-kepce" },
+  { name: "Boyalık", href: "/boyalik-kiralik-kepce" },
+  { name: "Dursunköy", href: "/dursunkoy-kiralik-kepce" },
+  { name: "Sazlıbosna", href: "/sazlibosna-kiralik-kepce" },
+  { name: "Hacımaşlı", href: "/hacimasli-kiralik-kepce" },
+  { name: "Karaburun", href: "/karaburun-kiralik-kepce" },
 ];
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [desktopDropdownOpen, setDesktopDropdownOpen] = useState(false);
   const [mobileDropdownOpen, setMobileDropdownOpen] = useState(false);
-  const [activeMahalle, setActiveMahalle] = useState<string | null>(hizmetBolgeleri[0]?.name ?? null);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -224,75 +114,57 @@ export function Header() {
                 />
               </button>
 
-              {/* Desktop Mega Dropdown */}
+              {/* Desktop Mega Dropdown - Wide Grid Layout */}
               {desktopDropdownOpen && (
-                <div className="absolute left-0 top-full mt-1 w-[640px] bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden z-50">
-                  <div className="flex">
-                    {/* Left: Mahalleler */}
-                    <div className="w-[200px] bg-gray-50 border-r border-gray-100 py-4">
-                      <p className="px-4 mb-3 text-xs font-bold tracking-wider text-primary uppercase">
-                        Mahalleler
-                      </p>
-                      {hizmetBolgeleri.map((bolge) => (
-                        <button
-                          key={bolge.name}
-                          onMouseEnter={() => setActiveMahalle(bolge.name)}
-                          onClick={() => setActiveMahalle(bolge.name)}
-                          className={`w-full flex items-center gap-2 px-4 py-2.5 text-sm font-medium transition text-left ${activeMahalle === bolge.name
-                            ? "text-primary bg-primary/5"
-                            : "text-gray-700 hover:text-primary hover:bg-gray-100"
-                            }`}
-                        >
-                          <MapPin className="w-3.5 h-3.5 shrink-0" />
-                          {bolge.name}
-                          <ChevronDown className="w-3 h-3 -rotate-90 ml-auto shrink-0 opacity-50" />
-                        </button>
-                      ))}
+                <div className="absolute left-1/2 -translate-x-1/2 top-full mt-1 w-[720px] bg-white rounded-xl shadow-2xl border border-gray-100 overflow-hidden z-50">
+                  {/* Header */}
+                  <div className="px-6 pt-5 pb-3 border-b border-gray-100 flex items-center justify-between">
+                    <div className="flex items-center gap-2">
+                      <MapPin className="w-4 h-4 text-primary" />
+                      <span className="text-sm font-bold text-gray-900 uppercase tracking-wider">
+                        Hizmet Verdiğimiz Mahalleler
+                      </span>
                     </div>
+                    <Link
+                      href="/hizmetler"
+                      className="flex items-center gap-1 text-xs font-semibold text-primary hover:underline"
+                      onClick={() => setDesktopDropdownOpen(false)}
+                    >
+                      Tüm Hizmetler <ArrowRight className="w-3 h-3" />
+                    </Link>
+                  </div>
 
-                    {/* Center: Mahalle hizmetleri */}
-                    <div className="flex-1 py-4">
-                      {hizmetBolgeleri
-                        .filter((b) => b.name === activeMahalle)
-                        .map((bolge) => (
-                          <div key={bolge.name}>
-                            <p className="px-5 mb-3 text-xs font-bold tracking-wider text-primary uppercase">
-                              {bolge.name} Hizmetleri
-                            </p>
-                            <div className="space-y-0.5">
-                              {bolge.services.map((service) => (
-                                <Link
-                                  key={service.href}
-                                  href={service.href}
-                                  className="flex items-center gap-2 px-5 py-2.5 text-sm text-gray-700 hover:text-primary hover:bg-primary/5 transition"
-                                  onClick={() => setDesktopDropdownOpen(false)}
-                                >
-                                  <Wrench className="w-3.5 h-3.5 shrink-0 opacity-50" />
-                                  {service.name}
-                                </Link>
-                              ))}
-                            </div>
-                          </div>
-                        ))}
+                  {/* Mahalleler Grid - 4 columns */}
+                  <div className="p-4 grid grid-cols-4 gap-1">
+                    {mahalleler.map((m) => (
+                      <Link
+                        key={m.href}
+                        href={m.href}
+                        className={`flex items-center gap-2 px-3 py-2.5 text-sm rounded-lg transition ${
+                          m.highlight
+                            ? "font-bold text-primary bg-primary/5 hover:bg-primary/10 border border-primary/20"
+                            : "text-gray-700 hover:text-primary hover:bg-primary/5"
+                        }`}
+                        onClick={() => setDesktopDropdownOpen(false)}
+                      >
+                        <MapPin className={`w-3.5 h-3.5 shrink-0 ${m.highlight ? "text-primary" : "opacity-40"}`} />
+                        {m.name}
+                      </Link>
+                    ))}
+                  </div>
 
-                      {/* Tüm hizmetler divider */}
-                      <div className="mx-5 my-3 border-t border-gray-100" />
-                      <p className="px-5 mb-2 text-xs font-bold tracking-wider text-gray-400 uppercase">
-                        Tüm Hizmetler
-                      </p>
-                      <div className="grid grid-cols-2 gap-0.5">
-                        {tumHizmetler.map((h) => (
-                          <Link
-                            key={h.href}
-                            href={h.href}
-                            className="flex items-center gap-2 px-5 py-2 text-sm text-gray-500 hover:text-primary hover:bg-primary/5 transition"
-                            onClick={() => setDesktopDropdownOpen(false)}
-                          >
-                            {h.name}
-                          </Link>
-                        ))}
-                      </div>
-                    </div>
+                  {/* Footer */}
+                  <div className="px-6 py-3 bg-gray-50 border-t border-gray-100 flex items-center justify-between">
+                    <span className="text-xs text-gray-500">
+                      Arnavutköy ve çevresinde <strong>21 mahallede</strong> aktif hizmet
+                    </span>
+                    <Link
+                      href="/arnavutkoy-kiralik-kepce"
+                      className="text-xs font-semibold text-primary hover:underline"
+                      onClick={() => setDesktopDropdownOpen(false)}
+                    >
+                      Arnavutköy Kiralık Kepçe →
+                    </Link>
                   </div>
                 </div>
               )}
@@ -356,42 +228,38 @@ export function Header() {
                 </button>
 
                 {mobileDropdownOpen && (
-                  <div className="ml-4 border-l-2 border-primary/20 pl-4 mt-1 mb-2 space-y-3">
-                    {hizmetBolgeleri.map((bolge) => (
-                      <div key={bolge.name}>
-                        <p className="text-xs font-bold text-primary uppercase tracking-wider mb-1.5">
-                          {bolge.name}
-                        </p>
-                        <div className="space-y-0.5">
-                          {bolge.services.map((service) => (
-                            <Link
-                              key={service.href}
-                              href={service.href}
-                              className="flex items-center gap-2 px-3 py-2 text-sm text-gray-600 rounded-lg hover:text-primary hover:bg-primary/5 transition"
-                              onClick={() => setMobileMenuOpen(false)}
-                            >
-                              <Wrench className="w-3.5 h-3.5 opacity-40" />
-                              {service.name}
-                            </Link>
-                          ))}
-                        </div>
-                      </div>
-                    ))}
-
-                    <div className="border-t border-gray-100 pt-2">
-                      <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-1.5">
-                        Tüm Hizmetler
-                      </p>
-                      {tumHizmetler.map((h) => (
+                  <div className="ml-4 border-l-2 border-primary/20 pl-3 mt-1 mb-2">
+                    {/* Mahalleler as a compact 2-column grid on mobile */}
+                    <p className="px-1 mb-2 text-xs font-bold text-primary uppercase tracking-wider">
+                      Mahalleler
+                    </p>
+                    <div className="grid grid-cols-2 gap-0.5">
+                      {mahalleler.map((m) => (
                         <Link
-                          key={h.href}
-                          href={h.href}
-                          className="flex items-center gap-2 px-3 py-2 text-sm text-gray-500 rounded-lg hover:text-primary hover:bg-primary/5 transition"
+                          key={m.href}
+                          href={m.href}
+                          className={`flex items-center gap-1.5 px-2 py-2 text-sm rounded-lg transition ${
+                            m.highlight
+                              ? "font-bold text-primary bg-primary/5"
+                              : "text-gray-600 hover:text-primary hover:bg-primary/5"
+                          }`}
                           onClick={() => setMobileMenuOpen(false)}
                         >
-                          {h.name}
+                          <MapPin className={`w-3 h-3 shrink-0 ${m.highlight ? "text-primary" : "opacity-40"}`} />
+                          {m.name}
                         </Link>
                       ))}
+                    </div>
+
+                    <div className="border-t border-gray-100 pt-2 mt-2">
+                      <Link
+                        href="/hizmetler"
+                        className="flex items-center gap-2 px-2 py-2 text-sm text-gray-500 rounded-lg hover:text-primary hover:bg-primary/5 transition font-medium"
+                        onClick={() => setMobileMenuOpen(false)}
+                      >
+                        <Wrench className="w-3.5 h-3.5 opacity-40" />
+                        Tüm Hizmetler
+                      </Link>
                     </div>
                   </div>
                 )}

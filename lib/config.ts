@@ -78,11 +78,11 @@ export const businessConfig = {
   /* -------------------------------------------------------------------------- */
 
   workingHours: {
-    weekdays: "08:00-20:00",
-    saturday: "08:00-20:00",
-    sunday: "Kapalı",
-    formatted: "Pazartesi–Cumartesi: 08:00–20:00, Pazar: Kapalı",
-    emergency: "7/24 acil hizmet mevcuttur",
+    weekdays: "00:00-23:59",
+    saturday: "00:00-23:59",
+    sunday: "00:00-23:59",
+    formatted: "Haftanın 7 Günü 24 Saat",
+    emergency: "7/24 kesintisiz hizmet",
   },
 
   openingHoursSpec: [
@@ -95,9 +95,10 @@ export const businessConfig = {
         "Thursday",
         "Friday",
         "Saturday",
+        "Sunday",
       ] as const,
-      opens: "08:00",
-      closes: "20:00",
+      opens: "00:00",
+      closes: "23:59",
     },
   ] as const,
 

@@ -35,6 +35,10 @@ const neighborhoodSlugs = [
     "tayakadin-kiralik-kepce",
     "mavigol-kiralik-kepce",
     "boyalik-kiralik-kepce",
+    "dursunkoy-kiralik-kepce",
+    "sazlibosna-kiralik-kepce",
+    "hacimasli-kiralik-kepce",
+    "karaburun-kiralik-kepce",
 ];
 
 export async function generateStaticParams() {
@@ -376,7 +380,7 @@ export default async function NeighborhoodServicePage({ params }: Props) {
                         <div className="flex items-center justify-center gap-6 text-sm text-gray-100">
                             <div className="flex items-center gap-2">
                                 <Clock size={18} className="text-primary" />
-                                <span>Pzt-Cmt 08:00-20:00</span>
+                                <span>7/24 Hizmet</span>
                             </div>
                             <div className="flex items-center gap-2">
                                 <Phone size={18} className="text-primary" />
