@@ -15,9 +15,9 @@ export const businessConfig = {
   /* CONTACT INFORMATION (NAP)                                                   */
   /* -------------------------------------------------------------------------- */
 
-  phone: "0539 477 81 12",
-  phoneFormatted: "tel:+905394778112",
-  whatsappUrl: "https://wa.me/905394778112",
+  phone: "0530 789 07 75",
+  phoneFormatted: "tel:+905307890775",
+  whatsappUrl: "https://wa.me/905307890775",
   email: "yusufkecas@gmail.com",
 
   /* -------------------------------------------------------------------------- */

@@ -68,7 +68,7 @@ export function TrustSignals() {
         {/* CTA */}
         <div className="text-center mt-12">
           <a
-            href="tel:+905394778112"
+            href="tel:+905307890775"
             className="btn-primary text-lg px-10 py-4"
           >
             Hemen Fiyat Teklifi Alın

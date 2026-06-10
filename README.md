@@ -60,7 +60,7 @@ npm start
 
 ## 📞 İletişim
 
-- **Telefon**: 0539 477 81 12
+- **Telefon**: 0530 789 07 75
 - **E-posta**: yusufkecas@gmail.com
 - **Çalışma Saatleri**: Pazartesi-Cumartesi 08:00-20:00
 - **Acil Hizmet**: 7/24 ulaşılabilir

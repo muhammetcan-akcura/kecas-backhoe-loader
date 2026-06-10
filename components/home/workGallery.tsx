@@ -69,7 +69,7 @@ export function WorkGallery() {
             22 yıldır Arnavutköy'de güvenilir kepçe kiralama hizmeti
           </p>
           <a
-            href="tel:+905394778112"
+            href="tel:+905307890775"
             className="btn-primary"
           >
             Fiyat Teklifi Al

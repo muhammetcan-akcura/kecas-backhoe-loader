@@ -76,7 +76,7 @@ export const servicesData: ServiceData[] = [
         secondaryLocations: ["Şirindere", "Hadımköy", "Taşoluk", "Boyalık"],
         seo: {
             metaTitle: "Operatörlü Kepçe Kiralama | Keçaş Kepçe",
-            metaDescription: "JCB 3CX ile operatörlü kepçe kiralama hizmeti. Tecrübeli operatör dahil, saatlik/günlük kiralama. Kazı, yükleme, hafriyat işleriniz için ücretsiz keşif. ☎ 0539 477 81 12",
+            metaDescription: "JCB 3CX ile operatörlü kepçe kiralama hizmeti. Tecrübeli operatör dahil, saatlik/günlük kiralama. Kazı, yükleme, hafriyat işleriniz için ücretsiz keşif. ☎ 0530 789 07 75",
             canonical: "/hizmetler/operatorlu-kepce-kiralama",
             h1: "Operatörlü Kepçe Kiralama"
         },
@@ -165,8 +165,8 @@ export const servicesData: ServiceData[] = [
             locationContext: "Arnavutköy'de 22 yıldır faaliyet gösteren Keçaş Kepçe, bölgenin arazi yapısını ve zemin özelliklerini yakından tanıyan yerel bir işletmedir. Yerel projelerde hızlı mobilizasyon avantajı sağlıyoruz."
         },
         faq: [
-            { question: "Arnavutköy'de kepçe kiralama saatlik ücreti ne kadar?", answer: "Saatlik kepçe kiralama ücretimiz iş tipine ve süresine göre değişmektedir. Ücretsiz keşif sonrası size özel net fiyat teklifi sunuyoruz. Uzun süreli projeler için özel indirimlerimiz mevcuttur. Detaylı bilgi için 0539 477 81 12 numaralı telefondan bize ulaşabilirsiniz." },
-            { question: "JCB 3CX kepçe günlük kiralama ücreti ne kadar?", answer: "Günlük JCB 3CX kiralama ücretimiz iş tipine ve süresine göre değişmektedir. Operatör, yakıt ve sigorta dahil net fiyat teklifi sunuyoruz. 3 gün ve üzeri kiralamalar için özel indirimlerimiz mevcuttur. Detaylı bilgi için 0539 477 81 12 numaralı telefondan bize ulaşabilirsiniz." },
+            { question: "Arnavutköy'de kepçe kiralama saatlik ücreti ne kadar?", answer: "Saatlik kepçe kiralama ücretimiz iş tipine ve süresine göre değişmektedir. Ücretsiz keşif sonrası size özel net fiyat teklifi sunuyoruz. Uzun süreli projeler için özel indirimlerimiz mevcuttur. Detaylı bilgi için 0530 789 07 75 numaralı telefondan bize ulaşabilirsiniz." },
+            { question: "JCB 3CX kepçe günlük kiralama ücreti ne kadar?", answer: "Günlük JCB 3CX kiralama ücretimiz iş tipine ve süresine göre değişmektedir. Operatör, yakıt ve sigorta dahil net fiyat teklifi sunuyoruz. 3 gün ve üzeri kiralamalar için özel indirimlerimiz mevcuttur. Detaylı bilgi için 0530 789 07 75 numaralı telefondan bize ulaşabilirsiniz." },
             { question: "Operatör dahil mi, yoksa sadece kepçe mi kiralıyorsunuz?", answer: "Tüm kepçe kiralama hizmetlerimiz tecrübeli ve sertifikalı operatör dahildir. Operatörlerimiz SRC 4 belgeli ve 10+ yıl iş makinesi tecrübesine sahiptir. Hizmet kalitemizi korumak için sadece kendi makinelerimizle birlikte hizmet veriyoruz. Güvenli ve profesyonel çalışma garantisi veriyoruz." },
             { question: "Aynı gün kepçe hizmeti alabiliyor muyuz?", answer: "Evet, Arnavutköy ve çevre bölgelerde müsaitlik durumuna göre aynı gün hizmet sağlayabiliyoruz. Acil durumlar için 7/24 ulaşılabilir durumdayız. En kısa sürede size dönüş yapıyoruz." },
             { question: "JCB 3CX'in avantajları nelerdir?", answer: "JCB 3CX hem kazı hem yükleme yapabilen çok fonksiyonlu bir iş makinesidir. Kompakt boyutu dar alanlarda çalışmaya, güçlü motoru zorlu zeminlerde verimli çalışmaya olanak tanır. Dayanıklı yapısı ve düşük yakıt tüketimi ile maliyet avantajı sağlar. Dünya çapında en çok tercih edilen beko loder modelidir." },
@@ -175,7 +175,7 @@ export const servicesData: ServiceData[] = [
             { question: "Ekipman arızalanırsa ne olur?", answer: "Ekipmanlarımız düzenli bakımlıdır ve arıza riski minimumdadır. Olası bir arıza durumunda anında yedek ekipman sağlıyoruz. Hiçbir ek ücret talep etmiyoruz. İş akışınız kesintiye uğramaz." },
             { question: "Operatörün yemeği kime ait?", answer: "Günlük kiralamalarda operatörün yemeği genellikle işverene aittir, ancak anlaşmaya göre değişebilir." }
         ],
-        conversion: { primaryCTA: "Hemen Ara: 0539 477 81 12", secondaryCTA: "Ücretsiz Keşif İste" },
+        conversion: { primaryCTA: "Hemen Ara: 0530 789 07 75", secondaryCTA: "Ücretsiz Keşif İste" },
         internalLinks: { relatedServices: ["kazi-isleri", "temel-kazisi", "is-makinesi-kiralama"] }
     },
 
@@ -192,7 +192,7 @@ export const servicesData: ServiceData[] = [
 
         seo: {
             metaTitle: "Kazı İşleri | Keçaş Kepçe",
-            metaDescription: "Profesyonel kazı ve hafriyat hizmeti. JCB 3CX kepçe ile temel, kanal, çevre düzenleme ve toprak kazısı. Ücretsiz keşif sonrası net fiyat. ☎ 0539 477 81 12",
+            metaDescription: "Profesyonel kazı ve hafriyat hizmeti. JCB 3CX kepçe ile temel, kanal, çevre düzenleme ve toprak kazısı. Ücretsiz keşif sonrası net fiyat. ☎ 0530 789 07 75",
             canonical: "/hizmetler/kazi-isleri",
             h1: "Kazı İşleri"
         },
@@ -257,7 +257,7 @@ export const servicesData: ServiceData[] = [
 
         seo: {
             metaTitle: "Temel Kazısı | Keçaş Kepçe",
-            metaDescription: "Bina, villa ve yapı temel kazısı hizmeti. Projeye uygun, hassas ve güvenli temel açma. JCB 3CX kepçe ile profesyonel çözüm. ☎ 0539 477 81 12",
+            metaDescription: "Bina, villa ve yapı temel kazısı hizmeti. Projeye uygun, hassas ve güvenli temel açma. JCB 3CX kepçe ile profesyonel çözüm. ☎ 0530 789 07 75",
             canonical: "/hizmetler/temel-kazisi",
             h1: "Temel Kazısı"
         },
@@ -317,7 +317,7 @@ export const servicesData: ServiceData[] = [
         secondaryLocations: ["Şirindere", "Hadımköy", "Karlıbayır", "Deliklikaya", "Ömerli", "Anadolu Mahallesi"],
         seo: {
             metaTitle: "Dolgu ve Tesviye | Keçaş Kepçe",
-            metaDescription: "Dolgu işleri, arazi tesviyesi ve zemin düzleme hizmeti. Toprak dolgu, bahçe düzenleme, arsa hazırlama. JCB kepçe ile profesyonel çözüm. ☎ 0539 477 81 12",
+            metaDescription: "Dolgu işleri, arazi tesviyesi ve zemin düzleme hizmeti. Toprak dolgu, bahçe düzenleme, arsa hazırlama. JCB kepçe ile profesyonel çözüm. ☎ 0530 789 07 75",
             canonical: "/hizmetler/dolgu-tesviye",
             h1: "Dolgu ve Tesviye"
         },
@@ -407,7 +407,7 @@ export const servicesData: ServiceData[] = [
         secondaryLocations: ["Haraççı", "Taşoluk", "İmrahor", "Şirindere", "Boğazköy", "Hadımköy", "Sanayi Bölgesi"],
         seo: {
             metaTitle: "Yıkım Hizmetleri | Keçaş Kepçe",
-            metaDescription: "Profesyonel yıkım hizmeti: Bina yıkımı, duvar yıkımı, küçük yapı yıkımı, beton kırma. JCB kepçe ve kırıcı ile güvenli yıkım. Moloz dahil. ☎ 0539 477 81 12",
+            metaDescription: "Profesyonel yıkım hizmeti: Bina yıkımı, duvar yıkımı, küçük yapı yıkımı, beton kırma. JCB kepçe ve kırıcı ile güvenli yıkım. Moloz dahil. ☎ 0530 789 07 75",
             canonical: "/hizmetler/yikim-hizmetleri",
             h1: "Yıkım Hizmetleri"
         },
@@ -516,7 +516,7 @@ export const servicesData: ServiceData[] = [
         secondaryLocations: ["Hadımköy", "Bolluca", "Taşoluk"],
         seo: {
             metaTitle: "İş Makinesi Kiralama | Keçaş Kepçe",
-            metaDescription: "Her türlü iş makinesi kiralama çözümleri. JCB kepçe, mini ekskavatör, kamyon temini. Projenize uygun makine parkı. ☎ 0539 477 81 12",
+            metaDescription: "Her türlü iş makinesi kiralama çözümleri. JCB kepçe, mini ekskavatör, kamyon temini. Projenize uygun makine parkı. ☎ 0530 789 07 75",
             canonical: "/hizmetler/is-makinesi-kiralama",
             h1: "İş Makinesi Kiralama"
         },
@@ -563,7 +563,7 @@ export const servicesData: ServiceData[] = [
         primaryLocation: "Arnavutköy, İstanbul",
         secondaryLocations: ["Hadımköy", "Taşoluk", "Bolluca", "Haraççı", "Şirindere", "Boyalık", "Boğazköy", "İmrahor", "Karlıbayır", "Deliklikaya"],
         seo: {
-            metaTitle: "Arnavutköy Kiralık Kepçe | Operatörlü JCB 3CX ☎ 0539 477 81 12",
+            metaTitle: "Arnavutköy Kiralık Kepçe | Operatörlü JCB 3CX ☎ 0530 789 07 75",
             metaDescription: "Arnavutköy'de operatörlü kiralık kepçe hizmeti ✓ JCB 3CX kazıyıcı yükleyici ✓ Temel kazısı, dolgu, yıkım ✓ Aynı gün hizmet ✓ Ücretsiz keşif ✓ 22 yıl tecrübe. Hemen arayın!",
             canonical: "/arnavutkoy-kiralik-kepce",
             h1: "Arnavutköy Kiralık Kepçe Hizmeti"
@@ -614,7 +614,7 @@ export const servicesData: ServiceData[] = [
                 "İş Sağlığı ve Güvenliği sertifikalı çalışma",
                 "Arnavutköy'de yüzlerce müteahhit ve bireysel müşteri referansı"
             ],
-            pricingLogic: "Arnavutköy kiralık kepçe fiyatlarımız işin türüne, süresine ve saha koşullarına göre belirlenir. Saatlik veya günlük kiralama seçenekleri mevcuttur. Operatör, sigorta ve iş güvenliği dahildir. Uzun süreli projeler için özel indirimler sunuyoruz. Ücretsiz saha keşfi sonrası net ve şeffaf fiyat teklifi verilir – gizli ücret yoktur. Yakıt dahil veya hariç seçenekler mevcuttur. Fiyat bilgisi için 0539 477 81 12 numaralı telefondan bize ulaşabilirsiniz.",
+            pricingLogic: "Arnavutköy kiralık kepçe fiyatlarımız işin türüne, süresine ve saha koşullarına göre belirlenir. Saatlik veya günlük kiralama seçenekleri mevcuttur. Operatör, sigorta ve iş güvenliği dahildir. Uzun süreli projeler için özel indirimler sunuyoruz. Ücretsiz saha keşfi sonrası net ve şeffaf fiyat teklifi verilir – gizli ücret yoktur. Yakıt dahil veya hariç seçenekler mevcuttur. Fiyat bilgisi için 0530 789 07 75 numaralı telefondan bize ulaşabilirsiniz.",
             trustSignals: [
                 "22 yıl kesintisiz hizmet – 2004'ten beri Arnavutköy'de",
                 "Yerel Arnavutköy firması – hızlı ulaşım avantajı",
@@ -656,7 +656,7 @@ export const servicesData: ServiceData[] = [
         faq: [
             {
                 question: "Arnavutköy kiralık kepçe fiyatları ne kadar?",
-                answer: "Arnavutköy kiralık kepçe fiyatlarımız işin türüne, süresine ve saha koşullarına göre değişmektedir. Saatlik veya günlük kiralama seçeneklerimiz mevcuttur. Operatör ve sigorta dahildir. Ücretsiz saha keşfi sonrası net fiyat teklifi sunuyoruz. Güncel fiyat bilgisi için 0539 477 81 12 numaralı telefondan bize ulaşabilirsiniz."
+                answer: "Arnavutköy kiralık kepçe fiyatlarımız işin türüne, süresine ve saha koşullarına göre değişmektedir. Saatlik veya günlük kiralama seçeneklerimiz mevcuttur. Operatör ve sigorta dahildir. Ücretsiz saha keşfi sonrası net fiyat teklifi sunuyoruz. Güncel fiyat bilgisi için 0530 789 07 75 numaralı telefondan bize ulaşabilirsiniz."
             },
             {
                 question: "Arnavutköy'de aynı gün kiralık kepçe hizmeti alabilir miyim?",
@@ -687,7 +687,7 @@ export const servicesData: ServiceData[] = [
                 answer: "Her iki seçenek de mevcuttur. Küçük işler için saatlik, büyük projeler için günlük kiralama daha avantajlıdır. Uzun süreli projeler için özel indirimler sunuyoruz. İhtiyacınıza en uygun seçeneği birlikte belirleyelim."
             }
         ],
-        conversion: { primaryCTA: "Hemen Ara: 0539 477 81 12", secondaryCTA: "Ücretsiz Keşif İste" },
+        conversion: { primaryCTA: "Hemen Ara: 0530 789 07 75", secondaryCTA: "Ücretsiz Keşif İste" },
         internalLinks: { relatedServices: ["operatorlu-kepce-kiralama", "kazi-isleri", "dolgu-tesviye", "yikim-hizmetleri", "temel-kazisi", "yunus-emre-kiralik-kepce"] }
     },
 
@@ -702,7 +702,7 @@ export const servicesData: ServiceData[] = [
         primaryLocation: "Yunus Emre Mahallesi, Arnavutköy",
         secondaryLocations: ["Arnavutköy Merkez", "Hadımköy", "Taşoluk", "Bolluca", "Haraççı"],
         seo: {
-            metaTitle: "Yunus Emre Mahallesi Kiralık Kepçe | Arnavutköy ☎ 0539 477 81 12",
+            metaTitle: "Yunus Emre Mahallesi Kiralık Kepçe | Arnavutköy ☎ 0530 789 07 75",
             metaDescription: "Yunus Emre Mahallesi'nde operatörlü kiralık kepçe hizmeti ✓ JCB 3CX ✓ Kazı, temel, dolgu, yıkım ✓ Aynı gün hizmet ✓ Ücretsiz keşif ✓ 22 yıl tecrübe. Hemen arayın!",
             canonical: "/yunus-emre-kiralik-kepce",
             h1: "Yunus Emre Mahallesi Kiralık Kepçe Hizmeti"
@@ -751,7 +751,7 @@ export const servicesData: ServiceData[] = [
                 "JCB yetkili servisi ile düzenli bakım anlaşması",
                 "Yüzlerce müteahhit ve bireysel müşteri referansı"
             ],
-            pricingLogic: "Yunus Emre Mahallesi kiralık kepçe fiyatlarımız işin türüne, süresine ve saha koşullarına göre belirlenir. Saatlik veya günlük kiralama seçenekleri mevcuttur. Operatör, sigorta ve iş güvenliği dahildir. Ücretsiz saha keşfi sonrası net fiyat teklifi verilir. Gizli ücret yoktur. Fiyat bilgisi için 0539 477 81 12 numaralı telefondan bize ulaşabilirsiniz.",
+            pricingLogic: "Yunus Emre Mahallesi kiralık kepçe fiyatlarımız işin türüne, süresine ve saha koşullarına göre belirlenir. Saatlik veya günlük kiralama seçenekleri mevcuttur. Operatör, sigorta ve iş güvenliği dahildir. Ücretsiz saha keşfi sonrası net fiyat teklifi verilir. Gizli ücret yoktur. Fiyat bilgisi için 0530 789 07 75 numaralı telefondan bize ulaşabilirsiniz.",
             trustSignals: [
                 "22 yıl kesintisiz hizmet – 2004'ten beri",
                 "Yerel Arnavutköy firması – Yunus Emre'ye hızlı ulaşım",
@@ -782,14 +782,14 @@ export const servicesData: ServiceData[] = [
             locationContext: "Yunus Emre Mahallesi, Arnavutköy'ün gelişen konut bölgelerinden biridir. Yeni villa projeleri, müstakil ev inşaatları ve bahçe düzenleme çalışmaları ile sürekli kepçe ihtiyacı olan bir mahalledir. Keçaş Kepçe olarak bu mahallenin zemin yapısını ve arazi özelliklerini yakından tanıyoruz. Yerel avantajımız sayesinde hızlı mobilizasyon ve uygun fiyat sunuyoruz."
         },
         faq: [
-            { question: "Yunus Emre Mahallesi'nde kiralık kepçe fiyatları ne kadar?", answer: "Yunus Emre Mahallesi kiralık kepçe fiyatlarımız işin türüne ve süresine göre değişmektedir. Saatlik veya günlük kiralama seçeneklerimiz mevcuttur. Operatör ve sigorta dahildir. Ücretsiz keşif sonrası net fiyat teklifi sunuyoruz. Güncel fiyat için 0539 477 81 12'yi arayabilirsiniz." },
+            { question: "Yunus Emre Mahallesi'nde kiralık kepçe fiyatları ne kadar?", answer: "Yunus Emre Mahallesi kiralık kepçe fiyatlarımız işin türüne ve süresine göre değişmektedir. Saatlik veya günlük kiralama seçeneklerimiz mevcuttur. Operatör ve sigorta dahildir. Ücretsiz keşif sonrası net fiyat teklifi sunuyoruz. Güncel fiyat için 0530 789 07 75'yi arayabilirsiniz." },
             { question: "Yunus Emre Mahallesi'ne aynı gün kepçe geliyor mu?", answer: "Evet, Arnavutköy'de yerleşik firmamız sayesinde Yunus Emre Mahallesi'ne müsaitlik durumuna göre aynı gün hizmet sağlıyoruz. Acil durumlar için 7/24 ulaşılabilir durumdayız." },
             { question: "Operatör dahil mi?", answer: "Evet, tüm kiralık kepçe hizmetlerimiz SRC 4 belgeli ve 10+ yıl tecrübeli operatör dahildir. Sadece makine değil, uzmanlık da kiralarsınız." },
             { question: "Yunus Emre Mahallesi'nde hangi işler yapılır?", answer: "Temel kazısı, kanal açma, dolgu ve tesviye, bahçe düzenleme, yıkım, hafriyat yükleme ve arsa hazırlama gibi her türlü kazı işi yapılır." },
             { question: "Dar sokaklarda çalışabilir misiniz?", answer: "Evet, JCB 3CX kompakt boyutları sayesinde Yunus Emre Mahallesi'nin dar sokaklarında ve bahçe içlerinde rahatlıkla çalışabilir." },
             { question: "Ücretsiz keşif yapıyor musunuz?", answer: "Evet, Yunus Emre Mahallesi'ndeki tüm projeler için ücretsiz saha keşfi yapıyoruz. Keşif sonrası net ve şeffaf fiyat teklifi sunuyoruz." }
         ],
-        conversion: { primaryCTA: "Hemen Ara: 0539 477 81 12", secondaryCTA: "Ücretsiz Keşif İste" },
+        conversion: { primaryCTA: "Hemen Ara: 0530 789 07 75", secondaryCTA: "Ücretsiz Keşif İste" },
         internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "yunus-emre-kazi-isleri", "yunus-emre-temel-kazisi", "yunus-emre-yikim", "operatorlu-kepce-kiralama"] }
     },
 
@@ -805,7 +805,7 @@ export const servicesData: ServiceData[] = [
         secondaryLocations: ["Arnavutköy Merkez", "Hadımköy", "Taşoluk"],
         seo: {
             metaTitle: "Yunus Emre Mahallesi Kazı İşleri | Arnavutköy – Keçaş Kepçe",
-            metaDescription: "Yunus Emre Mahallesi'nde profesyonel kazı ve hafriyat hizmeti ✓ JCB 3CX ✓ Toprak, kanal, temel kazısı ✓ Operatörlü ✓ Ücretsiz keşif ✓ 22 yıl tecrübe. ☎ 0539 477 81 12",
+            metaDescription: "Yunus Emre Mahallesi'nde profesyonel kazı ve hafriyat hizmeti ✓ JCB 3CX ✓ Toprak, kanal, temel kazısı ✓ Operatörlü ✓ Ücretsiz keşif ✓ 22 yıl tecrübe. ☎ 0530 789 07 75",
             canonical: "/yunus-emre-kazi-isleri",
             h1: "Yunus Emre Mahallesi Kazı İşleri"
         },
@@ -894,7 +894,7 @@ export const servicesData: ServiceData[] = [
         secondaryLocations: ["Arnavutköy Merkez", "Bolluca", "Haraççı"],
         seo: {
             metaTitle: "Yunus Emre Mahallesi Temel Kazısı | Arnavutköy – Keçaş Kepçe",
-            metaDescription: "Yunus Emre Mahallesi'nde bina, villa ve yapı temel kazısı ✓ Projeye uygun hassas kazı ✓ JCB 3CX ✓ Operatörlü ✓ Ücretsiz keşif. ☎ 0539 477 81 12",
+            metaDescription: "Yunus Emre Mahallesi'nde bina, villa ve yapı temel kazısı ✓ Projeye uygun hassas kazı ✓ JCB 3CX ✓ Operatörlü ✓ Ücretsiz keşif. ☎ 0530 789 07 75",
             canonical: "/yunus-emre-temel-kazisi",
             h1: "Yunus Emre Mahallesi Temel Kazısı"
         },
@@ -983,7 +983,7 @@ export const servicesData: ServiceData[] = [
         secondaryLocations: ["Arnavutköy Merkez", "Taşoluk", "Boğazköy"],
         seo: {
             metaTitle: "Yunus Emre Mahallesi Yıkım Hizmetleri | Arnavutköy – Keçaş Kepçe",
-            metaDescription: "Yunus Emre Mahallesi'nde güvenli yıkım hizmeti ✓ Bina, duvar, beton kırma ✓ Moloz dahil ✓ JCB kırıcı ✓ Kontrollü yıkım ✓ Ücretsiz keşif. ☎ 0539 477 81 12",
+            metaDescription: "Yunus Emre Mahallesi'nde güvenli yıkım hizmeti ✓ Bina, duvar, beton kırma ✓ Moloz dahil ✓ JCB kırıcı ✓ Kontrollü yıkım ✓ Ücretsiz keşif. ☎ 0530 789 07 75",
             canonical: "/yunus-emre-yikim",
             h1: "Yunus Emre Mahallesi Yıkım Hizmetleri"
         },
@@ -1072,7 +1072,7 @@ export const servicesData: ServiceData[] = [
         primaryLocation: "Hadımköy, Arnavutköy",
         secondaryLocations: ["Arnavutköy Merkez", "Şirindere", "Boyalık", "Sazlıbosna"],
         seo: {
-            metaTitle: "Hadımköy Kiralık Kepçe | Sanayi & Lojistik Bölge ☎ 0539 477 81 12",
+            metaTitle: "Hadımköy Kiralık Kepçe | Sanayi & Lojistik Bölge ☎ 0530 789 07 75",
             metaDescription: "Hadımköy'de operatörlü kiralık kepçe ✓ Fabrika, depo, OSB çevresi kazı ✓ Sanayi altyapısı ✓ Büyük çaplı hafriyat ✓ Ağır iş kapasitesi. Hemen arayın!",
             canonical: "/hadimkoy-kiralik-kepce",
             h1: "Hadımköy Kiralık Kepçe – Sanayi ve Lojistik Bölge Hizmeti"
@@ -1158,7 +1158,7 @@ export const servicesData: ServiceData[] = [
         primaryLocation: "Taşoluk, Arnavutköy",
         secondaryLocations: ["Arnavutköy Merkez", "Dursunköy", "İmrahor", "Karaburun"],
         seo: {
-            metaTitle: "Taşoluk Kiralık Kepçe | Konut & Arazi Dönüşüm ☎ 0539 477 81 12",
+            metaTitle: "Taşoluk Kiralık Kepçe | Konut & Arazi Dönüşüm ☎ 0530 789 07 75",
             metaDescription: "Taşoluk'ta operatörlü kiralık kepçe ✓ Toplu konut projeleri ✓ Tarım arazisi dönüşümü ✓ Büyük çaplı arazi kazısı ✓ Ücretsiz keşif. Hemen arayın!",
             canonical: "/tasoluk-kiralik-kepce",
             h1: "Taşoluk Kiralık Kepçe – Konut ve Arazi Dönüşüm Hizmeti"
@@ -1244,7 +1244,7 @@ export const servicesData: ServiceData[] = [
         primaryLocation: "Bolluca, Arnavutköy",
         secondaryLocations: ["Arnavutköy Merkez", "Karlıbayır", "Deliklikaya", "İmrahor"],
         seo: {
-            metaTitle: "Bolluca Kiralık Kepçe | Eğimli Arazi Uzmanı ☎ 0539 477 81 12",
+            metaTitle: "Bolluca Kiralık Kepçe | Eğimli Arazi Uzmanı ☎ 0530 789 07 75",
             metaDescription: "Bolluca'da operatörlü kiralık kepçe ✓ Yamaçlı arazi kazısı ✓ İstinat duvarı ✓ Kayalık zemin ✓ Eğimli temel kazısı ✓ Ücretsiz keşif. Hemen arayın!",
             canonical: "/bolluca-kiralik-kepce",
             h1: "Bolluca Kiralık Kepçe – Eğimli Arazi ve Yamaç Çalışmaları"
@@ -1330,7 +1330,7 @@ export const servicesData: ServiceData[] = [
         secondaryLocations: ["Hadımköy", "Ömerli", "Sazlıbosna", "Hastane Mahallesi"],
         seo: {
             metaTitle: "Deliklikaya Kiralık Kepçe | Sanayi & Lojistik Bölge Uzmanı",
-            metaDescription: "Deliklikaya'da profesyonel kiralık kepçe hizmeti. DESB Sanayi Bölgesi ve lojistik merkezler için JCB 3CX operatörlü kepçe. 22 yıllık tecrübe. ☎ 0539 477 81 12",
+            metaDescription: "Deliklikaya'da profesyonel kiralık kepçe hizmeti. DESB Sanayi Bölgesi ve lojistik merkezler için JCB 3CX operatörlü kepçe. 22 yıllık tecrübe. ☎ 0530 789 07 75",
             canonical: "/deliklikaya-kiralik-kepce",
             h1: "Deliklikaya Kiralık Kepçe ve İş Makinesi Hizmetleri"
         },
@@ -1400,13 +1400,13 @@ export const servicesData: ServiceData[] = [
             locationContext: "Deliklikaya, özellikle 2010 sonrası İstanbul'un sanayi dönüşümünün merkezi haline gelmiştir. Mahalle, doğusunda Hadımköy, batısında Sazlıbosna ile komşudur. Bu stratejik konum, bölgeyi bir lojistik üssü yapmaktadır. Bölge genelinde zeminin killi yapısı, kış aylarında şantiyelerin çamurlaşmasına, yazın ise beton kadar sertleşmesine neden olur. Keçaş Kepçe olarak bu mevsimsel zemin değişkenliğini bilerek, makinemizin bakımını ve lastik seçimini buna göre yapıyoruz. Mahallenin meydanından Aliya İzzetbegoviç Parkı çevresindeki konut inşaatlarına kadar her noktada 'yerel usta' kimliğimizle hizmet sağlıyoruz."
         },
         faq: [
-            { question: "Deliklikaya Sanayi Bölgesi'ne aynı gün kepçe gönderebilir misiniz?", answer: "Evet, Deliklikaya'da sürekli devam eden projelerimiz olduğundan veya merkezimize yakınlığından dolayı müsaitlik durumuna göre 1-2 saat içinde makinemizi şantiyenize ulaştırabiliyoruz. Acil kiralık kepçe ihtiyaçlarınız için 0539 477 81 12'den 7/24 bizi arayabilirsiniz." },
+            { question: "Deliklikaya Sanayi Bölgesi'ne aynı gün kepçe gönderebilir misiniz?", answer: "Evet, Deliklikaya'da sürekli devam eden projelerimiz olduğundan veya merkezimize yakınlığından dolayı müsaitlik durumuna göre 1-2 saat içinde makinemizi şantiyenize ulaştırabiliyoruz. Acil kiralık kepçe ihtiyaçlarınız için 0530 789 07 75'den 7/24 bizi arayabilirsiniz." },
             { question: "Sanayi sitesi içinde beton kırma yapabiliyor musunuz?", answer: "Evet, JCB 3CX makinemizde yüksek vuruş gücüne sahip hidrolik kırıcı (breaker) ataşmanımız mevcuttur. Fabrika zemin betonu, istinat duvarı veya saha betonu gibi kırım işlerini hızlıca yapıp, çıkan molozu ön kovamızla yükleyerek alanı temizliyoruz." },
             { question: "İSG evraklarınız (İş Sağlığı ve Güvenliği) tam mı?", answer: "Evet, operatörlerimizin tüm mesleki yeterlilik belgeleri, G sınıfı ehliyetleri, sigorta girişleri ve sağlık raporları tamdır. Makinelerimizin periyodik kontrolleri düzenli yapılmaktadır. Sanayi sitelerinin kapı girişlerinde ve çalışma sahasında istenen tüm evrak grubunu sunabiliyoruz." },
             { question: "Deliklikaya'da kanal açma fiyatları nasıl hesaplanır?", answer: "Kanal açma işlerinde projenin derinliği, genişliği ve toplam metrajına göre fiyat veriyoruz. Genellikle sanayi bölgelerinde saatlik kiralama tercih edilse de, uzun metrajlı kanalizasyon veya kablo kanalı işleri için metre başına veya iş bazlı götürü fiyat teklifi almanız daha avantajlı olabilir." },
             { question: "Mevcut yeraltı hatlarına zarar gelmemesi için nasıl bir önlem alıyorsunuz?", answer: "Kazı öncesinde sahadaki altyapı krokilerini projenizden istiyoruz. Eğer kroki yoksa, operatörümüzün 'el hassasiyeti' ve tecrübesiyle, şüpheli bölgelerde önce yüzeysel sıyırma yaparak ilerliyoruz. Gerekirse operatörümüz yardımcı personeli (işçi) ile manuel kontrol eşliğinde kazıyı yönlendirir." }
         ],
-        conversion: { primaryCTA: "Hemen Ara: 0539 477 81 12", secondaryCTA: "Ücretsiz Keşif İste" },
+        conversion: { primaryCTA: "Hemen Ara: 0530 789 07 75", secondaryCTA: "Ücretsiz Keşif İste" },
         internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "hadimkoy-kiralik-kepce", "omerli-kiralik-kepce", "kazi-isleri", "yikim-hizmetleri"] }
     },
     // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -1421,7 +1421,7 @@ export const servicesData: ServiceData[] = [
         secondaryLocations: ["Hadımköy", "Deliklikaya", "Yeşilbayır", "Karlıbayır"],
         seo: {
             metaTitle: "Ömerli Kiralık Kepçe | Arnavutköy İş Makinesi Hizmetleri",
-            metaDescription: "Ömerli'de operatörlü kiralık kepçe hizmeti. KİPTAŞ konutları, sanayi siteleri ve depo projeleri için JCB 3CX kepçe. 7/24 acil hizmet. ☎ 0539 477 81 12",
+            metaDescription: "Ömerli'de operatörlü kiralık kepçe hizmeti. KİPTAŞ konutları, sanayi siteleri ve depo projeleri için JCB 3CX kepçe. 7/24 acil hizmet. ☎ 0530 789 07 75",
             canonical: "/omerli-kiralik-kepce",
             h1: "Ömerli Kiralık Kepçe ve Hafriyat Çözümleri"
         },
@@ -1497,7 +1497,7 @@ export const servicesData: ServiceData[] = [
             { question: "Operatörünüz tecrübeli mi?", answer: "Kesinlikle. Operatörlerimiz minimum 10 yıl tecrübeye sahiptir, SRC 4 belgeleri tamdır ve Ömerli'nin yerel zemin koşullarına son derece hakimdirler." },
             { question: "Kepçe ile beton kırma yapıyor musunuz?", answer: "Evet, Ömerli'deki eski duvarlar, şap betonları veya saha betonları için hidrolik kırıcı ataşmanımızla kırım yapabiliyoruz. Hızlı ve çevreye minimum rahatsızlık vererek işi bitiriyoruz." }
         ],
-        conversion: { primaryCTA: "Ömerli Kepçe Hattı: 0539 477 81 12", secondaryCTA: "Ücretsiz Saha Keşfi" },
+        conversion: { primaryCTA: "Ömerli Kepçe Hattı: 0530 789 07 75", secondaryCTA: "Ücretsiz Saha Keşfi" },
         internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "deliklikaya-kiralik-kepce", "hadimkoy-kiralik-kepce", "dolgu-tesviye", "temel-kazisi"] }
     },
     // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -1586,9 +1586,9 @@ export const servicesData: ServiceData[] = [
             { question: "Zemin taşa veya kayaya denk gelirse ne yapıyorsunuz?", answer: "JCB 3CX makinemizin arkasında her zaman hidrolik kırıcı (breaker) ataşmanımız montajlıdır. Kayaya denk gelindiğinde hemen kazıcı kovayı çıkarıp kırıya geçiyor ve işi aksatmadan bitiriyoruz." },
             { question: "Dar bahçelere kepçe giriyor mu?", answer: "Evet, İmrahor'daki çoğu bahçeye 2.30 metre genişliğindeki JCB kepçemiz rahatlıkla girer. Operatörümüz çok hassas manevra yapabildiği için ağaçlara veya duvarlara zarar vermeden çalışır." },
             { question: "Fiyatlarınıza operatör ve yakıt dahil mi?", answer: "Evet, genellikle operatörlü, sigortalı ve yakıt dahil 'yarım gün' veya 'tam gün' paketleri üzerinden fiyat veriyoruz. İsteğinize göre yakıt hariç seçeneklerimizi de değerlendirebilirsiniz." },
-            { question: "Acil bir kanalizasyon patlamasında hemen gelebilir misiniz?", answer: "İmrahor acil durum hattımız (0539 477 81 12) 7/24 hizmettedir. Hafriyat veya kazı makinelerimiz müsaitse en kısa sürede adresinize yönlendirilir." }
+            { question: "Acil bir kanalizasyon patlamasında hemen gelebilir misiniz?", answer: "İmrahor acil durum hattımız (0530 789 07 75) 7/24 hizmettedir. Hafriyat veya kazı makinelerimiz müsaitse en kısa sürede adresinize yönlendirilir." }
         ],
-        conversion: { primaryCTA: "İmrahor Kepçe Hattı: 0539 477 81 12", secondaryCTA: "Ücretsiz Fiyat Al" },
+        conversion: { primaryCTA: "İmrahor Kepçe Hattı: 0530 789 07 75", secondaryCTA: "Ücretsiz Fiyat Al" },
         internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "karaburun-kiralik-kepce", "kazi-isleri", "temel-kazisi", "yikim-hizmetleri"] }
     },
     // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -1603,7 +1603,7 @@ export const servicesData: ServiceData[] = [
         secondaryLocations: ["Arnavutköy Merkez", "İslambey", "Yavuz Selim", "Hicret"],
         seo: {
             metaTitle: "Karlıbayır Kiralık Kepçe | Arnavutköy Kentsel Dönüşüm Kazı",
-            metaDescription: "Karlıbayır'da profesyonel kiralık kepçe. Kentsel dönüşüm, bina temeli ve dar alan kazıları için JCB 3CX. Devlet Hastanesi çevresi hızlı hizmet. ☎ 0539 477 81 12",
+            metaDescription: "Karlıbayır'da profesyonel kiralık kepçe. Kentsel dönüşüm, bina temeli ve dar alan kazıları için JCB 3CX. Devlet Hastanesi çevresi hızlı hizmet. ☎ 0530 789 07 75",
             canonical: "/karlibayir-kiralik-kepce",
             h1: "Karlıbayır Kiralık Kepçe ve Bina Temel Kazısı"
         },
@@ -1675,11 +1675,11 @@ export const servicesData: ServiceData[] = [
         faq: [
             { question: "Karlıbayır'ın dar sokaklarına kepçeniz girebilir mi?", answer: "Evet, JCB 3CX makinemiz standart bir damperli kamyondan daha dar bir gövdeye sahiptir. Karlıbayır'ın en dar sokaklarında bile manevra yapabiliyor, binalar arasından geçebiliyoruz. Eksperimiz gerekirse gelip sokağı önceden ölçebilir." },
             { question: "Yan binanın temeline zarar gelmesinden korkuyoruz, ne önlem alıyorsunuz?", answer: "Hassas operatörlüğümüz en büyük garantimizdir. Bitişik nizamlarda kazıyı kademeli yapıyor, yan binanın temel pabuçlarını el ile sıyırır gibi açıyoruz. Gerekirse destek elemanımız (işçi) ile manuel koordinasyon sağlıyoruz." },
-            { question: "Karlıbayır'da acil kanalizasyon arızası için 7/24 kepçe bulabilir miyiz?", answer: "Evet, Karlıbayır mahallesine çok yakın lokasyonda makinelerimiz hazır bulunmaktadır. Gece veya gündüz fark etmeksizin acil altyapı kazıları için 0539 477 81 12 numarasından bize ulaşabilirsiniz." },
+            { question: "Karlıbayır'da acil kanalizasyon arızası için 7/24 kepçe bulabilir miyiz?", answer: "Evet, Karlıbayır mahallesine çok yakın lokasyonda makinelerimiz hazır bulunmaktadır. Gece veya gündüz fark etmeksizin acil altyapı kazıları için 0530 789 07 75 numarasından bize ulaşabilirsiniz." },
             { question: "Yıkım sonrası molozu da siz mi taşıyorsunuz?", answer: "Biz kepçe ile yükleme hizmeti veriyoruz. Anlaşmalı olduğumuz damperli hafriyat kamyonları ile koordineli çalışarak molozunuzu döküm sahasına gönderiyoruz. Tek yerden çözüm sunuyoruz." },
             { question: "Kentsel dönüşüm projelerinde fiyat paketleriniz var mı?", answer: "Evet, müteahhitlerimiz için bina yıkımı, temel kazısı ve altyapı bağlantılarını kapsayan 'anahtar teslim' kazı paketleri sunuyoruz. Uzun süreli çalışmalarda günlük fiyatlarımız oldukça rekabetçidir." }
         ],
-        conversion: { primaryCTA: "Karlıbayır Kepçe: 0539 477 81 12", secondaryCTA: "Ücretsiz Keşif ve Fiyat" },
+        conversion: { primaryCTA: "Karlıbayır Kepçe: 0530 789 07 75", secondaryCTA: "Ücretsiz Keşif ve Fiyat" },
         internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "temel-kazisi", "kazi-isleri", "yunus-emre-kiralik-kepce", "yikim-hizmetleri"] }
     },
     // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -1694,7 +1694,7 @@ export const servicesData: ServiceData[] = [
         secondaryLocations: ["Hadımköy", "Merkez", "Taşoluk", "İmrahor"],
         seo: {
             metaTitle: "Haraççı Kiralık Kepçe | Arnavutköy İş Makinesi Kiralama",
-            metaDescription: "Haraççı'da operatörlü kiralık kepçe hizmeti. Konut inşaatları ve hafif sanayi projeleri için JCB 3CX. 22 yıllık yerel tecrübe. ☎ 0539 477 81 12",
+            metaDescription: "Haraççı'da operatörlü kiralık kepçe hizmeti. Konut inşaatları ve hafif sanayi projeleri için JCB 3CX. 22 yıllık yerel tecrübe. ☎ 0530 789 07 75",
             canonical: "/haracci-kiralik-kepce",
             h1: "Haraççı Kiralık Kepçe ve Hafriyat Çözümleri"
         },
@@ -1770,7 +1770,7 @@ export const servicesData: ServiceData[] = [
             { question: "Resmi kurumlar için fatura kesiyor musunuz?", answer: "Evet, tüm hizmetlerimiz için resmi fatura kesiyoruz. Ayrıca sanayi sitelerinin ve kurumsal firmaların talep ettiği tüm İSG evraklarımız eksiksizdir." },
             { question: "Acil taleplerde kaç dakikada gelirsiniz?", answer: "Haraççı'da makinelerimiz aktif olduğu için ortalama 30-60 dakika içinde sahanızda olabiliyoruz. Takvimimize göre en hızlı çözümü sunuyoruz." }
         ],
-        conversion: { primaryCTA: "Haraççı Kepçe Hattı: 0539 477 81 12", secondaryCTA: "Ücretsiz Fiyat Al" },
+        conversion: { primaryCTA: "Haraççı Kepçe Hattı: 0530 789 07 75", secondaryCTA: "Ücretsiz Fiyat Al" },
         internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "tasoluk-kiralik-kepce", "kazi-isleri", "temel-kazisi", "yassioren-kiralik-kepce"] }
     },
     // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -1785,7 +1785,7 @@ export const servicesData: ServiceData[] = [
         secondaryLocations: ["Hadımköy", "Yassıören-Akpınar Sanayi", "Dursunköy", "Boyalık"],
         seo: {
             metaTitle: "Yassıören Kiralık Kepçe | Akpınar Sanayi Bölgesi Uzmanı",
-            metaDescription: "Yassıören'de profesyonel kiralık kepçe. Akpınar Sanayi Bölgesi ve lojistik depolar için JCB 3CX biko loder. Operatörlü, güvenilir hizmet. ☎ 0539 477 81 12",
+            metaDescription: "Yassıören'de profesyonel kiralık kepçe. Akpınar Sanayi Bölgesi ve lojistik depolar için JCB 3CX biko loder. Operatörlü, güvenilir hizmet. ☎ 0530 789 07 75",
             canonical: "/yassioren-kiralik-kepce",
             h1: "Yassıören Kiralık Kepçe ve Sanayi Hafriyat Hizmetleri"
         },
@@ -1861,7 +1861,7 @@ export const servicesData: ServiceData[] = [
             { question: "Uzun süreli kiralama fiyatlarınız nasıl?", answer: "Haftalık ve aylık kiralama talepleriniz için liste fiyatlarımız üzerinden %20'den başlayan indirimler uyguluyoruz. Sanayi projeleri için en ekonomik ve kurumsal çözümü sunmak temel ilkemizdir." },
             { question: "Yassıören'deki acil altyapı kazılarına müdahale edebilir misiniz?", answer: "Bölgeye olan yakınlığımız ve lojistik ağımız sayesinde, acil kanal veya kablo arızaları için makinemizi ortalama 1 saat içinde Yassıören şantiyenize ulaştırabiliyoruz." }
         ],
-        conversion: { primaryCTA: "Yassıören Kepçe: 0539 477 81 12", secondaryCTA: "Ücretsiz Sanayi Keşfi" },
+        conversion: { primaryCTA: "Yassıören Kepçe: 0530 789 07 75", secondaryCTA: "Ücretsiz Sanayi Keşfi" },
         internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "hadimkoy-kiralik-kepce", "deliklikaya-kiralik-kepce", "kazi-isleri", "temel-kazisi"] }
     },
     // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -1876,7 +1876,7 @@ export const servicesData: ServiceData[] = [
         secondaryLocations: ["Boyalık", "Yassıören", "Tayakadın", "Hadımköy"],
         seo: {
             metaTitle: "Baklalı Kiralık Kepçe | Arnavutköy Kanal İstanbul Güzergahı",
-            metaDescription: "Baklalı'da profesyonel kiralık kepçe hizmeti. Arazi tesviyesi, temel kazısı ve büyük parsel reglaj işleri için JCB 3CX. 22 yıllık yerel tecrübe. ☎ 0539 477 81 12",
+            metaDescription: "Baklalı'da profesyonel kiralık kepçe hizmeti. Arazi tesviyesi, temel kazısı ve büyük parsel reglaj işleri için JCB 3CX. 22 yıllık yerel tecrübe. ☎ 0530 789 07 75",
             canonical: "/baklali-kiralik-kepce",
             h1: "Baklalı Kiralık Kepçe ve Geniş Arazi Kazı Çözümleri"
         },
@@ -1948,11 +1948,11 @@ export const servicesData: ServiceData[] = [
         faq: [
             { question: "Baklalı'da tarlamı hobi bahçesi yapacağım, kepçe hizmetiniz var mı?", answer: "Kesinlikle. Tarlanızın otlarını sıyırıyor, toprağı havalandırıyor, su drenaj kanallarını açıyor ve varsa meyve fidanı yerlerinizi hassasça hazırlıyoruz. Baklalı'daki hobi bahçesi projelerinde çok tecrübeliyiz." },
             { question: "Kanal İstanbul ve çevresi sanayi parsellerinde çalışabiliyor musunuz?", answer: "Evet, bölgedeki planlanmış tüm yeni parselasyon alanlarında, imar durumuna ve yasal izinlerinize uygun olarak zemin etüdü kazıları ve tesviye işleri yapıyoruz." },
-            { question: "Makinelerinizin günlük kira bedeli nedir?", answer: "Baklalı'da günlük kiralama bedellerimiz Arnavutköy geneline göre daha uygundur çünkü nakliye masrafımız yok denecek kadar azdır. Güncel ve net fiyat için 0539 477 81 12'den bizi arayın." },
+            { question: "Makinelerinizin günlük kira bedeli nedir?", answer: "Baklalı'da günlük kiralama bedellerimiz Arnavutköy geneline göre daha uygundur çünkü nakliye masrafımız yok denecek kadar azdır. Güncel ve net fiyat için 0530 789 07 75'den bizi arayın." },
             { question: "Operatör parsel sınırlarına dikkat eder mi?", answer: "Bizim için en önemli kural sınır haklarıdır. Operatörümüz sizin verdiğiniz aplikasyon veya sınır işaretlerine harfiyen uyar, asla komşu parsele müdahale etmez." },
             { question: "Toprak altı su çıkarsa kepçeyle kanal açabilir misiniz?", answer: "Evet, Baklalı'nın bazı bölgelerinde su seviyesi yüksektir. JCB 3CX ile derin tahliye kanalları açarak sahanızın kurumasını ve inşaata elverişli hale gelmesini sağlıyoruz." }
         ],
-        conversion: { primaryCTA: "Baklalı Kepçe Hattı: 0539 477 81 12", secondaryCTA: "Ücretsiz Arazi Keşfi" },
+        conversion: { primaryCTA: "Baklalı Kepçe Hattı: 0530 789 07 75", secondaryCTA: "Ücretsiz Arazi Keşfi" },
         internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "yassioren-kiralik-kepce", "kazi-isleri", "temel-kazisi", "dolgu-tesviye"] }
     },
     // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -1967,7 +1967,7 @@ export const servicesData: ServiceData[] = [
         secondaryLocations: ["İstiklal", "Yunus Emre", "Karlıbayır", "Bolluca"],
         seo: {
             metaTitle: "Boğazköy Kiralık Kepçe | Villa & Peyzaj Kazı Hizmetleri",
-            metaDescription: "Boğazköy'de profesyonel kiralık kepçe. Villa temeli, havuz kazısı ve bahçe düzenleme için operatörlü JCB 3CX. Hassas ve temiz işçilik. ☎ 0539 477 81 12",
+            metaDescription: "Boğazköy'de profesyonel kiralık kepçe. Villa temeli, havuz kazısı ve bahçe düzenleme için operatörlü JCB 3CX. Hassas ve temiz işçilik. ☎ 0530 789 07 75",
             canonical: "/bogazkoy-kiralik-kepce",
             h1: "Boğazköy Kiralık Kepçe ve Bahçe Düzenleme"
         },
@@ -2043,7 +2043,7 @@ export const servicesData: ServiceData[] = [
             { question: "Hafta sonu çalışma yapabiliyor musunuz?", answer: "Site kuralları ve belediye yasakları dahilinde, pazar günü hariç cumartesi günleri veya izinli saatlerde Boğazköy'deki bahçe işlerinizi yapabiliyoruz." },
             { question: "Havuz kazısı ne kadar sürer?", answer: "Standart bir villa havuzu (4x8m gibi) zemin sertliğine göre ortalama 4-6 saat içinde kazılıp, hafriyatı kamyona yüklenebilir durumda tamamlanır." }
         ],
-        conversion: { primaryCTA: "Boğazköy Kepçe Hattı: 0539 477 81 12", secondaryCTA: "Ücretsiz Bahçe Keşfi" },
+        conversion: { primaryCTA: "Boğazköy Kepçe Hattı: 0530 789 07 75", secondaryCTA: "Ücretsiz Bahçe Keşfi" },
         internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "yunus-emre-kiralik-kepce", "dolgu-tesviye", "temel-kazisi", "kazi-isleri"] }
     },
     // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -2058,7 +2058,7 @@ export const servicesData: ServiceData[] = [
         secondaryLocations: ["Arnavutköy Merkez", "İslambey", "Karlıbayır", "Nenehatun"],
         seo: {
             metaTitle: "Yavuz Selim Mahallesi Kiralık Kepçe | Arnavutköy Merkez Hafriyat",
-            metaDescription: "Yavuz Selim Mahallesi'nde operatörlü kiralık kepçe. Kentsel dönüşüm, dar sokak kazıları ve bina temel hazırlığı için JCB 3CX. 7/24 hizmet. ☎ 0539 477 81 12",
+            metaDescription: "Yavuz Selim Mahallesi'nde operatörlü kiralık kepçe. Kentsel dönüşüm, dar sokak kazıları ve bina temel hazırlığı için JCB 3CX. 7/24 hizmet. ☎ 0530 789 07 75",
             canonical: "/yavuz-selim-kiralik-kepce",
             h1: "Yavuz Selim Mahallesi Kiralık Kepçe ve Temel Kazısı"
         },
@@ -2134,7 +2134,7 @@ export const servicesData: ServiceData[] = [
             { question: "Zabıta ve Belediye izinlerinde yardımcı oluyor musunuz?", answer: "Kepçe ve operatör evraklarımızı (belgeli/sigortalı) anında sunuyoruz. Yol işgal izinleri konusunda ise tecrübemizle sizi yönlendiriyoruz." },
             { question: "Yıkım sonrası molozu da yüklüyor musunuz?", answer: "Evet, kepçemizin ön kovasıyla kentsel dönüşüm sahanızdaki molozu kamyonlara hızlıca yükleyerek sokağı tertemiz bırakıyoruz." }
         ],
-        conversion: { primaryCTA: "Yavuz Selim Kepçe: 0539 477 81 12", secondaryCTA: "Ücretsiz Saha Keşfi" },
+        conversion: { primaryCTA: "Yavuz Selim Kepçe: 0530 789 07 75", secondaryCTA: "Ücretsiz Saha Keşfi" },
         internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "karlibayir-kiralik-kepce", "kazi-isleri", "temel-kazisi", "yikim-hizmetleri"] }
     },
     // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -2149,7 +2149,7 @@ export const servicesData: ServiceData[] = [
         secondaryLocations: ["Karaburun", "Baklalı", "Terkos", "Yassıören", "Yeni Havalimanı"],
         seo: {
             metaTitle: "Tayakadın Kiralık Kepçe | Havalimanı & Lojistik Bölge",
-            metaDescription: "Tayakadın'da profesyonel kiralık kepçe. İstanbul Havalimanı çevresi lojistik sahalar ve arazi hazırlığı için JCB 3CX. Hızlı mobilizasyon. ☎ 0539 477 81 12",
+            metaDescription: "Tayakadın'da profesyonel kiralık kepçe. İstanbul Havalimanı çevresi lojistik sahalar ve arazi hazırlığı için JCB 3CX. Hızlı mobilizasyon. ☎ 0530 789 07 75",
             canonical: "/tayakadin-kiralik-kepce",
             h1: "Tayakadın Kiralık Kepçe ve Lojistik Saha Hazırlığı"
         },
@@ -2225,7 +2225,7 @@ export const servicesData: ServiceData[] = [
             { question: "En az kaç gün kiralama yapılabiliyor?", answer: "Tayakadın'daki yerel projeleriniz için saatlik kiralama yapabildiğimiz gibi, büyük parseller için aylık kiralama seçeneklerimiz de mevcuttur. Yakınlık avantajımızla her süreye cevap veriyoruz." },
             { question: "Asfalt sökümü yapabilir misiniz?", answer: "Evet, makinemizin arkasındaki yüksek vuruşlu kırıcı ile eski asfalt ve beton yolları söküp, ön kova ile çıkan molozu kamyonlara yüklüyoruz." }
         ],
-        conversion: { primaryCTA: "Tayakadın Kepçe: 0539 477 81 12", secondaryCTA: "Ücretsiz Sanayi Keşfi" },
+        conversion: { primaryCTA: "Tayakadın Kepçe: 0530 789 07 75", secondaryCTA: "Ücretsiz Sanayi Keşfi" },
         internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "baklali-kiralik-kepce", "yassioren-kiralik-kepce", "kazi-isleri", "yikim-hizmetleri"] }
     },
     // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -2240,7 +2240,7 @@ export const servicesData: ServiceData[] = [
         secondaryLocations: ["İmrahor", "Sazlıbosna", "Taşoluk", "Arnavutköy Merkez"],
         seo: {
             metaTitle: "Mavigöl Mahallesi Kiralık Kepçe | Bahçe & Villa Kazı",
-            metaDescription: "Mavigöl'de profesyonel kiralık kepçe. Göl manzaralı villalar, bahçe düzenleme ve altyapı kanalları için operatörlü JCB 3CX. ☎ 0539 477 81 12",
+            metaDescription: "Mavigöl'de profesyonel kiralık kepçe. Göl manzaralı villalar, bahçe düzenleme ve altyapı kanalları için operatörlü JCB 3CX. ☎ 0530 789 07 75",
             canonical: "/mavigol-kiralik-kepce",
             h1: "Mavigöl Mahallesi Kiralık Kepçe ve Arazi Hazırlığı"
         },
@@ -2316,7 +2316,7 @@ export const servicesData: ServiceData[] = [
             { question: "Acil kanalizasyon sızıntısında Mavigöl'e ne zaman gelirsiniz?", answer: "İmrahor'daki merkezimize çok yakın olan Mavigöl'e ortalama 20-30 dakika içinde iş makinemizi yönlendirebiliyoruz." },
             { question: "Havuz yeri kazısı yapıyor musunuz?", answer: "Evet, Mavigöl villalarında çok sayıda havuz kazısı tamamladık. Projenize uygun kotlarda, temiz bir temel tabanı açıp, çıkan hafriyatı yükleyerek işi bitiriyoruz." }
         ],
-        conversion: { primaryCTA: "Mavigöl Kepçe Hattı: 0539 477 81 12", secondaryCTA: "Ücretsiz Bahçe Keşfi" },
+        conversion: { primaryCTA: "Mavigöl Kepçe Hattı: 0530 789 07 75", secondaryCTA: "Ücretsiz Bahçe Keşfi" },
         internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "imrahor-kiralik-kepce", "dolgu-tesviye", "temel-kazisi", "kazi-isleri"] }
     },
     // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -2331,7 +2331,7 @@ export const servicesData: ServiceData[] = [
         secondaryLocations: ["Hadımköy", "Baklalı", "Terkos", "Yassıören"],
         seo: {
             metaTitle: "Boyalık Kiralık Kepçe | Arnavutköy Arazi Hazırlığı & Hafriyat",
-            metaDescription: "Boyalık Mahallesi'nde profesyonel kiralık kepçe. Tarım arazisi düzenleme, temel kazısı ve geniş parsel temizliği için JCB 3CX. ☎ 0539 477 81 12",
+            metaDescription: "Boyalık Mahallesi'nde profesyonel kiralık kepçe. Tarım arazisi düzenleme, temel kazısı ve geniş parsel temizliği için JCB 3CX. ☎ 0530 789 07 75",
             canonical: "/boyalik-kiralik-kepce",
             h1: "Boyalık Kiralık Kepçe ve Arazi Düzenleme Hizmetleri"
         },
@@ -2403,11 +2403,11 @@ export const servicesData: ServiceData[] = [
         faq: [
             { question: "Boyalık'ta tarlamıza hobi bahçesi yaparken kepçe gerekir mi?", answer: "Kesinlikle. Tarlanın otlarını temizlemek, zemin kotunu düzeltmek, suyun akışını sağlamak ve fidan dikilecek yerleri havalandırmak için kepçe çalışması arazinin ömrünü uzatır." },
             { question: "Makinelerinizde killi toprak için uygun tırnaklar var mı?", answer: "JCB 3CX kepçemizde Boyalık'ın sert ve killi zeminine uygun kova tırnakları ve güçlü hidrolik sistem bulunmaktadır. Toprak sertleştiğinde dahi verim kaybı yaşamıyoruz." },
-            { question: "Boyalık'ta aynı gün kepçe bulabilir miyiz?", answer: "Bölgeye çok yakın olduğumuz için, müsaitlik durumuna göre aynı gün içinde makinemizi arazinize sevk edebiliyoruz. 0539 477 81 12'den teyit alabilirsiniz." },
+            { question: "Boyalık'ta aynı gün kepçe bulabilir miyiz?", answer: "Bölgeye çok yakın olduğumuz için, müsaitlik durumuna göre aynı gün içinde makinemizi arazinize sevk edebiliyoruz. 0530 789 07 75'den teyit alabilirsiniz." },
             { question: "Bahçe duvarı yıkıp molozunu atıyor musunuz?", answer: "Evet, kırıcımızla eski duvarı yıkıyor, çıkan molozu ön kova ile hafriyat kamyonuna yüklüyor ve alanı pürüzsüzleştiriyoruz." },
             { question: "Fiyatlarınıza yakıt dahil mi?", answer: "Genelde operatörlü ve yakıt dahil 'yarım gün' veya 'tam gün' paketleri üzerinden şeffaf ve ekonomik fiyat veriyoruz." }
         ],
-        conversion: { primaryCTA: "Boyalık Kepçe Hattı: 0539 477 81 12", secondaryCTA: "Ücretsiz Arazi Keşfi" },
+        conversion: { primaryCTA: "Boyalık Kepçe Hattı: 0530 789 07 75", secondaryCTA: "Ücretsiz Arazi Keşfi" },
         internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "hadimkoy-kiralik-kepce", "baklali-kiralik-kepce", "kazi-isleri", "temel-kazisi"] }
     },
     // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -2422,7 +2422,7 @@ export const servicesData: ServiceData[] = [
         secondaryLocations: ["Sazlıbosna", "Hacımaşlı", "Tayakadın", "Bolluca"],
         seo: {
             metaTitle: "Dursunköy Kiralık Kepçe | Yenişehir & Konut Projesi Kazı Hizmetleri",
-            metaDescription: "Dursunköy'de profesyonel kiralık kepçe. Yenişehir projesi, konut inşaatları ve altyapı kazıları için operatörlü JCB 3CX. Aynı gün hizmet. ☎ 0539 477 81 12",
+            metaDescription: "Dursunköy'de profesyonel kiralık kepçe. Yenişehir projesi, konut inşaatları ve altyapı kazıları için operatörlü JCB 3CX. Aynı gün hizmet. ☎ 0530 789 07 75",
             canonical: "/dursunkoy-kiralik-kepce",
             h1: "Dursunköy Kiralık Kepçe ve Yenişehir Proje Sahası Hizmetleri"
         },
@@ -2494,11 +2494,11 @@ export const servicesData: ServiceData[] = [
         faq: [
             { question: "Dursunköy'de Yenişehir projesi çevresinde kepçe kiralayabilir miyiz?", answer: "Evet, Yenişehir proje sahası çevresindeki bireysel parsellerde ve altyapı ihtiyaçlarında operatörlü kiralık kepçe hizmeti veriyoruz. İSG evraklarımız kurumsal standartlara uygundur." },
             { question: "Dursunköy'ün killi zemininde kepçe verimli çalışır mı?", answer: "JCB 3CX kepçemizde Dursunköy'ün killi zeminine uygun kova tırnakları ve güçlü hidrolik sistem mevcuttur. Kaya katmanına ulaşıldığında kırıcı ataşmanımızla çalışmaya devam ediyoruz." },
-            { question: "Dursunköy'e aynı gün kepçe gelebilir mi?", answer: "Arnavutköy merkezindeki konumumuz sayesinde Dursunköy'e müsaitlik durumuna göre aynı gün makine sevk edebiliyoruz. 0539 477 81 12'den teyit alabilirsiniz." },
+            { question: "Dursunköy'e aynı gün kepçe gelebilir mi?", answer: "Arnavutköy merkezindeki konumumuz sayesinde Dursunköy'e müsaitlik durumuna göre aynı gün makine sevk edebiliyoruz. 0530 789 07 75'den teyit alabilirsiniz." },
             { question: "Parsel sınırlarına dikkat ediyor musunuz?", answer: "Kesinlikle. Kazı öncesinde kadastro işaretlerini kontrol ediyor, komşu parsellere taşmadan hassas çalışma yapıyoruz. Hukuki güvenliğiniz bizim önceliğimizdir." },
             { question: "Fiyatlarınız nakliye dahil mi?", answer: "Evet, Dursunköy'e yakınlığımız sayesinde ek nakliye bedeli almıyoruz. Operatörlü ve yakıt dahil paket fiyatlarımız mevcuttur." }
         ],
-        conversion: { primaryCTA: "Dursunköy Kepçe: 0539 477 81 12", secondaryCTA: "Ücretsiz Proje Keşfi" },
+        conversion: { primaryCTA: "Dursunköy Kepçe: 0530 789 07 75", secondaryCTA: "Ücretsiz Proje Keşfi" },
         internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "bolluca-kiralik-kepce", "tayakadin-kiralik-kepce", "temel-kazisi", "kazi-isleri"] }
     },
     // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -2513,7 +2513,7 @@ export const servicesData: ServiceData[] = [
         secondaryLocations: ["Dursunköy", "Mavigöl", "İmrahor", "Hacımaşlı"],
         seo: {
             metaTitle: "Sazlıbosna Kiralık Kepçe | Baraj Havzası & Arazi Hazırlığı",
-            metaDescription: "Sazlıbosna'da profesyonel kiralık kepçe. Sazlıdere Barajı çevresi, arazi düzenleme ve kentsel dönüşüm kazıları için JCB 3CX. ☎ 0539 477 81 12",
+            metaDescription: "Sazlıbosna'da profesyonel kiralık kepçe. Sazlıdere Barajı çevresi, arazi düzenleme ve kentsel dönüşüm kazıları için JCB 3CX. ☎ 0530 789 07 75",
             canonical: "/sazlibosna-kiralik-kepce",
             h1: "Sazlıbosna Kiralık Kepçe ve Arazi Düzenleme Hizmetleri"
         },
@@ -2585,11 +2585,11 @@ export const servicesData: ServiceData[] = [
         faq: [
             { question: "Sazlıbosna'da baraj yakınında kazı yapılabilir mi?", answer: "İSKİ yönetmeliklerine uygun alanlarda, çevresel hassasiyetleri gözeterek profesyonel kazı yapıyoruz. Yasal sınırları biliyor ve sizi doğru yönlendiriyoruz." },
             { question: "Nemli ve sulak zeminde makineniz çalışabilir mi?", answer: "JCB 3CX operatörlerimiz Sazlıbosna'nın nemli zemin yapısına hakimdir. Sulak alanlarda önce drenaj yaparak ilerliyor ve makineyi emniyetli platformlarda çalıştırıyoruz." },
-            { question: "Sazlıbosna'ya aynı gün kepçe gelebilir mi?", answer: "Bölgeye çok yakın konumumuz sayesinde, müsaitlik durumuna göre aynı gün makinemizi arazinize sevk edebiliyoruz. 0539 477 81 12'den teyit alabilirsiniz." },
+            { question: "Sazlıbosna'ya aynı gün kepçe gelebilir mi?", answer: "Bölgeye çok yakın konumumuz sayesinde, müsaitlik durumuna göre aynı gün makinemizi arazinize sevk edebiliyoruz. 0530 789 07 75'den teyit alabilirsiniz." },
             { question: "Köy içi dar sokaklarda çalışabilir misiniz?", answer: "JCB 3CX kompakt boyutlarıyla Sazlıbosna'nın dar köy sokaklarında ve bahçe girişlerinde rahatlıkla manevra yapabilir." },
             { question: "Hobi bahçesi hazırlığı yapıyor musunuz?", answer: "Evet, tarla arazisini hobi bahçesine dönüştürme, toprak serimi, tesviye ve drenaj kanalı açma işlerinde uzmanız. Anahtar teslim bahçe hazırlığı sunuyoruz." }
         ],
-        conversion: { primaryCTA: "Sazlıbosna Kepçe: 0539 477 81 12", secondaryCTA: "Ücretsiz Doğa Keşfi" },
+        conversion: { primaryCTA: "Sazlıbosna Kepçe: 0530 789 07 75", secondaryCTA: "Ücretsiz Doğa Keşfi" },
         internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "dursunkoy-kiralik-kepce", "mavigol-kiralik-kepce", "dolgu-tesviye", "kazi-isleri"] }
     },
     // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -2604,7 +2604,7 @@ export const servicesData: ServiceData[] = [
         secondaryLocations: ["Sazlıbosna", "Dursunköy", "Tayakadın", "Yassıören"],
         seo: {
             metaTitle: "Hacımaşlı Kiralık Kepçe | Köy İçi Kazı & Arazi Düzenleme",
-            metaDescription: "Hacımaşlı'da profesyonel kiralık kepçe. Köy içi temel kazısı, bahçe düzenleme, arazi temizliği ve altyapı işleri için JCB 3CX. ☎ 0539 477 81 12",
+            metaDescription: "Hacımaşlı'da profesyonel kiralık kepçe. Köy içi temel kazısı, bahçe düzenleme, arazi temizliği ve altyapı işleri için JCB 3CX. ☎ 0530 789 07 75",
             canonical: "/hacimasli-kiralik-kepce",
             h1: "Hacımaşlı Kiralık Kepçe ve Köy İçi Arazi Hizmetleri"
         },
@@ -2676,11 +2676,11 @@ export const servicesData: ServiceData[] = [
         faq: [
             { question: "Hacımaşlı'daki köy yollarından kepçe geçebilir mi?", answer: "JCB 3CX kompakt boyutlarıyla Hacımaşlı'nın dar patika ve toprak yollarından rahatlıkla geçebilir. Köy içi manevrada 22 yıllık tecrübemiz var." },
             { question: "Küçük bir bahçe işi için de gelir misiniz?", answer: "Kesinlikle. Hacımaşlı'ya yakınlığımız sayesinde küçük bahçe düzenleme, fosseptik veya duvar yıkımı gibi işler için de ekonomik saatlik hizmet veriyoruz." },
-            { question: "Hacımaşlı'ya aynı gün kepçe geliyor mu?", answer: "Müsaitlik durumuna göre aynı gün makinemizi Hacımaşlı'ya sevk edebiliyoruz. 0539 477 81 12'den bize ulaşabilirsiniz." },
+            { question: "Hacımaşlı'ya aynı gün kepçe geliyor mu?", answer: "Müsaitlik durumuna göre aynı gün makinemizi Hacımaşlı'ya sevk edebiliyoruz. 0530 789 07 75'den bize ulaşabilirsiniz." },
             { question: "Bahçemdeki ağaçlara zarar verir misiniz?", answer: "Operatörlerimiz bahçe içi çalışmalarda son derece hassas davranır. Sadece hedef alana müdahale eder, ağaçlar ve komşu yapılar korunur." },
             { question: "Fosseptik çukuru kazısı yapıyor musunuz?", answer: "Evet, Hacımaşlı ve çevre köylerde onlarca fosseptik çukuru açtık. Standartlara uygun derinlik ve genişlikte, temiz bir kazı yapıyoruz." }
         ],
-        conversion: { primaryCTA: "Hacımaşlı Kepçe: 0539 477 81 12", secondaryCTA: "Ücretsiz Köy Keşfi" },
+        conversion: { primaryCTA: "Hacımaşlı Kepçe: 0530 789 07 75", secondaryCTA: "Ücretsiz Köy Keşfi" },
         internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "sazlibosna-kiralik-kepce", "dursunkoy-kiralik-kepce", "dolgu-tesviye", "yikim-hizmetleri"] }
     },
     // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -2695,7 +2695,7 @@ export const servicesData: ServiceData[] = [
         secondaryLocations: ["Tayakadın", "Durusu", "Yassıören", "Terkos"],
         seo: {
             metaTitle: "Karaburun Kiralık Kepçe | Sahil & Yazlık Bölgesi Kazı Hizmetleri",
-            metaDescription: "Karaburun'da profesyonel kiralık kepçe. Sahil yazlıkları, villa bahçeleri ve arazi hazırlığı için operatörlü JCB 3CX. Hızlı mobilizasyon. ☎ 0539 477 81 12",
+            metaDescription: "Karaburun'da profesyonel kiralık kepçe. Sahil yazlıkları, villa bahçeleri ve arazi hazırlığı için operatörlü JCB 3CX. Hızlı mobilizasyon. ☎ 0530 789 07 75",
             canonical: "/karaburun-kiralik-kepce",
             h1: "Karaburun Kiralık Kepçe ve Sahil Arazi Hizmetleri"
         },
@@ -2767,11 +2767,11 @@ export const servicesData: ServiceData[] = [
         faq: [
             { question: "Karaburun'daki kumlu zeminde kepçe verimli çalışır mı?", answer: "JCB 3CX operatörlerimiz Karaburun'un kumlu-çakıllı üst katmanında hafif kova tekniği, kil tabakasında güçlü tırnak tekniği kullanarak her derinlikte verimli çalışır." },
             { question: "Sahil yakınında yer altı suyu çıkarsa ne olur?", answer: "Tuzlu yer altı suyu beklenen alanlarda önce drenaj kanalları açarak çalışma alanını kurutuyor, ardından güvenli kazıya geçiyoruz. Bu konuda 22 yıllık tecrübemiz var." },
-            { question: "Karaburun'a aynı gün kepçe gelir mi?", answer: "Arnavutköy'deki konumumuz sayesinde Karaburun'a müsaitlik durumuna göre aynı gün makinemizi sevk edebiliyoruz. 0539 477 81 12'den teyit alabilirsiniz." },
+            { question: "Karaburun'a aynı gün kepçe gelir mi?", answer: "Arnavutköy'deki konumumuz sayesinde Karaburun'a müsaitlik durumuna göre aynı gün makinemizi sevk edebiliyoruz. 0530 789 07 75'den teyit alabilirsiniz." },
             { question: "Yazlık sezonda gürültü problemi yaratır mısınız?", answer: "Komşuluk hassasiyetine büyük önem veriyoruz. Uygun saatlerde çalışıyor, gürültüyü minimum seviyede tutarak işi hızlı bitiriyoruz." },
             { question: "Havuz yeri kazısı yapıyor musunuz?", answer: "Evet, Karaburun villalarında çok sayıda havuz kazısı tamamladık. Projenize uygun kotlarda, temiz temel tabanı açıp çıkan hafriyatı yüklüyoruz." }
         ],
-        conversion: { primaryCTA: "Karaburun Kepçe: 0539 477 81 12", secondaryCTA: "Ücretsiz Sahil Keşfi" },
+        conversion: { primaryCTA: "Karaburun Kepçe: 0530 789 07 75", secondaryCTA: "Ücretsiz Sahil Keşfi" },
         internalLinks: { relatedServices: ["arnavutkoy-kiralik-kepce", "tayakadin-kiralik-kepce", "yassioren-kiralik-kepce", "temel-kazisi", "dolgu-tesviye"] }
     }
 ];
